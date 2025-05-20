@@ -1,0 +1,69 @@
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/tiny-imagenet/478/
+num img: 2000
+batch size: 100
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'vit'
+TRAIN Iter 0: lr = 0.001000,	loss = 0.010290,	Top-1 acc = 0.400000,	Top-5 acc = 2.500000,	train_time = 14.964781
+TEST Iter 0: loss = 5.911987,	Top-1 acc = 0.560000,	Top-5 acc = 3.210000,	val_time = 15.144424
+TRAIN Iter 10: lr = 0.000997,	loss = 0.008341,	Top-1 acc = 1.250000,	Top-5 acc = 5.250000,	train_time = 13.568134
+TEST Iter 10: loss = 5.437516,	Top-1 acc = 1.640000,	Top-5 acc = 6.670000,	val_time = 17.518514
+TRAIN Iter 20: lr = 0.000989,	loss = 0.008039,	Top-1 acc = 1.450000,	Top-5 acc = 7.000000,	train_time = 17.518150
+TEST Iter 20: loss = 5.189295,	Top-1 acc = 2.050000,	Top-5 acc = 9.000000,	val_time = 19.498309
+TRAIN Iter 30: lr = 0.000976,	loss = 0.008294,	Top-1 acc = 2.200000,	Top-5 acc = 8.300000,	train_time = 15.582630
+TEST Iter 30: loss = 5.247076,	Top-1 acc = 2.430000,	Top-5 acc = 9.000000,	val_time = 15.762424
+TRAIN Iter 40: lr = 0.000957,	loss = 0.008012,	Top-1 acc = 2.500000,	Top-5 acc = 8.400000,	train_time = 13.796444
+TEST Iter 40: loss = 5.085263,	Top-1 acc = 3.150000,	Top-5 acc = 11.380000,	val_time = 15.342103
+TRAIN Iter 50: lr = 0.000933,	loss = 0.007698,	Top-1 acc = 2.600000,	Top-5 acc = 11.500000,	train_time = 13.752520
+TEST Iter 50: loss = 4.989687,	Top-1 acc = 3.720000,	Top-5 acc = 13.060000,	val_time = 15.346419
+TRAIN Iter 60: lr = 0.000905,	loss = 0.007466,	Top-1 acc = 3.400000,	Top-5 acc = 11.850000,	train_time = 13.829510
+TEST Iter 60: loss = 4.899033,	Top-1 acc = 4.160000,	Top-5 acc = 14.790000,	val_time = 15.254436
+TRAIN Iter 70: lr = 0.000872,	loss = 0.007851,	Top-1 acc = 4.350000,	Top-5 acc = 13.650000,	train_time = 13.756624
+TEST Iter 70: loss = 4.866818,	Top-1 acc = 4.370000,	Top-5 acc = 15.170000,	val_time = 15.173666
+TRAIN Iter 80: lr = 0.000835,	loss = 0.007050,	Top-1 acc = 4.000000,	Top-5 acc = 13.750000,	train_time = 13.757460
+TEST Iter 80: loss = 4.814949,	Top-1 acc = 5.480000,	Top-5 acc = 17.230000,	val_time = 15.228401
+TRAIN Iter 90: lr = 0.000794,	loss = 0.007118,	Top-1 acc = 5.700000,	Top-5 acc = 17.500000,	train_time = 13.714916
+TEST Iter 90: loss = 4.712197,	Top-1 acc = 6.210000,	Top-5 acc = 18.750000,	val_time = 15.463082
+TRAIN Iter 100: lr = 0.000750,	loss = 0.006953,	Top-1 acc = 5.100000,	Top-5 acc = 17.000000,	train_time = 13.709717
+TEST Iter 100: loss = 4.676284,	Top-1 acc = 6.140000,	Top-5 acc = 18.820000,	val_time = 15.269826
+TRAIN Iter 110: lr = 0.000703,	loss = 0.007002,	Top-1 acc = 5.350000,	Top-5 acc = 17.700000,	train_time = 17.585335
+TEST Iter 110: loss = 4.627052,	Top-1 acc = 6.960000,	Top-5 acc = 21.510000,	val_time = 19.488732
+TRAIN Iter 120: lr = 0.000655,	loss = 0.006759,	Top-1 acc = 6.650000,	Top-5 acc = 19.200000,	train_time = 13.716096
+TEST Iter 120: loss = 4.566378,	Top-1 acc = 7.950000,	Top-5 acc = 22.910000,	val_time = 15.328225
+TRAIN Iter 130: lr = 0.000604,	loss = 0.006839,	Top-1 acc = 6.850000,	Top-5 acc = 20.250000,	train_time = 17.125923
+TEST Iter 130: loss = 4.606229,	Top-1 acc = 7.710000,	Top-5 acc = 22.170000,	val_time = 17.527385
+TRAIN Iter 140: lr = 0.000552,	loss = 0.006757,	Top-1 acc = 7.600000,	Top-5 acc = 21.100000,	train_time = 17.612629
+TEST Iter 140: loss = 4.507877,	Top-1 acc = 8.270000,	Top-5 acc = 22.960000,	val_time = 19.342993
+TRAIN Iter 150: lr = 0.000500,	loss = 0.006331,	Top-1 acc = 7.200000,	Top-5 acc = 20.550000,	train_time = 16.935653
+TEST Iter 150: loss = 4.456275,	Top-1 acc = 8.820000,	Top-5 acc = 24.730000,	val_time = 17.744907
+TRAIN Iter 160: lr = 0.000448,	loss = 0.006716,	Top-1 acc = 8.700000,	Top-5 acc = 24.000000,	train_time = 17.137238
+TEST Iter 160: loss = 4.415167,	Top-1 acc = 9.520000,	Top-5 acc = 26.400000,	val_time = 19.189882
+TRAIN Iter 170: lr = 0.000396,	loss = 0.006407,	Top-1 acc = 9.650000,	Top-5 acc = 26.800000,	train_time = 15.580264
+TEST Iter 170: loss = 4.376678,	Top-1 acc = 9.640000,	Top-5 acc = 26.200000,	val_time = 18.458989
+TRAIN Iter 180: lr = 0.000345,	loss = 0.006118,	Top-1 acc = 7.650000,	Top-5 acc = 20.300000,	train_time = 17.078761
+TEST Iter 180: loss = 4.383004,	Top-1 acc = 9.640000,	Top-5 acc = 26.480000,	val_time = 20.112642
+TRAIN Iter 190: lr = 0.000297,	loss = 0.006112,	Top-1 acc = 8.000000,	Top-5 acc = 22.900000,	train_time = 13.762329
+TEST Iter 190: loss = 4.327792,	Top-1 acc = 10.570000,	Top-5 acc = 28.270000,	val_time = 15.426836
+TRAIN Iter 200: lr = 0.000250,	loss = 0.006184,	Top-1 acc = 11.000000,	Top-5 acc = 27.650000,	train_time = 13.684489
+TEST Iter 200: loss = 4.352044,	Top-1 acc = 10.910000,	Top-5 acc = 28.370000,	val_time = 15.241735
+TRAIN Iter 210: lr = 0.000206,	loss = 0.006230,	Top-1 acc = 10.900000,	Top-5 acc = 26.300000,	train_time = 13.814087
+TEST Iter 210: loss = 4.291341,	Top-1 acc = 10.900000,	Top-5 acc = 29.120000,	val_time = 15.184612
+TRAIN Iter 220: lr = 0.000165,	loss = 0.006019,	Top-1 acc = 9.850000,	Top-5 acc = 25.700000,	train_time = 13.834088
+TEST Iter 220: loss = 4.281933,	Top-1 acc = 11.190000,	Top-5 acc = 29.570000,	val_time = 15.291953
+TRAIN Iter 230: lr = 0.000128,	loss = 0.006172,	Top-1 acc = 12.400000,	Top-5 acc = 28.850000,	train_time = 16.774178
+TEST Iter 230: loss = 4.333486,	Top-1 acc = 11.240000,	Top-5 acc = 29.270000,	val_time = 18.073206
+TRAIN Iter 240: lr = 0.000095,	loss = 0.006132,	Top-1 acc = 13.300000,	Top-5 acc = 31.450000,	train_time = 13.620986
+TEST Iter 240: loss = 4.288022,	Top-1 acc = 11.610000,	Top-5 acc = 30.200000,	val_time = 15.220578
+TRAIN Iter 250: lr = 0.000067,	loss = 0.006016,	Top-1 acc = 13.150000,	Top-5 acc = 30.150000,	train_time = 13.710133
+TEST Iter 250: loss = 4.287281,	Top-1 acc = 11.470000,	Top-5 acc = 30.070000,	val_time = 15.535574
+TRAIN Iter 260: lr = 0.000043,	loss = 0.005823,	Top-1 acc = 8.600000,	Top-5 acc = 25.400000,	train_time = 13.758635
+TEST Iter 260: loss = 4.263331,	Top-1 acc = 11.530000,	Top-5 acc = 30.160000,	val_time = 15.257903
+TRAIN Iter 270: lr = 0.000024,	loss = 0.005966,	Top-1 acc = 10.750000,	Top-5 acc = 27.000000,	train_time = 17.789498
+TEST Iter 270: loss = 4.253277,	Top-1 acc = 11.740000,	Top-5 acc = 30.680000,	val_time = 18.241069
+TRAIN Iter 280: lr = 0.000011,	loss = 0.005885,	Top-1 acc = 12.950000,	Top-5 acc = 30.850000,	train_time = 13.804629
+TEST Iter 280: loss = 4.249129,	Top-1 acc = 11.790000,	Top-5 acc = 30.800000,	val_time = 15.175506
+TRAIN Iter 290: lr = 0.000003,	loss = 0.005977,	Top-1 acc = 12.850000,	Top-5 acc = 32.600000,	train_time = 13.689456
+TEST Iter 290: loss = 4.258172,	Top-1 acc = 11.730000,	Top-5 acc = 30.490000,	val_time = 15.254938
+TEST Iter 299: loss = 4.258358,	Top-1 acc = 11.720000,	Top-5 acc = 30.460000,	val_time = 15.263293

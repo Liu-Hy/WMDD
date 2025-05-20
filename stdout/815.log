@@ -1,0 +1,125 @@
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/imagenette/577/
+num img: 100
+batch size: 100
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'vit'
+TRAIN Iter 0: lr = 0.001000,	loss = 0.016884,	Top-1 acc = 10.000000,	Top-5 acc = 42.000000,	train_time = 13.164982
+TEST Iter 0: loss = 2.378071,	Top-1 acc = 10.318471,	Top-5 acc = 60.789809,	val_time = 14.418919
+TRAIN Iter 10: lr = 0.000997,	loss = 0.022838,	Top-1 acc = 20.000000,	Top-5 acc = 69.000000,	train_time = 11.861224
+TEST Iter 10: loss = 2.397167,	Top-1 acc = 18.878981,	Top-5 acc = 64.738854,	val_time = 14.495047
+TRAIN Iter 20: lr = 0.000989,	loss = 0.021093,	Top-1 acc = 19.000000,	Top-5 acc = 74.000000,	train_time = 12.048359
+TEST Iter 20: loss = 2.427495,	Top-1 acc = 20.866242,	Top-5 acc = 66.343949,	val_time = 14.915977
+TRAIN Iter 30: lr = 0.000976,	loss = 0.016111,	Top-1 acc = 22.000000,	Top-5 acc = 72.000000,	train_time = 12.271444
+TEST Iter 30: loss = 2.411619,	Top-1 acc = 22.191083,	Top-5 acc = 70.191083,	val_time = 14.866243
+TRAIN Iter 40: lr = 0.000957,	loss = 0.015954,	Top-1 acc = 17.000000,	Top-5 acc = 58.000000,	train_time = 12.046026
+TEST Iter 40: loss = 2.591385,	Top-1 acc = 19.184713,	Top-5 acc = 65.222930,	val_time = 14.773593
+TRAIN Iter 50: lr = 0.000933,	loss = 0.020523,	Top-1 acc = 30.000000,	Top-5 acc = 77.000000,	train_time = 11.919062
+TEST Iter 50: loss = 2.319564,	Top-1 acc = 24.585987,	Top-5 acc = 70.114650,	val_time = 14.727391
+TRAIN Iter 60: lr = 0.000905,	loss = 0.026330,	Top-1 acc = 25.000000,	Top-5 acc = 81.000000,	train_time = 12.278162
+TEST Iter 60: loss = 2.540102,	Top-1 acc = 22.777070,	Top-5 acc = 68.382166,	val_time = 14.579186
+TRAIN Iter 70: lr = 0.000872,	loss = 0.016807,	Top-1 acc = 10.000000,	Top-5 acc = 48.000000,	train_time = 11.946055
+TEST Iter 70: loss = 2.414079,	Top-1 acc = 25.273885,	Top-5 acc = 70.547771,	val_time = 14.663909
+TRAIN Iter 80: lr = 0.000835,	loss = 0.013574,	Top-1 acc = 20.000000,	Top-5 acc = 76.000000,	train_time = 12.170104
+TEST Iter 80: loss = 2.413546,	Top-1 acc = 26.165605,	Top-5 acc = 72.662420,	val_time = 15.033610
+TRAIN Iter 90: lr = 0.000794,	loss = 0.017906,	Top-1 acc = 28.000000,	Top-5 acc = 79.000000,	train_time = 15.217876
+TEST Iter 90: loss = 2.279720,	Top-1 acc = 29.070064,	Top-5 acc = 73.732484,	val_time = 17.572652
+TRAIN Iter 100: lr = 0.000750,	loss = 0.018556,	Top-1 acc = 8.000000,	Top-5 acc = 56.000000,	train_time = 12.195096
+TEST Iter 100: loss = 2.375160,	Top-1 acc = 29.987261,	Top-5 acc = 74.547771,	val_time = 14.935190
+TRAIN Iter 110: lr = 0.000703,	loss = 0.014065,	Top-1 acc = 33.000000,	Top-5 acc = 82.000000,	train_time = 12.023659
+TEST Iter 110: loss = 2.521524,	Top-1 acc = 28.000000,	Top-5 acc = 75.159236,	val_time = 14.622838
+TRAIN Iter 120: lr = 0.000655,	loss = 0.014142,	Top-1 acc = 28.000000,	Top-5 acc = 75.000000,	train_time = 11.974962
+TEST Iter 120: loss = 2.325004,	Top-1 acc = 31.184713,	Top-5 acc = 75.515924,	val_time = 14.653385
+TRAIN Iter 130: lr = 0.000604,	loss = 0.011149,	Top-1 acc = 27.000000,	Top-5 acc = 74.000000,	train_time = 11.835145
+TEST Iter 130: loss = 2.549825,	Top-1 acc = 29.324841,	Top-5 acc = 77.477707,	val_time = 14.450287
+TRAIN Iter 140: lr = 0.000552,	loss = 0.014727,	Top-1 acc = 49.000000,	Top-5 acc = 88.000000,	train_time = 12.069918
+TEST Iter 140: loss = 2.522951,	Top-1 acc = 31.337580,	Top-5 acc = 77.248408,	val_time = 14.521529
+TRAIN Iter 150: lr = 0.000500,	loss = 0.012118,	Top-1 acc = 47.000000,	Top-5 acc = 89.000000,	train_time = 11.901423
+TEST Iter 150: loss = 2.366641,	Top-1 acc = 33.834395,	Top-5 acc = 78.777070,	val_time = 14.550183
+TRAIN Iter 160: lr = 0.000448,	loss = 0.014870,	Top-1 acc = 12.000000,	Top-5 acc = 62.000000,	train_time = 11.924145
+TEST Iter 160: loss = 2.464140,	Top-1 acc = 34.547771,	Top-5 acc = 79.031847,	val_time = 14.534518
+TRAIN Iter 170: lr = 0.000396,	loss = 0.016635,	Top-1 acc = 57.000000,	Top-5 acc = 93.000000,	train_time = 11.932786
+TEST Iter 170: loss = 2.579658,	Top-1 acc = 32.687898,	Top-5 acc = 78.496815,	val_time = 14.647346
+TRAIN Iter 180: lr = 0.000345,	loss = 0.015213,	Top-1 acc = 57.000000,	Top-5 acc = 94.000000,	train_time = 12.163891
+TEST Iter 180: loss = 2.596017,	Top-1 acc = 35.108280,	Top-5 acc = 79.668790,	val_time = 16.159495
+TRAIN Iter 190: lr = 0.000297,	loss = 0.019297,	Top-1 acc = 64.000000,	Top-5 acc = 96.000000,	train_time = 12.266389
+TEST Iter 190: loss = 2.618329,	Top-1 acc = 33.579618,	Top-5 acc = 79.796178,	val_time = 14.974639
+TRAIN Iter 200: lr = 0.000250,	loss = 0.010373,	Top-1 acc = 39.000000,	Top-5 acc = 83.000000,	train_time = 14.673877
+TEST Iter 200: loss = 2.679695,	Top-1 acc = 36.280255,	Top-5 acc = 79.566879,	val_time = 16.710335
+TRAIN Iter 210: lr = 0.000206,	loss = 0.012172,	Top-1 acc = 60.000000,	Top-5 acc = 92.000000,	train_time = 11.996589
+TEST Iter 210: loss = 2.640420,	Top-1 acc = 35.923567,	Top-5 acc = 79.082803,	val_time = 14.719659
+TRAIN Iter 220: lr = 0.000165,	loss = 0.016627,	Top-1 acc = 71.000000,	Top-5 acc = 97.000000,	train_time = 14.501211
+TEST Iter 220: loss = 2.652416,	Top-1 acc = 35.031847,	Top-5 acc = 79.388535,	val_time = 16.950427
+TRAIN Iter 230: lr = 0.000128,	loss = 0.012092,	Top-1 acc = 55.000000,	Top-5 acc = 92.000000,	train_time = 13.518905
+TEST Iter 230: loss = 2.686846,	Top-1 acc = 35.719745,	Top-5 acc = 81.019108,	val_time = 15.092043
+TRAIN Iter 240: lr = 0.000095,	loss = 0.012264,	Top-1 acc = 50.000000,	Top-5 acc = 90.000000,	train_time = 14.577955
+TEST Iter 240: loss = 2.729895,	Top-1 acc = 36.152866,	Top-5 acc = 81.426752,	val_time = 16.248160
+TRAIN Iter 250: lr = 0.000067,	loss = 0.009849,	Top-1 acc = 60.000000,	Top-5 acc = 91.000000,	train_time = 14.144140
+TEST Iter 250: loss = 2.697863,	Top-1 acc = 36.509554,	Top-5 acc = 80.738854,	val_time = 16.974667
+TRAIN Iter 260: lr = 0.000043,	loss = 0.011464,	Top-1 acc = 26.000000,	Top-5 acc = 76.000000,	train_time = 13.518798
+TEST Iter 260: loss = 2.678038,	Top-1 acc = 36.203822,	Top-5 acc = 80.356688,	val_time = 18.496219
+TRAIN Iter 270: lr = 0.000024,	loss = 0.009151,	Top-1 acc = 33.000000,	Top-5 acc = 84.000000,	train_time = 13.208626
+TEST Iter 270: loss = 2.668385,	Top-1 acc = 36.764331,	Top-5 acc = 81.121019,	val_time = 14.673103
+TRAIN Iter 280: lr = 0.000011,	loss = 0.010710,	Top-1 acc = 20.000000,	Top-5 acc = 68.000000,	train_time = 12.032747
+TEST Iter 280: loss = 2.635228,	Top-1 acc = 36.942675,	Top-5 acc = 81.019108,	val_time = 14.523574
+Traceback (most recent call last):
+  File "train_FKD.py", line 367, in <module>
+    main()
+  File "train_FKD.py", line 188, in main
+    train(model, args, epoch)
+  File "train_FKD.py", line 226, in train
+    for batch_idx, batch_data in enumerate(args.train_loader):
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 441, in __iter__
+    return self._get_iterator()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 388, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1042, in __init__
+    w.start()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 62, in _launch
+    f.write(fp.getbuffer())
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 10, in <module>
+    import torch
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 1253, in <module>
+    import torch.utils.data
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/__init__.py", line 20, in <module>
+    from torch.utils.data.datapipes.datapipe import (
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/datapipes/__init__.py", line 1, in <module>
+    from . import iter
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/datapipes/iter/__init__.py", line 25, in <module>
+    from torch.utils.data.datapipes.iter.grouping import (
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/datapipes/iter/grouping.py", line 5, in <module>
+    import torch.utils.data.datapipes.iter.sharding
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/datapipes/iter/sharding.py", line 17, in <module>
+    class SHARDING_PRIORITIES(IntEnum):
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/enum.py", line 193, in __new__
+    enum_class = super().__new__(metacls, cls, bases, classdict)
+KeyboardInterrupt

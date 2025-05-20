@@ -1,0 +1,181 @@
+r_bn:  300.0
+lr:  0.25
+r_wb:  0.0
+bc loaded
+bc shape (10, 10, 512)
+Traceback (most recent call last):
+  File "data_synthesis_new.py", line 434, in <module>
+    main_syn(args, bc)
+  File "data_synthesis_new.py", line 303, in main_syn
+    dataset, sorted_class_names = prepare_data(dataset_root)
+  File "data_synthesis_new.py", line 61, in prepare_data
+    dataset = datasets.ImageFolder(root=dataset_root, transform=preprocess)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 40, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [Errno 2] No such file or directory: '/home/techt/Desktop/imagenette/train'
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/imagenette/zz
+Traceback (most recent call last):
+  File "generate_soft_label.py", line 255, in <module>
+    main()
+  File "generate_soft_label.py", line 126, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "generate_soft_label.py", line 201, in main_worker
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/relabel/utils_fkd.py", line 155, in __init__
+    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 42, in find_classes
+    raise FileNotFoundError(f"Couldn't find any class folder in {directory}.")
+FileNotFoundError: Couldn't find any class folder in ../recover/syn_data/imagenette/zz.
+Traceback (most recent call last):
+  File "train_FKD.py", line 379, in <module>
+    main()
+  File "train_FKD.py", line 105, in main
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/train/../relabel/utils_fkd.py", line 155, in __init__
+    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 42, in find_classes
+    raise FileNotFoundError(f"Couldn't find any class folder in {directory}.")
+FileNotFoundError: Couldn't find any class folder in ../recover/syn_data/imagenette/zz.
+nohup: ignoring input
+usage: SRe2L: recover data from pre-trained model [-h]
+                                                  [--dataset {imagenet,tiny-imagenet,imagenette}]
+                                                  [--exp-name EXP_NAME]
+                                                  [--syn-data-path SYN_DATA_PATH]
+                                                  [--real-data-path REAL_DATA_PATH]
+                                                  [--ipc IPC]
+                                                  [--store-best-images]
+                                                  [--wb [WB]]
+                                                  [--weight-wb [WEIGHT_WB]]
+                                                  [--per-class-bn [PER_CLASS_BN]]
+                                                  [--cda [CDA]]
+                                                  [--batch-size BATCH_SIZE]
+                                                  [--iteration ITERATION]
+                                                  [--lr LR] [--jitter JITTER]
+                                                  [--r-bn R_BN] [--r-wb R_WB]
+                                                  [--first-bn-multiplier FIRST_BN_MULTIPLIER]
+                                                  [--tv-l2 TV_L2]
+                                                  [--l2-scale L2_SCALE]
+                                                  [--model MODEL]
+                                                  [--ckpt-path CKPT_PATH]
+                                                  [--verifier]
+                                                  [--verifier-arch VERIFIER_ARCH]
+SRe2L: recover data from pre-trained model: error: unrecognized arguments: Touch/data/imagenette
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/imagenette/zz
+Traceback (most recent call last):
+  File "generate_soft_label.py", line 255, in <module>
+    main()
+  File "generate_soft_label.py", line 126, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "generate_soft_label.py", line 201, in main_worker
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/relabel/utils_fkd.py", line 155, in __init__
+    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 42, in find_classes
+    raise FileNotFoundError(f"Couldn't find any class folder in {directory}.")
+FileNotFoundError: Couldn't find any class folder in ../recover/syn_data/imagenette/zz.
+usage: FKD Training on ImageNet-1K [-h]
+                                   [--dataset {imagenet,tiny-imagenet,imagenette}]
+                                   [--batch-size BATCH_SIZE] [--input-size S]
+                                   [--gradient-accumulation-steps GRADIENT_ACCUMULATION_STEPS]
+                                   [--start-epoch START_EPOCH]
+                                   [--epochs EPOCHS] [-j WORKERS]
+                                   [--train-dir TRAIN_DIR] [--val-dir VAL_DIR]
+                                   [--output-dir OUTPUT_DIR]
+                                   [--exp-name EXP_NAME] [--cos] [--sgd]
+                                   [-lr LEARNING_RATE] [--momentum MOMENTUM]
+                                   [--weight-decay WEIGHT_DECAY]
+                                   [--adamw-lr ADAMW_LR]
+                                   [--adamw-weight-decay ADAMW_WEIGHT_DECAY]
+                                   [--model MODEL] [--keep-topk KEEP_TOPK]
+                                   [-T TEMPERATURE] [--fkd-path FKD_PATH]
+                                   [--mix-type {mixup,cutmix,None}]
+                                   [--fkd_seed FKD_SEED]
+FKD Training on ImageNet-1K: error: unrecognized arguments: Touch/data/imagenette/val
+nohup: ignoring input
+usage: SRe2L: recover data from pre-trained model [-h]
+                                                  [--dataset {imagenet,tiny-imagenet,imagenette}]
+                                                  [--exp-name EXP_NAME]
+                                                  [--syn-data-path SYN_DATA_PATH]
+                                                  [--real-data-path REAL_DATA_PATH]
+                                                  [--ipc IPC]
+                                                  [--store-best-images]
+                                                  [--wb [WB]]
+                                                  [--weight-wb [WEIGHT_WB]]
+                                                  [--per-class-bn [PER_CLASS_BN]]
+                                                  [--cda [CDA]]
+                                                  [--batch-size BATCH_SIZE]
+                                                  [--iteration ITERATION]
+                                                  [--lr LR] [--jitter JITTER]
+                                                  [--r-bn R_BN] [--r-wb R_WB]
+                                                  [--first-bn-multiplier FIRST_BN_MULTIPLIER]
+                                                  [--tv-l2 TV_L2]
+                                                  [--l2-scale L2_SCALE]
+                                                  [--model MODEL]
+                                                  [--ckpt-path CKPT_PATH]
+                                                  [--verifier]
+                                                  [--verifier-arch VERIFIER_ARCH]
+SRe2L: recover data from pre-trained model: error: unrecognized arguments: Touch/data/imagenette
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/imagenette/zz
+Traceback (most recent call last):
+  File "generate_soft_label.py", line 255, in <module>
+    main()
+  File "generate_soft_label.py", line 126, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "generate_soft_label.py", line 201, in main_worker
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/relabel/utils_fkd.py", line 155, in __init__
+    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 42, in find_classes
+    raise FileNotFoundError(f"Couldn't find any class folder in {directory}.")
+FileNotFoundError: Couldn't find any class folder in ../recover/syn_data/imagenette/zz.
+usage: FKD Training on ImageNet-1K [-h]
+                                   [--dataset {imagenet,tiny-imagenet,imagenette}]
+                                   [--batch-size BATCH_SIZE] [--input-size S]
+                                   [--gradient-accumulation-steps GRADIENT_ACCUMULATION_STEPS]
+                                   [--start-epoch START_EPOCH]
+                                   [--epochs EPOCHS] [-j WORKERS]
+                                   [--train-dir TRAIN_DIR] [--val-dir VAL_DIR]
+                                   [--output-dir OUTPUT_DIR]
+                                   [--exp-name EXP_NAME] [--cos] [--sgd]
+                                   [-lr LEARNING_RATE] [--momentum MOMENTUM]
+                                   [--weight-decay WEIGHT_DECAY]
+                                   [--adamw-lr ADAMW_LR]
+                                   [--adamw-weight-decay ADAMW_WEIGHT_DECAY]
+                                   [--model MODEL] [--keep-topk KEEP_TOPK]
+                                   [-T TEMPERATURE] [--fkd-path FKD_PATH]
+                                   [--mix-type {mixup,cutmix,None}]
+                                   [--fkd_seed FKD_SEED]
+FKD Training on ImageNet-1K: error: unrecognized arguments: Touch/data/imagenette/val

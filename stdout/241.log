@@ -1,0 +1,166 @@
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+r_bn:  0.01
+lr:  0.25
+bc shape torch.Size([10, 10, 512])
+get_images call
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+------------iteration 0----------
+total loss 116.63146097669858
+main criterion 92.7029312373187
+weighted_aux_loss 23.928529739379883
+loss_r_bn_feature 2392.85302734375
+------------iteration 100----------
+total loss 60.13058502613527
+main criterion 41.910148929943865
+weighted_aux_loss 18.220436096191406
+loss_r_bn_feature 1822.043701171875
+------------iteration 200----------
+total loss 48.86636645411468
+main criterion 32.00108248805023
+weighted_aux_loss 16.865283966064453
+loss_r_bn_feature 1686.5284423828125
+------------iteration 300----------
+total loss 46.52544767768326
+main criterion 30.27208311469498
+weighted_aux_loss 16.25336456298828
+loss_r_bn_feature 1625.3365478515625
+------------iteration 400----------
+total loss 50.21233020433974
+main criterion 34.86170230516982
+weighted_aux_loss 15.350627899169922
+loss_r_bn_feature 1535.0628662109375
+------------iteration 500----------
+total loss 44.96804812510087
+main criterion 30.282736807657024
+weighted_aux_loss 14.685311317443848
+loss_r_bn_feature 1468.5311279296875
+------------iteration 600----------
+total loss 46.46028534109578
+main criterion 33.21083370382772
+weighted_aux_loss 13.249451637268066
+loss_r_bn_feature 1324.9451904296875
+------------iteration 700----------
+total loss 68.35673033671509
+main criterion 56.269724721480706
+weighted_aux_loss 12.087005615234375
+loss_r_bn_feature 1208.7005615234375
+------------iteration 800----------
+total loss 40.3627521896188
+main criterion 28.422691574079252
+weighted_aux_loss 11.94006061553955
+loss_r_bn_feature 1194.006103515625
+------------iteration 900----------
+total loss 51.00490057809838
+main criterion 41.83527529581078
+weighted_aux_loss 9.169625282287598
+loss_r_bn_feature 916.9625244140625
+------------iteration 1000----------
+total loss 36.676150457305624
+main criterion 25.716017858428668
+weighted_aux_loss 10.960132598876953
+loss_r_bn_feature 1096.0133056640625
+------------iteration 1100----------
+total loss 33.47554381367709
+main criterion 24.118100004167818
+weighted_aux_loss 9.357443809509277
+loss_r_bn_feature 935.744384765625
+------------iteration 1200----------
+total loss 29.281278663899922
+main criterion 20.439120346334004
+weighted_aux_loss 8.842158317565918
+loss_r_bn_feature 884.2158813476562
+------------iteration 1300----------
+total loss 26.456028128434735
+main criterion 19.77008404808195
+weighted_aux_loss 6.685944080352783
+loss_r_bn_feature 668.5944213867188
+------------iteration 1400----------
+total loss 25.546204398608644
+main criterion 17.992798636889894
+weighted_aux_loss 7.55340576171875
+loss_r_bn_feature 755.340576171875
+------------iteration 1500----------
+total loss 23.23389288935935
+main criterion 17.462582083084936
+weighted_aux_loss 5.771310806274414
+loss_r_bn_feature 577.131103515625
+------------iteration 1600----------
+total loss 21.603648741453277
+main criterion 15.959446509092437
+weighted_aux_loss 5.64420223236084
+loss_r_bn_feature 564.4202270507812
+------------iteration 1700----------
+total loss 22.12065892641671
+main criterion 17.105629972864463
+weighted_aux_loss 5.015028953552246
+loss_r_bn_feature 501.5028991699219
+------------iteration 1800----------
+total loss 21.266959189656113
+main criterion 15.331147670033308
+weighted_aux_loss 5.935811519622803
+loss_r_bn_feature 593.5811767578125
+------------iteration 1900----------
+total loss 20.52738935623207
+main criterion 15.687496968841934
+weighted_aux_loss 4.839892387390137
+loss_r_bn_feature 483.9892272949219
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/imagenette/241
+Traceback (most recent call last):
+  File "generate_soft_label.py", line 256, in <module>
+    main()
+  File "generate_soft_label.py", line 129, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "generate_soft_label.py", line 201, in main_worker
+    bary_weights_map = load_weights_file(args.data, os.path.join(args.data, 'barycenter_weights.txt'))
+  File "/media/techt/One Touch/DD/SRe2L/relabel/utils_fkd.py", line 314, in load_weights_file
+    with open(weight_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../recover/syn_data/imagenette/241/barycenter_weights.txt'
+W&B disabled.
+W&B online. Running your script from this directory will now sync to the cloud.
+wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231012_225604-4ho390cs
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run soft-wildflower-407
+wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
+wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/4ho390cs
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: 🚀 View run soft-wildflower-407 at: https://wandb.ai/hl57/final_rn18_fkd/runs/4ho390cs
+wandb: ️⚡ View job at https://wandb.ai/hl57/final_rn18_fkd/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk3MzkyNjU3/version_details/v37
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20231012_225604-4ho390cs/logs
+Traceback (most recent call last):
+  File "train_FKD.py", line 398, in <module>
+    main()
+  File "train_FKD.py", line 110, in main
+    bary_weights_map = load_weights_file(args.train_dir, os.path.join(args.train_dir, 'barycenter_weights.txt'))
+  File "/media/techt/One Touch/DD/SRe2L/train/../relabel/utils_fkd.py", line 314, in load_weights_file
+    with open(weight_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../recover/syn_data/imagenette/241/barycenter_weights.txt'

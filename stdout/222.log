@@ -1,0 +1,293 @@
+usage: SRe2L: recover data from pre-trained model [-h]
+                                                  [--dataset {imagenet,tiny-imagenet,imagenette}]
+                                                  [--exp-name EXP_NAME]
+                                                  [--syn-data-path SYN_DATA_PATH]
+                                                  [--real-data-path REAL_DATA_PATH]
+                                                  [--ipc IPC]
+                                                  [--store-best-images]
+                                                  [--wb [WB]]
+                                                  [--weight-wb [WEIGHT_WB]]
+                                                  [--batch-size BATCH_SIZE]
+                                                  [--iteration ITERATION]
+                                                  [--lr LR] [--jitter JITTER]
+                                                  [--r-bn R_BN]
+                                                  [--first-bn-multiplier FIRST_BN_MULTIPLIER]
+                                                  [--tv-l2 TV_L2]
+                                                  [--l2-scale L2_SCALE]
+                                                  [--model MODEL]
+                                                  [--ckpt-path CKPT_PATH]
+                                                  [--verifier]
+                                                  [--verifier-arch VERIFIER_ARCH]
+SRe2L: recover data from pre-trained model: error: unrecognized arguments: --per-class-bn false
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/tiny-imagenet/222
+Traceback (most recent call last):
+  File "generate_soft_label.py", line 250, in <module>
+    main()
+  File "generate_soft_label.py", line 126, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "generate_soft_label.py", line 198, in main_worker
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/relabel/utils_fkd.py", line 153, in __init__
+    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 40, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [Errno 2] No such file or directory: '../recover/syn_data/tiny-imagenet/222'
+W&B disabled.
+W&B online. Running your script from this directory will now sync to the cloud.
+wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231005_204559-owgpkpt9
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ruby-brook-385
+wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
+wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/owgpkpt9
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: 🚀 View run ruby-brook-385 at: https://wandb.ai/hl57/final_rn18_fkd/runs/owgpkpt9
+wandb: ️⚡ View job at https://wandb.ai/hl57/final_rn18_fkd/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk3MzkyNjU3/version_details/v37
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20231005_204559-owgpkpt9/logs
+Traceback (most recent call last):
+  File "train_FKD.py", line 390, in <module>
+    main()
+  File "train_FKD.py", line 102, in main
+    assert os.path.exists(args.train_dir)
+AssertionError
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+ipc_id =  0
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 389.59368896484375
+main criterion 9.251404762268066
+weighted_aux_loss 380.34228515625
+loss_r_bn_feature 380.34228515625
+Verifier accuracy:  0.0
+Traceback (most recent call last):
+  File "data_synthesis.py", line 337, in <module>
+    main_syn(args)
+  File "data_synthesis.py", line 265, in main_syn
+    get_images(args, model_teacher, hook_for_display, ipc_id, bc_i=bc_i)
+  File "data_synthesis.py", line 116, in get_images
+    if best_cost > loss.item() or iteration == 1:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "data_synthesis.py", line 20, in <module>
+    from barycenter import compute_wasserstein_barycenter
+  File "/media/techt/One Touch/DD/SRe2L/recover/barycenter.py", line 1, in <module>
+    import ot
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/ot/__init__.py", line 21, in <module>
+    from . import lp
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/ot/lp/__init__.py", line 20, in <module>
+    from .dmmot import dmmot_monge_1dgrid_loss, dmmot_monge_1dgrid_optimize
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/ot/lp/dmmot.py", line 12, in <module>
+    from ..backend import get_backend
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/ot/backend.py", line 2192, in <module>
+    register_backend(TorchBackend())
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/ot/backend.py", line 1737, in __init__
+    self.__type_list__.append(torch.tensor(1, dtype=torch.float32, device='cuda'))
+KeyboardInterrupt
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+ipc_id =  0
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 391.08795166015625
+main criterion 11.008105278015137
+weighted_aux_loss 380.079833984375
+loss_r_bn_feature 380.079833984375
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 132.34231567382812
+main criterion 0.09224902838468552
+weighted_aux_loss 132.25006103515625
+loss_r_bn_feature 132.25006103515625
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 77.13260650634766
+main criterion 1.2863215208053589
+weighted_aux_loss 75.84628295898438
+loss_r_bn_feature 75.84628295898438
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 48.081539154052734
+main criterion 0.08952203392982483
+weighted_aux_loss 47.99201583862305
+loss_r_bn_feature 47.99201583862305
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 56.06800079345703
+main criterion 0.7495038509368896
+weighted_aux_loss 55.31849670410156
+loss_r_bn_feature 55.31849670410156
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 39.952701568603516
+main criterion 0.06969082355499268
+weighted_aux_loss 39.88301086425781
+loss_r_bn_feature 39.88301086425781
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 34.87417221069336
+main criterion 0.059939589351415634
+weighted_aux_loss 34.814231872558594
+loss_r_bn_feature 34.814231872558594
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 40.640350341796875
+main criterion 0.08720303326845169
+weighted_aux_loss 40.55314636230469
+loss_r_bn_feature 40.55314636230469
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 31.943069458007812
+main criterion 0.04124214127659798
+weighted_aux_loss 31.901826858520508
+loss_r_bn_feature 31.901826858520508
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 66.86163330078125
+main criterion 3.8803348541259766
+weighted_aux_loss 62.981300354003906
+loss_r_bn_feature 62.981300354003906
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 28.269163131713867
+main criterion 0.021472400054335594
+weighted_aux_loss 28.247690200805664
+loss_r_bn_feature 28.247690200805664
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 66.33364868164062
+main criterion 1.60581636428833
+weighted_aux_loss 64.72782897949219
+loss_r_bn_feature 64.72782897949219
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 25.0294132232666
+main criterion 0.06430153548717499
+weighted_aux_loss 24.965110778808594
+loss_r_bn_feature 24.965110778808594
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 49.149864196777344
+main criterion 0.6819534301757812
+weighted_aux_loss 48.46791076660156
+loss_r_bn_feature 48.46791076660156
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 33.619258880615234
+main criterion 0.29925140738487244
+weighted_aux_loss 33.32000732421875
+loss_r_bn_feature 33.32000732421875
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 13.015950202941895
+main criterion 0.0063565392047166824
+weighted_aux_loss 13.009593963623047
+loss_r_bn_feature 13.009593963623047
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 10.843500137329102
+main criterion 0.019655263051390648
+weighted_aux_loss 10.823844909667969
+loss_r_bn_feature 10.823844909667969
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 38.05705642700195
+main criterion 0.19753305613994598
+weighted_aux_loss 37.85952377319336
+loss_r_bn_feature 37.85952377319336
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 8.310598373413086
+main criterion 0.024235939607024193
+weighted_aux_loss 8.286362648010254
+loss_r_bn_feature 8.286362648010254
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 40.86838150024414
+main criterion 0.07548703998327255
+weighted_aux_loss 40.79289627075195
+loss_r_bn_feature 40.79289627075195
+Verifier accuracy:  0.0
+------------iteration 0----------
+total loss 392.24383544921875
+main criterion 9.531231880187988
+weighted_aux_loss 382.7126159667969
+loss_r_bn_feature 382.7126159667969
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 149.10140991210938
+main criterion 0.3017820417881012
+weighted_aux_loss 148.79962158203125
+loss_r_bn_feature 148.79962158203125
+Verifier accuracy:  0.0
+Traceback (most recent call last):
+  File "data_synthesis.py", line 337, in <module>
+    main_syn(args)
+  File "data_synthesis.py", line 265, in main_syn
+    get_images(args, model_teacher, hook_for_display, ipc_id, bc_i=bc_i)
+  File "data_synthesis.py", line 116, in get_images
+    if best_cost > loss.item() or iteration == 1:
+KeyboardInterrupt

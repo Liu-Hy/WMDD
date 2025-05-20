@@ -1,0 +1,50 @@
+r_bn:  3.0
+lr:  0.03
+bc loaded
+bc shape (10, 10, 512)
+Computing BatchNorm statistics for class 0
+Computing BatchNorm statistics for class 1
+Computing BatchNorm statistics for class 2
+Computing BatchNorm statistics for class 3
+Computing BatchNorm statistics for class 4
+Computing BatchNorm statistics for class 5
+Computing BatchNorm statistics for class 6
+Computing BatchNorm statistics for class 7
+Computing BatchNorm statistics for class 8
+Computing BatchNorm statistics for class 9
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+get_images call
+class_per_batch  10 batch_size  100 args.ipc  10
+------------iteration 0----------
+total loss 182051.7100341484
+main criterion 8541.319409148397
+weighted_aux_loss 173510.390625
+loss_r_bn_feature 57836.796875
+------------iteration 100----------
+total loss 83348.62420625583
+main criterion 6011.632018755835
+weighted_aux_loss 77336.9921875
+loss_r_bn_feature 25778.998046875
+------------iteration 200----------
+total loss 16490.029065800023
+main criterion 950.2712533000247
+weighted_aux_loss 15539.7578125
+loss_r_bn_feature 5179.91943359375
+------------iteration 300----------
+total loss 9387.820998614796
+main criterion 1455.1061548647956
+weighted_aux_loss 7932.71484375
+loss_r_bn_feature 2644.23828125
+Traceback (most recent call last):
+  File "data_synthesis_new.py", line 403, in <module>
+    main_syn(args, bc)
+  File "data_synthesis_new.py", line 305, in main_syn
+    get_images(args, model_teacher, hook_for_display, bc=bc)
+  File "data_synthesis_new.py", line 172, in get_images
+    if best_cost > loss.item() or iteration == 1:
+KeyboardInterrupt

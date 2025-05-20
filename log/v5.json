@@ -1,0 +1,32 @@
+[
+    {
+        "script": "data_synthesis.py",
+        "args": {
+            "dataset": "imagenette",
+            "exp_name": "v5",
+            "syn_data_path": "./syn_data/imagenette/v5",
+            "real_data_path": "/media/techt/DATA/data/imagenette",
+            "ipc": 10,
+            "store_best_images": true,
+            "weight_wb": false,
+            "cda": false,
+            "batch_size": 100,
+            "iteration": 2000,
+            "lr": 0.25,
+            "jitter": 32,
+            "r_bn": 0.01,
+            "r_wb": 1.0,
+            "first_bn_multiplier": 10.0,
+            "tv_l2": 0.0,
+            "l2_scale": 0.0,
+            "model": "resnet18",
+            "ckpt_path": "../pretrain/output/imagenette_resnet18/214/model_49.pth",
+            "verifier": true,
+            "verifier_arch": "mobilenet_v2",
+            "easy2hard_mode": "cosine",
+            "milestone": 0,
+            "G": "-1",
+            "num_classes": 10
+        }
+    }
+]

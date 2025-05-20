@@ -1,0 +1,2270 @@
+nohup: ignoring input
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/cuda/memory.py:303: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+r_bn:  300.0
+lr:  0.25
+ipc_id =  0
+get_images call
+------------iteration 0----------
+total loss 696947.75
+main criterion 3.3781871795654297
+weighted_aux_loss 696944.375
+loss_r_bn_feature 2323.14794921875
+This iteration took 0.9914624691009521 seconds.
+This iteration took 0.013071060180664062 seconds.
+This iteration took 0.012930870056152344 seconds.
+This iteration took 0.014257192611694336 seconds.
+This iteration took 0.013234615325927734 seconds.
+This iteration took 0.013360023498535156 seconds.
+This iteration took 0.013359546661376953 seconds.
+This iteration took 0.013347625732421875 seconds.
+This iteration took 0.013166666030883789 seconds.
+This iteration took 0.013181447982788086 seconds.
+This iteration took 0.013254880905151367 seconds.
+This iteration took 0.01446843147277832 seconds.
+This iteration took 0.014394044876098633 seconds.
+This iteration took 0.014320611953735352 seconds.
+This iteration took 0.014033079147338867 seconds.
+This iteration took 0.01406240463256836 seconds.
+This iteration took 0.014000415802001953 seconds.
+This iteration took 0.016301631927490234 seconds.
+This iteration took 0.014221906661987305 seconds.
+This iteration took 0.014179468154907227 seconds.
+This iteration took 0.01383519172668457 seconds.
+This iteration took 0.01409006118774414 seconds.
+This iteration took 0.014319419860839844 seconds.
+This iteration took 0.014328241348266602 seconds.
+This iteration took 0.014165878295898438 seconds.
+This iteration took 0.014185905456542969 seconds.
+This iteration took 0.013979911804199219 seconds.
+This iteration took 0.013748407363891602 seconds.
+This iteration took 0.013595819473266602 seconds.
+This iteration took 0.013649463653564453 seconds.
+This iteration took 0.013555049896240234 seconds.
+This iteration took 0.013691186904907227 seconds.
+This iteration took 0.013670682907104492 seconds.
+This iteration took 0.01368570327758789 seconds.
+This iteration took 0.013651132583618164 seconds.
+This iteration took 0.013678789138793945 seconds.
+This iteration took 0.013612747192382812 seconds.
+This iteration took 0.013623476028442383 seconds.
+This iteration took 0.013690471649169922 seconds.
+This iteration took 0.013657569885253906 seconds.
+This iteration took 0.013252019882202148 seconds.
+This iteration took 0.014067411422729492 seconds.
+This iteration took 0.013549566268920898 seconds.
+This iteration took 0.013583898544311523 seconds.
+This iteration took 0.01363062858581543 seconds.
+This iteration took 0.0136260986328125 seconds.
+This iteration took 0.013538837432861328 seconds.
+This iteration took 0.013270854949951172 seconds.
+This iteration took 0.013702154159545898 seconds.
+This iteration took 0.01358652114868164 seconds.
+This iteration took 0.013517618179321289 seconds.
+This iteration took 0.01356816291809082 seconds.
+This iteration took 0.013541698455810547 seconds.
+This iteration took 0.01395869255065918 seconds.
+This iteration took 0.013965368270874023 seconds.
+This iteration took 0.01363825798034668 seconds.
+This iteration took 0.013590574264526367 seconds.
+This iteration took 0.013615131378173828 seconds.
+This iteration took 0.013611555099487305 seconds.
+This iteration took 0.01408529281616211 seconds.
+This iteration took 0.013508081436157227 seconds.
+This iteration took 0.013612985610961914 seconds.
+This iteration took 0.013507366180419922 seconds.
+This iteration took 0.013319253921508789 seconds.
+This iteration took 0.013935565948486328 seconds.
+This iteration took 0.013960599899291992 seconds.
+This iteration took 0.013627290725708008 seconds.
+This iteration took 0.013570308685302734 seconds.
+This iteration took 0.013406038284301758 seconds.
+This iteration took 0.013541936874389648 seconds.
+This iteration took 0.013870477676391602 seconds.
+This iteration took 0.013528108596801758 seconds.
+This iteration took 0.013564109802246094 seconds.
+This iteration took 0.013668060302734375 seconds.
+This iteration took 0.013509750366210938 seconds.
+This iteration took 0.013314485549926758 seconds.
+This iteration took 0.013561010360717773 seconds.
+This iteration took 0.013509273529052734 seconds.
+This iteration took 0.013852596282958984 seconds.
+This iteration took 0.01349949836730957 seconds.
+This iteration took 0.013650894165039062 seconds.
+This iteration took 0.014026880264282227 seconds.
+This iteration took 0.01356816291809082 seconds.
+This iteration took 0.013524770736694336 seconds.
+This iteration took 0.013364076614379883 seconds.
+This iteration took 0.014042139053344727 seconds.
+This iteration took 0.013586759567260742 seconds.
+This iteration took 0.013966560363769531 seconds.
+This iteration took 0.013587474822998047 seconds.
+This iteration took 0.013608694076538086 seconds.
+This iteration took 0.013604402542114258 seconds.
+This iteration took 0.013865232467651367 seconds.
+This iteration took 0.013936519622802734 seconds.
+This iteration took 0.013570547103881836 seconds.
+This iteration took 0.013554573059082031 seconds.
+This iteration took 0.013155460357666016 seconds.
+This iteration took 0.013519763946533203 seconds.
+This iteration took 0.013559579849243164 seconds.
+This iteration took 0.013573169708251953 seconds.
+This iteration took 0.013525009155273438 seconds.
+------------iteration 100----------
+total loss 87613.1953125
+main criterion 5.614066123962402
+weighted_aux_loss 87607.578125
+loss_r_bn_feature 292.0252685546875
+This iteration took 0.013640642166137695 seconds.
+This iteration took 0.013551950454711914 seconds.
+This iteration took 0.013744592666625977 seconds.
+This iteration took 0.013576984405517578 seconds.
+This iteration took 0.01357579231262207 seconds.
+This iteration took 0.01353144645690918 seconds.
+This iteration took 0.013473033905029297 seconds.
+This iteration took 0.013640642166137695 seconds.
+This iteration took 0.013779401779174805 seconds.
+This iteration took 0.013543128967285156 seconds.
+This iteration took 0.01359868049621582 seconds.
+This iteration took 0.013532876968383789 seconds.
+This iteration took 0.013570547103881836 seconds.
+This iteration took 0.013592004776000977 seconds.
+This iteration took 0.013588428497314453 seconds.
+This iteration took 0.013554573059082031 seconds.
+This iteration took 0.013483285903930664 seconds.
+This iteration took 0.013553142547607422 seconds.
+This iteration took 0.013568878173828125 seconds.
+This iteration took 0.013572216033935547 seconds.
+This iteration took 0.014059305191040039 seconds.
+This iteration took 0.013747453689575195 seconds.
+This iteration took 0.013603448867797852 seconds.
+This iteration took 0.013545989990234375 seconds.
+This iteration took 0.013544321060180664 seconds.
+This iteration took 0.01360630989074707 seconds.
+This iteration took 0.013629436492919922 seconds.
+This iteration took 0.013578414916992188 seconds.
+This iteration took 0.013600826263427734 seconds.
+This iteration took 0.013592243194580078 seconds.
+This iteration took 0.013575315475463867 seconds.
+This iteration took 0.013602018356323242 seconds.
+This iteration took 0.013633966445922852 seconds.
+This iteration took 0.013634443283081055 seconds.
+This iteration took 0.013327360153198242 seconds.
+This iteration took 0.013543128967285156 seconds.
+This iteration took 0.01363682746887207 seconds.
+This iteration took 0.013648509979248047 seconds.
+This iteration took 0.013618230819702148 seconds.
+This iteration took 0.0135650634765625 seconds.
+This iteration took 0.013724803924560547 seconds.
+This iteration took 0.013683080673217773 seconds.
+This iteration took 0.013494491577148438 seconds.
+This iteration took 0.013591766357421875 seconds.
+This iteration took 0.013635635375976562 seconds.
+This iteration took 0.013590812683105469 seconds.
+This iteration took 0.013547658920288086 seconds.
+This iteration took 0.013608217239379883 seconds.
+This iteration took 0.013630151748657227 seconds.
+This iteration took 0.013548612594604492 seconds.
+This iteration took 0.013527154922485352 seconds.
+This iteration took 0.013572931289672852 seconds.
+This iteration took 0.01396799087524414 seconds.
+This iteration took 0.01359105110168457 seconds.
+This iteration took 0.013599395751953125 seconds.
+This iteration took 0.013573646545410156 seconds.
+This iteration took 0.013618707656860352 seconds.
+This iteration took 0.013628959655761719 seconds.
+This iteration took 0.013643264770507812 seconds.
+This iteration took 0.01351022720336914 seconds.
+This iteration took 0.013616085052490234 seconds.
+This iteration took 0.013610363006591797 seconds.
+This iteration took 0.013440132141113281 seconds.
+This iteration took 0.013677120208740234 seconds.
+This iteration took 0.013543844223022461 seconds.
+This iteration took 0.013545989990234375 seconds.
+This iteration took 0.013604879379272461 seconds.
+This iteration took 0.013296365737915039 seconds.
+This iteration took 0.013564109802246094 seconds.
+This iteration took 0.013573646545410156 seconds.
+This iteration took 0.013616085052490234 seconds.
+This iteration took 0.01352071762084961 seconds.
+This iteration took 0.013626813888549805 seconds.
+This iteration took 0.0135955810546875 seconds.
+This iteration took 0.013339996337890625 seconds.
+This iteration took 0.013601541519165039 seconds.
+This iteration took 0.013563156127929688 seconds.
+This iteration took 0.013484716415405273 seconds.
+This iteration took 0.014088153839111328 seconds.
+This iteration took 0.014275312423706055 seconds.
+This iteration took 0.013387680053710938 seconds.
+This iteration took 0.013522148132324219 seconds.
+This iteration took 0.013541936874389648 seconds.
+This iteration took 0.013991117477416992 seconds.
+This iteration took 0.013654708862304688 seconds.
+This iteration took 0.01398468017578125 seconds.
+This iteration took 0.01444244384765625 seconds.
+This iteration took 0.01349782943725586 seconds.
+This iteration took 0.01347804069519043 seconds.
+This iteration took 0.013614416122436523 seconds.
+This iteration took 0.013485431671142578 seconds.
+This iteration took 0.013525009155273438 seconds.
+This iteration took 0.013546466827392578 seconds.
+This iteration took 0.013523578643798828 seconds.
+This iteration took 0.013557672500610352 seconds.
+This iteration took 0.013524532318115234 seconds.
+This iteration took 0.013588428497314453 seconds.
+This iteration took 0.013463497161865234 seconds.
+This iteration took 0.013515472412109375 seconds.
+This iteration took 0.013516664505004883 seconds.
+------------iteration 200----------
+total loss 92075.7421875
+main criterion 5.103944301605225
+weighted_aux_loss 92070.640625
+loss_r_bn_feature 306.9021301269531
+This iteration took 0.013588190078735352 seconds.
+This iteration took 0.013968229293823242 seconds.
+This iteration took 0.01356649398803711 seconds.
+This iteration took 0.013532161712646484 seconds.
+This iteration took 0.013582229614257812 seconds.
+This iteration took 0.01354670524597168 seconds.
+This iteration took 0.013543128967285156 seconds.
+This iteration took 0.014414310455322266 seconds.
+This iteration took 0.013875484466552734 seconds.
+This iteration took 0.01345682144165039 seconds.
+This iteration took 0.013544082641601562 seconds.
+This iteration took 0.013628959655761719 seconds.
+This iteration took 0.013627052307128906 seconds.
+This iteration took 0.013586759567260742 seconds.
+This iteration took 0.013604879379272461 seconds.
+This iteration took 0.013486623764038086 seconds.
+This iteration took 0.013555288314819336 seconds.
+This iteration took 0.013612031936645508 seconds.
+This iteration took 0.013649702072143555 seconds.
+This iteration took 0.013507604598999023 seconds.
+This iteration took 0.013550758361816406 seconds.
+This iteration took 0.013505220413208008 seconds.
+This iteration took 0.013477087020874023 seconds.
+This iteration took 0.013843297958374023 seconds.
+This iteration took 0.013471603393554688 seconds.
+This iteration took 0.013598203659057617 seconds.
+This iteration took 0.013537406921386719 seconds.
+This iteration took 0.013247966766357422 seconds.
+This iteration took 0.013649702072143555 seconds.
+This iteration took 0.013560295104980469 seconds.
+This iteration took 0.013580322265625 seconds.
+This iteration took 0.013565301895141602 seconds.
+This iteration took 0.01353597640991211 seconds.
+This iteration took 0.013534784317016602 seconds.
+This iteration took 0.013922452926635742 seconds.
+This iteration took 0.014163732528686523 seconds.
+This iteration took 0.014136791229248047 seconds.
+This iteration took 0.013673782348632812 seconds.
+This iteration took 0.014827489852905273 seconds.
+This iteration took 0.016977310180664062 seconds.
+This iteration took 0.013274192810058594 seconds.
+This iteration took 0.014364480972290039 seconds.
+This iteration took 0.01357722282409668 seconds.
+This iteration took 0.013724565505981445 seconds.
+This iteration took 0.013538360595703125 seconds.
+This iteration took 0.013583183288574219 seconds.
+This iteration took 0.013698577880859375 seconds.
+This iteration took 0.014038324356079102 seconds.
+This iteration took 0.013526678085327148 seconds.
+This iteration took 0.013514280319213867 seconds.
+This iteration took 0.013478279113769531 seconds.
+This iteration took 0.013190746307373047 seconds.
+This iteration took 0.014185190200805664 seconds.
+This iteration took 0.01361227035522461 seconds.
+This iteration took 0.013527393341064453 seconds.
+This iteration took 0.01362919807434082 seconds.
+This iteration took 0.013657808303833008 seconds.
+This iteration took 0.013652801513671875 seconds.
+This iteration took 0.013909339904785156 seconds.
+This iteration took 0.012472867965698242 seconds.
+This iteration took 0.013625860214233398 seconds.
+This iteration took 0.013535499572753906 seconds.
+This iteration took 0.013485431671142578 seconds.
+This iteration took 0.013597726821899414 seconds.
+This iteration took 0.013591527938842773 seconds.
+This iteration took 0.013193845748901367 seconds.
+This iteration took 0.01822495460510254 seconds.
+This iteration took 0.018939495086669922 seconds.
+This iteration took 0.019755125045776367 seconds.
+This iteration took 0.018685102462768555 seconds.
+This iteration took 0.0198822021484375 seconds.
+This iteration took 0.019321203231811523 seconds.
+This iteration took 0.016928911209106445 seconds.
+This iteration took 0.015004873275756836 seconds.
+This iteration took 0.015082836151123047 seconds.
+This iteration took 0.015120267868041992 seconds.
+This iteration took 0.014488697052001953 seconds.
+This iteration took 0.015690326690673828 seconds.
+This iteration took 0.015571355819702148 seconds.
+This iteration took 0.015133857727050781 seconds.
+This iteration took 0.015300750732421875 seconds.
+This iteration took 0.014496088027954102 seconds.
+This iteration took 0.016421794891357422 seconds.
+This iteration took 0.01608872413635254 seconds.
+This iteration took 0.016521453857421875 seconds.
+This iteration took 0.01684713363647461 seconds.
+This iteration took 0.01678180694580078 seconds.
+This iteration took 0.014025449752807617 seconds.
+This iteration took 0.012653112411499023 seconds.
+This iteration took 0.013243436813354492 seconds.
+This iteration took 0.012540102005004883 seconds.
+This iteration took 0.012452125549316406 seconds.
+This iteration took 0.012294769287109375 seconds.
+This iteration took 0.01218724250793457 seconds.
+This iteration took 0.01255655288696289 seconds.
+This iteration took 0.012152671813964844 seconds.
+This iteration took 0.013004064559936523 seconds.
+This iteration took 0.012889623641967773 seconds.
+This iteration took 0.012176275253295898 seconds.
+This iteration took 0.012231826782226562 seconds.
+------------iteration 300----------
+total loss 172778.375
+main criterion 4.117921829223633
+weighted_aux_loss 172774.25
+loss_r_bn_feature 575.9141845703125
+This iteration took 0.013936519622802734 seconds.
+This iteration took 0.012216806411743164 seconds.
+This iteration took 0.012181758880615234 seconds.
+This iteration took 0.012184381484985352 seconds.
+This iteration took 0.012178659439086914 seconds.
+This iteration took 0.012132883071899414 seconds.
+This iteration took 0.012155771255493164 seconds.
+This iteration took 0.012302160263061523 seconds.
+This iteration took 0.012735843658447266 seconds.
+This iteration took 0.012833118438720703 seconds.
+This iteration took 0.012090921401977539 seconds.
+This iteration took 0.012518167495727539 seconds.
+This iteration took 0.01215052604675293 seconds.
+This iteration took 0.012308835983276367 seconds.
+This iteration took 0.012127876281738281 seconds.
+This iteration took 0.012129783630371094 seconds.
+This iteration took 0.012198209762573242 seconds.
+This iteration took 0.01210927963256836 seconds.
+This iteration took 0.012260913848876953 seconds.
+This iteration took 0.012154102325439453 seconds.
+This iteration took 0.013221502304077148 seconds.
+This iteration took 0.012058496475219727 seconds.
+This iteration took 0.013624191284179688 seconds.
+This iteration took 0.012110471725463867 seconds.
+This iteration took 0.012802600860595703 seconds.
+This iteration took 0.0120391845703125 seconds.
+This iteration took 0.013585805892944336 seconds.
+This iteration took 0.012113332748413086 seconds.
+This iteration took 0.013751983642578125 seconds.
+This iteration took 0.012531280517578125 seconds.
+This iteration took 0.012630224227905273 seconds.
+This iteration took 0.012120246887207031 seconds.
+This iteration took 0.012150287628173828 seconds.
+This iteration took 0.012365579605102539 seconds.
+This iteration took 0.01209878921508789 seconds.
+This iteration took 0.013487577438354492 seconds.
+This iteration took 0.01203775405883789 seconds.
+This iteration took 0.012245655059814453 seconds.
+This iteration took 0.012207508087158203 seconds.
+This iteration took 0.013551712036132812 seconds.
+This iteration took 0.012153387069702148 seconds.
+This iteration took 0.012849569320678711 seconds.
+This iteration took 0.012198686599731445 seconds.
+This iteration took 0.012441158294677734 seconds.
+This iteration took 0.012703418731689453 seconds.
+This iteration took 0.012602090835571289 seconds.
+This iteration took 0.013690948486328125 seconds.
+This iteration took 0.012064218521118164 seconds.
+This iteration took 0.013671636581420898 seconds.
+This iteration took 0.012283563613891602 seconds.
+This iteration took 0.012084484100341797 seconds.
+This iteration took 0.012262105941772461 seconds.
+This iteration took 0.012269020080566406 seconds.
+This iteration took 0.012124300003051758 seconds.
+This iteration took 0.012125015258789062 seconds.
+This iteration took 0.012671232223510742 seconds.
+This iteration took 0.012148141860961914 seconds.
+This iteration took 0.012198448181152344 seconds.
+This iteration took 0.012312650680541992 seconds.
+This iteration took 0.013673782348632812 seconds.
+This iteration took 0.01216745376586914 seconds.
+This iteration took 0.013397455215454102 seconds.
+This iteration took 0.012066125869750977 seconds.
+This iteration took 0.012611865997314453 seconds.
+This iteration took 0.01267242431640625 seconds.
+This iteration took 0.012859344482421875 seconds.
+This iteration took 0.013320207595825195 seconds.
+This iteration took 0.012205839157104492 seconds.
+This iteration took 0.012526512145996094 seconds.
+This iteration took 0.012905359268188477 seconds.
+This iteration took 0.0122222900390625 seconds.
+This iteration took 0.01224827766418457 seconds.
+This iteration took 0.013211965560913086 seconds.
+This iteration took 0.012688636779785156 seconds.
+This iteration took 0.014019250869750977 seconds.
+This iteration took 0.012131214141845703 seconds.
+This iteration took 0.012375593185424805 seconds.
+This iteration took 0.012652873992919922 seconds.
+This iteration took 0.012767791748046875 seconds.
+This iteration took 0.012221574783325195 seconds.
+This iteration took 0.012451648712158203 seconds.
+This iteration took 0.012547492980957031 seconds.
+This iteration took 0.012541532516479492 seconds.
+This iteration took 0.013629436492919922 seconds.
+This iteration took 0.012223482131958008 seconds.
+This iteration took 0.013340950012207031 seconds.
+This iteration took 0.012123584747314453 seconds.
+This iteration took 0.012477874755859375 seconds.
+This iteration took 0.01212167739868164 seconds.
+This iteration took 0.012209653854370117 seconds.
+This iteration took 0.012674808502197266 seconds.
+This iteration took 0.012114286422729492 seconds.
+This iteration took 0.012254953384399414 seconds.
+This iteration took 0.014532089233398438 seconds.
+This iteration took 0.014019966125488281 seconds.
+This iteration took 0.012482404708862305 seconds.
+This iteration took 0.013611793518066406 seconds.
+This iteration took 0.016640424728393555 seconds.
+This iteration took 0.01264190673828125 seconds.
+This iteration took 0.01333165168762207 seconds.
+------------iteration 400----------
+total loss 108796.7734375
+main criterion 4.069093227386475
+weighted_aux_loss 108792.703125
+loss_r_bn_feature 362.642333984375
+This iteration took 0.013387203216552734 seconds.
+This iteration took 0.012189388275146484 seconds.
+This iteration took 0.012286901473999023 seconds.
+This iteration took 0.012483835220336914 seconds.
+This iteration took 0.012977838516235352 seconds.
+This iteration took 0.012094974517822266 seconds.
+This iteration took 0.013637781143188477 seconds.
+This iteration took 0.012268304824829102 seconds.
+This iteration took 0.013471603393554688 seconds.
+This iteration took 0.012145757675170898 seconds.
+This iteration took 0.012093305587768555 seconds.
+This iteration took 0.012084007263183594 seconds.
+This iteration took 0.012182474136352539 seconds.
+This iteration took 0.012146234512329102 seconds.
+This iteration took 0.013694524765014648 seconds.
+This iteration took 0.012516498565673828 seconds.
+This iteration took 0.013532876968383789 seconds.
+This iteration took 0.012743711471557617 seconds.
+This iteration took 0.012149572372436523 seconds.
+This iteration took 0.013184309005737305 seconds.
+This iteration took 0.012873172760009766 seconds.
+This iteration took 0.013681173324584961 seconds.
+This iteration took 0.016524076461791992 seconds.
+This iteration took 0.012854814529418945 seconds.
+This iteration took 0.012688636779785156 seconds.
+This iteration took 0.016175508499145508 seconds.
+This iteration took 0.013871431350708008 seconds.
+This iteration took 0.012615442276000977 seconds.
+This iteration took 0.01270151138305664 seconds.
+This iteration took 0.01247859001159668 seconds.
+This iteration took 0.012249946594238281 seconds.
+This iteration took 0.012382984161376953 seconds.
+This iteration took 0.012410402297973633 seconds.
+This iteration took 0.012083768844604492 seconds.
+This iteration took 0.01218271255493164 seconds.
+This iteration took 0.012169599533081055 seconds.
+This iteration took 0.012180805206298828 seconds.
+This iteration took 0.012151241302490234 seconds.
+This iteration took 0.01213693618774414 seconds.
+This iteration took 0.012245893478393555 seconds.
+This iteration took 0.012236356735229492 seconds.
+This iteration took 0.012172460556030273 seconds.
+This iteration took 0.012222051620483398 seconds.
+This iteration took 0.012179136276245117 seconds.
+This iteration took 0.012844085693359375 seconds.
+This iteration took 0.013547182083129883 seconds.
+This iteration took 0.013476848602294922 seconds.
+This iteration took 0.012201547622680664 seconds.
+This iteration took 0.012147903442382812 seconds.
+This iteration took 0.012140035629272461 seconds.
+This iteration took 0.012929677963256836 seconds.
+This iteration took 0.012166023254394531 seconds.
+This iteration took 0.012119293212890625 seconds.
+This iteration took 0.012153863906860352 seconds.
+This iteration took 0.012210607528686523 seconds.
+This iteration took 0.012351751327514648 seconds.
+This iteration took 0.01225900650024414 seconds.
+This iteration took 0.014918804168701172 seconds.
+This iteration took 0.015043497085571289 seconds.
+This iteration took 0.012525320053100586 seconds.
+This iteration took 0.012143611907958984 seconds.
+This iteration took 0.012068033218383789 seconds.
+This iteration took 0.01214146614074707 seconds.
+This iteration took 0.012220144271850586 seconds.
+This iteration took 0.012253284454345703 seconds.
+This iteration took 0.012211799621582031 seconds.
+This iteration took 0.012184619903564453 seconds.
+This iteration took 0.012235879898071289 seconds.
+This iteration took 0.012223482131958008 seconds.
+This iteration took 0.0138702392578125 seconds.
+This iteration took 0.012390613555908203 seconds.
+This iteration took 0.011964082717895508 seconds.
+This iteration took 0.01238393783569336 seconds.
+This iteration took 0.012592554092407227 seconds.
+This iteration took 0.01224660873413086 seconds.
+This iteration took 0.01194906234741211 seconds.
+This iteration took 0.012485504150390625 seconds.
+This iteration took 0.012598276138305664 seconds.
+This iteration took 0.012375593185424805 seconds.
+This iteration took 0.012608528137207031 seconds.
+This iteration took 0.012101173400878906 seconds.
+This iteration took 0.012531518936157227 seconds.
+This iteration took 0.012580394744873047 seconds.
+This iteration took 0.012603759765625 seconds.
+This iteration took 0.012573719024658203 seconds.
+This iteration took 0.012697458267211914 seconds.
+This iteration took 0.012386560440063477 seconds.
+This iteration took 0.012482404708862305 seconds.
+This iteration took 0.012776613235473633 seconds.
+This iteration took 0.013009071350097656 seconds.
+This iteration took 0.013756513595581055 seconds.
+This iteration took 0.014179706573486328 seconds.
+This iteration took 0.01291346549987793 seconds.
+This iteration took 0.012676477432250977 seconds.
+This iteration took 0.013073921203613281 seconds.
+This iteration took 0.012982606887817383 seconds.
+This iteration took 0.012911558151245117 seconds.
+This iteration took 0.01296091079711914 seconds.
+This iteration took 0.012935638427734375 seconds.
+This iteration took 0.012909650802612305 seconds.
+------------iteration 500----------
+total loss 95925.0703125
+main criterion 5.855822563171387
+weighted_aux_loss 95919.2109375
+loss_r_bn_feature 319.730712890625
+This iteration took 0.013026714324951172 seconds.
+This iteration took 0.013022661209106445 seconds.
+This iteration took 0.012654781341552734 seconds.
+This iteration took 0.012563228607177734 seconds.
+This iteration took 0.012696504592895508 seconds.
+This iteration took 0.012618541717529297 seconds.
+This iteration took 0.013214826583862305 seconds.
+This iteration took 0.012330055236816406 seconds.
+This iteration took 0.013299703598022461 seconds.
+This iteration took 0.012910842895507812 seconds.
+This iteration took 0.01293802261352539 seconds.
+This iteration took 0.012733221054077148 seconds.
+This iteration took 0.013034343719482422 seconds.
+This iteration took 0.013157129287719727 seconds.
+This iteration took 0.013466119766235352 seconds.
+This iteration took 0.013012170791625977 seconds.
+This iteration took 0.012455224990844727 seconds.
+This iteration took 0.013071298599243164 seconds.
+This iteration took 0.013063669204711914 seconds.
+This iteration took 0.013365745544433594 seconds.
+This iteration took 0.012365102767944336 seconds.
+This iteration took 0.01300191879272461 seconds.
+This iteration took 0.01320648193359375 seconds.
+This iteration took 0.013011693954467773 seconds.
+This iteration took 0.012267112731933594 seconds.
+This iteration took 0.012549877166748047 seconds.
+This iteration took 0.012077808380126953 seconds.
+This iteration took 0.012277841567993164 seconds.
+This iteration took 0.012520313262939453 seconds.
+This iteration took 0.012336969375610352 seconds.
+This iteration took 0.0124359130859375 seconds.
+This iteration took 0.013281106948852539 seconds.
+This iteration took 0.012264728546142578 seconds.
+This iteration took 0.012810707092285156 seconds.
+This iteration took 0.012888193130493164 seconds.
+This iteration took 0.012418270111083984 seconds.
+This iteration took 0.01259756088256836 seconds.
+This iteration took 0.012308120727539062 seconds.
+This iteration took 0.012492179870605469 seconds.
+This iteration took 0.012539863586425781 seconds.
+This iteration took 0.01245570182800293 seconds.
+This iteration took 0.012762308120727539 seconds.
+This iteration took 0.012496232986450195 seconds.
+This iteration took 0.012405633926391602 seconds.
+This iteration took 0.012436628341674805 seconds.
+This iteration took 0.012571096420288086 seconds.
+This iteration took 0.012378931045532227 seconds.
+This iteration took 0.012702226638793945 seconds.
+This iteration took 0.01243734359741211 seconds.
+This iteration took 0.012659549713134766 seconds.
+This iteration took 0.012504816055297852 seconds.
+This iteration took 0.01228952407836914 seconds.
+This iteration took 0.012521743774414062 seconds.
+This iteration took 0.012483835220336914 seconds.
+This iteration took 0.012214422225952148 seconds.
+This iteration took 0.012487411499023438 seconds.
+This iteration took 0.012661933898925781 seconds.
+This iteration took 0.012393951416015625 seconds.
+This iteration took 0.012714147567749023 seconds.
+This iteration took 0.012370109558105469 seconds.
+This iteration took 0.012686014175415039 seconds.
+This iteration took 0.012511491775512695 seconds.
+This iteration took 0.012602567672729492 seconds.
+This iteration took 0.012500524520874023 seconds.
+This iteration took 0.012448787689208984 seconds.
+This iteration took 0.012210845947265625 seconds.
+This iteration took 0.012606143951416016 seconds.
+This iteration took 0.012526512145996094 seconds.
+This iteration took 0.012495994567871094 seconds.
+This iteration took 0.012909889221191406 seconds.
+This iteration took 0.012418508529663086 seconds.
+This iteration took 0.012460470199584961 seconds.
+This iteration took 0.012666463851928711 seconds.
+This iteration took 0.012379646301269531 seconds.
+This iteration took 0.012709379196166992 seconds.
+This iteration took 0.012509822845458984 seconds.
+This iteration took 0.012379646301269531 seconds.
+This iteration took 0.012670516967773438 seconds.
+This iteration took 0.012443065643310547 seconds.
+This iteration took 0.01253509521484375 seconds.
+This iteration took 0.012453794479370117 seconds.
+This iteration took 0.012461662292480469 seconds.
+This iteration took 0.012314558029174805 seconds.
+This iteration took 0.012449026107788086 seconds.
+This iteration took 0.012239456176757812 seconds.
+This iteration took 0.012625694274902344 seconds.
+This iteration took 0.012612104415893555 seconds.
+This iteration took 0.012356281280517578 seconds.
+This iteration took 0.012723922729492188 seconds.
+This iteration took 0.012378931045532227 seconds.
+This iteration took 0.012469291687011719 seconds.
+This iteration took 0.012660741806030273 seconds.
+This iteration took 0.012515544891357422 seconds.
+This iteration took 0.012351512908935547 seconds.
+This iteration took 0.012403011322021484 seconds.
+This iteration took 0.012232065200805664 seconds.
+This iteration took 0.012779951095581055 seconds.
+This iteration took 0.01265406608581543 seconds.
+This iteration took 0.012468814849853516 seconds.
+This iteration took 0.012748956680297852 seconds.
+------------iteration 600----------
+total loss 79059.59375
+main criterion 6.945574760437012
+weighted_aux_loss 79052.6484375
+loss_r_bn_feature 263.5088195800781
+This iteration took 0.013057470321655273 seconds.
+This iteration took 0.012444019317626953 seconds.
+This iteration took 0.012419700622558594 seconds.
+This iteration took 0.012579917907714844 seconds.
+This iteration took 0.012387990951538086 seconds.
+This iteration took 0.012443780899047852 seconds.
+This iteration took 0.012602806091308594 seconds.
+This iteration took 0.012432575225830078 seconds.
+This iteration took 0.012281417846679688 seconds.
+This iteration took 0.01232457160949707 seconds.
+This iteration took 0.012411355972290039 seconds.
+This iteration took 0.012540578842163086 seconds.
+This iteration took 0.012618541717529297 seconds.
+This iteration took 0.01260066032409668 seconds.
+This iteration took 0.012576580047607422 seconds.
+This iteration took 0.012327194213867188 seconds.
+This iteration took 0.012405872344970703 seconds.
+This iteration took 0.012598991394042969 seconds.
+This iteration took 0.012382030487060547 seconds.
+This iteration took 0.012222528457641602 seconds.
+This iteration took 0.012654304504394531 seconds.
+This iteration took 0.012435197830200195 seconds.
+This iteration took 0.012599945068359375 seconds.
+This iteration took 0.01258540153503418 seconds.
+This iteration took 0.01263284683227539 seconds.
+This iteration took 0.012709856033325195 seconds.
+This iteration took 0.012411355972290039 seconds.
+This iteration took 0.012493610382080078 seconds.
+This iteration took 0.01251530647277832 seconds.
+This iteration took 0.0125579833984375 seconds.
+This iteration took 0.012111902236938477 seconds.
+This iteration took 0.012432575225830078 seconds.
+This iteration took 0.012329578399658203 seconds.
+This iteration took 0.01234745979309082 seconds.
+This iteration took 0.012566089630126953 seconds.
+This iteration took 0.012586355209350586 seconds.
+This iteration took 0.012660980224609375 seconds.
+This iteration took 0.01233363151550293 seconds.
+This iteration took 0.012405157089233398 seconds.
+This iteration took 0.012701988220214844 seconds.
+This iteration took 0.012496471405029297 seconds.
+This iteration took 0.012639045715332031 seconds.
+This iteration took 0.012650251388549805 seconds.
+This iteration took 0.01237940788269043 seconds.
+This iteration took 0.012583494186401367 seconds.
+This iteration took 0.012376070022583008 seconds.
+This iteration took 0.01244974136352539 seconds.
+This iteration took 0.012506246566772461 seconds.
+This iteration took 0.012490510940551758 seconds.
+This iteration took 0.01242518424987793 seconds.
+This iteration took 0.012424707412719727 seconds.
+This iteration took 0.012757539749145508 seconds.
+This iteration took 0.01253199577331543 seconds.
+This iteration took 0.012615680694580078 seconds.
+This iteration took 0.012426376342773438 seconds.
+This iteration took 0.012532234191894531 seconds.
+This iteration took 0.012441158294677734 seconds.
+This iteration took 0.012524604797363281 seconds.
+This iteration took 0.012264013290405273 seconds.
+This iteration took 0.012465476989746094 seconds.
+This iteration took 0.0120086669921875 seconds.
+This iteration took 0.012337684631347656 seconds.
+This iteration took 0.012393474578857422 seconds.
+This iteration took 0.01247096061706543 seconds.
+This iteration took 0.012446880340576172 seconds.
+This iteration took 0.012538909912109375 seconds.
+This iteration took 0.012462139129638672 seconds.
+This iteration took 0.012458086013793945 seconds.
+This iteration took 0.012560129165649414 seconds.
+This iteration took 0.012484550476074219 seconds.
+This iteration took 0.012277603149414062 seconds.
+This iteration took 0.012030363082885742 seconds.
+This iteration took 0.012392044067382812 seconds.
+This iteration took 0.012212038040161133 seconds.
+This iteration took 0.01255345344543457 seconds.
+This iteration took 0.012531042098999023 seconds.
+This iteration took 0.012460708618164062 seconds.
+This iteration took 0.012549877166748047 seconds.
+This iteration took 0.01252889633178711 seconds.
+This iteration took 0.012368917465209961 seconds.
+This iteration took 0.01249074935913086 seconds.
+This iteration took 0.012682199478149414 seconds.
+This iteration took 0.012447595596313477 seconds.
+This iteration took 0.01239013671875 seconds.
+This iteration took 0.012198686599731445 seconds.
+This iteration took 0.012516975402832031 seconds.
+This iteration took 0.012482881546020508 seconds.
+This iteration took 0.012532949447631836 seconds.
+This iteration took 0.012429237365722656 seconds.
+This iteration took 0.01252889633178711 seconds.
+This iteration took 0.012192964553833008 seconds.
+This iteration took 0.01250910758972168 seconds.
+This iteration took 0.012242555618286133 seconds.
+This iteration took 0.012375831604003906 seconds.
+This iteration took 0.012548446655273438 seconds.
+This iteration took 0.01261758804321289 seconds.
+This iteration took 0.012579917907714844 seconds.
+This iteration took 0.012371063232421875 seconds.
+This iteration took 0.012384891510009766 seconds.
+This iteration took 0.012541770935058594 seconds.
+------------iteration 700----------
+total loss 140943.71875
+main criterion 5.099687576293945
+weighted_aux_loss 140938.625
+loss_r_bn_feature 469.7954406738281
+This iteration took 0.012978076934814453 seconds.
+This iteration took 0.012169122695922852 seconds.
+This iteration took 0.012401580810546875 seconds.
+This iteration took 0.012272119522094727 seconds.
+This iteration took 0.012335777282714844 seconds.
+This iteration took 0.012593269348144531 seconds.
+This iteration took 0.01260066032409668 seconds.
+This iteration took 0.012606143951416016 seconds.
+This iteration took 0.012637615203857422 seconds.
+This iteration took 0.012483835220336914 seconds.
+This iteration took 0.012352466583251953 seconds.
+This iteration took 0.012490987777709961 seconds.
+This iteration took 0.012166261672973633 seconds.
+This iteration took 0.012412309646606445 seconds.
+This iteration took 0.012455224990844727 seconds.
+This iteration took 0.01235198974609375 seconds.
+This iteration took 0.01257014274597168 seconds.
+This iteration took 0.012623310089111328 seconds.
+This iteration took 0.012634515762329102 seconds.
+This iteration took 0.012294769287109375 seconds.
+This iteration took 0.01240682601928711 seconds.
+This iteration took 0.012246131896972656 seconds.
+This iteration took 0.01230478286743164 seconds.
+This iteration took 0.012386322021484375 seconds.
+This iteration took 0.012544631958007812 seconds.
+This iteration took 0.01219797134399414 seconds.
+This iteration took 0.012427806854248047 seconds.
+This iteration took 0.012262105941772461 seconds.
+This iteration took 0.01224660873413086 seconds.
+This iteration took 0.012520790100097656 seconds.
+This iteration took 0.01245260238647461 seconds.
+This iteration took 0.012589454650878906 seconds.
+This iteration took 0.012507915496826172 seconds.
+This iteration took 0.01233530044555664 seconds.
+This iteration took 0.012483596801757812 seconds.
+This iteration took 0.012272357940673828 seconds.
+This iteration took 0.01294088363647461 seconds.
+This iteration took 0.013229608535766602 seconds.
+This iteration took 0.01316523551940918 seconds.
+This iteration took 0.013265371322631836 seconds.
+This iteration took 0.012573003768920898 seconds.
+This iteration took 0.012832403182983398 seconds.
+This iteration took 0.013247251510620117 seconds.
+This iteration took 0.013089656829833984 seconds.
+This iteration took 0.013176679611206055 seconds.
+This iteration took 0.01250004768371582 seconds.
+This iteration took 0.013073921203613281 seconds.
+This iteration took 0.013122797012329102 seconds.
+This iteration took 0.013100862503051758 seconds.
+This iteration took 0.012215614318847656 seconds.
+This iteration took 0.013106822967529297 seconds.
+This iteration took 0.012987852096557617 seconds.
+This iteration took 0.012501955032348633 seconds.
+This iteration took 0.012429952621459961 seconds.
+This iteration took 0.012420654296875 seconds.
+This iteration took 0.012621879577636719 seconds.
+This iteration took 0.012515068054199219 seconds.
+This iteration took 0.01230311393737793 seconds.
+This iteration took 0.012488842010498047 seconds.
+This iteration took 0.012548685073852539 seconds.
+This iteration took 0.013290882110595703 seconds.
+This iteration took 0.01288151741027832 seconds.
+This iteration took 0.012662410736083984 seconds.
+This iteration took 0.012328863143920898 seconds.
+This iteration took 0.012537002563476562 seconds.
+This iteration took 0.012627840042114258 seconds.
+This iteration took 0.01238703727722168 seconds.
+This iteration took 0.01257181167602539 seconds.
+This iteration took 0.01240682601928711 seconds.
+This iteration took 0.012309074401855469 seconds.
+This iteration took 0.012281179428100586 seconds.
+This iteration took 0.012040138244628906 seconds.
+This iteration took 0.012409687042236328 seconds.
+This iteration took 0.012713432312011719 seconds.
+This iteration took 0.012384891510009766 seconds.
+This iteration took 0.012675285339355469 seconds.
+This iteration took 0.012400388717651367 seconds.
+This iteration took 0.012487649917602539 seconds.
+This iteration took 0.012339591979980469 seconds.
+This iteration took 0.01241612434387207 seconds.
+This iteration took 0.012635231018066406 seconds.
+This iteration took 0.01266026496887207 seconds.
+This iteration took 0.012331008911132812 seconds.
+This iteration took 0.012567758560180664 seconds.
+This iteration took 0.01237034797668457 seconds.
+This iteration took 0.012396812438964844 seconds.
+This iteration took 0.012614727020263672 seconds.
+This iteration took 0.012455463409423828 seconds.
+This iteration took 0.01221323013305664 seconds.
+This iteration took 0.012354135513305664 seconds.
+This iteration took 0.012021541595458984 seconds.
+This iteration took 0.012482881546020508 seconds.
+This iteration took 0.012624979019165039 seconds.
+This iteration took 0.012421846389770508 seconds.
+This iteration took 0.013398408889770508 seconds.
+This iteration took 0.012372732162475586 seconds.
+This iteration took 0.012485265731811523 seconds.
+This iteration took 0.012574195861816406 seconds.
+This iteration took 0.012502908706665039 seconds.
+This iteration took 0.012055158615112305 seconds.
+------------iteration 800----------
+total loss 45794.8046875
+main criterion 6.884249210357666
+weighted_aux_loss 45787.921875
+loss_r_bn_feature 152.62640380859375
+This iteration took 0.012910604476928711 seconds.
+This iteration took 0.012439250946044922 seconds.
+This iteration took 0.01226949691772461 seconds.
+This iteration took 0.012651205062866211 seconds.
+This iteration took 0.012043952941894531 seconds.
+This iteration took 0.012613534927368164 seconds.
+This iteration took 0.012362003326416016 seconds.
+This iteration took 0.012413740158081055 seconds.
+This iteration took 0.012609004974365234 seconds.
+This iteration took 0.012356758117675781 seconds.
+This iteration took 0.01257634162902832 seconds.
+This iteration took 0.012360334396362305 seconds.
+This iteration took 0.012163162231445312 seconds.
+This iteration took 0.01250600814819336 seconds.
+This iteration took 0.012500524520874023 seconds.
+This iteration took 0.012436151504516602 seconds.
+This iteration took 0.012469053268432617 seconds.
+This iteration took 0.012384176254272461 seconds.
+This iteration took 0.012574911117553711 seconds.
+This iteration took 0.012083768844604492 seconds.
+This iteration took 0.012375831604003906 seconds.
+This iteration took 0.012694597244262695 seconds.
+This iteration took 0.01245260238647461 seconds.
+This iteration took 0.012595653533935547 seconds.
+This iteration took 0.012517929077148438 seconds.
+This iteration took 0.012290716171264648 seconds.
+This iteration took 0.012431144714355469 seconds.
+This iteration took 0.012534618377685547 seconds.
+This iteration took 0.012413501739501953 seconds.
+This iteration took 0.012427568435668945 seconds.
+This iteration took 0.012285709381103516 seconds.
+This iteration took 0.012372732162475586 seconds.
+This iteration took 0.012602806091308594 seconds.
+This iteration took 0.01247096061706543 seconds.
+This iteration took 0.012606382369995117 seconds.
+This iteration took 0.012513399124145508 seconds.
+This iteration took 0.012482643127441406 seconds.
+This iteration took 0.012294530868530273 seconds.
+This iteration took 0.012449979782104492 seconds.
+This iteration took 0.012576580047607422 seconds.
+This iteration took 0.01244497299194336 seconds.
+This iteration took 0.012542724609375 seconds.
+This iteration took 0.012618541717529297 seconds.
+This iteration took 0.012612342834472656 seconds.
+This iteration took 0.012535572052001953 seconds.
+This iteration took 0.01231694221496582 seconds.
+This iteration took 0.012354612350463867 seconds.
+This iteration took 0.012491464614868164 seconds.
+This iteration took 0.01252126693725586 seconds.
+This iteration took 0.012455940246582031 seconds.
+This iteration took 0.012456178665161133 seconds.
+This iteration took 0.012642383575439453 seconds.
+This iteration took 0.012342691421508789 seconds.
+This iteration took 0.012340307235717773 seconds.
+This iteration took 0.01251673698425293 seconds.
+This iteration took 0.012418985366821289 seconds.
+This iteration took 0.012565374374389648 seconds.
+This iteration took 0.011902809143066406 seconds.
+This iteration took 0.012629985809326172 seconds.
+This iteration took 0.012648582458496094 seconds.
+This iteration took 0.012502193450927734 seconds.
+This iteration took 0.0124053955078125 seconds.
+This iteration took 0.0123443603515625 seconds.
+This iteration took 0.01253366470336914 seconds.
+This iteration took 0.012398958206176758 seconds.
+This iteration took 0.012357234954833984 seconds.
+This iteration took 0.01248311996459961 seconds.
+This iteration took 0.012302875518798828 seconds.
+This iteration took 0.012443304061889648 seconds.
+This iteration took 0.012287616729736328 seconds.
+This iteration took 0.012267351150512695 seconds.
+This iteration took 0.012423038482666016 seconds.
+This iteration took 0.012346267700195312 seconds.
+This iteration took 0.012347936630249023 seconds.
+This iteration took 0.012657642364501953 seconds.
+This iteration took 0.012187719345092773 seconds.
+This iteration took 0.012357711791992188 seconds.
+This iteration took 0.012517213821411133 seconds.
+This iteration took 0.012309551239013672 seconds.
+This iteration took 0.012392044067382812 seconds.
+This iteration took 0.012476444244384766 seconds.
+This iteration took 0.012044191360473633 seconds.
+This iteration took 0.01238870620727539 seconds.
+This iteration took 0.012589454650878906 seconds.
+This iteration took 0.012315988540649414 seconds.
+This iteration took 0.011934518814086914 seconds.
+This iteration took 0.012092113494873047 seconds.
+This iteration took 0.012801885604858398 seconds.
+This iteration took 0.01241755485534668 seconds.
+This iteration took 0.011926889419555664 seconds.
+This iteration took 0.012575864791870117 seconds.
+This iteration took 0.012762784957885742 seconds.
+This iteration took 0.012642145156860352 seconds.
+This iteration took 0.01265096664428711 seconds.
+This iteration took 0.012373208999633789 seconds.
+This iteration took 0.012664079666137695 seconds.
+This iteration took 0.012362480163574219 seconds.
+This iteration took 0.012416839599609375 seconds.
+This iteration took 0.012619256973266602 seconds.
+This iteration took 0.012520551681518555 seconds.
+------------iteration 900----------
+total loss 71934.4765625
+main criterion 6.085373878479004
+weighted_aux_loss 71928.390625
+loss_r_bn_feature 239.76129150390625
+This iteration took 0.01264643669128418 seconds.
+This iteration took 0.012593269348144531 seconds.
+This iteration took 0.01250910758972168 seconds.
+This iteration took 0.012538909912109375 seconds.
+This iteration took 0.012414216995239258 seconds.
+This iteration took 0.012470722198486328 seconds.
+This iteration took 0.012360095977783203 seconds.
+This iteration took 0.012742280960083008 seconds.
+This iteration took 0.012362957000732422 seconds.
+This iteration took 0.012389659881591797 seconds.
+This iteration took 0.01267242431640625 seconds.
+This iteration took 0.012201786041259766 seconds.
+This iteration took 0.012580156326293945 seconds.
+This iteration took 0.012341022491455078 seconds.
+This iteration took 0.012146234512329102 seconds.
+This iteration took 0.012558221817016602 seconds.
+This iteration took 0.012351751327514648 seconds.
+This iteration took 0.012500286102294922 seconds.
+This iteration took 0.011911630630493164 seconds.
+This iteration took 0.01250910758972168 seconds.
+This iteration took 0.012554407119750977 seconds.
+This iteration took 0.012229442596435547 seconds.
+This iteration took 0.012336015701293945 seconds.
+This iteration took 0.012851238250732422 seconds.
+This iteration took 0.012396097183227539 seconds.
+This iteration took 0.01253962516784668 seconds.
+This iteration took 0.012359619140625 seconds.
+This iteration took 0.012560844421386719 seconds.
+This iteration took 0.012393712997436523 seconds.
+This iteration took 0.012441158294677734 seconds.
+This iteration took 0.01250457763671875 seconds.
+This iteration took 0.0124053955078125 seconds.
+This iteration took 0.01245880126953125 seconds.
+This iteration took 0.01247096061706543 seconds.
+This iteration took 0.01246953010559082 seconds.
+This iteration took 0.01232004165649414 seconds.
+This iteration took 0.01242971420288086 seconds.
+This iteration took 0.012584447860717773 seconds.
+This iteration took 0.012317180633544922 seconds.
+This iteration took 0.01284337043762207 seconds.
+This iteration took 0.012415409088134766 seconds.
+This iteration took 0.01253652572631836 seconds.
+This iteration took 0.012398242950439453 seconds.
+This iteration took 0.012560606002807617 seconds.
+This iteration took 0.012362957000732422 seconds.
+This iteration took 0.012546777725219727 seconds.
+This iteration took 0.012334823608398438 seconds.
+This iteration took 0.012545585632324219 seconds.
+This iteration took 0.012255668640136719 seconds.
+This iteration took 0.012322187423706055 seconds.
+This iteration took 0.012502908706665039 seconds.
+This iteration took 0.012241840362548828 seconds.
+This iteration took 0.012376546859741211 seconds.
+This iteration took 0.012129545211791992 seconds.
+This iteration took 0.012534856796264648 seconds.
+This iteration took 0.012624979019165039 seconds.
+This iteration took 0.012593269348144531 seconds.
+This iteration took 0.012456893920898438 seconds.
+This iteration took 0.012610673904418945 seconds.
+This iteration took 0.012461662292480469 seconds.
+This iteration took 0.012573719024658203 seconds.
+This iteration took 0.012484312057495117 seconds.
+This iteration took 0.01253819465637207 seconds.
+This iteration took 0.012620210647583008 seconds.
+This iteration took 0.012290239334106445 seconds.
+This iteration took 0.012328386306762695 seconds.
+This iteration took 0.012533187866210938 seconds.
+This iteration took 0.01241612434387207 seconds.
+This iteration took 0.012476205825805664 seconds.
+This iteration took 0.012338638305664062 seconds.
+This iteration took 0.013216972351074219 seconds.
+This iteration took 0.012938499450683594 seconds.
+This iteration took 0.012501239776611328 seconds.
+This iteration took 0.012558221817016602 seconds.
+This iteration took 0.012510299682617188 seconds.
+This iteration took 0.012547731399536133 seconds.
+This iteration took 0.012484312057495117 seconds.
+This iteration took 0.012610912322998047 seconds.
+This iteration took 0.01252126693725586 seconds.
+This iteration took 0.012265443801879883 seconds.
+This iteration took 0.012445926666259766 seconds.
+This iteration took 0.01248311996459961 seconds.
+This iteration took 0.012391090393066406 seconds.
+This iteration took 0.012555360794067383 seconds.
+This iteration took 0.012399911880493164 seconds.
+This iteration took 0.012483358383178711 seconds.
+This iteration took 0.012356996536254883 seconds.
+This iteration took 0.01273965835571289 seconds.
+This iteration took 0.012310266494750977 seconds.
+This iteration took 0.012363910675048828 seconds.
+This iteration took 0.012525320053100586 seconds.
+This iteration took 0.012371063232421875 seconds.
+This iteration took 0.012391805648803711 seconds.
+This iteration took 0.012518882751464844 seconds.
+This iteration took 0.012368202209472656 seconds.
+This iteration took 0.012419462203979492 seconds.
+This iteration took 0.012332439422607422 seconds.
+This iteration took 0.01244974136352539 seconds.
+This iteration took 0.012549877166748047 seconds.
+This iteration took 0.01250004768371582 seconds.
+------------iteration 1000----------
+total loss 49570.78515625
+main criterion 5.94240665435791
+weighted_aux_loss 49564.84375
+loss_r_bn_feature 165.2161407470703
+This iteration took 0.012841224670410156 seconds.
+This iteration took 0.012421369552612305 seconds.
+This iteration took 0.012354612350463867 seconds.
+This iteration took 0.012744426727294922 seconds.
+This iteration took 0.012300252914428711 seconds.
+This iteration took 0.012360334396362305 seconds.
+This iteration took 0.012476205825805664 seconds.
+This iteration took 0.012363433837890625 seconds.
+This iteration took 0.012459278106689453 seconds.
+This iteration took 0.012611865997314453 seconds.
+This iteration took 0.012566328048706055 seconds.
+This iteration took 0.012352705001831055 seconds.
+This iteration took 0.012478113174438477 seconds.
+This iteration took 0.012597084045410156 seconds.
+This iteration took 0.01242208480834961 seconds.
+This iteration took 0.012568473815917969 seconds.
+This iteration took 0.012398004531860352 seconds.
+This iteration took 0.012556791305541992 seconds.
+This iteration took 0.012351274490356445 seconds.
+This iteration took 0.012642621994018555 seconds.
+This iteration took 0.01233530044555664 seconds.
+This iteration took 0.012565135955810547 seconds.
+This iteration took 0.012389659881591797 seconds.
+This iteration took 0.012433290481567383 seconds.
+This iteration took 0.012612342834472656 seconds.
+This iteration took 0.012404918670654297 seconds.
+This iteration took 0.012478828430175781 seconds.
+This iteration took 0.012393712997436523 seconds.
+This iteration took 0.012524127960205078 seconds.
+This iteration took 0.012481689453125 seconds.
+This iteration took 0.012574195861816406 seconds.
+This iteration took 0.012319564819335938 seconds.
+This iteration took 0.012469053268432617 seconds.
+This iteration took 0.012315511703491211 seconds.
+This iteration took 0.012164831161499023 seconds.
+This iteration took 0.012452125549316406 seconds.
+This iteration took 0.012575626373291016 seconds.
+This iteration took 0.012540102005004883 seconds.
+This iteration took 0.012473344802856445 seconds.
+This iteration took 0.012384176254272461 seconds.
+This iteration took 0.01270151138305664 seconds.
+This iteration took 0.012531042098999023 seconds.
+This iteration took 0.012611150741577148 seconds.
+This iteration took 0.012501001358032227 seconds.
+This iteration took 0.012370586395263672 seconds.
+This iteration took 0.012156009674072266 seconds.
+This iteration took 0.012519598007202148 seconds.
+This iteration took 0.01189565658569336 seconds.
+This iteration took 0.01262044906616211 seconds.
+This iteration took 0.012573957443237305 seconds.
+This iteration took 0.012371540069580078 seconds.
+This iteration took 0.012597799301147461 seconds.
+This iteration took 0.012285232543945312 seconds.
+This iteration took 0.012430667877197266 seconds.
+This iteration took 0.012688159942626953 seconds.
+This iteration took 0.012404918670654297 seconds.
+This iteration took 0.01247715950012207 seconds.
+This iteration took 0.01232600212097168 seconds.
+This iteration took 0.012230157852172852 seconds.
+This iteration took 0.012472391128540039 seconds.
+This iteration took 0.012402534484863281 seconds.
+This iteration took 0.011931896209716797 seconds.
+This iteration took 0.01270747184753418 seconds.
+This iteration took 0.012301921844482422 seconds.
+This iteration took 0.012518644332885742 seconds.
+This iteration took 0.0125579833984375 seconds.
+This iteration took 0.012426137924194336 seconds.
+This iteration took 0.012636184692382812 seconds.
+This iteration took 0.012440681457519531 seconds.
+This iteration took 0.012234926223754883 seconds.
+This iteration took 0.012415170669555664 seconds.
+This iteration took 0.012136220932006836 seconds.
+This iteration took 0.012486696243286133 seconds.
+This iteration took 0.01236867904663086 seconds.
+This iteration took 0.012430906295776367 seconds.
+This iteration took 0.012573957443237305 seconds.
+This iteration took 0.012466669082641602 seconds.
+This iteration took 0.012237787246704102 seconds.
+This iteration took 0.012305736541748047 seconds.
+This iteration took 0.011980772018432617 seconds.
+This iteration took 0.012427806854248047 seconds.
+This iteration took 0.012666702270507812 seconds.
+This iteration took 0.012429237365722656 seconds.
+This iteration took 0.01280522346496582 seconds.
+This iteration took 0.012554168701171875 seconds.
+This iteration took 0.012325525283813477 seconds.
+This iteration took 0.012125968933105469 seconds.
+This iteration took 0.012504816055297852 seconds.
+This iteration took 0.01229238510131836 seconds.
+This iteration took 0.012349843978881836 seconds.
+This iteration took 0.012596368789672852 seconds.
+This iteration took 0.012101888656616211 seconds.
+This iteration took 0.01255035400390625 seconds.
+This iteration took 0.012524604797363281 seconds.
+This iteration took 0.012322425842285156 seconds.
+This iteration took 0.01243901252746582 seconds.
+This iteration took 0.012261152267456055 seconds.
+This iteration took 0.012464761734008789 seconds.
+This iteration took 0.012491464614868164 seconds.
+This iteration took 0.01206350326538086 seconds.
+------------iteration 1100----------
+total loss 40412.6484375
+main criterion 5.566855430603027
+weighted_aux_loss 40407.08203125
+loss_r_bn_feature 134.69027709960938
+This iteration took 0.013316154479980469 seconds.
+This iteration took 0.012715339660644531 seconds.
+This iteration took 0.012344598770141602 seconds.
+This iteration took 0.012491464614868164 seconds.
+This iteration took 0.012291431427001953 seconds.
+This iteration took 0.012162208557128906 seconds.
+This iteration took 0.012439966201782227 seconds.
+This iteration took 0.012521982192993164 seconds.
+This iteration took 0.012453317642211914 seconds.
+This iteration took 0.012720584869384766 seconds.
+This iteration took 0.012415885925292969 seconds.
+This iteration took 0.012429237365722656 seconds.
+This iteration took 0.012391328811645508 seconds.
+This iteration took 0.012448310852050781 seconds.
+This iteration took 0.012307167053222656 seconds.
+This iteration took 0.012420415878295898 seconds.
+This iteration took 0.012759208679199219 seconds.
+This iteration took 0.012845039367675781 seconds.
+This iteration took 0.012044906616210938 seconds.
+This iteration took 0.012439250946044922 seconds.
+This iteration took 0.01269674301147461 seconds.
+This iteration took 0.012495994567871094 seconds.
+This iteration took 0.01227259635925293 seconds.
+This iteration took 0.012380361557006836 seconds.
+This iteration took 0.012430667877197266 seconds.
+This iteration took 0.01237344741821289 seconds.
+This iteration took 0.012389898300170898 seconds.
+This iteration took 0.012458562850952148 seconds.
+This iteration took 0.012323379516601562 seconds.
+This iteration took 0.01213383674621582 seconds.
+This iteration took 0.012518882751464844 seconds.
+This iteration took 0.012390851974487305 seconds.
+This iteration took 0.012436389923095703 seconds.
+This iteration took 0.012746572494506836 seconds.
+This iteration took 0.012606620788574219 seconds.
+This iteration took 0.012427091598510742 seconds.
+This iteration took 0.012493371963500977 seconds.
+This iteration took 0.012248516082763672 seconds.
+This iteration took 0.012444257736206055 seconds.
+This iteration took 0.012448310852050781 seconds.
+This iteration took 0.012245655059814453 seconds.
+This iteration took 0.012452125549316406 seconds.
+This iteration took 0.01216578483581543 seconds.
+This iteration took 0.012574434280395508 seconds.
+This iteration took 0.012664556503295898 seconds.
+This iteration took 0.01231694221496582 seconds.
+This iteration took 0.012454509735107422 seconds.
+This iteration took 0.012568235397338867 seconds.
+This iteration took 0.01210474967956543 seconds.
+This iteration took 0.012436151504516602 seconds.
+This iteration took 0.012228727340698242 seconds.
+This iteration took 0.01235818862915039 seconds.
+This iteration took 0.012604475021362305 seconds.
+This iteration took 0.01256418228149414 seconds.
+This iteration took 0.012584924697875977 seconds.
+This iteration took 0.012352943420410156 seconds.
+This iteration took 0.012584209442138672 seconds.
+This iteration took 0.012383222579956055 seconds.
+This iteration took 0.012372493743896484 seconds.
+This iteration took 0.012236595153808594 seconds.
+This iteration took 0.012342691421508789 seconds.
+This iteration took 0.011976480484008789 seconds.
+This iteration took 0.012454509735107422 seconds.
+This iteration took 0.012687206268310547 seconds.
+This iteration took 0.012462854385375977 seconds.
+This iteration took 0.01270151138305664 seconds.
+This iteration took 0.012438535690307617 seconds.
+This iteration took 0.012551307678222656 seconds.
+This iteration took 0.012490510940551758 seconds.
+This iteration took 0.012517929077148438 seconds.
+This iteration took 0.012162923812866211 seconds.
+This iteration took 0.012464523315429688 seconds.
+This iteration took 0.01198434829711914 seconds.
+This iteration took 0.01263570785522461 seconds.
+This iteration took 0.012632608413696289 seconds.
+This iteration took 0.012401103973388672 seconds.
+This iteration took 0.012714624404907227 seconds.
+This iteration took 0.012257814407348633 seconds.
+This iteration took 0.012543201446533203 seconds.
+This iteration took 0.012214183807373047 seconds.
+This iteration took 0.012359619140625 seconds.
+This iteration took 0.012568473815917969 seconds.
+This iteration took 0.012349843978881836 seconds.
+This iteration took 0.012195825576782227 seconds.
+This iteration took 0.012451410293579102 seconds.
+This iteration took 0.012326478958129883 seconds.
+This iteration took 0.012380361557006836 seconds.
+This iteration took 0.01269841194152832 seconds.
+This iteration took 0.012370586395263672 seconds.
+This iteration took 0.012552976608276367 seconds.
+This iteration took 0.012417078018188477 seconds.
+This iteration took 0.01215815544128418 seconds.
+This iteration took 0.01251673698425293 seconds.
+This iteration took 0.012303829193115234 seconds.
+This iteration took 0.012428760528564453 seconds.
+This iteration took 0.012370586395263672 seconds.
+This iteration took 0.012371540069580078 seconds.
+This iteration took 0.012588024139404297 seconds.
+This iteration took 0.01238870620727539 seconds.
+This iteration took 0.012439966201782227 seconds.
+------------iteration 1200----------
+total loss 39706.734375
+main criterion 7.53684139251709
+weighted_aux_loss 39699.19921875
+loss_r_bn_feature 132.33065795898438
+This iteration took 0.012949705123901367 seconds.
+This iteration took 0.01253819465637207 seconds.
+This iteration took 0.012179851531982422 seconds.
+This iteration took 0.012466669082641602 seconds.
+This iteration took 0.012561559677124023 seconds.
+This iteration took 0.012436151504516602 seconds.
+This iteration took 0.012293100357055664 seconds.
+This iteration took 0.012399673461914062 seconds.
+This iteration took 0.012495994567871094 seconds.
+This iteration took 0.012470245361328125 seconds.
+This iteration took 0.012458086013793945 seconds.
+This iteration took 0.012053728103637695 seconds.
+This iteration took 0.012313127517700195 seconds.
+This iteration took 0.01278233528137207 seconds.
+This iteration took 0.012317180633544922 seconds.
+This iteration took 0.01248788833618164 seconds.
+This iteration took 0.012511730194091797 seconds.
+This iteration took 0.01242828369140625 seconds.
+This iteration took 0.01250910758972168 seconds.
+This iteration took 0.012441635131835938 seconds.
+This iteration took 0.012513160705566406 seconds.
+This iteration took 0.012425661087036133 seconds.
+This iteration took 0.012391328811645508 seconds.
+This iteration took 0.01246500015258789 seconds.
+This iteration took 0.01229715347290039 seconds.
+This iteration took 0.012591123580932617 seconds.
+This iteration took 0.012376546859741211 seconds.
+This iteration took 0.012506246566772461 seconds.
+This iteration took 0.012486934661865234 seconds.
+This iteration took 0.012824535369873047 seconds.
+This iteration took 0.01225900650024414 seconds.
+This iteration took 0.012558698654174805 seconds.
+This iteration took 0.012481927871704102 seconds.
+This iteration took 0.012373208999633789 seconds.
+This iteration took 0.01227259635925293 seconds.
+This iteration took 0.012027502059936523 seconds.
+This iteration took 0.012511968612670898 seconds.
+This iteration took 0.01255345344543457 seconds.
+This iteration took 0.012314319610595703 seconds.
+This iteration took 0.012737035751342773 seconds.
+This iteration took 0.012332916259765625 seconds.
+This iteration took 0.012232542037963867 seconds.
+This iteration took 0.012505292892456055 seconds.
+This iteration took 0.012235403060913086 seconds.
+This iteration took 0.012432098388671875 seconds.
+This iteration took 0.01235818862915039 seconds.
+This iteration took 0.012603759765625 seconds.
+This iteration took 0.012455463409423828 seconds.
+This iteration took 0.012331962585449219 seconds.
+This iteration took 0.012422800064086914 seconds.
+This iteration took 0.01221609115600586 seconds.
+This iteration took 0.012335538864135742 seconds.
+This iteration took 0.012507915496826172 seconds.
+This iteration took 0.012202739715576172 seconds.
+This iteration took 0.012181282043457031 seconds.
+This iteration took 0.012391090393066406 seconds.
+This iteration took 0.012293100357055664 seconds.
+This iteration took 0.012187957763671875 seconds.
+This iteration took 0.012470245361328125 seconds.
+This iteration took 0.012379884719848633 seconds.
+This iteration took 0.012389659881591797 seconds.
+This iteration took 0.012357473373413086 seconds.
+This iteration took 0.01254892349243164 seconds.
+This iteration took 0.012357234954833984 seconds.
+This iteration took 0.012181282043457031 seconds.
+This iteration took 0.012460708618164062 seconds.
+This iteration took 0.012486696243286133 seconds.
+This iteration took 0.012432575225830078 seconds.
+This iteration took 0.012416839599609375 seconds.
+This iteration took 0.012062549591064453 seconds.
+This iteration took 0.012467622756958008 seconds.
+This iteration took 0.012305736541748047 seconds.
+This iteration took 0.012330055236816406 seconds.
+This iteration took 0.012532472610473633 seconds.
+This iteration took 0.012290477752685547 seconds.
+This iteration took 0.012211322784423828 seconds.
+This iteration took 0.012492895126342773 seconds.
+This iteration took 0.012354612350463867 seconds.
+This iteration took 0.012783050537109375 seconds.
+This iteration took 0.012404680252075195 seconds.
+This iteration took 0.012411117553710938 seconds.
+This iteration took 0.012380838394165039 seconds.
+This iteration took 0.012401580810546875 seconds.
+This iteration took 0.012392282485961914 seconds.
+This iteration took 0.012444257736206055 seconds.
+This iteration took 0.01239013671875 seconds.
+This iteration took 0.012316226959228516 seconds.
+This iteration took 0.01223444938659668 seconds.
+This iteration took 0.01217508316040039 seconds.
+This iteration took 0.01244497299194336 seconds.
+This iteration took 0.012374162673950195 seconds.
+This iteration took 0.01230478286743164 seconds.
+This iteration took 0.012624263763427734 seconds.
+This iteration took 0.012334108352661133 seconds.
+This iteration took 0.012695074081420898 seconds.
+This iteration took 0.012340784072875977 seconds.
+This iteration took 0.012435436248779297 seconds.
+This iteration took 0.012481212615966797 seconds.
+This iteration took 0.012333393096923828 seconds.
+This iteration took 0.012265682220458984 seconds.
+------------iteration 1300----------
+total loss 43266.6171875
+main criterion 5.076231479644775
+weighted_aux_loss 43261.5390625
+loss_r_bn_feature 144.2051239013672
+This iteration took 0.012766122817993164 seconds.
+This iteration took 0.012518167495727539 seconds.
+This iteration took 0.012222051620483398 seconds.
+This iteration took 0.012511730194091797 seconds.
+This iteration took 0.012468576431274414 seconds.
+This iteration took 0.012243032455444336 seconds.
+This iteration took 0.012442350387573242 seconds.
+This iteration took 0.012362241744995117 seconds.
+This iteration took 0.012285470962524414 seconds.
+This iteration took 0.01263880729675293 seconds.
+This iteration took 0.012289047241210938 seconds.
+This iteration took 0.012560367584228516 seconds.
+This iteration took 0.012506246566772461 seconds.
+This iteration took 0.012489795684814453 seconds.
+This iteration took 0.012597084045410156 seconds.
+This iteration took 0.012479066848754883 seconds.
+This iteration took 0.012445449829101562 seconds.
+This iteration took 0.012376546859741211 seconds.
+This iteration took 0.012329816818237305 seconds.
+This iteration took 0.012260913848876953 seconds.
+This iteration took 0.012457847595214844 seconds.
+This iteration took 0.012495279312133789 seconds.
+This iteration took 0.012416601181030273 seconds.
+This iteration took 0.012369632720947266 seconds.
+This iteration took 0.012326478958129883 seconds.
+This iteration took 0.012294769287109375 seconds.
+This iteration took 0.012478113174438477 seconds.
+This iteration took 0.012278079986572266 seconds.
+This iteration took 0.012265205383300781 seconds.
+This iteration took 0.012596845626831055 seconds.
+This iteration took 0.012257575988769531 seconds.
+This iteration took 0.012176990509033203 seconds.
+This iteration took 0.012395858764648438 seconds.
+This iteration took 0.01263570785522461 seconds.
+This iteration took 0.012352228164672852 seconds.
+This iteration took 0.01262354850769043 seconds.
+This iteration took 0.012316465377807617 seconds.
+This iteration took 0.01258230209350586 seconds.
+This iteration took 0.01235198974609375 seconds.
+This iteration took 0.012485742568969727 seconds.
+This iteration took 0.01237797737121582 seconds.
+This iteration took 0.012398242950439453 seconds.
+This iteration took 0.012245655059814453 seconds.
+This iteration took 0.012511014938354492 seconds.
+This iteration took 0.012190580368041992 seconds.
+This iteration took 0.012386083602905273 seconds.
+This iteration took 0.012402057647705078 seconds.
+This iteration took 0.012361764907836914 seconds.
+This iteration took 0.01258087158203125 seconds.
+This iteration took 0.01233053207397461 seconds.
+This iteration took 0.012407779693603516 seconds.
+This iteration took 0.012222051620483398 seconds.
+This iteration took 0.012006282806396484 seconds.
+This iteration took 0.012317419052124023 seconds.
+This iteration took 0.012529373168945312 seconds.
+This iteration took 0.012564420700073242 seconds.
+This iteration took 0.01267242431640625 seconds.
+This iteration took 0.012371301651000977 seconds.
+This iteration took 0.012430429458618164 seconds.
+This iteration took 0.012266397476196289 seconds.
+This iteration took 0.012735843658447266 seconds.
+This iteration took 0.012511968612670898 seconds.
+This iteration took 0.012395143508911133 seconds.
+This iteration took 0.012329816818237305 seconds.
+This iteration took 0.012449979782104492 seconds.
+This iteration took 0.012710094451904297 seconds.
+This iteration took 0.012364625930786133 seconds.
+This iteration took 0.012706995010375977 seconds.
+This iteration took 0.012540102005004883 seconds.
+This iteration took 0.01248621940612793 seconds.
+This iteration took 0.01245260238647461 seconds.
+This iteration took 0.012454032897949219 seconds.
+This iteration took 0.012922286987304688 seconds.
+This iteration took 0.01229548454284668 seconds.
+This iteration took 0.012460708618164062 seconds.
+This iteration took 0.012588739395141602 seconds.
+This iteration took 0.012732505798339844 seconds.
+This iteration took 0.012286186218261719 seconds.
+This iteration took 0.012518167495727539 seconds.
+This iteration took 0.012561321258544922 seconds.
+This iteration took 0.012428760528564453 seconds.
+This iteration took 0.01274871826171875 seconds.
+This iteration took 0.01247715950012207 seconds.
+This iteration took 0.012282609939575195 seconds.
+This iteration took 0.012390613555908203 seconds.
+This iteration took 0.012133359909057617 seconds.
+This iteration took 0.012451648712158203 seconds.
+This iteration took 0.012580633163452148 seconds.
+This iteration took 0.012540578842163086 seconds.
+This iteration took 0.012618064880371094 seconds.
+This iteration took 0.012534141540527344 seconds.
+This iteration took 0.01233673095703125 seconds.
+This iteration took 0.012819528579711914 seconds.
+This iteration took 0.012451887130737305 seconds.
+This iteration took 0.012300252914428711 seconds.
+This iteration took 0.012325048446655273 seconds.
+This iteration took 0.012146472930908203 seconds.
+This iteration took 0.012637615203857422 seconds.
+This iteration took 0.01248621940612793 seconds.
+This iteration took 0.012494802474975586 seconds.
+------------iteration 1400----------
+total loss 28089.48046875
+main criterion 6.026210784912109
+weighted_aux_loss 28083.455078125
+loss_r_bn_feature 93.61151885986328
+This iteration took 0.012989282608032227 seconds.
+This iteration took 0.012376070022583008 seconds.
+This iteration took 0.012375116348266602 seconds.
+This iteration took 0.012588739395141602 seconds.
+This iteration took 0.01247406005859375 seconds.
+This iteration took 0.012552022933959961 seconds.
+This iteration took 0.012562990188598633 seconds.
+This iteration took 0.012506961822509766 seconds.
+This iteration took 0.012727022171020508 seconds.
+This iteration took 0.012388229370117188 seconds.
+This iteration took 0.012361526489257812 seconds.
+This iteration took 0.01265406608581543 seconds.
+This iteration took 0.012492895126342773 seconds.
+This iteration took 0.012552976608276367 seconds.
+This iteration took 0.01254582405090332 seconds.
+This iteration took 0.012276172637939453 seconds.
+This iteration took 0.01233220100402832 seconds.
+This iteration took 0.012582778930664062 seconds.
+This iteration took 0.012266397476196289 seconds.
+This iteration took 0.01249074935913086 seconds.
+This iteration took 0.012652397155761719 seconds.
+This iteration took 0.012418985366821289 seconds.
+This iteration took 0.012691497802734375 seconds.
+This iteration took 0.012690544128417969 seconds.
+This iteration took 0.012618780136108398 seconds.
+This iteration took 0.012658357620239258 seconds.
+This iteration took 0.012506246566772461 seconds.
+This iteration took 0.012501716613769531 seconds.
+This iteration took 0.012630462646484375 seconds.
+This iteration took 0.01232004165649414 seconds.
+This iteration took 0.012409687042236328 seconds.
+This iteration took 0.01259756088256836 seconds.
+This iteration took 0.012400627136230469 seconds.
+This iteration took 0.012584447860717773 seconds.
+This iteration took 0.01236867904663086 seconds.
+This iteration took 0.012239694595336914 seconds.
+This iteration took 0.012665510177612305 seconds.
+This iteration took 0.012565851211547852 seconds.
+This iteration took 0.012529611587524414 seconds.
+This iteration took 0.012975215911865234 seconds.
+This iteration took 0.012552738189697266 seconds.
+This iteration took 0.01262211799621582 seconds.
+This iteration took 0.012559890747070312 seconds.
+This iteration took 0.012420892715454102 seconds.
+This iteration took 0.012534856796264648 seconds.
+This iteration took 0.012583494186401367 seconds.
+This iteration took 0.01260995864868164 seconds.
+This iteration took 0.012369871139526367 seconds.
+This iteration took 0.012584209442138672 seconds.
+This iteration took 0.012372493743896484 seconds.
+This iteration took 0.012541532516479492 seconds.
+This iteration took 0.012590646743774414 seconds.
+This iteration took 0.01275324821472168 seconds.
+This iteration took 0.012316703796386719 seconds.
+This iteration took 0.012604951858520508 seconds.
+This iteration took 0.012382984161376953 seconds.
+This iteration took 0.012439250946044922 seconds.
+This iteration took 0.012814760208129883 seconds.
+This iteration took 0.012526273727416992 seconds.
+This iteration took 0.012119054794311523 seconds.
+This iteration took 0.012381553649902344 seconds.
+This iteration took 0.012657880783081055 seconds.
+This iteration took 0.012358665466308594 seconds.
+This iteration took 0.012677192687988281 seconds.
+This iteration took 0.012397050857543945 seconds.
+This iteration took 0.012796401977539062 seconds.
+This iteration took 0.012465238571166992 seconds.
+This iteration took 0.012646198272705078 seconds.
+This iteration took 0.012466907501220703 seconds.
+This iteration took 0.012451410293579102 seconds.
+This iteration took 0.012410640716552734 seconds.
+This iteration took 0.01292562484741211 seconds.
+This iteration took 0.012650489807128906 seconds.
+This iteration took 0.012440919876098633 seconds.
+This iteration took 0.012740850448608398 seconds.
+This iteration took 0.01241159439086914 seconds.
+This iteration took 0.012708425521850586 seconds.
+This iteration took 0.012665748596191406 seconds.
+This iteration took 0.012501716613769531 seconds.
+This iteration took 0.012494087219238281 seconds.
+This iteration took 0.01254892349243164 seconds.
+This iteration took 0.012588024139404297 seconds.
+This iteration took 0.01273655891418457 seconds.
+This iteration took 0.012387990951538086 seconds.
+This iteration took 0.012331485748291016 seconds.
+This iteration took 0.01286458969116211 seconds.
+This iteration took 0.01253819465637207 seconds.
+This iteration took 0.012764215469360352 seconds.
+This iteration took 0.012598752975463867 seconds.
+This iteration took 0.012581348419189453 seconds.
+This iteration took 0.012201309204101562 seconds.
+This iteration took 0.012465238571166992 seconds.
+This iteration took 0.012055397033691406 seconds.
+This iteration took 0.012686491012573242 seconds.
+This iteration took 0.012550115585327148 seconds.
+This iteration took 0.012441158294677734 seconds.
+This iteration took 0.012558698654174805 seconds.
+This iteration took 0.012659072875976562 seconds.
+This iteration took 0.012375831604003906 seconds.
+This iteration took 0.012499809265136719 seconds.
+------------iteration 1500----------
+total loss 26441.275390625
+main criterion 6.678034782409668
+weighted_aux_loss 26434.59765625
+loss_r_bn_feature 88.11532592773438
+This iteration took 0.01296854019165039 seconds.
+This iteration took 0.012382984161376953 seconds.
+This iteration took 0.012613773345947266 seconds.
+This iteration took 0.012701272964477539 seconds.
+This iteration took 0.012548685073852539 seconds.
+This iteration took 0.012576580047607422 seconds.
+This iteration took 0.012441873550415039 seconds.
+This iteration took 0.012193441390991211 seconds.
+This iteration took 0.012421607971191406 seconds.
+This iteration took 0.012559175491333008 seconds.
+This iteration took 0.012565374374389648 seconds.
+This iteration took 0.012407064437866211 seconds.
+This iteration took 0.012401580810546875 seconds.
+This iteration took 0.012819528579711914 seconds.
+This iteration took 0.012422800064086914 seconds.
+This iteration took 0.012348651885986328 seconds.
+This iteration took 0.012367486953735352 seconds.
+This iteration took 0.012667417526245117 seconds.
+This iteration took 0.012344121932983398 seconds.
+This iteration took 0.01297450065612793 seconds.
+This iteration took 0.012491464614868164 seconds.
+This iteration took 0.012404203414916992 seconds.
+This iteration took 0.013291120529174805 seconds.
+This iteration took 0.012416601181030273 seconds.
+This iteration took 0.01255178451538086 seconds.
+This iteration took 0.012524843215942383 seconds.
+This iteration took 0.01246333122253418 seconds.
+This iteration took 0.012524604797363281 seconds.
+This iteration took 0.012433528900146484 seconds.
+This iteration took 0.012448549270629883 seconds.
+This iteration took 0.01241159439086914 seconds.
+This iteration took 0.012311935424804688 seconds.
+This iteration took 0.012464523315429688 seconds.
+This iteration took 0.01247096061706543 seconds.
+This iteration took 0.012422800064086914 seconds.
+This iteration took 0.012929677963256836 seconds.
+This iteration took 0.01262354850769043 seconds.
+This iteration took 0.012526273727416992 seconds.
+This iteration took 0.01258087158203125 seconds.
+This iteration took 0.012565851211547852 seconds.
+This iteration took 0.012169361114501953 seconds.
+This iteration took 0.012374401092529297 seconds.
+This iteration took 0.012427806854248047 seconds.
+This iteration took 0.012520313262939453 seconds.
+This iteration took 0.012435674667358398 seconds.
+This iteration took 0.01370859146118164 seconds.
+This iteration took 0.012579202651977539 seconds.
+This iteration took 0.012213706970214844 seconds.
+This iteration took 0.012479305267333984 seconds.
+This iteration took 0.012382745742797852 seconds.
+This iteration took 0.012354135513305664 seconds.
+This iteration took 0.012711048126220703 seconds.
+This iteration took 0.012384891510009766 seconds.
+This iteration took 0.012497425079345703 seconds.
+This iteration took 0.012119531631469727 seconds.
+This iteration took 0.012297630310058594 seconds.
+This iteration took 0.012546777725219727 seconds.
+This iteration took 0.01240229606628418 seconds.
+This iteration took 0.01228022575378418 seconds.
+This iteration took 0.01247406005859375 seconds.
+This iteration took 0.012342453002929688 seconds.
+This iteration took 0.012467145919799805 seconds.
+This iteration took 0.012451648712158203 seconds.
+This iteration took 0.012384176254272461 seconds.
+This iteration took 0.012406110763549805 seconds.
+This iteration took 0.012742757797241211 seconds.
+This iteration took 0.012460947036743164 seconds.
+This iteration took 0.012356042861938477 seconds.
+This iteration took 0.012431859970092773 seconds.
+This iteration took 0.012613773345947266 seconds.
+This iteration took 0.012413740158081055 seconds.
+This iteration took 0.01243138313293457 seconds.
+This iteration took 0.012119293212890625 seconds.
+This iteration took 0.013898611068725586 seconds.
+This iteration took 0.012249231338500977 seconds.
+This iteration took 0.013026952743530273 seconds.
+This iteration took 0.013330459594726562 seconds.
+This iteration took 0.013290643692016602 seconds.
+This iteration took 0.012953758239746094 seconds.
+This iteration took 0.012362480163574219 seconds.
+This iteration took 0.013263463973999023 seconds.
+This iteration took 0.01332235336303711 seconds.
+This iteration took 0.013171672821044922 seconds.
+This iteration took 0.012443304061889648 seconds.
+This iteration took 0.013068437576293945 seconds.
+This iteration took 0.013104677200317383 seconds.
+This iteration took 0.013133764266967773 seconds.
+This iteration took 0.013222932815551758 seconds.
+This iteration took 0.01252436637878418 seconds.
+This iteration took 0.012800931930541992 seconds.
+This iteration took 0.012227535247802734 seconds.
+This iteration took 0.012529850006103516 seconds.
+This iteration took 0.012621879577636719 seconds.
+This iteration took 0.012532472610473633 seconds.
+This iteration took 0.01201629638671875 seconds.
+This iteration took 0.012419462203979492 seconds.
+This iteration took 0.01305842399597168 seconds.
+This iteration took 0.012451410293579102 seconds.
+This iteration took 0.012680530548095703 seconds.
+This iteration took 0.012716293334960938 seconds.
+------------iteration 1600----------
+total loss 23420.53125
+main criterion 6.7257232666015625
+weighted_aux_loss 23413.8046875
+loss_r_bn_feature 78.04601287841797
+This iteration took 0.012416362762451172 seconds.
+This iteration took 0.012520551681518555 seconds.
+This iteration took 0.01234292984008789 seconds.
+This iteration took 0.012487649917602539 seconds.
+This iteration took 0.01253819465637207 seconds.
+This iteration took 0.012559890747070312 seconds.
+This iteration took 0.01256704330444336 seconds.
+This iteration took 0.012453317642211914 seconds.
+This iteration took 0.012642860412597656 seconds.
+This iteration took 0.01251220703125 seconds.
+This iteration took 0.012280702590942383 seconds.
+This iteration took 0.0124359130859375 seconds.
+This iteration took 0.012582540512084961 seconds.
+This iteration took 0.012440919876098633 seconds.
+This iteration took 0.012902259826660156 seconds.
+This iteration took 0.01272130012512207 seconds.
+This iteration took 0.01249837875366211 seconds.
+This iteration took 0.012508869171142578 seconds.
+This iteration took 0.01242208480834961 seconds.
+This iteration took 0.012532472610473633 seconds.
+This iteration took 0.012378215789794922 seconds.
+This iteration took 0.012443304061889648 seconds.
+This iteration took 0.012559175491333008 seconds.
+This iteration took 0.01249384880065918 seconds.
+This iteration took 0.012303352355957031 seconds.
+This iteration took 0.012363910675048828 seconds.
+This iteration took 0.012447118759155273 seconds.
+This iteration took 0.012443780899047852 seconds.
+This iteration took 0.012430191040039062 seconds.
+This iteration took 0.012588024139404297 seconds.
+This iteration took 0.012416362762451172 seconds.
+This iteration took 0.012847185134887695 seconds.
+This iteration took 0.013580322265625 seconds.
+This iteration took 0.012413740158081055 seconds.
+This iteration took 0.012778520584106445 seconds.
+This iteration took 0.012427806854248047 seconds.
+This iteration took 0.012477636337280273 seconds.
+This iteration took 0.012374401092529297 seconds.
+This iteration took 0.01249384880065918 seconds.
+This iteration took 0.012417793273925781 seconds.
+This iteration took 0.012476921081542969 seconds.
+This iteration took 0.012602090835571289 seconds.
+This iteration took 0.012472867965698242 seconds.
+This iteration took 0.012632369995117188 seconds.
+This iteration took 0.012521982192993164 seconds.
+This iteration took 0.012303829193115234 seconds.
+This iteration took 0.012026548385620117 seconds.
+This iteration took 0.012724161148071289 seconds.
+This iteration took 0.012300968170166016 seconds.
+This iteration took 0.012239456176757812 seconds.
+This iteration took 0.012560606002807617 seconds.
+This iteration took 0.01239466667175293 seconds.
+This iteration took 0.012434959411621094 seconds.
+This iteration took 0.0125579833984375 seconds.
+This iteration took 0.012217044830322266 seconds.
+This iteration took 0.013171195983886719 seconds.
+This iteration took 0.012537956237792969 seconds.
+This iteration took 0.012813806533813477 seconds.
+This iteration took 0.013348579406738281 seconds.
+This iteration took 0.01317596435546875 seconds.
+This iteration took 0.01326894760131836 seconds.
+This iteration took 0.01265096664428711 seconds.
+This iteration took 0.013027667999267578 seconds.
+This iteration took 0.013209819793701172 seconds.
+This iteration took 0.013651847839355469 seconds.
+This iteration took 0.013044595718383789 seconds.
+This iteration took 0.01238250732421875 seconds.
+This iteration took 0.013140201568603516 seconds.
+This iteration took 0.012835979461669922 seconds.
+This iteration took 0.012921333312988281 seconds.
+This iteration took 0.012421607971191406 seconds.
+This iteration took 0.012688636779785156 seconds.
+This iteration took 0.012520313262939453 seconds.
+This iteration took 0.012421846389770508 seconds.
+This iteration took 0.012669086456298828 seconds.
+This iteration took 0.012860774993896484 seconds.
+This iteration took 0.012398719787597656 seconds.
+This iteration took 0.012427806854248047 seconds.
+This iteration took 0.01245880126953125 seconds.
+This iteration took 0.012329578399658203 seconds.
+This iteration took 0.012456655502319336 seconds.
+This iteration took 0.012640714645385742 seconds.
+This iteration took 0.011947154998779297 seconds.
+This iteration took 0.01264190673828125 seconds.
+This iteration took 0.013232707977294922 seconds.
+This iteration took 0.013302326202392578 seconds.
+This iteration took 0.012244701385498047 seconds.
+This iteration took 0.01303720474243164 seconds.
+This iteration took 0.013222694396972656 seconds.
+This iteration took 0.013096809387207031 seconds.
+This iteration took 0.012610673904418945 seconds.
+This iteration took 0.012281179428100586 seconds.
+This iteration took 0.01313924789428711 seconds.
+This iteration took 0.013027429580688477 seconds.
+This iteration took 0.013099908828735352 seconds.
+This iteration took 0.012548685073852539 seconds.
+This iteration took 0.013202667236328125 seconds.
+This iteration took 0.01348257064819336 seconds.
+This iteration took 0.013301372528076172 seconds.
+This iteration took 0.013093948364257812 seconds.
+------------iteration 1700----------
+total loss 23745.142578125
+main criterion 5.729145050048828
+weighted_aux_loss 23739.4140625
+loss_r_bn_feature 79.13137817382812
+This iteration took 0.013109445571899414 seconds.
+This iteration took 0.013170003890991211 seconds.
+This iteration took 0.013140201568603516 seconds.
+This iteration took 0.012884378433227539 seconds.
+This iteration took 0.012363433837890625 seconds.
+This iteration took 0.01263880729675293 seconds.
+This iteration took 0.013137102127075195 seconds.
+This iteration took 0.013093948364257812 seconds.
+This iteration took 0.013124227523803711 seconds.
+This iteration took 0.012782812118530273 seconds.
+This iteration took 0.013122081756591797 seconds.
+This iteration took 0.013338088989257812 seconds.
+This iteration took 0.013321399688720703 seconds.
+This iteration took 0.013175487518310547 seconds.
+This iteration took 0.01265859603881836 seconds.
+This iteration took 0.013246297836303711 seconds.
+This iteration took 0.013181924819946289 seconds.
+This iteration took 0.013588190078735352 seconds.
+This iteration took 0.013707876205444336 seconds.
+This iteration took 0.014740467071533203 seconds.
+This iteration took 0.015127897262573242 seconds.
+This iteration took 0.01634955406188965 seconds.
+This iteration took 0.015050888061523438 seconds.
+This iteration took 0.013646125793457031 seconds.
+This iteration took 0.01420283317565918 seconds.
+This iteration took 0.014058113098144531 seconds.
+This iteration took 0.013101577758789062 seconds.
+This iteration took 0.012925863265991211 seconds.
+This iteration took 0.013407468795776367 seconds.
+This iteration took 0.013563156127929688 seconds.
+This iteration took 0.013597726821899414 seconds.
+This iteration took 0.012769460678100586 seconds.
+This iteration took 0.012706279754638672 seconds.
+This iteration took 0.013120889663696289 seconds.
+This iteration took 0.013178110122680664 seconds.
+This iteration took 0.013318061828613281 seconds.
+This iteration took 0.012670040130615234 seconds.
+This iteration took 0.013257980346679688 seconds.
+This iteration took 0.013262271881103516 seconds.
+This iteration took 0.013240337371826172 seconds.
+This iteration took 0.01310276985168457 seconds.
+This iteration took 0.012563467025756836 seconds.
+This iteration took 0.013246297836303711 seconds.
+This iteration took 0.013236761093139648 seconds.
+This iteration took 0.013381719589233398 seconds.
+This iteration took 0.012625932693481445 seconds.
+This iteration took 0.012888908386230469 seconds.
+This iteration took 0.013182401657104492 seconds.
+This iteration took 0.013218879699707031 seconds.
+This iteration took 0.013137102127075195 seconds.
+This iteration took 0.01256108283996582 seconds.
+This iteration took 0.013077497482299805 seconds.
+This iteration took 0.013106822967529297 seconds.
+This iteration took 0.013056516647338867 seconds.
+This iteration took 0.012576580047607422 seconds.
+This iteration took 0.012634038925170898 seconds.
+This iteration took 0.01298666000366211 seconds.
+This iteration took 0.013173580169677734 seconds.
+This iteration took 0.012908220291137695 seconds.
+This iteration took 0.012558698654174805 seconds.
+This iteration took 0.013012886047363281 seconds.
+This iteration took 0.013186931610107422 seconds.
+This iteration took 0.01325225830078125 seconds.
+This iteration took 0.012501001358032227 seconds.
+This iteration took 0.012909412384033203 seconds.
+This iteration took 0.013157844543457031 seconds.
+This iteration took 0.013264894485473633 seconds.
+This iteration took 0.013101577758789062 seconds.
+This iteration took 0.012430667877197266 seconds.
+This iteration took 0.013105154037475586 seconds.
+This iteration took 0.013080358505249023 seconds.
+This iteration took 0.013181209564208984 seconds.
+This iteration took 0.012707710266113281 seconds.
+This iteration took 0.012749671936035156 seconds.
+This iteration took 0.013077259063720703 seconds.
+This iteration took 0.013117551803588867 seconds.
+This iteration took 0.013217449188232422 seconds.
+This iteration took 0.012474298477172852 seconds.
+This iteration took 0.013078451156616211 seconds.
+This iteration took 0.013105630874633789 seconds.
+This iteration took 0.013139486312866211 seconds.
+This iteration took 0.012529611587524414 seconds.
+This iteration took 0.012787818908691406 seconds.
+This iteration took 0.013099193572998047 seconds.
+This iteration took 0.013341903686523438 seconds.
+This iteration took 0.0131072998046875 seconds.
+This iteration took 0.01233983039855957 seconds.
+This iteration took 0.012967109680175781 seconds.
+This iteration took 0.013093233108520508 seconds.
+This iteration took 0.013239860534667969 seconds.
+This iteration took 0.012516260147094727 seconds.
+This iteration took 0.012964010238647461 seconds.
+This iteration took 0.013023853302001953 seconds.
+This iteration took 0.013297080993652344 seconds.
+This iteration took 0.013073921203613281 seconds.
+This iteration took 0.012460708618164062 seconds.
+This iteration took 0.013091325759887695 seconds.
+This iteration took 0.013110637664794922 seconds.
+This iteration took 0.013097763061523438 seconds.
+This iteration took 0.012568950653076172 seconds.
+------------iteration 1800----------
+total loss 36636.09375
+main criterion 4.324738502502441
+weighted_aux_loss 36631.76953125
+loss_r_bn_feature 122.10590362548828
+This iteration took 0.01389455795288086 seconds.
+This iteration took 0.013121843338012695 seconds.
+This iteration took 0.013080596923828125 seconds.
+This iteration took 0.013421297073364258 seconds.
+This iteration took 0.012427806854248047 seconds.
+This iteration took 0.012952327728271484 seconds.
+This iteration took 0.013205289840698242 seconds.
+This iteration took 0.01347661018371582 seconds.
+This iteration took 0.012853384017944336 seconds.
+This iteration took 0.012680768966674805 seconds.
+This iteration took 0.01305842399597168 seconds.
+This iteration took 0.013067483901977539 seconds.
+This iteration took 0.013402223587036133 seconds.
+This iteration took 0.012729167938232422 seconds.
+This iteration took 0.012693166732788086 seconds.
+This iteration took 0.013252019882202148 seconds.
+This iteration took 0.013183355331420898 seconds.
+This iteration took 0.013309717178344727 seconds.
+This iteration took 0.0123138427734375 seconds.
+This iteration took 0.013051271438598633 seconds.
+This iteration took 0.01313924789428711 seconds.
+This iteration took 0.01349496841430664 seconds.
+This iteration took 0.012639760971069336 seconds.
+This iteration took 0.012599468231201172 seconds.
+This iteration took 0.013176441192626953 seconds.
+This iteration took 0.013196229934692383 seconds.
+This iteration took 0.013222932815551758 seconds.
+This iteration took 0.012609481811523438 seconds.
+This iteration took 0.013027667999267578 seconds.
+This iteration took 0.013257503509521484 seconds.
+This iteration took 0.013339757919311523 seconds.
+This iteration took 0.013288259506225586 seconds.
+This iteration took 0.012441158294677734 seconds.
+This iteration took 0.01303243637084961 seconds.
+This iteration took 0.013109207153320312 seconds.
+This iteration took 0.013207674026489258 seconds.
+This iteration took 0.012657880783081055 seconds.
+This iteration took 0.013246774673461914 seconds.
+This iteration took 0.013037919998168945 seconds.
+This iteration took 0.013242959976196289 seconds.
+This iteration took 0.013338327407836914 seconds.
+This iteration took 0.012325763702392578 seconds.
+This iteration took 0.012988805770874023 seconds.
+This iteration took 0.013112306594848633 seconds.
+This iteration took 0.013542652130126953 seconds.
+This iteration took 0.012432098388671875 seconds.
+This iteration took 0.012818336486816406 seconds.
+This iteration took 0.013182640075683594 seconds.
+This iteration took 0.013275384902954102 seconds.
+This iteration took 0.013176918029785156 seconds.
+This iteration took 0.012588262557983398 seconds.
+This iteration took 0.01296377182006836 seconds.
+This iteration took 0.013145208358764648 seconds.
+This iteration took 0.01341557502746582 seconds.
+This iteration took 0.011934995651245117 seconds.
+This iteration took 0.012978553771972656 seconds.
+This iteration took 0.01320028305053711 seconds.
+This iteration took 0.013174057006835938 seconds.
+This iteration took 0.012433767318725586 seconds.
+This iteration took 0.012320995330810547 seconds.
+This iteration took 0.013214588165283203 seconds.
+This iteration took 0.01320338249206543 seconds.
+This iteration took 0.012648582458496094 seconds.
+This iteration took 0.012125253677368164 seconds.
+This iteration took 0.013001680374145508 seconds.
+This iteration took 0.013235807418823242 seconds.
+This iteration took 0.013236045837402344 seconds.
+This iteration took 0.01192927360534668 seconds.
+This iteration took 0.01282048225402832 seconds.
+This iteration took 0.013170957565307617 seconds.
+This iteration took 0.013213157653808594 seconds.
+This iteration took 0.012424707412719727 seconds.
+This iteration took 0.012408971786499023 seconds.
+This iteration took 0.013169050216674805 seconds.
+This iteration took 0.013074159622192383 seconds.
+This iteration took 0.012626409530639648 seconds.
+This iteration took 0.01214599609375 seconds.
+This iteration took 0.01310420036315918 seconds.
+This iteration took 0.013301849365234375 seconds.
+This iteration took 0.013218879699707031 seconds.
+This iteration took 0.011914491653442383 seconds.
+This iteration took 0.012897014617919922 seconds.
+This iteration took 0.013069868087768555 seconds.
+This iteration took 0.013105392456054688 seconds.
+This iteration took 0.012461423873901367 seconds.
+This iteration took 0.012370586395263672 seconds.
+This iteration took 0.013186454772949219 seconds.
+This iteration took 0.013097047805786133 seconds.
+This iteration took 0.012529850006103516 seconds.
+This iteration took 0.012381792068481445 seconds.
+This iteration took 0.013060331344604492 seconds.
+This iteration took 0.013337373733520508 seconds.
+This iteration took 0.01320338249206543 seconds.
+This iteration took 0.011889219284057617 seconds.
+This iteration took 0.013051033020019531 seconds.
+This iteration took 0.013091325759887695 seconds.
+This iteration took 0.013157367706298828 seconds.
+This iteration took 0.012451648712158203 seconds.
+This iteration took 0.01239156723022461 seconds.
+This iteration took 0.013055801391601562 seconds.
+------------iteration 1900----------
+total loss 51896.44140625
+main criterion 5.2625322341918945
+weighted_aux_loss 51891.1796875
+loss_r_bn_feature 172.97059631347656
+This iteration took 0.013380050659179688 seconds.
+This iteration took 0.012664318084716797 seconds.
+This iteration took 0.012112140655517578 seconds.
+This iteration took 0.01309514045715332 seconds.
+This iteration took 0.01324605941772461 seconds.
+This iteration took 0.013219118118286133 seconds.
+This iteration took 0.011929988861083984 seconds.
+This iteration took 0.012724161148071289 seconds.
+This iteration took 0.01301431655883789 seconds.
+This iteration took 0.013185262680053711 seconds.
+This iteration took 0.012455224990844727 seconds.
+This iteration took 0.012352943420410156 seconds.
+This iteration took 0.013049602508544922 seconds.
+This iteration took 0.01304936408996582 seconds.
+This iteration took 0.012585163116455078 seconds.
+This iteration took 0.012414932250976562 seconds.
+This iteration took 0.012997865676879883 seconds.
+This iteration took 0.013078927993774414 seconds.
+This iteration took 0.012614250183105469 seconds.
+This iteration took 0.012106657028198242 seconds.
+This iteration took 0.01319265365600586 seconds.
+This iteration took 0.01318812370300293 seconds.
+This iteration took 0.013377666473388672 seconds.
+This iteration took 0.011932611465454102 seconds.
+This iteration took 0.012656450271606445 seconds.
+This iteration took 0.013166189193725586 seconds.
+This iteration took 0.013405799865722656 seconds.
+This iteration took 0.012592315673828125 seconds.
+This iteration took 0.012377023696899414 seconds.
+This iteration took 0.013067483901977539 seconds.
+This iteration took 0.013320207595825195 seconds.
+This iteration took 0.013811826705932617 seconds.
+This iteration took 0.011898040771484375 seconds.
+This iteration took 0.012570858001708984 seconds.
+This iteration took 0.013142824172973633 seconds.
+This iteration took 0.013211250305175781 seconds.
+This iteration took 0.012499332427978516 seconds.
+This iteration took 0.012482643127441406 seconds.
+This iteration took 0.013031959533691406 seconds.
+This iteration took 0.013097524642944336 seconds.
+This iteration took 0.013206720352172852 seconds.
+This iteration took 0.012088298797607422 seconds.
+This iteration took 0.013111352920532227 seconds.
+This iteration took 0.01317286491394043 seconds.
+This iteration took 0.013085365295410156 seconds.
+This iteration took 0.01190185546875 seconds.
+This iteration took 0.012646913528442383 seconds.
+This iteration took 0.013255119323730469 seconds.
+This iteration took 0.013155221939086914 seconds.
+This iteration took 0.012558937072753906 seconds.
+This iteration took 0.012468576431274414 seconds.
+This iteration took 0.013070344924926758 seconds.
+This iteration took 0.013138294219970703 seconds.
+This iteration took 0.012678861618041992 seconds.
+This iteration took 0.012132644653320312 seconds.
+This iteration took 0.013141870498657227 seconds.
+This iteration took 0.013238191604614258 seconds.
+This iteration took 0.01327371597290039 seconds.
+This iteration took 0.011920690536499023 seconds.
+This iteration took 0.012583494186401367 seconds.
+This iteration took 0.013078927993774414 seconds.
+This iteration took 0.013216495513916016 seconds.
+This iteration took 0.012533903121948242 seconds.
+This iteration took 0.012384891510009766 seconds.
+This iteration took 0.013163089752197266 seconds.
+This iteration took 0.013105154037475586 seconds.
+This iteration took 0.012588977813720703 seconds.
+This iteration took 0.0121002197265625 seconds.
+This iteration took 0.013073205947875977 seconds.
+This iteration took 0.013320446014404297 seconds.
+This iteration took 0.013228654861450195 seconds.
+This iteration took 0.011994361877441406 seconds.
+This iteration took 0.012893438339233398 seconds.
+This iteration took 0.015325784683227539 seconds.
+This iteration took 0.015426397323608398 seconds.
+This iteration took 0.015722036361694336 seconds.
+This iteration took 0.014345884323120117 seconds.
+This iteration took 0.013148069381713867 seconds.
+This iteration took 0.011932849884033203 seconds.
+This iteration took 0.011962175369262695 seconds.
+This iteration took 0.011959552764892578 seconds.
+This iteration took 0.012000083923339844 seconds.
+This iteration took 0.011896133422851562 seconds.
+This iteration took 0.011965274810791016 seconds.
+This iteration took 0.012002706527709961 seconds.
+This iteration took 0.01197504997253418 seconds.
+This iteration took 0.01202392578125 seconds.
+This iteration took 0.012073755264282227 seconds.
+This iteration took 0.01200246810913086 seconds.
+This iteration took 0.012005090713500977 seconds.
+This iteration took 0.012340307235717773 seconds.
+This iteration took 0.012813806533813477 seconds.
+This iteration took 0.012343406677246094 seconds.
+This iteration took 0.011968135833740234 seconds.
+This iteration took 0.011981725692749023 seconds.
+This iteration took 0.011956453323364258 seconds.
+This iteration took 0.011945962905883789 seconds.
+This iteration took 0.01207876205444336 seconds.
+This iteration took 0.013178110122680664 seconds.
+This iteration took 0.012606620788574219 seconds.
+Peak GPU Memory Usage: 0.5003571510314941 GB
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/imagenette/z15
+  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:01<07:14,  1.45s/it]  1%|          | 2/300 [00:01<03:53,  1.27it/s]  1%|          | 3/300 [00:02<02:48,  1.77it/s]  1%|▏         | 4/300 [00:02<02:17,  2.15it/s]  2%|▏         | 5/300 [00:02<02:02,  2.42it/s]  2%|▏         | 6/300 [00:03<01:51,  2.64it/s]  2%|▏         | 7/300 [00:03<01:44,  2.81it/s]  3%|▎         | 8/300 [00:03<01:39,  2.92it/s]  3%|▎         | 9/300 [00:03<01:37,  2.98it/s]  3%|▎         | 10/300 [00:04<01:35,  3.02it/s]  4%|▎         | 11/300 [00:04<01:34,  3.06it/s]  4%|▍         | 12/300 [00:04<01:32,  3.11it/s]  4%|▍         | 13/300 [00:05<01:31,  3.15it/s]  5%|▍         | 14/300 [00:05<01:30,  3.16it/s]  5%|▌         | 15/300 [00:05<01:30,  3.16it/s]  5%|▌         | 16/300 [00:06<01:29,  3.18it/s]  6%|▌         | 17/300 [00:06<01:28,  3.18it/s]  6%|▌         | 18/300 [00:06<01:27,  3.21it/s]  6%|▋         | 19/300 [00:07<01:27,  3.22it/s]  7%|▋         | 20/300 [00:07<01:26,  3.25it/s]  7%|▋         | 21/300 [00:07<01:25,  3.27it/s]  7%|▋         | 22/300 [00:08<01:25,  3.25it/s]  8%|▊         | 23/300 [00:08<01:24,  3.26it/s]  8%|▊         | 24/300 [00:08<01:24,  3.26it/s]  8%|▊         | 25/300 [00:08<01:24,  3.27it/s]  9%|▊         | 26/300 [00:09<01:23,  3.27it/s]  9%|▉         | 27/300 [00:09<01:23,  3.26it/s]  9%|▉         | 28/300 [00:09<01:23,  3.28it/s] 10%|▉         | 29/300 [00:10<01:23,  3.25it/s] 10%|█         | 30/300 [00:10<01:23,  3.24it/s] 10%|█         | 31/300 [00:10<01:23,  3.22it/s] 11%|█         | 32/300 [00:11<01:23,  3.21it/s] 11%|█         | 33/300 [00:11<01:23,  3.19it/s] 11%|█▏        | 34/300 [00:11<01:23,  3.19it/s] 12%|█▏        | 35/300 [00:12<01:22,  3.20it/s] 12%|█▏        | 36/300 [00:12<01:22,  3.20it/s] 12%|█▏        | 37/300 [00:12<01:22,  3.18it/s] 13%|█▎        | 38/300 [00:12<01:21,  3.20it/s] 13%|█▎        | 39/300 [00:13<01:21,  3.20it/s] 13%|█▎        | 40/300 [00:13<01:21,  3.19it/s] 14%|█▎        | 41/300 [00:13<01:20,  3.21it/s] 14%|█▍        | 42/300 [00:14<01:20,  3.21it/s] 14%|█▍        | 43/300 [00:14<01:20,  3.19it/s] 15%|█▍        | 44/300 [00:14<01:20,  3.19it/s] 15%|█▌        | 45/300 [00:15<01:20,  3.17it/s] 15%|█▌        | 46/300 [00:15<01:19,  3.19it/s] 16%|█▌        | 47/300 [00:15<01:19,  3.19it/s] 16%|█▌        | 48/300 [00:16<01:18,  3.19it/s] 16%|█▋        | 49/300 [00:16<01:19,  3.17it/s] 17%|█▋        | 50/300 [00:16<01:19,  3.16it/s] 17%|█▋        | 51/300 [00:17<01:18,  3.18it/s] 17%|█▋        | 52/300 [00:17<01:17,  3.18it/s] 18%|█▊        | 53/300 [00:17<01:17,  3.17it/s] 18%|█▊        | 54/300 [00:17<01:17,  3.17it/s] 18%|█▊        | 55/300 [00:18<01:16,  3.19it/s] 19%|█▊        | 56/300 [00:18<01:16,  3.17it/s] 19%|█▉        | 57/300 [00:18<01:16,  3.19it/s] 19%|█▉        | 58/300 [00:19<01:16,  3.18it/s] 20%|█▉        | 59/300 [00:19<01:15,  3.19it/s] 20%|██        | 60/300 [00:19<01:14,  3.21it/s] 20%|██        | 61/300 [00:20<01:14,  3.20it/s] 21%|██        | 62/300 [00:20<01:13,  3.24it/s] 21%|██        | 63/300 [00:20<01:13,  3.22it/s] 21%|██▏       | 64/300 [00:21<01:13,  3.23it/s] 22%|██▏       | 65/300 [00:21<01:12,  3.24it/s] 22%|██▏       | 66/300 [00:21<01:12,  3.24it/s] 22%|██▏       | 67/300 [00:22<01:11,  3.27it/s] 23%|██▎       | 68/300 [00:22<01:13,  3.17it/s] 23%|██▎       | 69/300 [00:22<01:13,  3.13it/s] 23%|██▎       | 70/300 [00:23<01:12,  3.16it/s] 24%|██▎       | 71/300 [00:23<01:11,  3.18it/s] 24%|██▍       | 72/300 [00:23<01:11,  3.19it/s] 24%|██▍       | 73/300 [00:23<01:11,  3.17it/s] 25%|██▍       | 74/300 [00:24<01:11,  3.17it/s] 25%|██▌       | 75/300 [00:24<01:10,  3.17it/s] 25%|██▌       | 76/300 [00:24<01:10,  3.16it/s] 26%|██▌       | 77/300 [00:25<01:10,  3.14it/s] 26%|██▌       | 78/300 [00:25<01:10,  3.15it/s] 26%|██▋       | 79/300 [00:25<01:09,  3.16it/s] 27%|██▋       | 80/300 [00:26<01:09,  3.14it/s] 27%|██▋       | 81/300 [00:26<01:09,  3.16it/s] 27%|██▋       | 82/300 [00:26<01:09,  3.15it/s] 28%|██▊       | 83/300 [00:27<01:08,  3.16it/s] 28%|██▊       | 84/300 [00:27<01:08,  3.16it/s] 28%|██▊       | 85/300 [00:27<01:08,  3.12it/s] 29%|██▊       | 86/300 [00:28<01:08,  3.15it/s] 29%|██▉       | 87/300 [00:28<01:07,  3.17it/s] 29%|██▉       | 88/300 [00:28<01:06,  3.19it/s] 30%|██▉       | 89/300 [00:28<01:05,  3.23it/s] 30%|███       | 90/300 [00:29<01:04,  3.24it/s] 30%|███       | 91/300 [00:29<01:04,  3.25it/s] 31%|███       | 92/300 [00:29<01:04,  3.24it/s] 31%|███       | 93/300 [00:30<01:04,  3.23it/s] 31%|███▏      | 94/300 [00:30<01:03,  3.23it/s] 32%|███▏      | 95/300 [00:30<01:04,  3.20it/s] 32%|███▏      | 96/300 [00:31<01:03,  3.22it/s] 32%|███▏      | 97/300 [00:31<01:02,  3.25it/s] 33%|███▎      | 98/300 [00:31<01:02,  3.25it/s] 33%|███▎      | 99/300 [00:32<01:01,  3.25it/s] 33%|███▎      | 100/300 [00:32<01:01,  3.25it/s] 34%|███▎      | 101/300 [00:32<01:01,  3.25it/s] 34%|███▍      | 102/300 [00:32<01:00,  3.25it/s] 34%|███▍      | 103/300 [00:33<01:00,  3.26it/s] 35%|███▍      | 104/300 [00:33<01:00,  3.24it/s] 35%|███▌      | 105/300 [00:33<01:00,  3.24it/s] 35%|███▌      | 106/300 [00:34<00:59,  3.26it/s] 36%|███▌      | 107/300 [00:34<00:59,  3.24it/s] 36%|███▌      | 108/300 [00:34<01:00,  3.15it/s] 36%|███▋      | 109/300 [00:35<01:00,  3.15it/s] 37%|███▋      | 110/300 [00:35<00:59,  3.18it/s] 37%|███▋      | 111/300 [00:35<00:59,  3.19it/s] 37%|███▋      | 112/300 [00:36<00:59,  3.18it/s] 38%|███▊      | 113/300 [00:36<00:59,  3.17it/s] 38%|███▊      | 114/300 [00:36<00:59,  3.10it/s] 38%|███▊      | 115/300 [00:37<00:58,  3.14it/s] 39%|███▊      | 116/300 [00:37<00:58,  3.13it/s] 39%|███▉      | 117/300 [00:37<00:58,  3.11it/s] 39%|███▉      | 118/300 [00:38<00:58,  3.12it/s] 40%|███▉      | 119/300 [00:38<00:58,  3.10it/s] 40%|████      | 120/300 [00:38<00:57,  3.10it/s] 40%|████      | 121/300 [00:39<00:58,  3.08it/s] 41%|████      | 122/300 [00:39<00:57,  3.09it/s] 41%|████      | 123/300 [00:39<00:57,  3.08it/s] 41%|████▏     | 124/300 [00:40<00:56,  3.10it/s] 42%|████▏     | 125/300 [00:40<00:56,  3.10it/s] 42%|████▏     | 126/300 [00:40<00:55,  3.11it/s] 42%|████▏     | 127/300 [00:40<00:55,  3.12it/s] 43%|████▎     | 128/300 [00:41<00:54,  3.14it/s] 43%|████▎     | 129/300 [00:41<00:54,  3.13it/s] 43%|████▎     | 130/300 [00:41<00:53,  3.15it/s] 44%|████▎     | 131/300 [00:42<00:53,  3.15it/s] 44%|████▍     | 132/300 [00:42<00:53,  3.12it/s] 44%|████▍     | 133/300 [00:42<00:56,  2.94it/s] 45%|████▍     | 134/300 [00:43<00:56,  2.95it/s] 45%|████▌     | 135/300 [00:43<00:54,  3.04it/s] 45%|████▌     | 136/300 [00:43<00:52,  3.10it/s] 46%|████▌     | 137/300 [00:44<00:51,  3.14it/s] 46%|████▌     | 138/300 [00:44<00:51,  3.15it/s] 46%|████▋     | 139/300 [00:44<00:51,  3.15it/s] 47%|████▋     | 140/300 [00:45<00:50,  3.16it/s] 47%|████▋     | 141/300 [00:45<00:50,  3.17it/s] 47%|████▋     | 142/300 [00:45<00:49,  3.16it/s] 48%|████▊     | 143/300 [00:46<00:49,  3.16it/s] 48%|████▊     | 144/300 [00:46<00:48,  3.20it/s] 48%|████▊     | 145/300 [00:46<00:48,  3.20it/s] 49%|████▊     | 146/300 [00:47<00:47,  3.23it/s] 49%|████▉     | 147/300 [00:47<00:47,  3.24it/s] 49%|████▉     | 148/300 [00:47<00:46,  3.25it/s] 50%|████▉     | 149/300 [00:47<00:46,  3.24it/s] 50%|█████     | 150/300 [00:48<00:46,  3.21it/s] 50%|█████     | 151/300 [00:48<00:45,  3.25it/s] 51%|█████     | 152/300 [00:48<00:45,  3.23it/s] 51%|█████     | 153/300 [00:49<00:45,  3.23it/s] 51%|█████▏    | 154/300 [00:49<00:44,  3.25it/s] 52%|█████▏    | 155/300 [00:49<00:45,  3.21it/s] 52%|█████▏    | 156/300 [00:50<00:44,  3.22it/s] 52%|█████▏    | 157/300 [00:50<00:44,  3.24it/s] 53%|█████▎    | 158/300 [00:50<00:43,  3.23it/s] 53%|█████▎    | 159/300 [00:51<00:43,  3.24it/s] 53%|█████▎    | 160/300 [00:51<00:43,  3.23it/s] 54%|█████▎    | 161/300 [00:51<00:42,  3.24it/s] 54%|█████▍    | 162/300 [00:51<00:42,  3.24it/s] 54%|█████▍    | 163/300 [00:52<00:42,  3.23it/s] 55%|█████▍    | 164/300 [00:52<00:42,  3.24it/s] 55%|█████▌    | 165/300 [00:52<00:41,  3.28it/s] 55%|█████▌    | 166/300 [00:53<00:40,  3.28it/s] 56%|█████▌    | 167/300 [00:53<00:40,  3.29it/s] 56%|█████▌    | 168/300 [00:53<00:40,  3.28it/s] 56%|█████▋    | 169/300 [00:54<00:40,  3.27it/s] 57%|█████▋    | 170/300 [00:54<00:39,  3.27it/s] 57%|█████▋    | 171/300 [00:54<00:39,  3.24it/s] 57%|█████▋    | 172/300 [00:55<00:39,  3.26it/s] 58%|█████▊    | 173/300 [00:55<00:38,  3.26it/s] 58%|█████▊    | 174/300 [00:55<00:38,  3.26it/s] 58%|█████▊    | 175/300 [00:55<00:38,  3.25it/s] 59%|█████▊    | 176/300 [00:56<00:38,  3.25it/s] 59%|█████▉    | 177/300 [00:56<00:37,  3.24it/s] 59%|█████▉    | 178/300 [00:56<00:37,  3.26it/s] 60%|█████▉    | 179/300 [00:57<00:37,  3.24it/s] 60%|██████    | 180/300 [00:57<00:36,  3.26it/s] 60%|██████    | 181/300 [00:57<00:36,  3.24it/s] 61%|██████    | 182/300 [00:58<00:36,  3.26it/s] 61%|██████    | 183/300 [00:58<00:35,  3.26it/s] 61%|██████▏   | 184/300 [00:58<00:35,  3.26it/s] 62%|██████▏   | 185/300 [00:59<00:35,  3.26it/s] 62%|██████▏   | 186/300 [00:59<00:35,  3.25it/s] 62%|██████▏   | 187/300 [00:59<00:34,  3.25it/s] 63%|██████▎   | 188/300 [00:59<00:34,  3.25it/s] 63%|██████▎   | 189/300 [01:00<00:34,  3.24it/s] 63%|██████▎   | 190/300 [01:00<00:33,  3.25it/s] 64%|██████▎   | 191/300 [01:00<00:33,  3.27it/s] 64%|██████▍   | 192/300 [01:01<00:32,  3.28it/s] 64%|██████▍   | 193/300 [01:01<00:32,  3.25it/s] 65%|██████▍   | 194/300 [01:01<00:32,  3.23it/s] 65%|██████▌   | 195/300 [01:02<00:33,  3.17it/s] 65%|██████▌   | 196/300 [01:02<00:33,  3.10it/s] 66%|██████▌   | 197/300 [01:02<00:32,  3.13it/s] 66%|██████▌   | 198/300 [01:03<00:32,  3.11it/s] 66%|██████▋   | 199/300 [01:03<00:32,  3.15it/s] 67%|██████▋   | 200/300 [01:03<00:31,  3.19it/s] 67%|██████▋   | 201/300 [01:04<00:30,  3.21it/s] 67%|██████▋   | 202/300 [01:04<00:30,  3.21it/s] 68%|██████▊   | 203/300 [01:04<00:30,  3.13it/s] 68%|██████▊   | 204/300 [01:04<00:30,  3.15it/s] 68%|██████▊   | 205/300 [01:05<00:29,  3.18it/s] 69%|██████▊   | 206/300 [01:05<00:29,  3.19it/s] 69%|██████▉   | 207/300 [01:05<00:30,  3.04it/s] 69%|██████▉   | 208/300 [01:06<00:31,  2.95it/s] 70%|██████▉   | 209/300 [01:06<00:30,  3.01it/s] 70%|███████   | 210/300 [01:06<00:29,  3.04it/s] 70%|███████   | 211/300 [01:07<00:29,  3.06it/s] 71%|███████   | 212/300 [01:07<00:28,  3.09it/s] 71%|███████   | 213/300 [01:07<00:29,  3.00it/s] 71%|███████▏  | 214/300 [01:08<00:28,  3.05it/s] 72%|███████▏  | 215/300 [01:08<00:27,  3.06it/s] 72%|███████▏  | 216/300 [01:08<00:27,  3.08it/s] 72%|███████▏  | 217/300 [01:09<00:27,  3.04it/s] 73%|███████▎  | 218/300 [01:09<00:26,  3.05it/s] 73%|███████▎  | 219/300 [01:09<00:26,  3.09it/s] 73%|███████▎  | 220/300 [01:10<00:25,  3.12it/s] 74%|███████▎  | 221/300 [01:10<00:25,  3.12it/s] 74%|███████▍  | 222/300 [01:10<00:24,  3.16it/s] 74%|███████▍  | 223/300 [01:11<00:24,  3.17it/s] 75%|███████▍  | 224/300 [01:11<00:23,  3.19it/s] 75%|███████▌  | 225/300 [01:11<00:23,  3.19it/s] 75%|███████▌  | 226/300 [01:12<00:23,  3.19it/s] 76%|███████▌  | 227/300 [01:12<00:22,  3.18it/s] 76%|███████▌  | 228/300 [01:12<00:22,  3.18it/s] 76%|███████▋  | 229/300 [01:13<00:22,  3.17it/s] 77%|███████▋  | 230/300 [01:13<00:21,  3.18it/s] 77%|███████▋  | 231/300 [01:13<00:21,  3.21it/s] 77%|███████▋  | 232/300 [01:13<00:21,  3.23it/s] 78%|███████▊  | 233/300 [01:14<00:20,  3.25it/s] 78%|███████▊  | 234/300 [01:14<00:20,  3.26it/s] 78%|███████▊  | 235/300 [01:14<00:19,  3.26it/s] 79%|███████▊  | 236/300 [01:15<00:19,  3.26it/s] 79%|███████▉  | 237/300 [01:15<00:19,  3.27it/s] 79%|███████▉  | 238/300 [01:15<00:18,  3.29it/s] 80%|███████▉  | 239/300 [01:16<00:18,  3.27it/s] 80%|████████  | 240/300 [01:16<00:18,  3.26it/s] 80%|████████  | 241/300 [01:16<00:18,  3.26it/s] 81%|████████  | 242/300 [01:17<00:17,  3.25it/s] 81%|████████  | 243/300 [01:17<00:17,  3.26it/s] 81%|████████▏ | 244/300 [01:17<00:17,  3.25it/s] 82%|████████▏ | 245/300 [01:17<00:16,  3.25it/s] 82%|████████▏ | 246/300 [01:18<00:16,  3.24it/s] 82%|████████▏ | 247/300 [01:18<00:16,  3.24it/s] 83%|████████▎ | 248/300 [01:18<00:15,  3.27it/s] 83%|████████▎ | 249/300 [01:19<00:15,  3.27it/s] 83%|████████▎ | 250/300 [01:19<00:15,  3.29it/s] 84%|████████▎ | 251/300 [01:19<00:14,  3.28it/s] 84%|████████▍ | 252/300 [01:20<00:14,  3.28it/s] 84%|████████▍ | 253/300 [01:20<00:14,  3.28it/s] 85%|████████▍ | 254/300 [01:20<00:13,  3.29it/s] 85%|████████▌ | 255/300 [01:20<00:13,  3.29it/s] 85%|████████▌ | 256/300 [01:21<00:13,  3.27it/s] 86%|████████▌ | 257/300 [01:21<00:13,  3.28it/s] 86%|████████▌ | 258/300 [01:21<00:12,  3.28it/s] 86%|████████▋ | 259/300 [01:22<00:12,  3.28it/s] 87%|████████▋ | 260/300 [01:22<00:12,  3.27it/s] 87%|████████▋ | 261/300 [01:22<00:11,  3.27it/s] 87%|████████▋ | 262/300 [01:23<00:11,  3.27it/s] 88%|████████▊ | 263/300 [01:23<00:11,  3.27it/s] 88%|████████▊ | 264/300 [01:23<00:11,  3.24it/s] 88%|████████▊ | 265/300 [01:24<00:10,  3.23it/s] 89%|████████▊ | 266/300 [01:24<00:10,  3.20it/s] 89%|████████▉ | 267/300 [01:24<00:10,  3.17it/s] 89%|████████▉ | 268/300 [01:25<00:10,  3.19it/s] 90%|████████▉ | 269/300 [01:25<00:09,  3.20it/s] 90%|█████████ | 270/300 [01:25<00:09,  3.22it/s] 90%|█████████ | 271/300 [01:25<00:09,  3.21it/s] 91%|█████████ | 272/300 [01:26<00:08,  3.21it/s] 91%|█████████ | 273/300 [01:26<00:08,  3.21it/s] 91%|█████████▏| 274/300 [01:26<00:08,  3.22it/s] 92%|█████████▏| 275/300 [01:27<00:07,  3.21it/s] 92%|█████████▏| 276/300 [01:27<00:07,  3.21it/s] 92%|█████████▏| 277/300 [01:27<00:07,  3.22it/s] 93%|█████████▎| 278/300 [01:28<00:06,  3.21it/s] 93%|█████████▎| 279/300 [01:28<00:06,  3.24it/s] 93%|█████████▎| 280/300 [01:28<00:06,  3.20it/s] 94%|█████████▎| 281/300 [01:29<00:05,  3.22it/s] 94%|█████████▍| 282/300 [01:29<00:05,  3.20it/s] 94%|█████████▍| 283/300 [01:29<00:05,  3.21it/s] 95%|█████████▍| 284/300 [01:29<00:04,  3.22it/s] 95%|█████████▌| 285/300 [01:30<00:04,  3.09it/s] 95%|█████████▌| 286/300 [01:30<00:04,  3.12it/s] 96%|█████████▌| 287/300 [01:31<00:04,  3.01it/s] 96%|█████████▌| 288/300 [01:31<00:03,  3.06it/s] 96%|█████████▋| 289/300 [01:31<00:03,  3.08it/s] 97%|█████████▋| 290/300 [01:31<00:03,  3.07it/s] 97%|█████████▋| 291/300 [01:32<00:02,  3.04it/s] 97%|█████████▋| 292/300 [01:32<00:02,  3.09it/s] 98%|█████████▊| 293/300 [01:32<00:02,  3.10it/s] 98%|█████████▊| 294/300 [01:33<00:01,  3.13it/s] 98%|█████████▊| 295/300 [01:33<00:01,  3.13it/s] 99%|█████████▊| 296/300 [01:33<00:01,  3.16it/s] 99%|█████████▉| 297/300 [01:34<00:00,  3.17it/s] 99%|█████████▉| 298/300 [01:34<00:00,  3.18it/s]100%|█████████▉| 299/300 [01:34<00:00,  3.21it/s]100%|██████████| 300/300 [01:35<00:00,  3.21it/s]100%|██████████| 300/300 [01:35<00:00,  3.15it/s]
+Duration: 127 seconds and 203923159 nanoseconds.
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/imagenette/z15/
+num img: 10
+batch size: 10
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'resnet18'
+TRAIN Iter 0: lr = 0.001000,	loss = 0.012672,	Top-1 acc = 10.000000,	Top-5 acc = 60.000000,	train_time = 3.162109
+TEST Iter 0: loss = 4.510085,	Top-1 acc = 9.834395,	Top-5 acc = 49.324841,	val_time = 16.743857
+TRAIN Iter 10: lr = 0.000997,	loss = 0.007854,	Top-1 acc = 20.000000,	Top-5 acc = 50.000000,	train_time = 2.221984
+TEST Iter 10: loss = 38.124703,	Top-1 acc = 9.961783,	Top-5 acc = 50.216561,	val_time = 16.390309
+TRAIN Iter 20: lr = 0.000989,	loss = 0.008572,	Top-1 acc = 10.000000,	Top-5 acc = 60.000000,	train_time = 2.268426
+TEST Iter 20: loss = 56.349958,	Top-1 acc = 10.420382,	Top-5 acc = 50.675159,	val_time = 16.597792
+TRAIN Iter 30: lr = 0.000976,	loss = 0.006997,	Top-1 acc = 20.000000,	Top-5 acc = 30.000000,	train_time = 2.190555
+TEST Iter 30: loss = 34.461408,	Top-1 acc = 10.318471,	Top-5 acc = 52.535032,	val_time = 16.541230
+TRAIN Iter 40: lr = 0.000957,	loss = 0.011296,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 2.292745
+TEST Iter 40: loss = 23.804825,	Top-1 acc = 11.592357,	Top-5 acc = 54.598726,	val_time = 16.764279
+TRAIN Iter 50: lr = 0.000933,	loss = 0.005022,	Top-1 acc = 10.000000,	Top-5 acc = 60.000000,	train_time = 2.230880
+TEST Iter 50: loss = 4.213376,	Top-1 acc = 14.802548,	Top-5 acc = 63.108280,	val_time = 16.653659
+TRAIN Iter 60: lr = 0.000905,	loss = 0.006744,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 2.321327
+TEST Iter 60: loss = 3.934420,	Top-1 acc = 17.019108,	Top-5 acc = 65.222930,	val_time = 16.655624
+TRAIN Iter 70: lr = 0.000872,	loss = 0.006477,	Top-1 acc = 20.000000,	Top-5 acc = 50.000000,	train_time = 2.322030
+TEST Iter 70: loss = 12.415959,	Top-1 acc = 13.834395,	Top-5 acc = 58.777070,	val_time = 17.042934
+TRAIN Iter 80: lr = 0.000835,	loss = 0.007270,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 2.229733
+TEST Iter 80: loss = 4.840485,	Top-1 acc = 13.044586,	Top-5 acc = 62.267516,	val_time = 16.624229
+TRAIN Iter 90: lr = 0.000794,	loss = 0.005734,	Top-1 acc = 20.000000,	Top-5 acc = 70.000000,	train_time = 2.224518
+TEST Iter 90: loss = 4.082007,	Top-1 acc = 14.853503,	Top-5 acc = 59.617834,	val_time = 16.278738
+TRAIN Iter 100: lr = 0.000750,	loss = 0.003937,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 2.237785
+TEST Iter 100: loss = 3.746502,	Top-1 acc = 16.509554,	Top-5 acc = 62.802548,	val_time = 17.501719
+TRAIN Iter 110: lr = 0.000703,	loss = 0.006431,	Top-1 acc = 30.000000,	Top-5 acc = 40.000000,	train_time = 2.759240
+TEST Iter 110: loss = 4.238709,	Top-1 acc = 15.464968,	Top-5 acc = 63.821656,	val_time = 17.154304
+TRAIN Iter 120: lr = 0.000655,	loss = 0.004003,	Top-1 acc = 10.000000,	Top-5 acc = 70.000000,	train_time = 2.289914
+TEST Iter 120: loss = 3.555178,	Top-1 acc = 15.745223,	Top-5 acc = 65.834395,	val_time = 16.773050
+TRAIN Iter 130: lr = 0.000604,	loss = 0.003339,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 2.266572
+TEST Iter 130: loss = 3.991144,	Top-1 acc = 16.458599,	Top-5 acc = 64.280255,	val_time = 16.560936
+TRAIN Iter 140: lr = 0.000552,	loss = 0.004537,	Top-1 acc = 30.000000,	Top-5 acc = 50.000000,	train_time = 2.280317
+TEST Iter 140: loss = 3.754765,	Top-1 acc = 17.299363,	Top-5 acc = 62.878981,	val_time = 16.532495
+TRAIN Iter 150: lr = 0.000500,	loss = 0.002486,	Top-1 acc = 0.000000,	Top-5 acc = 40.000000,	train_time = 2.242379
+TEST Iter 150: loss = 3.779848,	Top-1 acc = 19.439490,	Top-5 acc = 67.719745,	val_time = 16.329517
+TRAIN Iter 160: lr = 0.000448,	loss = 0.004623,	Top-1 acc = 10.000000,	Top-5 acc = 40.000000,	train_time = 2.215162
+TEST Iter 160: loss = 4.137436,	Top-1 acc = 16.713376,	Top-5 acc = 69.605096,	val_time = 16.377539
+TRAIN Iter 170: lr = 0.000396,	loss = 0.005599,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 2.272910
+TEST Iter 170: loss = 3.858694,	Top-1 acc = 17.910828,	Top-5 acc = 69.375796,	val_time = 16.433653
+TRAIN Iter 180: lr = 0.000345,	loss = 0.004903,	Top-1 acc = 10.000000,	Top-5 acc = 60.000000,	train_time = 2.238142
+TEST Iter 180: loss = 3.246830,	Top-1 acc = 20.101911,	Top-5 acc = 68.687898,	val_time = 16.761799
+TRAIN Iter 190: lr = 0.000297,	loss = 0.003791,	Top-1 acc = 20.000000,	Top-5 acc = 40.000000,	train_time = 2.230224
+TEST Iter 190: loss = 3.200112,	Top-1 acc = 20.050955,	Top-5 acc = 65.503185,	val_time = 16.499225
+TRAIN Iter 200: lr = 0.000250,	loss = 0.004497,	Top-1 acc = 20.000000,	Top-5 acc = 60.000000,	train_time = 2.275370
+TEST Iter 200: loss = 3.522032,	Top-1 acc = 20.101911,	Top-5 acc = 69.834395,	val_time = 16.647602
+TRAIN Iter 210: lr = 0.000206,	loss = 0.003820,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 2.247997
+Traceback (most recent call last):
+  File "train_FKD.py", line 379, in <module>
+    main()
+  File "train_FKD.py", line 202, in main
+    top1 = validate(model, args, epoch)
+  File "train_FKD.py", line 331, in validate
+    for data, target in args.val_loader:
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 441, in __iter__
+    return self._get_iterator()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 388, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1042, in __init__
+    w.start()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 62, in _launch
+    f.write(fp.getbuffer())
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 26, in <module>
+    from models.factory import ModelFactory
+  File "/media/techt/One Touch/DD/SRe2L/train/../models/factory.py", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/__init__.py", line 2, in <module>
+    from .models import create_model, list_models, is_model, list_modules, model_entrypoint, \
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/models/__init__.py", line 1, in <module>
+    from .beit import *
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/models/beit.py", line 32, in <module>
+    from .vision_transformer import checkpoint_filter_fn
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/models/vision_transformer.py", line 35, in <module>
+    from timm.data import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD, IMAGENET_INCEPTION_MEAN, IMAGENET_INCEPTION_STD
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/data/__init__.py", line 5, in <module>
+    from .dataset import ImageDataset, IterableImageDataset, AugMixDataset
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/data/dataset.py", line 12, in <module>
+    from .parsers import create_parser
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/data/parsers/__init__.py", line 1, in <module>
+    from .parser_factory import create_parser
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/data/parsers/parser_factory.py", line 3, in <module>
+    from .parser_image_folder import ParserImageFolder
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/data/parsers/parser_image_folder.py", line 10, in <module>
+    from timm.utils.misc import natural_key
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/utils/__init__.py", line 13, in <module>
+    from .summary import update_summary, get_outdir
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/timm/utils/summary.py", line 9, in <module>
+    import wandb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 4, in <module>
+    from .artifacts.artifact import Artifact  # noqa: F401
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/artifacts/artifact.py", line 36, in <module>
+    from wandb.apis.normalize import normalize_exceptions
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/apis/__init__.py", line 43, in <module>
+    from .internal import Api as InternalApi  # noqa
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/apis/internal.py", line 3, in <module>
+    from wandb.sdk.internal.internal_api import Api as InternalApi
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 35, in <module>
+    from wandb_gql import Client, gql
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/__init__.py", line 1, in <module>
+    from .gql import gql
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/gql.py", line 1, in <module>
+    from wandb_graphql.language.parser import parse
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/__init__.py", line 43, in <module>
+    from .graphql import (
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/graphql.py", line 1, in <module>
+    from .execution import ExecutionResult, execute
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/execution/__init__.py", line 21, in <module>
+    from .executor import execute
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/execution/executor.py", line 11, in <module>
+    from ..pyutils.ordereddict import OrderedDict
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/pyutils/ordereddict.py", line 4, in <module>
+    from cyordereddict import OrderedDict
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 914, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1407, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1379, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1534, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 123, in _path_join
+KeyboardInterrupt

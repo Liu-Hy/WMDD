@@ -1,0 +1,589 @@
+r_bn:  3.0
+lr:  0.25
+bc loaded
+bc shape (10, 1, 512)
+getting batchnorm for class 0
+getting batchnorm for class 1
+getting batchnorm for class 2
+getting batchnorm for class 3
+getting batchnorm for class 4
+getting batchnorm for class 5
+getting batchnorm for class 6
+getting batchnorm for class 7
+getting batchnorm for class 8
+getting batchnorm for class 9
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+Execution time for computing per-class batchnorm statistics: 46.622658 seconds
+get_images call
+class_per_batch  10 batch_size  100 args.ipc  1
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+start_cls 0 end_cls 10
+Length of input 10 is different from effective batch size 10
+------------iteration 0----------
+total loss 4451.6276621330535
+main criterion 27.609595726803697
+weighted_aux_loss 4424.01806640625
+loss_r_bn_feature 1474.6727294921875
+------------iteration 100----------
+total loss 847.7391867524339
+main criterion 14.61644505321511
+weighted_aux_loss 833.1227416992188
+loss_r_bn_feature 277.70758056640625
+------------iteration 200----------
+total loss 913.8736336163021
+main criterion 13.258765452239528
+weighted_aux_loss 900.6148681640625
+loss_r_bn_feature 300.2049560546875
+------------iteration 300----------
+total loss 612.5344875387092
+main criterion 13.664858632459161
+weighted_aux_loss 598.86962890625
+loss_r_bn_feature 199.62319946289062
+------------iteration 400----------
+total loss 566.994428424149
+main criterion 13.677533892898907
+weighted_aux_loss 553.31689453125
+loss_r_bn_feature 184.43896484375
+------------iteration 500----------
+total loss 611.5090705694583
+main criterion 12.746192151489547
+weighted_aux_loss 598.7628784179688
+loss_r_bn_feature 199.58763122558594
+------------iteration 600----------
+total loss 482.7064689195326
+main criterion 14.855089525001347
+weighted_aux_loss 467.85137939453125
+loss_r_bn_feature 155.95045471191406
+------------iteration 700----------
+total loss 416.4887489020938
+main criterion 13.524027222406263
+weighted_aux_loss 402.9647216796875
+loss_r_bn_feature 134.3215789794922
+------------iteration 800----------
+total loss 756.6670119260475
+main criterion 13.20271749245376
+weighted_aux_loss 743.4642944335938
+loss_r_bn_feature 247.82142639160156
+------------iteration 900----------
+total loss 924.6553073868639
+main criterion 14.665927504051362
+weighted_aux_loss 909.9893798828125
+loss_r_bn_feature 303.3298034667969
+------------iteration 1000----------
+total loss 292.26379642609015
+main criterion 11.670321084293304
+weighted_aux_loss 280.5934753417969
+loss_r_bn_feature 93.53115844726562
+------------iteration 1100----------
+total loss 284.9910780648728
+main criterion 13.010853455497779
+weighted_aux_loss 271.980224609375
+loss_r_bn_feature 90.66007995605469
+------------iteration 1200----------
+total loss 271.7101697338996
+main criterion 11.37972539796209
+weighted_aux_loss 260.3304443359375
+loss_r_bn_feature 86.77680969238281
+------------iteration 1300----------
+total loss 416.81831986410225
+main criterion 10.301199502774121
+weighted_aux_loss 406.5171203613281
+loss_r_bn_feature 135.50570678710938
+------------iteration 1400----------
+total loss 279.5661070163776
+main criterion 11.943273764424447
+weighted_aux_loss 267.6228332519531
+loss_r_bn_feature 89.20761108398438
+------------iteration 1500----------
+total loss 244.40736056923038
+main criterion 9.978252903214765
+weighted_aux_loss 234.42910766601562
+loss_r_bn_feature 78.14303588867188
+------------iteration 1600----------
+total loss 387.0059164637903
+main criterion 10.529414998946564
+weighted_aux_loss 376.47650146484375
+loss_r_bn_feature 125.49217224121094
+------------iteration 1700----------
+total loss 291.58885437872055
+main criterion 9.184710091611173
+weighted_aux_loss 282.4041442871094
+loss_r_bn_feature 94.13471221923828
+------------iteration 1800----------
+total loss 240.52796390596387
+main criterion 8.880197792682631
+weighted_aux_loss 231.64776611328125
+loss_r_bn_feature 77.2159194946289
+------------iteration 1900----------
+total loss 143.86874460745375
+main criterion 8.984040017609992
+weighted_aux_loss 134.88470458984375
+loss_r_bn_feature 44.96156692504883
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/imagenette/331
+  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:01<07:35,  1.52s/it]  1%|          | 2/300 [00:01<04:23,  1.13it/s]  1%|          | 3/300 [00:02<03:21,  1.47it/s]  1%|▏         | 4/300 [00:02<02:54,  1.70it/s]  2%|▏         | 5/300 [00:03<02:37,  1.87it/s]  2%|▏         | 6/300 [00:03<02:28,  1.98it/s]  2%|▏         | 7/300 [00:04<02:21,  2.07it/s]  3%|▎         | 8/300 [00:04<02:17,  2.13it/s]  3%|▎         | 9/300 [00:05<02:13,  2.18it/s]  3%|▎         | 10/300 [00:05<02:11,  2.20it/s]  4%|▎         | 11/300 [00:05<02:10,  2.22it/s]  4%|▍         | 12/300 [00:06<02:08,  2.24it/s]  4%|▍         | 13/300 [00:06<02:07,  2.26it/s]  5%|▍         | 14/300 [00:07<02:06,  2.27it/s]  5%|▌         | 15/300 [00:07<02:05,  2.27it/s]  5%|▌         | 16/300 [00:08<02:04,  2.28it/s]  6%|▌         | 17/300 [00:08<02:03,  2.29it/s]  6%|▌         | 18/300 [00:08<02:04,  2.27it/s]  6%|▋         | 19/300 [00:09<02:03,  2.28it/s]  7%|▋         | 20/300 [00:09<02:02,  2.28it/s]  7%|▋         | 21/300 [00:10<02:02,  2.29it/s]  7%|▋         | 22/300 [00:10<02:01,  2.29it/s]  8%|▊         | 23/300 [00:11<02:01,  2.28it/s]  8%|▊         | 24/300 [00:11<02:01,  2.27it/s]  8%|▊         | 25/300 [00:12<02:00,  2.27it/s]  9%|▊         | 26/300 [00:12<02:00,  2.27it/s]  9%|▉         | 27/300 [00:12<01:59,  2.28it/s]  9%|▉         | 28/300 [00:13<01:59,  2.27it/s] 10%|▉         | 29/300 [00:13<01:59,  2.27it/s] 10%|█         | 30/300 [00:14<01:58,  2.28it/s] 10%|█         | 31/300 [00:14<01:58,  2.27it/s] 11%|█         | 32/300 [00:15<01:57,  2.28it/s] 11%|█         | 33/300 [00:15<01:57,  2.28it/s] 11%|█▏        | 34/300 [00:16<01:56,  2.28it/s] 12%|█▏        | 35/300 [00:16<01:55,  2.29it/s] 12%|█▏        | 36/300 [00:16<01:55,  2.28it/s] 12%|█▏        | 37/300 [00:17<01:55,  2.28it/s] 13%|█▎        | 38/300 [00:17<01:56,  2.25it/s] 13%|█▎        | 39/300 [00:18<01:55,  2.27it/s] 13%|█▎        | 40/300 [00:18<01:55,  2.26it/s] 14%|█▎        | 41/300 [00:19<01:54,  2.27it/s] 14%|█▍        | 42/300 [00:19<01:53,  2.27it/s] 14%|█▍        | 43/300 [00:19<01:52,  2.28it/s] 15%|█▍        | 44/300 [00:20<01:51,  2.29it/s] 15%|█▌        | 45/300 [00:20<01:52,  2.28it/s] 15%|█▌        | 46/300 [00:21<01:51,  2.28it/s] 16%|█▌        | 47/300 [00:21<01:51,  2.27it/s] 16%|█▌        | 48/300 [00:22<01:51,  2.27it/s] 16%|█▋        | 49/300 [00:22<01:50,  2.26it/s] 17%|█▋        | 50/300 [00:23<01:51,  2.24it/s] 17%|█▋        | 51/300 [00:23<01:51,  2.24it/s] 17%|█▋        | 52/300 [00:23<01:51,  2.23it/s] 18%|█▊        | 53/300 [00:24<01:50,  2.23it/s] 18%|█▊        | 54/300 [00:24<01:51,  2.21it/s] 18%|█▊        | 55/300 [00:25<01:50,  2.22it/s] 19%|█▊        | 56/300 [00:25<01:49,  2.22it/s] 19%|█▉        | 57/300 [00:26<01:49,  2.22it/s] 19%|█▉        | 58/300 [00:26<01:49,  2.22it/s] 20%|█▉        | 59/300 [00:27<01:48,  2.23it/s] 20%|██        | 60/300 [00:27<01:48,  2.22it/s] 20%|██        | 61/300 [00:28<01:47,  2.22it/s] 21%|██        | 62/300 [00:28<01:47,  2.22it/s] 21%|██        | 63/300 [00:28<01:47,  2.21it/s] 21%|██▏       | 64/300 [00:29<01:45,  2.23it/s] 22%|██▏       | 65/300 [00:29<01:44,  2.25it/s] 22%|██▏       | 66/300 [00:30<01:43,  2.26it/s] 22%|██▏       | 67/300 [00:30<01:42,  2.27it/s] 23%|██▎       | 68/300 [00:31<01:41,  2.28it/s] 23%|██▎       | 69/300 [00:31<01:41,  2.27it/s] 23%|██▎       | 70/300 [00:32<01:40,  2.29it/s] 24%|██▎       | 71/300 [00:32<01:39,  2.29it/s] 24%|██▍       | 72/300 [00:32<01:39,  2.30it/s] 24%|██▍       | 73/300 [00:33<01:37,  2.32it/s] 25%|██▍       | 74/300 [00:33<01:36,  2.33it/s] 25%|██▌       | 75/300 [00:34<01:36,  2.33it/s] 25%|██▌       | 76/300 [00:34<01:36,  2.33it/s] 26%|██▌       | 77/300 [00:35<01:35,  2.33it/s] 26%|██▌       | 78/300 [00:35<01:35,  2.33it/s] 26%|██▋       | 79/300 [00:35<01:34,  2.33it/s] 27%|██▋       | 80/300 [00:36<01:34,  2.32it/s] 27%|██▋       | 81/300 [00:36<01:34,  2.31it/s] 27%|██▋       | 82/300 [00:37<01:34,  2.30it/s] 28%|██▊       | 83/300 [00:37<01:33,  2.31it/s] 28%|██▊       | 84/300 [00:38<01:33,  2.30it/s] 28%|██▊       | 85/300 [00:38<01:32,  2.32it/s] 29%|██▊       | 86/300 [00:38<01:31,  2.35it/s] 29%|██▉       | 87/300 [00:39<01:31,  2.34it/s] 29%|██▉       | 88/300 [00:39<01:30,  2.34it/s] 30%|██▉       | 89/300 [00:40<01:30,  2.32it/s] 30%|███       | 90/300 [00:40<01:30,  2.33it/s] 30%|███       | 91/300 [00:41<01:29,  2.33it/s] 31%|███       | 92/300 [00:41<01:29,  2.33it/s] 31%|███       | 93/300 [00:41<01:29,  2.32it/s] 31%|███▏      | 94/300 [00:42<01:28,  2.33it/s] 32%|███▏      | 95/300 [00:42<01:28,  2.33it/s] 32%|███▏      | 96/300 [00:43<01:27,  2.32it/s] 32%|███▏      | 97/300 [00:43<01:26,  2.34it/s] 33%|███▎      | 98/300 [00:44<01:26,  2.32it/s] 33%|███▎      | 99/300 [00:44<01:26,  2.32it/s] 33%|███▎      | 100/300 [00:44<01:25,  2.33it/s] 34%|███▎      | 101/300 [00:45<01:25,  2.33it/s] 34%|███▍      | 102/300 [00:45<01:25,  2.31it/s] 34%|███▍      | 103/300 [00:46<01:24,  2.33it/s] 35%|███▍      | 104/300 [00:46<01:24,  2.32it/s] 35%|███▌      | 105/300 [00:47<01:23,  2.33it/s] 35%|███▌      | 106/300 [00:47<01:23,  2.33it/s] 36%|███▌      | 107/300 [00:47<01:22,  2.33it/s] 36%|███▌      | 108/300 [00:48<01:22,  2.32it/s] 36%|███▋      | 109/300 [00:48<01:22,  2.31it/s] 37%|███▋      | 110/300 [00:49<01:21,  2.32it/s] 37%|███▋      | 111/300 [00:49<01:21,  2.33it/s] 37%|███▋      | 112/300 [00:50<01:20,  2.33it/s] 38%|███▊      | 113/300 [00:50<01:20,  2.33it/s] 38%|███▊      | 114/300 [00:50<01:19,  2.33it/s] 38%|███▊      | 115/300 [00:51<01:19,  2.34it/s] 39%|███▊      | 116/300 [00:51<01:18,  2.34it/s] 39%|███▉      | 117/300 [00:52<01:18,  2.33it/s] 39%|███▉      | 118/300 [00:52<01:18,  2.33it/s] 40%|███▉      | 119/300 [00:53<01:17,  2.33it/s] 40%|████      | 120/300 [00:53<01:18,  2.29it/s] 40%|████      | 121/300 [00:53<01:18,  2.27it/s] 41%|████      | 122/300 [00:54<01:19,  2.25it/s] 41%|████      | 123/300 [00:54<01:18,  2.25it/s] 41%|████▏     | 124/300 [00:55<01:19,  2.22it/s] 42%|████▏     | 125/300 [00:55<01:18,  2.23it/s] 42%|████▏     | 126/300 [00:56<01:17,  2.23it/s] 42%|████▏     | 127/300 [00:56<01:19,  2.19it/s] 43%|████▎     | 128/300 [00:57<01:18,  2.20it/s] 43%|████▎     | 129/300 [00:57<01:17,  2.21it/s] 43%|████▎     | 130/300 [00:58<01:16,  2.22it/s] 44%|████▎     | 131/300 [00:58<01:16,  2.22it/s] 44%|████▍     | 132/300 [00:58<01:15,  2.22it/s] 44%|████▍     | 133/300 [00:59<01:15,  2.20it/s] 45%|████▍     | 134/300 [00:59<01:14,  2.22it/s] 45%|████▌     | 135/300 [01:00<01:14,  2.22it/s] 45%|████▌     | 136/300 [01:00<01:13,  2.24it/s] 46%|████▌     | 137/300 [01:01<01:12,  2.25it/s] 46%|████▌     | 138/300 [01:01<01:11,  2.26it/s] 46%|████▋     | 139/300 [01:02<01:12,  2.23it/s] 47%|████▋     | 140/300 [01:02<01:11,  2.25it/s] 47%|████▋     | 141/300 [01:02<01:10,  2.25it/s] 47%|████▋     | 142/300 [01:03<01:09,  2.26it/s] 48%|████▊     | 143/300 [01:03<01:09,  2.25it/s] 48%|████▊     | 144/300 [01:04<01:09,  2.25it/s] 48%|████▊     | 145/300 [01:04<01:09,  2.25it/s] 49%|████▊     | 146/300 [01:05<01:08,  2.24it/s] 49%|████▉     | 147/300 [01:05<01:08,  2.24it/s] 49%|████▉     | 148/300 [01:06<01:07,  2.24it/s] 50%|████▉     | 149/300 [01:06<01:06,  2.26it/s] 50%|█████     | 150/300 [01:06<01:06,  2.26it/s] 50%|█████     | 151/300 [01:07<01:05,  2.26it/s] 51%|█████     | 152/300 [01:07<01:05,  2.24it/s] 51%|█████     | 153/300 [01:08<01:05,  2.24it/s] 51%|█████▏    | 154/300 [01:08<01:04,  2.25it/s] 52%|█████▏    | 155/300 [01:09<01:04,  2.24it/s] 52%|█████▏    | 156/300 [01:09<01:03,  2.25it/s] 52%|█████▏    | 157/300 [01:10<01:03,  2.24it/s] 53%|█████▎    | 158/300 [01:10<01:03,  2.24it/s] 53%|█████▎    | 159/300 [01:10<01:03,  2.23it/s] 53%|█████▎    | 160/300 [01:11<01:02,  2.25it/s] 54%|█████▎    | 161/300 [01:11<01:01,  2.25it/s] 54%|█████▍    | 162/300 [01:12<01:01,  2.24it/s] 54%|█████▍    | 163/300 [01:12<01:01,  2.24it/s] 55%|█████▍    | 164/300 [01:13<01:00,  2.25it/s] 55%|█████▌    | 165/300 [01:13<01:00,  2.24it/s] 55%|█████▌    | 166/300 [01:14<00:59,  2.24it/s] 56%|█████▌    | 167/300 [01:14<00:59,  2.23it/s] 56%|█████▌    | 168/300 [01:14<00:58,  2.24it/s] 56%|█████▋    | 169/300 [01:15<00:58,  2.24it/s] 57%|█████▋    | 170/300 [01:15<00:57,  2.25it/s] 57%|█████▋    | 171/300 [01:16<00:57,  2.25it/s] 57%|█████▋    | 172/300 [01:16<00:56,  2.28it/s] 58%|█████▊    | 173/300 [01:17<00:55,  2.30it/s] 58%|█████▊    | 174/300 [01:17<00:54,  2.30it/s] 58%|█████▊    | 175/300 [01:18<00:54,  2.30it/s] 59%|█████▊    | 176/300 [01:18<00:53,  2.31it/s] 59%|█████▉    | 177/300 [01:18<00:52,  2.33it/s] 59%|█████▉    | 178/300 [01:19<00:52,  2.32it/s] 60%|█████▉    | 179/300 [01:19<00:52,  2.32it/s] 60%|██████    | 180/300 [01:20<00:51,  2.32it/s] 60%|██████    | 181/300 [01:20<00:51,  2.33it/s] 61%|██████    | 182/300 [01:21<00:51,  2.31it/s] 61%|██████    | 183/300 [01:21<00:51,  2.29it/s] 61%|██████▏   | 184/300 [01:21<00:51,  2.26it/s] 62%|██████▏   | 185/300 [01:22<00:51,  2.24it/s] 62%|██████▏   | 186/300 [01:22<00:50,  2.25it/s] 62%|██████▏   | 187/300 [01:23<00:50,  2.25it/s] 63%|██████▎   | 188/300 [01:23<00:49,  2.26it/s] 63%|██████▎   | 189/300 [01:24<00:49,  2.24it/s] 63%|██████▎   | 190/300 [01:24<00:49,  2.22it/s] 64%|██████▎   | 191/300 [01:25<00:48,  2.24it/s] 64%|██████▍   | 192/300 [01:25<00:48,  2.24it/s] 64%|██████▍   | 193/300 [01:25<00:47,  2.25it/s] 65%|██████▍   | 194/300 [01:26<00:47,  2.24it/s] 65%|██████▌   | 195/300 [01:26<00:46,  2.24it/s] 65%|██████▌   | 196/300 [01:27<00:46,  2.24it/s] 66%|██████▌   | 197/300 [01:27<00:46,  2.24it/s] 66%|██████▌   | 198/300 [01:28<00:45,  2.23it/s] 66%|██████▋   | 199/300 [01:28<00:44,  2.25it/s] 67%|██████▋   | 200/300 [01:29<00:44,  2.24it/s] 67%|██████▋   | 201/300 [01:29<00:44,  2.24it/s] 67%|██████▋   | 202/300 [01:29<00:44,  2.23it/s] 68%|██████▊   | 203/300 [01:30<00:43,  2.24it/s] 68%|██████▊   | 204/300 [01:30<00:43,  2.23it/s] 68%|██████▊   | 205/300 [01:31<00:42,  2.23it/s] 69%|██████▊   | 206/300 [01:31<00:41,  2.25it/s] 69%|██████▉   | 207/300 [01:32<00:40,  2.28it/s] 69%|██████▉   | 208/300 [01:32<00:40,  2.28it/s] 70%|██████▉   | 209/300 [01:33<00:39,  2.30it/s] 70%|███████   | 210/300 [01:33<00:39,  2.31it/s] 70%|███████   | 211/300 [01:33<00:38,  2.31it/s] 71%|███████   | 212/300 [01:34<00:38,  2.28it/s] 71%|███████   | 213/300 [01:34<00:38,  2.26it/s] 71%|███████▏  | 214/300 [01:35<00:38,  2.26it/s] 72%|███████▏  | 215/300 [01:35<00:37,  2.24it/s] 72%|███████▏  | 216/300 [01:36<00:37,  2.25it/s] 72%|███████▏  | 217/300 [01:36<00:36,  2.25it/s] 73%|███████▎  | 218/300 [01:37<00:36,  2.26it/s] 73%|███████▎  | 219/300 [01:37<00:36,  2.25it/s] 73%|███████▎  | 220/300 [01:37<00:35,  2.25it/s] 74%|███████▎  | 221/300 [01:38<00:35,  2.25it/s] 74%|███████▍  | 222/300 [01:38<00:34,  2.23it/s] 74%|███████▍  | 223/300 [01:39<00:34,  2.22it/s] 75%|███████▍  | 224/300 [01:39<00:33,  2.24it/s] 75%|███████▌  | 225/300 [01:40<00:33,  2.23it/s] 75%|███████▌  | 226/300 [01:40<00:32,  2.24it/s] 76%|███████▌  | 227/300 [01:41<00:32,  2.25it/s] 76%|███████▌  | 228/300 [01:41<00:31,  2.28it/s] 76%|███████▋  | 229/300 [01:41<00:31,  2.29it/s] 77%|███████▋  | 230/300 [01:42<00:30,  2.31it/s] 77%|███████▋  | 231/300 [01:42<00:29,  2.31it/s] 77%|███████▋  | 232/300 [01:43<00:29,  2.30it/s] 78%|███████▊  | 233/300 [01:43<00:29,  2.27it/s] 78%|███████▊  | 234/300 [01:44<00:28,  2.29it/s] 78%|███████▊  | 235/300 [01:44<00:28,  2.29it/s] 79%|███████▊  | 236/300 [01:44<00:27,  2.30it/s] 79%|███████▉  | 237/300 [01:45<00:27,  2.31it/s] 79%|███████▉  | 238/300 [01:45<00:26,  2.31it/s] 80%|███████▉  | 239/300 [01:46<00:26,  2.33it/s] 80%|████████  | 240/300 [01:46<00:25,  2.33it/s] 80%|████████  | 241/300 [01:47<00:25,  2.32it/s] 81%|████████  | 242/300 [01:47<00:24,  2.32it/s] 81%|████████  | 243/300 [01:47<00:24,  2.34it/s] 81%|████████▏ | 244/300 [01:48<00:23,  2.34it/s] 82%|████████▏ | 245/300 [01:48<00:23,  2.34it/s] 82%|████████▏ | 246/300 [01:49<00:23,  2.33it/s] 82%|████████▏ | 247/300 [01:49<00:22,  2.34it/s] 83%|████████▎ | 248/300 [01:50<00:22,  2.34it/s] 83%|████████▎ | 249/300 [01:50<00:21,  2.33it/s] 83%|████████▎ | 250/300 [01:50<00:21,  2.34it/s] 84%|████████▎ | 251/300 [01:51<00:21,  2.33it/s] 84%|████████▍ | 252/300 [01:51<00:20,  2.34it/s] 84%|████████▍ | 253/300 [01:52<00:20,  2.34it/s] 85%|████████▍ | 254/300 [01:52<00:19,  2.33it/s] 85%|████████▌ | 255/300 [01:53<00:19,  2.32it/s] 85%|████████▌ | 256/300 [01:53<00:18,  2.32it/s] 86%|████████▌ | 257/300 [01:53<00:18,  2.31it/s] 86%|████████▌ | 258/300 [01:54<00:18,  2.30it/s] 86%|████████▋ | 259/300 [01:54<00:17,  2.30it/s] 87%|████████▋ | 260/300 [01:55<00:17,  2.29it/s] 87%|████████▋ | 261/300 [01:55<00:17,  2.28it/s] 87%|████████▋ | 262/300 [01:56<00:16,  2.26it/s] 88%|████████▊ | 263/300 [01:56<00:16,  2.26it/s] 88%|████████▊ | 264/300 [01:57<00:15,  2.26it/s] 88%|████████▊ | 265/300 [01:57<00:15,  2.27it/s] 89%|████████▊ | 266/300 [01:57<00:15,  2.24it/s] 89%|████████▉ | 267/300 [01:58<00:14,  2.26it/s] 89%|████████▉ | 268/300 [01:58<00:14,  2.26it/s] 90%|████████▉ | 269/300 [01:59<00:13,  2.27it/s] 90%|█████████ | 270/300 [01:59<00:13,  2.27it/s] 90%|█████████ | 271/300 [02:00<00:12,  2.26it/s] 91%|█████████ | 272/300 [02:00<00:12,  2.27it/s] 91%|█████████ | 273/300 [02:01<00:11,  2.27it/s] 91%|█████████▏| 274/300 [02:01<00:11,  2.26it/s] 92%|█████████▏| 275/300 [02:01<00:11,  2.26it/s] 92%|█████████▏| 276/300 [02:02<00:10,  2.27it/s] 92%|█████████▏| 277/300 [02:02<00:10,  2.25it/s] 93%|█████████▎| 278/300 [02:03<00:09,  2.26it/s] 93%|█████████▎| 279/300 [02:03<00:09,  2.26it/s] 93%|█████████▎| 280/300 [02:04<00:08,  2.27it/s] 94%|█████████▎| 281/300 [02:04<00:08,  2.27it/s] 94%|█████████▍| 282/300 [02:05<00:07,  2.28it/s] 94%|█████████▍| 283/300 [02:05<00:07,  2.28it/s] 95%|█████████▍| 284/300 [02:05<00:06,  2.29it/s] 95%|█████████▌| 285/300 [02:06<00:06,  2.28it/s] 95%|█████████▌| 286/300 [02:06<00:06,  2.27it/s] 96%|█████████▌| 287/300 [02:07<00:05,  2.28it/s] 96%|█████████▌| 288/300 [02:07<00:05,  2.27it/s] 96%|█████████▋| 289/300 [02:08<00:04,  2.26it/s] 97%|█████████▋| 290/300 [02:08<00:04,  2.25it/s] 97%|█████████▋| 291/300 [02:09<00:04,  2.23it/s] 97%|█████████▋| 292/300 [02:09<00:03,  2.22it/s] 98%|█████████▊| 293/300 [02:09<00:03,  2.19it/s] 98%|█████████▊| 294/300 [02:10<00:02,  2.19it/s] 98%|█████████▊| 295/300 [02:10<00:02,  2.21it/s] 99%|█████████▊| 296/300 [02:11<00:01,  2.21it/s] 99%|█████████▉| 297/300 [02:11<00:01,  2.22it/s] 99%|█████████▉| 298/300 [02:12<00:00,  2.21it/s]100%|█████████▉| 299/300 [02:12<00:00,  2.23it/s]100%|██████████| 300/300 [02:13<00:00,  2.23it/s]100%|██████████| 300/300 [02:13<00:00,  2.25it/s]
+W&B disabled.
+W&B online. Running your script from this directory will now sync to the cloud.
+wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231023_202959-1uunz3jz
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run worldly-sun-502
+wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
+wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/1uunz3jz
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/imagenette/331/
+num img: 10
+batch size: 10
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'resnet18'
+TRAIN Iter 0: lr = 0.001000,	loss = 0.016941,	Top-1 err = 80.000000,	Top-5 err = 50.000000,	train_time = 2.967067
+TEST Iter 0: loss = 12.402988,	Top-1 err = 90.089172,	Top-5 err = 50.445860,	val_time = 15.426970
+TRAIN Iter 10: lr = 0.000997,	loss = 0.015872,	Top-1 err = 80.000000,	Top-5 err = 40.000000,	train_time = 2.150965
+TEST Iter 10: loss = 13.397501,	Top-1 err = 91.082803,	Top-5 err = 45.095541,	val_time = 15.330247
+TRAIN Iter 20: lr = 0.000989,	loss = 0.008501,	Top-1 err = 70.000000,	Top-5 err = 30.000000,	train_time = 2.076958
+TEST Iter 20: loss = 15.862012,	Top-1 err = 84.560510,	Top-5 err = 40.917197,	val_time = 15.679858
+TRAIN Iter 30: lr = 0.000976,	loss = 0.010256,	Top-1 err = 30.000000,	Top-5 err = 0.000000,	train_time = 2.107185
+TEST Iter 30: loss = 25.523252,	Top-1 err = 86.165605,	Top-5 err = 43.184713,	val_time = 15.516272
+TRAIN Iter 40: lr = 0.000957,	loss = 0.006573,	Top-1 err = 30.000000,	Top-5 err = 0.000000,	train_time = 2.134712
+TEST Iter 40: loss = 13.451731,	Top-1 err = 81.401274,	Top-5 err = 39.515924,	val_time = 15.369058
+TRAIN Iter 50: lr = 0.000933,	loss = 0.003579,	Top-1 err = 30.000000,	Top-5 err = 0.000000,	train_time = 2.159587
+TEST Iter 50: loss = 12.000524,	Top-1 err = 81.936306,	Top-5 err = 33.987261,	val_time = 15.966100
+TRAIN Iter 60: lr = 0.000905,	loss = 0.003928,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.136911
+TEST Iter 60: loss = 11.723854,	Top-1 err = 80.280255,	Top-5 err = 35.643312,	val_time = 15.734722
+TRAIN Iter 70: lr = 0.000872,	loss = 0.004293,	Top-1 err = 100.000000,	Top-5 err = 30.000000,	train_time = 2.136042
+TEST Iter 70: loss = 11.842031,	Top-1 err = 78.420382,	Top-5 err = 36.203822,	val_time = 15.454316
+TRAIN Iter 80: lr = 0.000835,	loss = 0.005192,	Top-1 err = 60.000000,	Top-5 err = 10.000000,	train_time = 2.132318
+TEST Iter 80: loss = 19.258303,	Top-1 err = 83.515924,	Top-5 err = 42.700637,	val_time = 15.632021
+TRAIN Iter 90: lr = 0.000794,	loss = 0.004895,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.149938
+TEST Iter 90: loss = 8.191702,	Top-1 err = 79.414013,	Top-5 err = 39.719745,	val_time = 15.553090
+TRAIN Iter 100: lr = 0.000750,	loss = 0.006204,	Top-1 err = 20.000000,	Top-5 err = 10.000000,	train_time = 2.126358
+TEST Iter 100: loss = 9.314857,	Top-1 err = 77.070064,	Top-5 err = 36.178344,	val_time = 15.646944
+TRAIN Iter 110: lr = 0.000703,	loss = 0.004506,	Top-1 err = 60.000000,	Top-5 err = 0.000000,	train_time = 2.135298
+TEST Iter 110: loss = 6.576924,	Top-1 err = 74.343949,	Top-5 err = 32.305732,	val_time = 15.663256
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 5, in <module>
+    import shutil
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/shutil.py", line 15, in <module>
+    import zlib
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 8, in <module>
+    import wandb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 4, in <module>
+    from .artifacts.artifact import Artifact  # noqa: F401
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/artifacts/artifact.py", line 76, in <module>
+    class Artifact:
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/artifacts/artifact.py", line 601, in Artifact
+    def manifest(self) -> ArtifactManifest:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 8, in <module>
+    import wandb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 4, in <module>
+    from .artifacts.artifact import Artifact  # noqa: F401
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/artifacts/artifact.py", line 36, in <module>
+    from wandb.apis.normalize import normalize_exceptions
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/apis/__init__.py", line 43, in <module>
+    from .internal import Api as InternalApi  # noqa
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/apis/internal.py", line 3, in <module>
+    from wandb.sdk.internal.internal_api import Api as InternalApi
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 48, in <module>
+    from ..lib import retry
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 17, in <module>
+    from .mailbox import ContextCancelledError
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 10, in <module>
+    from wandb.proto import wandb_internal_pb2 as pb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/proto/wandb_internal_pb2.py", line 8, in <module>
+    from wandb.proto.v4.wandb_internal_pb2 import *
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/proto/v4/wandb_internal_pb2.py", line 5, in <module>
+    from google.protobuf.internal import builder as _builder
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/google/protobuf/internal/builder.py", line 41, in <module>
+    from google.protobuf.internal import python_message
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/google/protobuf/internal/python_message.py", line 71, in <module>
+    from google.protobuf import text_format
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/google/protobuf/text_format.py", line 47, in <module>
+    import encodings.unicode_escape  # pylint: disable=unused-import
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/encodings/unicode_escape.py", line 24, in <module>
+    class IncrementalDecoder(codecs.IncrementalDecoder):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 8, in <module>
+    import wandb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 3, in <module>
+    from . import wandb_helper as helper  # noqa: F401
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/wandb_helper.py", line 6, in <module>
+    from .lib import config_util
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/lib/config_util.py", line 10, in <module>
+    from wandb.util import load_yaml
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/util.py", line 52, in <module>
+    import requests
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/requests/__init__.py", line 43, in <module>
+    import urllib3
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/urllib3/__init__.py", line 13, in <module>
+    from .connectionpool import HTTPConnectionPool, HTTPSConnectionPool, connection_from_url
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/urllib3/connectionpool.py", line 12, in <module>
+    from .connection import (
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/urllib3/connection.py", line 15, in <module>
+    from .util.proxy import create_proxy_ssl_context
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/urllib3/util/__init__.py", line 8, in <module>
+    from .ssl_ import (
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 17, in <module>
+    from .url import BRACELESS_IPV6_ADDRZ_RE, IPV4_RE
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/urllib3/util/url.py", line 63, in <module>
+    BRACELESS_IPV6_ADDRZ_RE = re.compile("^" + IPV6_ADDRZ_PAT[2:-2] + "$")
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 834, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 834, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 834, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 511, in _parse
+    sourceget()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 256, in get
+    self.__next()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/sre_parse.py", line 236, in __next
+    char = self.decoded_string[index]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 8, in <module>
+    import wandb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 7, in <module>
+    from .wandb_init import _attach, init  # noqa: F401
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 32, in <module>
+    from .backend.backend import Backend
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 19, in <module>
+    from wandb.sdk.internal.internal import wandb_internal
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/internal/internal.py", line 33, in <module>
+    from . import context, handler, internal_util, sender, writer
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/internal/handler.py", line 41, in <module>
+    from .system.system_monitor import SystemMonitor
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/internal/system/system_monitor.py", line 6, in <module>
+    from .assets.asset_registry import asset_registry
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/internal/system/assets/__init__.py", line 25, in <module>
+    from .open_metrics import OpenMetrics
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/internal/system/assets/open_metrics.py", line 48, in <module>
+    import prometheus_client.parser  # type: ignore
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/prometheus_client/__init__.py", line 3, in <module>
+    from . import (
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 934, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1033, in get_data
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 8, in <module>
+    import wandb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 4, in <module>
+    from .artifacts.artifact import Artifact  # noqa: F401
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/artifacts/artifact.py", line 36, in <module>
+    from wandb.apis.normalize import normalize_exceptions
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/apis/__init__.py", line 43, in <module>
+    from .internal import Api as InternalApi  # noqa
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/apis/internal.py", line 3, in <module>
+    from wandb.sdk.internal.internal_api import Api as InternalApi
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 35, in <module>
+    from wandb_gql import Client, gql
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/__init__.py", line 1, in <module>
+    from .gql import gql
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/gql.py", line 1, in <module>
+    from wandb_graphql.language.parser import parse
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/__init__.py", line 43, in <module>
+    from .graphql import (
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/graphql.py", line 1, in <module>
+    from .execution import ExecutionResult, execute
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/execution/__init__.py", line 21, in <module>
+    from .executor import execute
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/execution/executor.py", line 9, in <module>
+    from ..error import GraphQLError, GraphQLLocatedError
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/error/__init__.py", line 1, in <module>
+    from .base import GraphQLError
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/vendor/graphql-core-1.1/wandb_graphql/error/base.py", line 1, in <module>
+    from ..language.location import get_location
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 396, in cache_from_source
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 7, in <module>
+    import numpy as np
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/numpy/__init__.py", line 358, in <module>
+    _sanity_check()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/numpy/__init__.py", line 348, in _sanity_check
+    if not abs(x.dot(x) - float32(2.0)) < 1e-5:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 8, in <module>
+    import wandb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 3, in <module>
+    from . import wandb_helper as helper  # noqa: F401
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/wandb_helper.py", line 6, in <module>
+    from .lib import config_util
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/lib/config_util.py", line 10, in <module>
+    from wandb.util import load_yaml
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/util.py", line 56, in <module>
+    import wandb.env
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/env.py", line 16, in <module>
+    from distutils.util import strtobool
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 914, in _find_spec
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/_distutils_hack/__init__.py", line 97, in find_spec
+    return method()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/_distutils_hack/__init__.py", line 108, in spec_for_distutils
+    mod = importlib.import_module('setuptools._distutils')
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/__init__.py", line 15, in <module>
+    import setuptools.version
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/version.py", line 4, in <module>
+    __version__ = metadata.version('setuptools') or '0.dev0+unknown'
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 832, in version
+    return distribution(distribution_name).version
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 805, in distribution
+    return Distribution.from_name(distribution_name)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 381, in from_name
+    return next(cls.discover(name=name))
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 739, in <genexpr>
+    path.search(prepared) for path in map(FastPath, paths)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 631, in search
+    return self.lookup(self.mtime).search(name)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/_functools.py", line 80, in wrapper
+    return cached_method(*args, **kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 641, in lookup
+    return Lookup(self)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 651, in __init__
+    for child in path.children():
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 618, in children
+    return os.listdir(self.root or '.')
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train_FKD.py", line 399, in <module>
+    main()
+  File "train_FKD.py", line 200, in main
+    train(model, args, epoch)
+  File "train_FKD.py", line 240, in train
+    for batch_idx, batch_data in enumerate(args.train_loader):
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1284, in _get_data
+    success, data = self._try_get_data()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/queue.py", line 179, in get
+    self.not_empty.wait(remaining)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+wandb: While tearing down the service manager. The following error has occurred: DataLoader worker (pid 1190574) is killed by signal: Interrupt. 
+wandb: Waiting for W&B process to finish... (failed 255). Press Control-C to abort syncing.
+wandb: - 0.004 MB of 0.004 MB uploaded (0.000 MB deduped)wandb: \ 0.004 MB of 0.023 MB uploaded (0.000 MB deduped)wandb: | 0.023 MB of 0.023 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:  train/Top1 ▂▁▂▂▂▃▃▃▂▅▆▄▆▄▆▂▅▇▅▃▇▇▄▄▁▅▇▂▅▅██▇▆▅▆▇▇▄█
+wandb:  train/Top5 ▃▁▄▅▄▇▆▅▇██▆███▅▆██▇██▇▅▅██▄█████▆████▇█
+wandb: train/epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:  train/loss ▇█▆▄▄▆▄▄▃▃▂▃▃▃▃▂▂▂▂▃▂▂▃▂▂▁▂▃▂▃▂▂▁▂▂▂▁▂▂▁
+wandb:    train/lr ██████████▇▇▇▇▇▇▇▇▆▆▆▆▆▅▅▅▅▅▄▄▄▃▃▃▃▂▂▂▁▁
+wandb:   val/epoch ▁▂▂▃▄▄▅▅▆▇▇█
+wandb:    val/loss ▃▄▄█▄▃▃▃▆▂▂▁
+wandb:    val/top1 ▁▁▄▃▅▅▆▆▄▆▇█
+wandb:    val/top5 ▁▃▅▄▅▇▇▆▄▅▇█
+wandb: 
+wandb: Run summary:
+wandb:  train/Top1 100.0
+wandb:  train/Top5 100.0
+wandb: train/epoch 114
+wandb:  train/loss 0.00296
+wandb:    train/lr 0.00068
+wandb:   val/epoch 110
+wandb:    val/loss 6.57692
+wandb:    val/top1 25.65605
+wandb:    val/top5 67.69427
+wandb: 
+wandb: 🚀 View run worldly-sun-502 at: https://wandb.ai/hl57/final_rn18_fkd/runs/1uunz3jz
+wandb: ️⚡ View job at https://wandb.ai/hl57/final_rn18_fkd/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk3MzkyNjU3/version_details/v47
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20231023_202959-1uunz3jz/logs

@@ -1,0 +1,32 @@
+[
+    {
+        "script": "generate_soft_label.py",
+        "args": {
+            "dataset": "tiny-imagenet",
+            "data": "../recover/syn_data/tiny-imagenet/t4",
+            "model": "resnet18",
+            "ckpt_path": "../pretrain/output/tiny-imagenet_resnet18/226/model_49.pth",
+            "workers": 8,
+            "batch_size": 100,
+            "world_size": -1,
+            "rank": -1,
+            "dist_url": "tcp://224.66.41.62:23456",
+            "dist_backend": "nccl",
+            "seed": null,
+            "gpu": null,
+            "multiprocessing_distributed": false,
+            "epochs": 10,
+            "input_size": 32,
+            "min_scale_crops": 0.08,
+            "max_scale_crops": 1.0,
+            "fkd_path": "FKD_cutmix_fp16/tiny-imagenet/t4",
+            "exp_name": "t4",
+            "use_fp16": true,
+            "mode": "fkd_save",
+            "fkd_seed": 42,
+            "mix_type": "cutmix",
+            "mixup": 0.8,
+            "cutmix": 1.0
+        }
+    }
+]

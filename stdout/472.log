@@ -1,0 +1,2323 @@
+r_bn:  30.0
+lr:  0.03
+bc loaded
+bc shape (200, 10, 512)
+Computing BatchNorm statistics for class 0
+Computing BatchNorm statistics for class 1
+Computing BatchNorm statistics for class 2
+Computing BatchNorm statistics for class 3
+Computing BatchNorm statistics for class 4
+Computing BatchNorm statistics for class 5
+Computing BatchNorm statistics for class 6
+Computing BatchNorm statistics for class 7
+Computing BatchNorm statistics for class 8
+Computing BatchNorm statistics for class 9
+Computing BatchNorm statistics for class 10
+Computing BatchNorm statistics for class 11
+Computing BatchNorm statistics for class 12
+Computing BatchNorm statistics for class 13
+Computing BatchNorm statistics for class 14
+Computing BatchNorm statistics for class 15
+Computing BatchNorm statistics for class 16
+Computing BatchNorm statistics for class 17
+Computing BatchNorm statistics for class 18
+Computing BatchNorm statistics for class 19
+Computing BatchNorm statistics for class 20
+Computing BatchNorm statistics for class 21
+Computing BatchNorm statistics for class 22
+Computing BatchNorm statistics for class 23
+Computing BatchNorm statistics for class 24
+Computing BatchNorm statistics for class 25
+Computing BatchNorm statistics for class 26
+Computing BatchNorm statistics for class 27
+Computing BatchNorm statistics for class 28
+Computing BatchNorm statistics for class 29
+Computing BatchNorm statistics for class 30
+Computing BatchNorm statistics for class 31
+Computing BatchNorm statistics for class 32
+Computing BatchNorm statistics for class 33
+Computing BatchNorm statistics for class 34
+Computing BatchNorm statistics for class 35
+Computing BatchNorm statistics for class 36
+Computing BatchNorm statistics for class 37
+Computing BatchNorm statistics for class 38
+Computing BatchNorm statistics for class 39
+Computing BatchNorm statistics for class 40
+Computing BatchNorm statistics for class 41
+Computing BatchNorm statistics for class 42
+Computing BatchNorm statistics for class 43
+Computing BatchNorm statistics for class 44
+Computing BatchNorm statistics for class 45
+Computing BatchNorm statistics for class 46
+Computing BatchNorm statistics for class 47
+Computing BatchNorm statistics for class 48
+Computing BatchNorm statistics for class 49
+Computing BatchNorm statistics for class 50
+Computing BatchNorm statistics for class 51
+Computing BatchNorm statistics for class 52
+Computing BatchNorm statistics for class 53
+Computing BatchNorm statistics for class 54
+Computing BatchNorm statistics for class 55
+Computing BatchNorm statistics for class 56
+Computing BatchNorm statistics for class 57
+Computing BatchNorm statistics for class 58
+Computing BatchNorm statistics for class 59
+Computing BatchNorm statistics for class 60
+Computing BatchNorm statistics for class 61
+Computing BatchNorm statistics for class 62
+Computing BatchNorm statistics for class 63
+Computing BatchNorm statistics for class 64
+Computing BatchNorm statistics for class 65
+Computing BatchNorm statistics for class 66
+Computing BatchNorm statistics for class 67
+Computing BatchNorm statistics for class 68
+Computing BatchNorm statistics for class 69
+Computing BatchNorm statistics for class 70
+Computing BatchNorm statistics for class 71
+Computing BatchNorm statistics for class 72
+Computing BatchNorm statistics for class 73
+Computing BatchNorm statistics for class 74
+Computing BatchNorm statistics for class 75
+Computing BatchNorm statistics for class 76
+Computing BatchNorm statistics for class 77
+Computing BatchNorm statistics for class 78
+Computing BatchNorm statistics for class 79
+Computing BatchNorm statistics for class 80
+Computing BatchNorm statistics for class 81
+Computing BatchNorm statistics for class 82
+Computing BatchNorm statistics for class 83
+Computing BatchNorm statistics for class 84
+Computing BatchNorm statistics for class 85
+Computing BatchNorm statistics for class 86
+Computing BatchNorm statistics for class 87
+Computing BatchNorm statistics for class 88
+Computing BatchNorm statistics for class 89
+Computing BatchNorm statistics for class 90
+Computing BatchNorm statistics for class 91
+Computing BatchNorm statistics for class 92
+Computing BatchNorm statistics for class 93
+Computing BatchNorm statistics for class 94
+Computing BatchNorm statistics for class 95
+Computing BatchNorm statistics for class 96
+Computing BatchNorm statistics for class 97
+Computing BatchNorm statistics for class 98
+Computing BatchNorm statistics for class 99
+Computing BatchNorm statistics for class 100
+Computing BatchNorm statistics for class 101
+Computing BatchNorm statistics for class 102
+Computing BatchNorm statistics for class 103
+Computing BatchNorm statistics for class 104
+Computing BatchNorm statistics for class 105
+Computing BatchNorm statistics for class 106
+Computing BatchNorm statistics for class 107
+Computing BatchNorm statistics for class 108
+Computing BatchNorm statistics for class 109
+Computing BatchNorm statistics for class 110
+Computing BatchNorm statistics for class 111
+Computing BatchNorm statistics for class 112
+Computing BatchNorm statistics for class 113
+Computing BatchNorm statistics for class 114
+Computing BatchNorm statistics for class 115
+Computing BatchNorm statistics for class 116
+Computing BatchNorm statistics for class 117
+Computing BatchNorm statistics for class 118
+Computing BatchNorm statistics for class 119
+Computing BatchNorm statistics for class 120
+Computing BatchNorm statistics for class 121
+Computing BatchNorm statistics for class 122
+Computing BatchNorm statistics for class 123
+Computing BatchNorm statistics for class 124
+Computing BatchNorm statistics for class 125
+Computing BatchNorm statistics for class 126
+Computing BatchNorm statistics for class 127
+Computing BatchNorm statistics for class 128
+Computing BatchNorm statistics for class 129
+Computing BatchNorm statistics for class 130
+Computing BatchNorm statistics for class 131
+Computing BatchNorm statistics for class 132
+Computing BatchNorm statistics for class 133
+Computing BatchNorm statistics for class 134
+Computing BatchNorm statistics for class 135
+Computing BatchNorm statistics for class 136
+Computing BatchNorm statistics for class 137
+Computing BatchNorm statistics for class 138
+Computing BatchNorm statistics for class 139
+Computing BatchNorm statistics for class 140
+Computing BatchNorm statistics for class 141
+Computing BatchNorm statistics for class 142
+Computing BatchNorm statistics for class 143
+Computing BatchNorm statistics for class 144
+Computing BatchNorm statistics for class 145
+Computing BatchNorm statistics for class 146
+Computing BatchNorm statistics for class 147
+Computing BatchNorm statistics for class 148
+Computing BatchNorm statistics for class 149
+Computing BatchNorm statistics for class 150
+Computing BatchNorm statistics for class 151
+Computing BatchNorm statistics for class 152
+Computing BatchNorm statistics for class 153
+Computing BatchNorm statistics for class 154
+Computing BatchNorm statistics for class 155
+Computing BatchNorm statistics for class 156
+Computing BatchNorm statistics for class 157
+Computing BatchNorm statistics for class 158
+Computing BatchNorm statistics for class 159
+Computing BatchNorm statistics for class 160
+Computing BatchNorm statistics for class 161
+Computing BatchNorm statistics for class 162
+Computing BatchNorm statistics for class 163
+Computing BatchNorm statistics for class 164
+Computing BatchNorm statistics for class 165
+Computing BatchNorm statistics for class 166
+Computing BatchNorm statistics for class 167
+Computing BatchNorm statistics for class 168
+Computing BatchNorm statistics for class 169
+Computing BatchNorm statistics for class 170
+Computing BatchNorm statistics for class 171
+Computing BatchNorm statistics for class 172
+Computing BatchNorm statistics for class 173
+Computing BatchNorm statistics for class 174
+Computing BatchNorm statistics for class 175
+Computing BatchNorm statistics for class 176
+Computing BatchNorm statistics for class 177
+Computing BatchNorm statistics for class 178
+Computing BatchNorm statistics for class 179
+Computing BatchNorm statistics for class 180
+Computing BatchNorm statistics for class 181
+Computing BatchNorm statistics for class 182
+Computing BatchNorm statistics for class 183
+Computing BatchNorm statistics for class 184
+Computing BatchNorm statistics for class 185
+Computing BatchNorm statistics for class 186
+Computing BatchNorm statistics for class 187
+Computing BatchNorm statistics for class 188
+Computing BatchNorm statistics for class 189
+Computing BatchNorm statistics for class 190
+Computing BatchNorm statistics for class 191
+Computing BatchNorm statistics for class 192
+Computing BatchNorm statistics for class 193
+Computing BatchNorm statistics for class 194
+Computing BatchNorm statistics for class 195
+Computing BatchNorm statistics for class 196
+Computing BatchNorm statistics for class 197
+Computing BatchNorm statistics for class 198
+Computing BatchNorm statistics for class 199
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+get_images call
+class_per_batch  10 batch_size  100 args.ipc  10
+------------iteration 0----------
+total loss 6749.754892273519
+main criterion 132.4726657110185
+weighted_aux_loss 6617.2822265625
+loss_r_bn_feature 220.57608032226562
+------------iteration 100----------
+total loss 3915.4270934838046
+main criterion 92.26034543692941
+weighted_aux_loss 3823.166748046875
+loss_r_bn_feature 127.43888854980469
+------------iteration 200----------
+total loss 2166.9046298349235
+main criterion 58.866299756798504
+weighted_aux_loss 2108.038330078125
+loss_r_bn_feature 70.2679443359375
+------------iteration 300----------
+total loss 2406.164374591575
+main criterion 74.93414998219983
+weighted_aux_loss 2331.230224609375
+loss_r_bn_feature 77.70767211914062
+------------iteration 400----------
+total loss 1815.24316148121
+main criterion 55.0496800358977
+weighted_aux_loss 1760.1934814453125
+loss_r_bn_feature 58.67311477661133
+------------iteration 500----------
+total loss 1814.0014691145318
+main criterion 52.3336224348444
+weighted_aux_loss 1761.6678466796875
+loss_r_bn_feature 58.72226333618164
+------------iteration 600----------
+total loss 1738.7861188396846
+main criterion 70.4672711834345
+weighted_aux_loss 1668.31884765625
+loss_r_bn_feature 55.61063003540039
+------------iteration 700----------
+total loss 1543.414753059853
+main criterion 49.11568079422807
+weighted_aux_loss 1494.299072265625
+loss_r_bn_feature 49.80997085571289
+------------iteration 800----------
+total loss 1385.0098111005298
+main criterion 53.90934723334227
+weighted_aux_loss 1331.1004638671875
+loss_r_bn_feature 44.37001419067383
+------------iteration 900----------
+total loss 1579.0167025922863
+main criterion 50.19687837353637
+weighted_aux_loss 1528.81982421875
+loss_r_bn_feature 50.96065902709961
+------------iteration 1000----------
+total loss 1350.8528797070594
+main criterion 51.02524298830937
+weighted_aux_loss 1299.82763671875
+loss_r_bn_feature 43.32758712768555
+------------iteration 1100----------
+total loss 1404.3662786846503
+main criterion 60.450018919025396
+weighted_aux_loss 1343.916259765625
+loss_r_bn_feature 44.797210693359375
+------------iteration 1200----------
+total loss 1305.4023327197103
+main criterion 46.07970088377286
+weighted_aux_loss 1259.3226318359375
+loss_r_bn_feature 41.977420806884766
+------------iteration 1300----------
+total loss 1281.1221020967278
+main criterion 48.407136276415265
+weighted_aux_loss 1232.7149658203125
+loss_r_bn_feature 41.09049987792969
+------------iteration 1400----------
+total loss 1596.3540539721914
+main criterion 63.69829225344145
+weighted_aux_loss 1532.65576171875
+loss_r_bn_feature 51.088523864746094
+------------iteration 1500----------
+total loss 1344.460580164369
+main criterion 47.52027254718151
+weighted_aux_loss 1296.9403076171875
+loss_r_bn_feature 43.23134231567383
+------------iteration 1600----------
+total loss 1227.695716377491
+main criterion 45.588782783740996
+weighted_aux_loss 1182.10693359375
+loss_r_bn_feature 39.403564453125
+------------iteration 1700----------
+total loss 1207.322758322067
+main criterion 45.441776876754496
+weighted_aux_loss 1161.8809814453125
+loss_r_bn_feature 38.729366302490234
+------------iteration 1800----------
+total loss 1155.628829273308
+main criterion 45.58415153893287
+weighted_aux_loss 1110.044677734375
+loss_r_bn_feature 37.001487731933594
+------------iteration 1900----------
+total loss 1395.4577355046144
+main criterion 47.02096792648952
+weighted_aux_loss 1348.436767578125
+loss_r_bn_feature 44.94789123535156
+------------iteration 0----------
+total loss 7463.686222510255
+main criterion 139.54462094775513
+weighted_aux_loss 7324.1416015625
+loss_r_bn_feature 244.13804626464844
+------------iteration 100----------
+total loss 3427.9716842307016
+main criterion 84.34058071507675
+weighted_aux_loss 3343.631103515625
+loss_r_bn_feature 111.4543685913086
+------------iteration 200----------
+total loss 2723.941820741535
+main criterion 63.583666444660174
+weighted_aux_loss 2660.358154296875
+loss_r_bn_feature 88.67860412597656
+------------iteration 300----------
+total loss 2222.0784617113245
+main criterion 58.531098430074536
+weighted_aux_loss 2163.54736328125
+loss_r_bn_feature 72.11824798583984
+------------iteration 400----------
+total loss 3051.5519337952455
+main criterion 76.99553731087032
+weighted_aux_loss 2974.556396484375
+loss_r_bn_feature 99.1518783569336
+------------iteration 500----------
+total loss 2760.308946405706
+main criterion 83.59166124945632
+weighted_aux_loss 2676.71728515625
+loss_r_bn_feature 89.22390747070312
+------------iteration 600----------
+total loss 1665.46292695706
+main criterion 65.33450898830999
+weighted_aux_loss 1600.12841796875
+loss_r_bn_feature 53.337615966796875
+------------iteration 700----------
+total loss 4984.980879207915
+main criterion 121.78019561416522
+weighted_aux_loss 4863.20068359375
+loss_r_bn_feature 162.106689453125
+------------iteration 800----------
+total loss 1665.8333944692379
+main criterion 63.737447203612774
+weighted_aux_loss 1602.095947265625
+loss_r_bn_feature 53.4031982421875
+------------iteration 900----------
+total loss 1629.0775689097802
+main criterion 53.09929742540523
+weighted_aux_loss 1575.978271484375
+loss_r_bn_feature 52.53260803222656
+------------iteration 1000----------
+total loss 1536.3836905685594
+main criterion 65.40956947480942
+weighted_aux_loss 1470.97412109375
+loss_r_bn_feature 49.032470703125
+------------iteration 1100----------
+total loss 1327.7041495437138
+main criterion 51.06328040308883
+weighted_aux_loss 1276.640869140625
+loss_r_bn_feature 42.55469512939453
+------------iteration 1200----------
+total loss 1588.6806933043583
+main criterion 62.697294866858364
+weighted_aux_loss 1525.9833984375
+loss_r_bn_feature 50.866111755371094
+------------iteration 1300----------
+total loss 1348.230013117086
+main criterion 49.697420343648346
+weighted_aux_loss 1298.5325927734375
+loss_r_bn_feature 43.284420013427734
+------------iteration 1400----------
+total loss 1439.261739212949
+main criterion 68.2804159707615
+weighted_aux_loss 1370.9813232421875
+loss_r_bn_feature 45.699378967285156
+------------iteration 1500----------
+total loss 1352.3198891260145
+main criterion 57.05524068851446
+weighted_aux_loss 1295.2646484375
+loss_r_bn_feature 43.17548751831055
+------------iteration 1600----------
+total loss 1124.785958625061
+main criterion 52.71711096881106
+weighted_aux_loss 1072.06884765625
+loss_r_bn_feature 35.73563003540039
+------------iteration 1700----------
+total loss 1077.3895989588289
+main criterion 60.01935970101646
+weighted_aux_loss 1017.3702392578125
+loss_r_bn_feature 33.9123420715332
+------------iteration 1800----------
+total loss 1685.8827931076196
+main criterion 68.22751967011962
+weighted_aux_loss 1617.6552734375
+loss_r_bn_feature 53.92184066772461
+------------iteration 1900----------
+total loss 1109.043495243021
+main criterion 48.057167118020935
+weighted_aux_loss 1060.986328125
+loss_r_bn_feature 35.3662109375
+------------iteration 0----------
+total loss 7821.478551997291
+main criterion 151.0005246535413
+weighted_aux_loss 7670.47802734375
+loss_r_bn_feature 255.68260192871094
+------------iteration 100----------
+total loss 3170.3170317415356
+main criterion 80.49452197591056
+weighted_aux_loss 3089.822509765625
+loss_r_bn_feature 102.99408721923828
+------------iteration 200----------
+total loss 2422.6372387365136
+main criterion 64.29519772088881
+weighted_aux_loss 2358.342041015625
+loss_r_bn_feature 78.61140441894531
+------------iteration 300----------
+total loss 2145.12151206932
+main criterion 58.00188316307013
+weighted_aux_loss 2087.11962890625
+loss_r_bn_feature 69.5706558227539
+------------iteration 400----------
+total loss 4339.0350762123835
+main criterion 109.25870902488376
+weighted_aux_loss 4229.7763671875
+loss_r_bn_feature 140.9925537109375
+------------iteration 500----------
+total loss 1736.6176463130362
+main criterion 54.559784984911104
+weighted_aux_loss 1682.057861328125
+loss_r_bn_feature 56.06859588623047
+------------iteration 600----------
+total loss 1672.7740675399682
+main criterion 54.19142593840561
+weighted_aux_loss 1618.5826416015625
+loss_r_bn_feature 53.952754974365234
+------------iteration 700----------
+total loss 1687.8722667721306
+main criterion 56.21320915494308
+weighted_aux_loss 1631.6590576171875
+loss_r_bn_feature 54.388633728027344
+------------iteration 800----------
+total loss 1586.5995772987685
+main criterion 53.678434720643416
+weighted_aux_loss 1532.921142578125
+loss_r_bn_feature 51.09737014770508
+------------iteration 900----------
+total loss 4561.573782301918
+main criterion 117.73686823941811
+weighted_aux_loss 4443.8369140625
+loss_r_bn_feature 148.12789916992188
+------------iteration 1000----------
+total loss 1624.2983813976507
+main criterion 52.429118702338194
+weighted_aux_loss 1571.8692626953125
+loss_r_bn_feature 52.3956413269043
+------------iteration 1100----------
+total loss 1318.7231538640876
+main criterion 50.999521051587735
+weighted_aux_loss 1267.7236328125
+loss_r_bn_feature 42.25745391845703
+------------iteration 1200----------
+total loss 1320.475231015656
+main criterion 55.85755523440595
+weighted_aux_loss 1264.61767578125
+loss_r_bn_feature 42.15392303466797
+------------iteration 1300----------
+total loss 1208.8787146251957
+main criterion 59.805716578320606
+weighted_aux_loss 1149.072998046875
+loss_r_bn_feature 38.302433013916016
+------------iteration 1400----------
+total loss 1316.3590455773287
+main criterion 48.77811296014128
+weighted_aux_loss 1267.5809326171875
+loss_r_bn_feature 42.2526969909668
+------------iteration 1500----------
+total loss 1331.2915970997044
+main criterion 48.79635784189191
+weighted_aux_loss 1282.4952392578125
+loss_r_bn_feature 42.749839782714844
+------------iteration 1600----------
+total loss 1290.7179782481865
+main criterion 48.21394992787403
+weighted_aux_loss 1242.5040283203125
+loss_r_bn_feature 41.41680145263672
+------------iteration 1700----------
+total loss 1197.8069454640276
+main criterion 50.253722807777564
+weighted_aux_loss 1147.55322265625
+loss_r_bn_feature 38.251773834228516
+------------iteration 1800----------
+total loss 1239.3260812152766
+main criterion 48.70230191840174
+weighted_aux_loss 1190.623779296875
+loss_r_bn_feature 39.68745803833008
+------------iteration 1900----------
+total loss 1407.673357070874
+main criterion 50.15602308649919
+weighted_aux_loss 1357.517333984375
+loss_r_bn_feature 45.25057601928711
+------------iteration 0----------
+total loss 7207.696751459932
+main criterion 136.66745458493162
+weighted_aux_loss 7071.029296875
+loss_r_bn_feature 235.7009735107422
+------------iteration 100----------
+total loss 3247.1436283330486
+main criterion 78.72419473929855
+weighted_aux_loss 3168.41943359375
+loss_r_bn_feature 105.61398315429688
+------------iteration 200----------
+total loss 4666.300908612493
+main criterion 107.6705375187433
+weighted_aux_loss 4558.63037109375
+loss_r_bn_feature 151.954345703125
+------------iteration 300----------
+total loss 2002.4422269338386
+main criterion 58.639004277588484
+weighted_aux_loss 1943.80322265625
+loss_r_bn_feature 64.79344177246094
+------------iteration 400----------
+total loss 1959.6945031645314
+main criterion 56.207442617656355
+weighted_aux_loss 1903.487060546875
+loss_r_bn_feature 63.44956970214844
+------------iteration 500----------
+total loss 1830.465233840575
+main criterion 61.62355903588749
+weighted_aux_loss 1768.8416748046875
+loss_r_bn_feature 58.961387634277344
+------------iteration 600----------
+total loss 1714.29598528916
+main criterion 53.73617083603499
+weighted_aux_loss 1660.559814453125
+loss_r_bn_feature 55.351993560791016
+------------iteration 700----------
+total loss 1657.4830153706719
+main criterion 55.458357167546914
+weighted_aux_loss 1602.024658203125
+loss_r_bn_feature 53.400821685791016
+------------iteration 800----------
+total loss 1381.7961706043038
+main criterion 56.813260448053825
+weighted_aux_loss 1324.98291015625
+loss_r_bn_feature 44.16609573364258
+------------iteration 900----------
+total loss 1415.9009037259966
+main criterion 52.446191811934064
+weighted_aux_loss 1363.4547119140625
+loss_r_bn_feature 45.448490142822266
+------------iteration 1000----------
+total loss 1318.0529105381138
+main criterion 50.496758194363906
+weighted_aux_loss 1267.55615234375
+loss_r_bn_feature 42.25187301635742
+------------iteration 1100----------
+total loss 1792.13772188881
+main criterion 76.63784395912235
+weighted_aux_loss 1715.4998779296875
+loss_r_bn_feature 57.18333053588867
+------------iteration 1200----------
+total loss 1414.6459732234573
+main criterion 63.72812654376986
+weighted_aux_loss 1350.9178466796875
+loss_r_bn_feature 45.03059387207031
+------------iteration 1300----------
+total loss 1413.7463262873948
+main criterion 73.1664923030199
+weighted_aux_loss 1340.579833984375
+loss_r_bn_feature 44.68599319458008
+------------iteration 1400----------
+total loss 1127.280659548155
+main criterion 49.72963415753007
+weighted_aux_loss 1077.551025390625
+loss_r_bn_feature 35.91836929321289
+------------iteration 1500----------
+total loss 1147.383063921937
+main criterion 49.097175250062044
+weighted_aux_loss 1098.285888671875
+loss_r_bn_feature 36.60953140258789
+------------iteration 1600----------
+total loss 1075.145444392689
+main criterion 58.097104548938965
+weighted_aux_loss 1017.04833984375
+loss_r_bn_feature 33.901611328125
+------------iteration 1700----------
+total loss 1472.5659162907868
+main criterion 65.6044905095369
+weighted_aux_loss 1406.96142578125
+loss_r_bn_feature 46.89871597290039
+------------iteration 1800----------
+total loss 1299.0019840835632
+main criterion 52.320709669500644
+weighted_aux_loss 1246.6812744140625
+loss_r_bn_feature 41.5560417175293
+------------iteration 1900----------
+total loss 1057.4939670360811
+main criterion 53.80420873529992
+weighted_aux_loss 1003.6897583007812
+loss_r_bn_feature 33.45632553100586
+------------iteration 0----------
+total loss 7169.625956726554
+main criterion 131.04246063280385
+weighted_aux_loss 7038.58349609375
+loss_r_bn_feature 234.61944580078125
+------------iteration 100----------
+total loss 2948.365104707364
+main criterion 78.01891330111413
+weighted_aux_loss 2870.34619140625
+loss_r_bn_feature 95.67820739746094
+------------iteration 200----------
+total loss 2452.3254224208395
+main criterion 66.6196118739645
+weighted_aux_loss 2385.705810546875
+loss_r_bn_feature 79.52352905273438
+------------iteration 300----------
+total loss 2121.745973984316
+main criterion 61.65735093744108
+weighted_aux_loss 2060.088623046875
+loss_r_bn_feature 68.66962432861328
+------------iteration 400----------
+total loss 1953.4657742009479
+main criterion 57.3008572087603
+weighted_aux_loss 1896.1649169921875
+loss_r_bn_feature 63.20549774169922
+------------iteration 500----------
+total loss 1726.713033322592
+main criterion 57.90126574446705
+weighted_aux_loss 1668.811767578125
+loss_r_bn_feature 55.62705993652344
+------------iteration 600----------
+total loss 1669.5729500263762
+main criterion 59.093946120126354
+weighted_aux_loss 1610.47900390625
+loss_r_bn_feature 53.68263244628906
+------------iteration 700----------
+total loss 1648.8296952030248
+main criterion 52.87791297646241
+weighted_aux_loss 1595.9517822265625
+loss_r_bn_feature 53.19839096069336
+------------iteration 800----------
+total loss 1567.093020497462
+main criterion 52.04004198183709
+weighted_aux_loss 1515.052978515625
+loss_r_bn_feature 50.501766204833984
+------------iteration 900----------
+total loss 1463.734177319698
+main criterion 51.403488843135314
+weighted_aux_loss 1412.3306884765625
+loss_r_bn_feature 47.07769012451172
+------------iteration 1000----------
+total loss 1676.5002539897573
+main criterion 59.54249031788222
+weighted_aux_loss 1616.957763671875
+loss_r_bn_feature 53.898590087890625
+------------iteration 1100----------
+total loss 1899.766246637178
+main criterion 71.10804351217806
+weighted_aux_loss 1828.658203125
+loss_r_bn_feature 60.95527267456055
+------------iteration 1200----------
+total loss 1442.7000241125625
+main criterion 50.44514130006252
+weighted_aux_loss 1392.2548828125
+loss_r_bn_feature 46.40849685668945
+------------iteration 1300----------
+total loss 2104.9817188486945
+main criterion 68.6778858408821
+weighted_aux_loss 2036.3038330078125
+loss_r_bn_feature 67.87679290771484
+------------iteration 1400----------
+total loss 1293.3227077987924
+main criterion 50.0763699081673
+weighted_aux_loss 1243.246337890625
+loss_r_bn_feature 41.44154357910156
+------------iteration 1500----------
+total loss 1203.6879579586018
+main criterion 50.054657177351906
+weighted_aux_loss 1153.63330078125
+loss_r_bn_feature 38.454444885253906
+------------iteration 1600----------
+total loss 1116.7894347581841
+main criterion 54.80640253162169
+weighted_aux_loss 1061.9830322265625
+loss_r_bn_feature 35.39943313598633
+------------iteration 1700----------
+total loss 1352.4210614341075
+main criterion 52.97049991067008
+weighted_aux_loss 1299.4505615234375
+loss_r_bn_feature 43.31501770019531
+------------iteration 1800----------
+total loss 1188.525503356017
+main criterion 48.46971722320446
+weighted_aux_loss 1140.0557861328125
+loss_r_bn_feature 38.00185775756836
+------------iteration 1900----------
+total loss 1212.9242683771224
+main criterion 53.41157306462236
+weighted_aux_loss 1159.5126953125
+loss_r_bn_feature 38.650421142578125
+------------iteration 0----------
+total loss 7138.466448632591
+main criterion 139.79555019509115
+weighted_aux_loss 6998.6708984375
+loss_r_bn_feature 233.28903198242188
+------------iteration 100----------
+total loss 2701.2548074548163
+main criterion 78.82487581419109
+weighted_aux_loss 2622.429931640625
+loss_r_bn_feature 87.4143295288086
+------------iteration 200----------
+total loss 2197.394449801058
+main criterion 61.692789644807895
+weighted_aux_loss 2135.70166015625
+loss_r_bn_feature 71.19005584716797
+------------iteration 300----------
+total loss 2051.061645028227
+main criterion 59.26257276260193
+weighted_aux_loss 1991.799072265625
+loss_r_bn_feature 66.39330291748047
+------------iteration 400----------
+total loss 4487.042891188271
+main criterion 106.30900446952054
+weighted_aux_loss 4380.73388671875
+loss_r_bn_feature 146.0244598388672
+------------iteration 500----------
+total loss 1660.2495986993802
+main criterion 55.335414129067686
+weighted_aux_loss 1604.9141845703125
+loss_r_bn_feature 53.49713897705078
+------------iteration 600----------
+total loss 2456.7610302711105
+main criterion 75.34208495861037
+weighted_aux_loss 2381.4189453125
+loss_r_bn_feature 79.38063049316406
+------------iteration 700----------
+total loss 4071.9791131380575
+main criterion 107.56212095055749
+weighted_aux_loss 3964.4169921875
+loss_r_bn_feature 132.14723205566406
+------------iteration 800----------
+total loss 1692.8139655840955
+main criterion 53.45385816222049
+weighted_aux_loss 1639.360107421875
+loss_r_bn_feature 54.64533615112305
+------------iteration 900----------
+total loss 2866.267014977433
+main criterion 86.58464193055826
+weighted_aux_loss 2779.682373046875
+loss_r_bn_feature 92.65608215332031
+------------iteration 1000----------
+total loss 1417.602175175405
+main criterion 69.17968982384232
+weighted_aux_loss 1348.4224853515625
+loss_r_bn_feature 44.94741439819336
+------------iteration 1100----------
+total loss 1411.6684868505658
+main criterion 48.689116733378334
+weighted_aux_loss 1362.9793701171875
+loss_r_bn_feature 45.43264389038086
+------------iteration 1200----------
+total loss 1737.3328824463401
+main criterion 63.58703283696512
+weighted_aux_loss 1673.745849609375
+loss_r_bn_feature 55.791526794433594
+------------iteration 1300----------
+total loss 1312.4882524428674
+main criterion 49.69748095849242
+weighted_aux_loss 1262.790771484375
+loss_r_bn_feature 42.09302520751953
+------------iteration 1400----------
+total loss 2092.430437046539
+main criterion 79.12489505435141
+weighted_aux_loss 2013.3055419921875
+loss_r_bn_feature 67.11018371582031
+------------iteration 1500----------
+total loss 1198.1009101063798
+main criterion 53.16170112200485
+weighted_aux_loss 1144.939208984375
+loss_r_bn_feature 38.16463851928711
+------------iteration 1600----------
+total loss 1162.5846429603296
+main criterion 58.95903260876714
+weighted_aux_loss 1103.6256103515625
+loss_r_bn_feature 36.78752136230469
+------------iteration 1700----------
+total loss 1500.4604856104734
+main criterion 71.19132057141088
+weighted_aux_loss 1429.2691650390625
+loss_r_bn_feature 47.64230728149414
+------------iteration 1800----------
+total loss 2105.8797485352284
+main criterion 80.65404052741603
+weighted_aux_loss 2025.2257080078125
+loss_r_bn_feature 67.50752258300781
+------------iteration 1900----------
+total loss 1299.0098109518697
+main criterion 49.88700821749463
+weighted_aux_loss 1249.122802734375
+loss_r_bn_feature 41.637428283691406
+------------iteration 0----------
+total loss 7578.923324949487
+main criterion 136.70311010573755
+weighted_aux_loss 7442.22021484375
+loss_r_bn_feature 248.07400512695312
+------------iteration 100----------
+total loss 3469.8603527791724
+main criterion 79.14990356042244
+weighted_aux_loss 3390.71044921875
+loss_r_bn_feature 113.023681640625
+------------iteration 200----------
+total loss 2873.4326242495217
+main criterion 64.30738010889691
+weighted_aux_loss 2809.125244140625
+loss_r_bn_feature 93.63750457763672
+------------iteration 300----------
+total loss 2353.868447819608
+main criterion 60.213662663357816
+weighted_aux_loss 2293.65478515625
+loss_r_bn_feature 76.45516204833984
+------------iteration 400----------
+total loss 2180.358835602515
+main criterion 59.132273102514944
+weighted_aux_loss 2121.2265625
+loss_r_bn_feature 70.70755004882812
+------------iteration 500----------
+total loss 3634.875305129401
+main criterion 79.63775630127624
+weighted_aux_loss 3555.237548828125
+loss_r_bn_feature 118.50791931152344
+------------iteration 600----------
+total loss 1738.7588810174384
+main criterion 55.54660074400095
+weighted_aux_loss 1683.2122802734375
+loss_r_bn_feature 56.10707473754883
+------------iteration 700----------
+total loss 2192.0236259390767
+main criterion 70.62006148595154
+weighted_aux_loss 2121.403564453125
+loss_r_bn_feature 70.71345520019531
+------------iteration 800----------
+total loss 1779.3599530110064
+main criterion 51.351652229756326
+weighted_aux_loss 1728.00830078125
+loss_r_bn_feature 57.600276947021484
+------------iteration 900----------
+total loss 1749.029873123406
+main criterion 53.92538093590618
+weighted_aux_loss 1695.1044921875
+loss_r_bn_feature 56.503482818603516
+------------iteration 1000----------
+total loss 1564.4714716016235
+main criterion 52.39481144537353
+weighted_aux_loss 1512.07666015625
+loss_r_bn_feature 50.402557373046875
+------------iteration 1100----------
+total loss 1463.444716333892
+main criterion 51.29078566982957
+weighted_aux_loss 1412.1539306640625
+loss_r_bn_feature 47.07179641723633
+------------iteration 1200----------
+total loss 1416.0003344921643
+main criterion 49.72274660153929
+weighted_aux_loss 1366.277587890625
+loss_r_bn_feature 45.54258728027344
+------------iteration 1300----------
+total loss 1389.7034214609052
+main criterion 51.550711499967846
+weighted_aux_loss 1338.1527099609375
+loss_r_bn_feature 44.6050910949707
+------------iteration 1400----------
+total loss 1511.5214265632433
+main criterion 49.72308671949325
+weighted_aux_loss 1461.79833984375
+loss_r_bn_feature 48.72661209106445
+------------iteration 1500----------
+total loss 1499.699022729214
+main criterion 50.49174733858905
+weighted_aux_loss 1449.207275390625
+loss_r_bn_feature 48.306907653808594
+------------iteration 1600----------
+total loss 1503.1439670623633
+main criterion 56.32157936705092
+weighted_aux_loss 1446.8223876953125
+loss_r_bn_feature 48.227413177490234
+------------iteration 1700----------
+total loss 1352.7902486680687
+main criterion 57.149623668068635
+weighted_aux_loss 1295.640625
+loss_r_bn_feature 43.188018798828125
+------------iteration 1800----------
+total loss 1442.4972150129734
+main criterion 50.137840012973385
+weighted_aux_loss 1392.359375
+loss_r_bn_feature 46.41197967529297
+------------iteration 1900----------
+total loss 1479.684119513536
+main criterion 52.19083338072352
+weighted_aux_loss 1427.4932861328125
+loss_r_bn_feature 47.58311080932617
+------------iteration 0----------
+total loss 7465.057435021973
+main criterion 132.45733736572268
+weighted_aux_loss 7332.60009765625
+loss_r_bn_feature 244.4199981689453
+------------iteration 100----------
+total loss 3506.960280667952
+main criterion 83.5733177773269
+weighted_aux_loss 3423.386962890625
+loss_r_bn_feature 114.11289978027344
+------------iteration 200----------
+total loss 2696.550377098084
+main criterion 70.79476186370881
+weighted_aux_loss 2625.755615234375
+loss_r_bn_feature 87.52518463134766
+------------iteration 300----------
+total loss 2561.5126569238087
+main criterion 60.57442450193383
+weighted_aux_loss 2500.938232421875
+loss_r_bn_feature 83.36460876464844
+------------iteration 400----------
+total loss 2260.870209821311
+main criterion 67.405366071311
+weighted_aux_loss 2193.46484375
+loss_r_bn_feature 73.11549377441406
+------------iteration 500----------
+total loss 2222.1291260552653
+main criterion 57.62692878964041
+weighted_aux_loss 2164.502197265625
+loss_r_bn_feature 72.15007019042969
+------------iteration 600----------
+total loss 2834.0680509072877
+main criterion 75.35979895416267
+weighted_aux_loss 2758.708251953125
+loss_r_bn_feature 91.95693969726562
+------------iteration 700----------
+total loss 3270.402388712113
+main criterion 83.85624613398781
+weighted_aux_loss 3186.546142578125
+loss_r_bn_feature 106.21820831298828
+------------iteration 800----------
+total loss 1803.7049036043484
+main criterion 57.867012979348296
+weighted_aux_loss 1745.837890625
+loss_r_bn_feature 58.19459533691406
+------------iteration 900----------
+total loss 1897.0541350399185
+main criterion 55.731991485230886
+weighted_aux_loss 1841.3221435546875
+loss_r_bn_feature 61.377403259277344
+------------iteration 1000----------
+total loss 2290.1977057922377
+main criterion 71.70625071411281
+weighted_aux_loss 2218.491455078125
+loss_r_bn_feature 73.94971466064453
+------------iteration 1100----------
+total loss 1671.7834646100368
+main criterion 56.00074976628695
+weighted_aux_loss 1615.78271484375
+loss_r_bn_feature 53.85942459106445
+------------iteration 1200----------
+total loss 1641.2739542607035
+main criterion 52.36318765914101
+weighted_aux_loss 1588.9107666015625
+loss_r_bn_feature 52.96369171142578
+------------iteration 1300----------
+total loss 2575.179221123863
+main criterion 83.15090081136309
+weighted_aux_loss 2492.0283203125
+loss_r_bn_feature 83.06761169433594
+------------iteration 1400----------
+total loss 1524.609063998526
+main criterion 60.58611477977585
+weighted_aux_loss 1464.02294921875
+loss_r_bn_feature 48.80076599121094
+------------iteration 1500----------
+total loss 1780.5540609346212
+main criterion 53.392439840871134
+weighted_aux_loss 1727.16162109375
+loss_r_bn_feature 57.57205581665039
+------------iteration 1600----------
+total loss 2990.1222595446206
+main criterion 88.41327516962066
+weighted_aux_loss 2901.708984375
+loss_r_bn_feature 96.7236328125
+------------iteration 1700----------
+total loss 1557.7603973176024
+main criterion 53.39845884103978
+weighted_aux_loss 1504.3619384765625
+loss_r_bn_feature 50.1453971862793
+------------iteration 1800----------
+total loss 1452.753187105717
+main criterion 55.14527694946686
+weighted_aux_loss 1397.60791015625
+loss_r_bn_feature 46.58692932128906
+------------iteration 1900----------
+total loss 1468.4841276810914
+main criterion 58.14037768109153
+weighted_aux_loss 1410.34375
+loss_r_bn_feature 47.01145935058594
+------------iteration 0----------
+total loss 7559.000499183918
+main criterion 131.5454210589178
+weighted_aux_loss 7427.455078125
+loss_r_bn_feature 247.5818328857422
+------------iteration 100----------
+total loss 3432.5881048608217
+main criterion 81.4779974389465
+weighted_aux_loss 3351.110107421875
+loss_r_bn_feature 111.70366668701172
+------------iteration 200----------
+total loss 2984.925401328566
+main criterion 67.32090914106567
+weighted_aux_loss 2917.6044921875
+loss_r_bn_feature 97.25348663330078
+------------iteration 300----------
+total loss 2609.482037570288
+main criterion 61.17979147653774
+weighted_aux_loss 2548.30224609375
+loss_r_bn_feature 84.94340515136719
+------------iteration 400----------
+total loss 2268.447388713189
+main criterion 58.939087931939014
+weighted_aux_loss 2209.50830078125
+loss_r_bn_feature 73.65027618408203
+------------iteration 500----------
+total loss 2216.0811543201276
+main criterion 67.5962910388776
+weighted_aux_loss 2148.48486328125
+loss_r_bn_feature 71.61616516113281
+------------iteration 600----------
+total loss 2130.9526110781267
+main criterion 55.690404046876765
+weighted_aux_loss 2075.26220703125
+loss_r_bn_feature 69.17540740966797
+------------iteration 700----------
+total loss 1962.2607355740993
+main criterion 66.90380198034934
+weighted_aux_loss 1895.35693359375
+loss_r_bn_feature 63.178565979003906
+------------iteration 800----------
+total loss 1837.639504132918
+main criterion 54.171242414168184
+weighted_aux_loss 1783.46826171875
+loss_r_bn_feature 59.44894027709961
+------------iteration 900----------
+total loss 1608.025871445923
+main criterion 55.75023668029813
+weighted_aux_loss 1552.275634765625
+loss_r_bn_feature 51.74251937866211
+------------iteration 1000----------
+total loss 3059.5509075635196
+main criterion 85.35583920414462
+weighted_aux_loss 2974.195068359375
+loss_r_bn_feature 99.13983917236328
+------------iteration 1100----------
+total loss 1574.7863537232136
+main criterion 53.27182735602602
+weighted_aux_loss 1521.5145263671875
+loss_r_bn_feature 50.7171516418457
+------------iteration 1200----------
+total loss 1639.6329487958913
+main criterion 52.26905719432869
+weighted_aux_loss 1587.3638916015625
+loss_r_bn_feature 52.91212844848633
+------------iteration 1300----------
+total loss 1498.6733073653559
+main criterion 63.158170646605775
+weighted_aux_loss 1435.51513671875
+loss_r_bn_feature 47.85050582885742
+------------iteration 1400----------
+total loss 3262.649111354296
+main criterion 79.84833010429598
+weighted_aux_loss 3182.80078125
+loss_r_bn_feature 106.0933609008789
+------------iteration 1500----------
+total loss 1331.1414369984182
+main criterion 56.136798326543264
+weighted_aux_loss 1275.004638671875
+loss_r_bn_feature 42.500152587890625
+------------iteration 1600----------
+total loss 1663.8578235865825
+main criterion 65.54337046158244
+weighted_aux_loss 1598.314453125
+loss_r_bn_feature 53.27714920043945
+------------iteration 1700----------
+total loss 1334.1977120749118
+main criterion 57.54707730928684
+weighted_aux_loss 1276.650634765625
+loss_r_bn_feature 42.55501937866211
+------------iteration 1800----------
+total loss 1388.8699380020557
+main criterion 51.20990382236817
+weighted_aux_loss 1337.6600341796875
+loss_r_bn_feature 44.58866882324219
+------------iteration 1900----------
+total loss 1278.7216912940567
+main criterion 56.85584656749414
+weighted_aux_loss 1221.8658447265625
+loss_r_bn_feature 40.72886276245117
+------------iteration 0----------
+total loss 7695.040528802816
+main criterion 130.57959130281617
+weighted_aux_loss 7564.4609375
+loss_r_bn_feature 252.14869689941406
+------------iteration 100----------
+total loss 3588.963179914378
+main criterion 75.74198850812816
+weighted_aux_loss 3513.22119140625
+loss_r_bn_feature 117.10737609863281
+------------iteration 200----------
+total loss 2776.8701909165543
+main criterion 63.1133549790541
+weighted_aux_loss 2713.7568359375
+loss_r_bn_feature 90.45856475830078
+------------iteration 300----------
+total loss 2543.3447735342324
+main criterion 58.5320293936076
+weighted_aux_loss 2484.812744140625
+loss_r_bn_feature 82.82709503173828
+------------iteration 400----------
+total loss 2131.7283980316392
+main criterion 64.77331990663914
+weighted_aux_loss 2066.955078125
+loss_r_bn_feature 68.89850616455078
+------------iteration 500----------
+total loss 2178.3684125786153
+main criterion 53.44043406299047
+weighted_aux_loss 2124.927978515625
+loss_r_bn_feature 70.8309326171875
+------------iteration 600----------
+total loss 1858.8497551822588
+main criterion 54.98330010413377
+weighted_aux_loss 1803.866455078125
+loss_r_bn_feature 60.128883361816406
+------------iteration 700----------
+total loss 1985.9888876412203
+main criterion 52.359493109970366
+weighted_aux_loss 1933.62939453125
+loss_r_bn_feature 64.45431518554688
+------------iteration 800----------
+total loss 2808.4937622140396
+main criterion 79.32945557341442
+weighted_aux_loss 2729.164306640625
+loss_r_bn_feature 90.9721450805664
+------------iteration 900----------
+total loss 1757.0789676020092
+main criterion 56.412829906696686
+weighted_aux_loss 1700.6661376953125
+loss_r_bn_feature 56.68886947631836
+------------iteration 1000----------
+total loss 1896.288710867262
+main criterion 66.05799797663681
+weighted_aux_loss 1830.230712890625
+loss_r_bn_feature 61.0076904296875
+------------iteration 1100----------
+total loss 1701.5090892346416
+main criterion 52.57915759401665
+weighted_aux_loss 1648.929931640625
+loss_r_bn_feature 54.964332580566406
+------------iteration 1200----------
+total loss 1835.4384571963394
+main criterion 71.88743180571446
+weighted_aux_loss 1763.551025390625
+loss_r_bn_feature 58.7850341796875
+------------iteration 1300----------
+total loss 1946.880848492712
+main criterion 67.77403696927446
+weighted_aux_loss 1879.1068115234375
+loss_r_bn_feature 62.63689422607422
+------------iteration 1400----------
+total loss 1416.8620954914638
+main criterion 59.80594314771373
+weighted_aux_loss 1357.05615234375
+loss_r_bn_feature 45.235206604003906
+------------iteration 1500----------
+total loss 1239.6792087195404
+main criterion 59.05384250860278
+weighted_aux_loss 1180.6253662109375
+loss_r_bn_feature 39.35417938232422
+------------iteration 1600----------
+total loss 1285.97183433168
+main criterion 53.21524253480492
+weighted_aux_loss 1232.756591796875
+loss_r_bn_feature 41.091888427734375
+------------iteration 1700----------
+total loss 1238.934728111181
+main criterion 51.992101158055966
+weighted_aux_loss 1186.942626953125
+loss_r_bn_feature 39.564754486083984
+------------iteration 1800----------
+total loss 1614.7109261611317
+main criterion 51.42747889550663
+weighted_aux_loss 1563.283447265625
+loss_r_bn_feature 52.10944747924805
+------------iteration 1900----------
+total loss 3594.441238599524
+main criterion 87.8579866463986
+weighted_aux_loss 3506.583251953125
+loss_r_bn_feature 116.8861083984375
+------------iteration 0----------
+total loss 7648.997398347082
+main criterion 130.82112881583188
+weighted_aux_loss 7518.17626953125
+loss_r_bn_feature 250.6058807373047
+------------iteration 100----------
+total loss 3764.9304102262277
+main criterion 80.22411139810255
+weighted_aux_loss 3684.706298828125
+loss_r_bn_feature 122.82353973388672
+------------iteration 200----------
+total loss 2982.230031127167
+main criterion 70.05498229904197
+weighted_aux_loss 2912.175048828125
+loss_r_bn_feature 97.07250213623047
+------------iteration 300----------
+total loss 2781.6134215265693
+main criterion 62.16444691719412
+weighted_aux_loss 2719.448974609375
+loss_r_bn_feature 90.64830017089844
+------------iteration 400----------
+total loss 2504.3583878097484
+main criterion 66.4321182784982
+weighted_aux_loss 2437.92626953125
+loss_r_bn_feature 81.26420593261719
+------------iteration 500----------
+total loss 2221.092210675338
+main criterion 58.07438840971262
+weighted_aux_loss 2163.017822265625
+loss_r_bn_feature 72.10059356689453
+------------iteration 600----------
+total loss 2075.6972051568314
+main criterion 56.16339168026878
+weighted_aux_loss 2019.5338134765625
+loss_r_bn_feature 67.31779479980469
+------------iteration 700----------
+total loss 1989.484393381845
+main criterion 67.75905158496994
+weighted_aux_loss 1921.725341796875
+loss_r_bn_feature 64.05751037597656
+------------iteration 800----------
+total loss 1982.6874280032544
+main criterion 63.48100710481695
+weighted_aux_loss 1919.2064208984375
+loss_r_bn_feature 63.973548889160156
+------------iteration 900----------
+total loss 1857.8524557735175
+main criterion 57.67838350789244
+weighted_aux_loss 1800.174072265625
+loss_r_bn_feature 60.005802154541016
+------------iteration 1000----------
+total loss 1794.485229352291
+main criterion 53.278320172603465
+weighted_aux_loss 1741.2069091796875
+loss_r_bn_feature 58.04022979736328
+------------iteration 1100----------
+total loss 2043.8256699936126
+main criterion 68.5236680404876
+weighted_aux_loss 1975.302001953125
+loss_r_bn_feature 65.84339904785156
+------------iteration 1200----------
+total loss 1611.8667447183154
+main criterion 55.922774991752874
+weighted_aux_loss 1555.9439697265625
+loss_r_bn_feature 51.86479949951172
+------------iteration 1300----------
+total loss 2198.3663973631456
+main criterion 79.23480556627047
+weighted_aux_loss 2119.131591796875
+loss_r_bn_feature 70.6377182006836
+------------iteration 1400----------
+total loss 1841.522095200376
+main criterion 54.77063035662597
+weighted_aux_loss 1786.75146484375
+loss_r_bn_feature 59.55838394165039
+------------iteration 1500----------
+total loss 2910.185933515867
+main criterion 76.08241789086699
+weighted_aux_loss 2834.103515625
+loss_r_bn_feature 94.4701156616211
+------------iteration 1600----------
+total loss 1629.3606219883716
+main criterion 65.32168155868409
+weighted_aux_loss 1564.0389404296875
+loss_r_bn_feature 52.1346321105957
+------------iteration 1700----------
+total loss 1448.0191510556765
+main criterion 59.7642682431766
+weighted_aux_loss 1388.2548828125
+loss_r_bn_feature 46.27516174316406
+------------iteration 1800----------
+total loss 1700.7729803998482
+main criterion 68.32571477484805
+weighted_aux_loss 1632.447265625
+loss_r_bn_feature 54.41490936279297
+------------iteration 1900----------
+total loss 3113.9085108178533
+main criterion 85.89215339597854
+weighted_aux_loss 3028.016357421875
+loss_r_bn_feature 100.93387603759766
+------------iteration 0----------
+total loss 7696.672770128702
+main criterion 133.92960606620161
+weighted_aux_loss 7562.7431640625
+loss_r_bn_feature 252.0914306640625
+------------iteration 100----------
+total loss 3971.869390000023
+main criterion 89.93506382814809
+weighted_aux_loss 3881.934326171875
+loss_r_bn_feature 129.39781188964844
+------------iteration 200----------
+total loss 4459.637906153904
+main criterion 99.4709139664038
+weighted_aux_loss 4360.1669921875
+loss_r_bn_feature 145.33889770507812
+------------iteration 300----------
+total loss 2766.7620701683545
+main criterion 61.99839829335436
+weighted_aux_loss 2704.763671875
+loss_r_bn_feature 90.1587905883789
+------------iteration 400----------
+total loss 4521.000180655945
+main criterion 92.0133642496952
+weighted_aux_loss 4428.98681640625
+loss_r_bn_feature 147.6328887939453
+------------iteration 500----------
+total loss 2142.9657407173877
+main criterion 57.25431493613764
+weighted_aux_loss 2085.71142578125
+loss_r_bn_feature 69.52371215820312
+------------iteration 600----------
+total loss 2045.6728475247994
+main criterion 59.20873619667438
+weighted_aux_loss 1986.464111328125
+loss_r_bn_feature 66.21546936035156
+------------iteration 700----------
+total loss 1968.8069776549805
+main criterion 56.13485851435559
+weighted_aux_loss 1912.672119140625
+loss_r_bn_feature 63.7557373046875
+------------iteration 800----------
+total loss 1808.2076560550188
+main criterion 55.1170798831438
+weighted_aux_loss 1753.090576171875
+loss_r_bn_feature 58.43635177612305
+------------iteration 900----------
+total loss 1798.1187570475522
+main criterion 52.2010324381771
+weighted_aux_loss 1745.917724609375
+loss_r_bn_feature 58.19725799560547
+------------iteration 1000----------
+total loss 1652.0646912528878
+main criterion 55.76964730757537
+weighted_aux_loss 1596.2950439453125
+loss_r_bn_feature 53.209835052490234
+------------iteration 1100----------
+total loss 2273.861566824562
+main criterion 76.66503362143717
+weighted_aux_loss 2197.196533203125
+loss_r_bn_feature 73.23988342285156
+------------iteration 1200----------
+total loss 2819.1448137129632
+main criterion 79.10160082233811
+weighted_aux_loss 2740.043212890625
+loss_r_bn_feature 91.33477020263672
+------------iteration 1300----------
+total loss 2497.916068815175
+main criterion 77.26811959642504
+weighted_aux_loss 2420.64794921875
+loss_r_bn_feature 80.68826293945312
+------------iteration 1400----------
+total loss 1622.7710927975638
+main criterion 52.19504299287639
+weighted_aux_loss 1570.5760498046875
+loss_r_bn_feature 52.352535247802734
+------------iteration 1500----------
+total loss 1353.7387206577182
+main criterion 52.10310054053076
+weighted_aux_loss 1301.6356201171875
+loss_r_bn_feature 43.387855529785156
+------------iteration 1600----------
+total loss 1729.3401026912763
+main criterion 52.38539077721382
+weighted_aux_loss 1676.9547119140625
+loss_r_bn_feature 55.89849090576172
+------------iteration 1700----------
+total loss 1396.0330355563813
+main criterion 61.554153720443786
+weighted_aux_loss 1334.4788818359375
+loss_r_bn_feature 44.482627868652344
+------------iteration 1800----------
+total loss 1415.369670955672
+main criterion 50.714519588484634
+weighted_aux_loss 1364.6551513671875
+loss_r_bn_feature 45.48850631713867
+------------iteration 1900----------
+total loss 3806.891040735052
+main criterion 85.41814034442676
+weighted_aux_loss 3721.472900390625
+loss_r_bn_feature 124.0490951538086
+------------iteration 0----------
+total loss 7564.000460312077
+main criterion 128.04538218707654
+weighted_aux_loss 7435.955078125
+loss_r_bn_feature 247.86517333984375
+------------iteration 100----------
+total loss 3855.357258246548
+main criterion 79.23201410592301
+weighted_aux_loss 3776.125244140625
+loss_r_bn_feature 125.87084197998047
+------------iteration 200----------
+total loss 2762.2452415404045
+main criterion 66.1202415404044
+weighted_aux_loss 2696.125
+loss_r_bn_feature 89.87083435058594
+------------iteration 300----------
+total loss 4182.793604472378
+main criterion 89.04458103487819
+weighted_aux_loss 4093.7490234375
+loss_r_bn_feature 136.4582977294922
+------------iteration 400----------
+total loss 2409.222292184234
+main criterion 57.233278512359185
+weighted_aux_loss 2351.989013671875
+loss_r_bn_feature 78.3996353149414
+------------iteration 500----------
+total loss 2042.6078278566733
+main criterion 58.90079660667338
+weighted_aux_loss 1983.70703125
+loss_r_bn_feature 66.12356567382812
+------------iteration 600----------
+total loss 2151.0404711701613
+main criterion 53.982609842036474
+weighted_aux_loss 2097.057861328125
+loss_r_bn_feature 69.90193176269531
+------------iteration 700----------
+total loss 1915.446609251207
+main criterion 57.92317175120697
+weighted_aux_loss 1857.5234375
+loss_r_bn_feature 61.91744613647461
+------------iteration 800----------
+total loss 1726.8189928960417
+main criterion 57.34291867729161
+weighted_aux_loss 1669.47607421875
+loss_r_bn_feature 55.64920425415039
+------------iteration 900----------
+total loss 1658.8270307124178
+main criterion 54.63708930616776
+weighted_aux_loss 1604.18994140625
+loss_r_bn_feature 53.472999572753906
+------------iteration 1000----------
+total loss 1668.781560808365
+main criterion 56.31720533961501
+weighted_aux_loss 1612.46435546875
+loss_r_bn_feature 53.748809814453125
+------------iteration 1100----------
+total loss 1738.4651943408464
+main criterion 52.683578129908945
+weighted_aux_loss 1685.7816162109375
+loss_r_bn_feature 56.19272232055664
+------------iteration 1200----------
+total loss 2146.987619096796
+main criterion 75.02912300304631
+weighted_aux_loss 2071.95849609375
+loss_r_bn_feature 69.0652847290039
+------------iteration 1300----------
+total loss 1619.2961334518782
+main criterion 51.51659243625327
+weighted_aux_loss 1567.779541015625
+loss_r_bn_feature 52.25931930541992
+------------iteration 1400----------
+total loss 1737.1434839211013
+main criterion 55.90239505391373
+weighted_aux_loss 1681.2410888671875
+loss_r_bn_feature 56.0413703918457
+------------iteration 1500----------
+total loss 1667.9825560165777
+main criterion 71.14564195407773
+weighted_aux_loss 1596.8369140625
+loss_r_bn_feature 53.22789764404297
+------------iteration 1600----------
+total loss 1668.4471100555008
+main criterion 52.952725289875936
+weighted_aux_loss 1615.494384765625
+loss_r_bn_feature 53.84981155395508
+------------iteration 1700----------
+total loss 1496.6041550862726
+main criterion 56.3139939534601
+weighted_aux_loss 1440.2901611328125
+loss_r_bn_feature 48.00967025756836
+------------iteration 1800----------
+total loss 1446.6442207168627
+main criterion 54.26494825592516
+weighted_aux_loss 1392.3792724609375
+loss_r_bn_feature 46.41264343261719
+------------iteration 1900----------
+total loss 1475.0565727373894
+main criterion 51.21013719051437
+weighted_aux_loss 1423.846435546875
+loss_r_bn_feature 47.4615478515625
+------------iteration 0----------
+total loss 7776.395212296525
+main criterion 130.16767323402502
+weighted_aux_loss 7646.2275390625
+loss_r_bn_feature 254.87425231933594
+------------iteration 100----------
+total loss 5282.1753869958375
+main criterion 97.50839480833753
+weighted_aux_loss 5184.6669921875
+loss_r_bn_feature 172.82223510742188
+------------iteration 200----------
+total loss 3426.025607649727
+main criterion 75.79880100910201
+weighted_aux_loss 3350.226806640625
+loss_r_bn_feature 111.67422485351562
+------------iteration 300----------
+total loss 2826.352202128849
+main criterion 74.61880369134916
+weighted_aux_loss 2751.7333984375
+loss_r_bn_feature 91.72444915771484
+------------iteration 400----------
+total loss 2219.9294202217716
+main criterion 59.40354131552146
+weighted_aux_loss 2160.52587890625
+loss_r_bn_feature 72.01753234863281
+------------iteration 500----------
+total loss 2893.5500664130964
+main criterion 75.10035938184647
+weighted_aux_loss 2818.44970703125
+loss_r_bn_feature 93.94832611083984
+------------iteration 600----------
+total loss 1976.6712149417667
+main criterion 62.9788321292667
+weighted_aux_loss 1913.6923828125
+loss_r_bn_feature 63.78974533081055
+------------iteration 700----------
+total loss 1956.8013238372553
+main criterion 59.146294540380175
+weighted_aux_loss 1897.655029296875
+loss_r_bn_feature 63.25516891479492
+------------iteration 800----------
+total loss 1814.6797768059348
+main criterion 61.849088329372215
+weighted_aux_loss 1752.8306884765625
+loss_r_bn_feature 58.42768859863281
+------------iteration 900----------
+total loss 1932.0959724938102
+main criterion 54.54616780631031
+weighted_aux_loss 1877.5498046875
+loss_r_bn_feature 62.58499526977539
+------------iteration 1000----------
+total loss 1744.290492314262
+main criterion 60.433558720512195
+weighted_aux_loss 1683.85693359375
+loss_r_bn_feature 56.128562927246094
+------------iteration 1100----------
+total loss 1550.4061142677638
+main criterion 56.90391700213886
+weighted_aux_loss 1493.502197265625
+loss_r_bn_feature 49.78340530395508
+------------iteration 1200----------
+total loss 1537.7223014045833
+main criterion 61.310069959270834
+weighted_aux_loss 1476.4122314453125
+loss_r_bn_feature 49.213741302490234
+------------iteration 1300----------
+total loss 1495.2538505234681
+main criterion 52.266667906280645
+weighted_aux_loss 1442.9871826171875
+loss_r_bn_feature 48.099571228027344
+------------iteration 1400----------
+total loss 1568.653212855105
+main criterion 56.627578089479975
+weighted_aux_loss 1512.025634765625
+loss_r_bn_feature 50.400856018066406
+------------iteration 1500----------
+total loss 1446.1673093088273
+main criterion 55.4798093088272
+weighted_aux_loss 1390.6875
+loss_r_bn_feature 46.35625076293945
+------------iteration 1600----------
+total loss 1239.2608605676357
+main criterion 64.84679806763583
+weighted_aux_loss 1174.4140625
+loss_r_bn_feature 39.14713668823242
+------------iteration 1700----------
+total loss 1474.3173611090394
+main criterion 52.46445583560192
+weighted_aux_loss 1421.8529052734375
+loss_r_bn_feature 47.39509582519531
+------------iteration 1800----------
+total loss 1507.9300327967806
+main criterion 67.47178084365551
+weighted_aux_loss 1440.458251953125
+loss_r_bn_feature 48.01527404785156
+------------iteration 1900----------
+total loss 1456.0587586016652
+main criterion 58.6868103594776
+weighted_aux_loss 1397.3719482421875
+loss_r_bn_feature 46.579063415527344
+------------iteration 0----------
+total loss 7851.046126825203
+main criterion 137.336165887703
+weighted_aux_loss 7713.7099609375
+loss_r_bn_feature 257.1236572265625
+------------iteration 100----------
+total loss 3542.394853646224
+main criterion 77.37800794309919
+weighted_aux_loss 3465.016845703125
+loss_r_bn_feature 115.50056457519531
+------------iteration 200----------
+total loss 3460.722259795867
+main criterion 84.08114651461692
+weighted_aux_loss 3376.64111328125
+loss_r_bn_feature 112.55470275878906
+------------iteration 300----------
+total loss 3242.992676321402
+main criterion 77.85400444640227
+weighted_aux_loss 3165.138671875
+loss_r_bn_feature 105.50462341308594
+------------iteration 400----------
+total loss 2266.409047593513
+main criterion 57.90416478101304
+weighted_aux_loss 2208.5048828125
+loss_r_bn_feature 73.61682891845703
+------------iteration 500----------
+total loss 2034.7901955500192
+main criterion 59.56656273751929
+weighted_aux_loss 1975.2236328125
+loss_r_bn_feature 65.84078979492188
+------------iteration 600----------
+total loss 2604.9645198506973
+main criterion 75.10343586632214
+weighted_aux_loss 2529.861083984375
+loss_r_bn_feature 84.32870483398438
+------------iteration 700----------
+total loss 1872.8346091965418
+main criterion 65.42018048560419
+weighted_aux_loss 1807.4144287109375
+loss_r_bn_feature 60.24714660644531
+------------iteration 800----------
+total loss 1796.6539708455273
+main criterion 53.57792104083969
+weighted_aux_loss 1743.0760498046875
+loss_r_bn_feature 58.102535247802734
+------------iteration 900----------
+total loss 3233.421787487639
+main criterion 80.79825233138901
+weighted_aux_loss 3152.62353515625
+loss_r_bn_feature 105.08744812011719
+------------iteration 1000----------
+total loss 1808.4791914773575
+main criterion 53.71088093048262
+weighted_aux_loss 1754.768310546875
+loss_r_bn_feature 58.49227523803711
+------------iteration 1100----------
+total loss 1576.3909000963038
+main criterion 57.15579267442871
+weighted_aux_loss 1519.235107421875
+loss_r_bn_feature 50.641170501708984
+------------iteration 1200----------
+total loss 2957.379692626959
+main criterion 74.93950708008389
+weighted_aux_loss 2882.440185546875
+loss_r_bn_feature 96.08133697509766
+------------iteration 1300----------
+total loss 1629.2886058208735
+main criterion 51.56411851618607
+weighted_aux_loss 1577.7244873046875
+loss_r_bn_feature 52.590816497802734
+------------iteration 1400----------
+total loss 1530.8671688893348
+main criterion 52.34788177995984
+weighted_aux_loss 1478.519287109375
+loss_r_bn_feature 49.28397750854492
+------------iteration 1500----------
+total loss 1502.1327203289707
+main criterion 52.96841368834555
+weighted_aux_loss 1449.164306640625
+loss_r_bn_feature 48.305477142333984
+------------iteration 1600----------
+total loss 1345.9487977756291
+main criterion 51.61798722875425
+weighted_aux_loss 1294.330810546875
+loss_r_bn_feature 43.14435958862305
+------------iteration 1700----------
+total loss 1431.3004347188241
+main criterion 50.27968276569914
+weighted_aux_loss 1381.020751953125
+loss_r_bn_feature 46.034027099609375
+------------iteration 1800----------
+total loss 1404.953652666318
+main criterion 52.80411653350543
+weighted_aux_loss 1352.1495361328125
+loss_r_bn_feature 45.071651458740234
+------------iteration 1900----------
+total loss 1443.1769633225963
+main criterion 59.368491642908694
+weighted_aux_loss 1383.8084716796875
+loss_r_bn_feature 46.126949310302734
+------------iteration 0----------
+total loss 7857.51603923454
+main criterion 135.79289470329002
+weighted_aux_loss 7721.72314453125
+loss_r_bn_feature 257.3907775878906
+------------iteration 100----------
+total loss 3827.3535725592515
+main criterion 80.12310380925146
+weighted_aux_loss 3747.23046875
+loss_r_bn_feature 124.90768432617188
+------------iteration 200----------
+total loss 4131.40233708883
+main criterion 93.96019841695444
+weighted_aux_loss 4037.442138671875
+loss_r_bn_feature 134.58140563964844
+------------iteration 300----------
+total loss 2795.3272757569803
+main criterion 68.43445349135528
+weighted_aux_loss 2726.892822265625
+loss_r_bn_feature 90.89643096923828
+------------iteration 400----------
+total loss 2508.577092775227
+main criterion 60.09100879085188
+weighted_aux_loss 2448.486083984375
+loss_r_bn_feature 81.61620330810547
+------------iteration 500----------
+total loss 2292.619559791751
+main criterion 56.49114182300084
+weighted_aux_loss 2236.12841796875
+loss_r_bn_feature 74.53761291503906
+------------iteration 600----------
+total loss 2691.666425980201
+main criterion 68.85978535520076
+weighted_aux_loss 2622.806640625
+loss_r_bn_feature 87.42688751220703
+------------iteration 700----------
+total loss 2189.6691255075025
+main criterion 67.81512160125254
+weighted_aux_loss 2121.85400390625
+loss_r_bn_feature 70.72846984863281
+------------iteration 800----------
+total loss 1826.9456344751338
+main criterion 56.78486787357123
+weighted_aux_loss 1770.1607666015625
+loss_r_bn_feature 59.0053596496582
+------------iteration 900----------
+total loss 1791.4869757744764
+main criterion 54.5179816338514
+weighted_aux_loss 1736.968994140625
+loss_r_bn_feature 57.89896774291992
+------------iteration 1000----------
+total loss 1884.6324655135509
+main criterion 54.16481414636339
+weighted_aux_loss 1830.4676513671875
+loss_r_bn_feature 61.015586853027344
+------------iteration 1100----------
+total loss 1739.4458016783208
+main criterion 55.32434171738323
+weighted_aux_loss 1684.1214599609375
+loss_r_bn_feature 56.13738250732422
+------------iteration 1200----------
+total loss 2862.480776092133
+main criterion 77.71002413900803
+weighted_aux_loss 2784.770751953125
+loss_r_bn_feature 92.82569122314453
+------------iteration 1300----------
+total loss 1569.337294006652
+main criterion 60.02162017852705
+weighted_aux_loss 1509.315673828125
+loss_r_bn_feature 50.310523986816406
+------------iteration 1400----------
+total loss 1502.6831554976845
+main criterion 51.81963010705949
+weighted_aux_loss 1450.863525390625
+loss_r_bn_feature 48.362117767333984
+------------iteration 1500----------
+total loss 1741.6665131966304
+main criterion 54.195810071630305
+weighted_aux_loss 1687.470703125
+loss_r_bn_feature 56.2490234375
+------------iteration 1600----------
+total loss 1686.1770117397589
+main criterion 52.40381838038384
+weighted_aux_loss 1633.773193359375
+loss_r_bn_feature 54.4591064453125
+------------iteration 1700----------
+total loss 1654.8999632146692
+main criterion 52.87030012873181
+weighted_aux_loss 1602.0296630859375
+loss_r_bn_feature 53.4009895324707
+------------iteration 1800----------
+total loss 1618.8464941134928
+main criterion 53.117856418180246
+weighted_aux_loss 1565.7286376953125
+loss_r_bn_feature 52.190956115722656
+------------iteration 1900----------
+total loss 1623.1844335812723
+main criterion 51.870224596897366
+weighted_aux_loss 1571.314208984375
+loss_r_bn_feature 52.377140045166016
+------------iteration 0----------
+total loss 7556.067988942158
+main criterion 136.73253972340785
+weighted_aux_loss 7419.33544921875
+loss_r_bn_feature 247.31118774414062
+------------iteration 100----------
+total loss 4287.425895767946
+main criterion 92.15148170544542
+weighted_aux_loss 4195.2744140625
+loss_r_bn_feature 139.8424835205078
+------------iteration 200----------
+total loss 2974.4650494049674
+main criterion 67.16207088934229
+weighted_aux_loss 2907.302978515625
+loss_r_bn_feature 96.91010284423828
+------------iteration 300----------
+total loss 2403.3329374161854
+main criterion 61.088308509935544
+weighted_aux_loss 2342.24462890625
+loss_r_bn_feature 78.07482147216797
+------------iteration 400----------
+total loss 2237.321725084309
+main criterion 57.84027977180881
+weighted_aux_loss 2179.4814453125
+loss_r_bn_feature 72.64938354492188
+------------iteration 500----------
+total loss 3213.738123796993
+main criterion 82.03499879699297
+weighted_aux_loss 3131.703125
+loss_r_bn_feature 104.39010620117188
+------------iteration 600----------
+total loss 3384.219462430883
+main criterion 80.08567336838328
+weighted_aux_loss 3304.1337890625
+loss_r_bn_feature 110.1377944946289
+------------iteration 700----------
+total loss 1791.721923876511
+main criterion 59.599121142135964
+weighted_aux_loss 1732.122802734375
+loss_r_bn_feature 57.7374267578125
+------------iteration 800----------
+total loss 1641.690364741804
+main criterion 55.851131343366454
+weighted_aux_loss 1585.8392333984375
+loss_r_bn_feature 52.86130905151367
+------------iteration 900----------
+total loss 1727.7317173899926
+main criterion 62.24368028061755
+weighted_aux_loss 1665.488037109375
+loss_r_bn_feature 55.51626968383789
+------------iteration 1000----------
+total loss 1610.4585044362445
+main criterion 56.19129252218207
+weighted_aux_loss 1554.2672119140625
+loss_r_bn_feature 51.80890655517578
+------------iteration 1100----------
+total loss 1561.6458940112443
+main criterion 58.29298873780674
+weighted_aux_loss 1503.3529052734375
+loss_r_bn_feature 50.11176300048828
+------------iteration 1200----------
+total loss 2854.1164032949923
+main criterion 78.42987985749231
+weighted_aux_loss 2775.6865234375
+loss_r_bn_feature 92.52288055419922
+------------iteration 1300----------
+total loss 1363.5308305546923
+main criterion 57.7133256718798
+weighted_aux_loss 1305.8175048828125
+loss_r_bn_feature 43.52724838256836
+------------iteration 1400----------
+total loss 1547.0798926664465
+main criterion 53.21465829144662
+weighted_aux_loss 1493.865234375
+loss_r_bn_feature 49.795509338378906
+------------iteration 1500----------
+total loss 1505.222935927542
+main criterion 52.49100233379198
+weighted_aux_loss 1452.73193359375
+loss_r_bn_feature 48.42439651489258
+------------iteration 1600----------
+total loss 1836.7889205969263
+main criterion 76.35435028442626
+weighted_aux_loss 1760.4345703125
+loss_r_bn_feature 58.68115234375
+------------iteration 1700----------
+total loss 1454.6836436557378
+main criterion 52.738331155737775
+weighted_aux_loss 1401.9453125
+loss_r_bn_feature 46.731510162353516
+------------iteration 1800----------
+total loss 1440.1981156628128
+main criterion 55.89025433468783
+weighted_aux_loss 1384.307861328125
+loss_r_bn_feature 46.14359664916992
+------------iteration 1900----------
+total loss 2729.8871911594356
+main criterion 71.35447631568549
+weighted_aux_loss 2658.53271484375
+loss_r_bn_feature 88.61775970458984
+------------iteration 0----------
+total loss 7744.1475300708225
+main criterion 138.40876053957223
+weighted_aux_loss 7605.73876953125
+loss_r_bn_feature 253.52462768554688
+------------iteration 100----------
+total loss 3193.1117247785974
+main criterion 76.80972282547252
+weighted_aux_loss 3116.302001953125
+loss_r_bn_feature 103.8767318725586
+------------iteration 200----------
+total loss 2639.9584472065762
+main criterion 65.76923822220138
+weighted_aux_loss 2574.189208984375
+loss_r_bn_feature 85.80630493164062
+------------iteration 300----------
+total loss 2084.474699984024
+main criterion 64.20150662464907
+weighted_aux_loss 2020.273193359375
+loss_r_bn_feature 67.34243774414062
+------------iteration 400----------
+total loss 2236.792710282973
+main criterion 67.21458528297322
+weighted_aux_loss 2169.578125
+loss_r_bn_feature 72.31927490234375
+------------iteration 500----------
+total loss 1850.929334249502
+main criterion 55.72498854637717
+weighted_aux_loss 1795.204345703125
+loss_r_bn_feature 59.840145111083984
+------------iteration 600----------
+total loss 1956.2027350227584
+main criterion 54.567847327445755
+weighted_aux_loss 1901.6348876953125
+loss_r_bn_feature 63.3878288269043
+------------iteration 700----------
+total loss 4418.277087582866
+main criterion 93.63402117661617
+weighted_aux_loss 4324.64306640625
+loss_r_bn_feature 144.15476989746094
+------------iteration 800----------
+total loss 1654.3514412637408
+main criterion 53.96728599030328
+weighted_aux_loss 1600.3841552734375
+loss_r_bn_feature 53.34613800048828
+------------iteration 900----------
+total loss 2356.1491405360484
+main criterion 68.85861319229845
+weighted_aux_loss 2287.29052734375
+loss_r_bn_feature 76.2430191040039
+------------iteration 1000----------
+total loss 1626.9230459926946
+main criterion 51.89667880519462
+weighted_aux_loss 1575.0263671875
+loss_r_bn_feature 52.500877380371094
+------------iteration 1100----------
+total loss 1492.9525982869422
+main criterion 50.945640279129734
+weighted_aux_loss 1442.0069580078125
+loss_r_bn_feature 48.066898345947266
+------------iteration 1200----------
+total loss 1413.1355269186215
+main criterion 61.768583559246544
+weighted_aux_loss 1351.366943359375
+loss_r_bn_feature 45.04556655883789
+------------iteration 1300----------
+total loss 1362.4419804740392
+main criterion 55.44637500528916
+weighted_aux_loss 1306.99560546875
+loss_r_bn_feature 43.56652069091797
+------------iteration 1400----------
+total loss 1712.527591941985
+main criterion 70.22864174667257
+weighted_aux_loss 1642.2989501953125
+loss_r_bn_feature 54.7432975769043
+------------iteration 1500----------
+total loss 1276.4208877046476
+main criterion 56.34325098589766
+weighted_aux_loss 1220.07763671875
+loss_r_bn_feature 40.669254302978516
+------------iteration 1600----------
+total loss 1185.1859518816066
+main criterion 54.49674289723159
+weighted_aux_loss 1130.689208984375
+loss_r_bn_feature 37.689640045166016
+------------iteration 1700----------
+total loss 1406.988454066293
+main criterion 51.724415980355374
+weighted_aux_loss 1355.2640380859375
+loss_r_bn_feature 45.17546844482422
+------------iteration 1800----------
+total loss 1260.601177249352
+main criterion 52.4916801790395
+weighted_aux_loss 1208.1094970703125
+loss_r_bn_feature 40.27031707763672
+------------iteration 1900----------
+total loss 1307.4360979698902
+main criterion 62.70196711051527
+weighted_aux_loss 1244.734130859375
+loss_r_bn_feature 41.49113845825195
+------------iteration 0----------
+total loss 8095.409760685521
+main criterion 139.2657177167711
+weighted_aux_loss 7956.14404296875
+loss_r_bn_feature 265.2048034667969
+------------iteration 100----------
+total loss 3712.7568848931755
+main criterion 86.35576184630051
+weighted_aux_loss 3626.401123046875
+loss_r_bn_feature 120.88003540039062
+------------iteration 200----------
+total loss 2833.20018956266
+main criterion 74.02294346891013
+weighted_aux_loss 2759.17724609375
+loss_r_bn_feature 91.97257232666016
+------------iteration 300----------
+total loss 2916.2152967422103
+main criterion 77.44503307033531
+weighted_aux_loss 2838.770263671875
+loss_r_bn_feature 94.62567901611328
+------------iteration 400----------
+total loss 2036.2548576040367
+main criterion 61.893163268099315
+weighted_aux_loss 1974.3616943359375
+loss_r_bn_feature 65.81205749511719
+------------iteration 500----------
+total loss 2429.8026150006835
+main criterion 75.25134546943345
+weighted_aux_loss 2354.55126953125
+loss_r_bn_feature 78.48503875732422
+------------iteration 600----------
+total loss 2123.0122450387576
+main criterion 62.95804582000761
+weighted_aux_loss 2060.05419921875
+loss_r_bn_feature 68.66847229003906
+------------iteration 700----------
+total loss 1634.3394242077627
+main criterion 58.38642127807513
+weighted_aux_loss 1575.9530029296875
+loss_r_bn_feature 52.53176498413086
+------------iteration 800----------
+total loss 1542.9140490959705
+main criterion 55.76793093190795
+weighted_aux_loss 1487.1461181640625
+loss_r_bn_feature 49.571537017822266
+------------iteration 900----------
+total loss 1731.234827800629
+main criterion 59.91231803500418
+weighted_aux_loss 1671.322509765625
+loss_r_bn_feature 55.710750579833984
+------------iteration 1000----------
+total loss 3409.7308534802096
+main criterion 84.16493551145939
+weighted_aux_loss 3325.56591796875
+loss_r_bn_feature 110.8521957397461
+------------iteration 1100----------
+total loss 3574.8222364746275
+main criterion 89.6100782715025
+weighted_aux_loss 3485.212158203125
+loss_r_bn_feature 116.17373657226562
+------------iteration 1200----------
+total loss 5106.334374911199
+main criterion 109.92275381744876
+weighted_aux_loss 4996.41162109375
+loss_r_bn_feature 166.54705810546875
+------------iteration 1300----------
+total loss 1407.4639366783038
+main criterion 60.5398644126787
+weighted_aux_loss 1346.924072265625
+loss_r_bn_feature 44.89746856689453
+------------iteration 1400----------
+total loss 2050.0808908098884
+main criterion 68.25252166926347
+weighted_aux_loss 1981.828369140625
+loss_r_bn_feature 66.06094360351562
+------------iteration 1500----------
+total loss 1166.08520839519
+main criterion 66.68799159831508
+weighted_aux_loss 1099.397216796875
+loss_r_bn_feature 36.64657211303711
+------------iteration 1600----------
+total loss 4156.914886676563
+main criterion 92.59237691093733
+weighted_aux_loss 4064.322509765625
+loss_r_bn_feature 135.4774169921875
+------------iteration 1700----------
+total loss 1312.352760218043
+main criterion 50.25095357741798
+weighted_aux_loss 1262.101806640625
+loss_r_bn_feature 42.07006072998047
+------------iteration 1800----------
+total loss 1232.5390683478313
+main criterion 53.18579686345628
+weighted_aux_loss 1179.353271484375
+loss_r_bn_feature 39.31177520751953
+------------iteration 1900----------
+total loss 1166.100535798976
+main criterion 50.96638052553833
+weighted_aux_loss 1115.1341552734375
+loss_r_bn_feature 37.171138763427734
+------------iteration 0----------
+total loss 7084.057453157007
+main criterion 127.0017890945074
+weighted_aux_loss 6957.0556640625
+loss_r_bn_feature 231.90185546875
+------------iteration 100----------
+total loss 3074.785005009498
+main criterion 76.22860852512295
+weighted_aux_loss 2998.556396484375
+loss_r_bn_feature 99.9518814086914
+------------iteration 200----------
+total loss 2510.829690273951
+main criterion 62.346780117701286
+weighted_aux_loss 2448.48291015625
+loss_r_bn_feature 81.61609649658203
+------------iteration 300----------
+total loss 2124.9795184905256
+main criterion 55.51882513115077
+weighted_aux_loss 2069.460693359375
+loss_r_bn_feature 68.98202514648438
+------------iteration 400----------
+total loss 1910.8926401947763
+main criterion 57.60626324165118
+weighted_aux_loss 1853.286376953125
+loss_r_bn_feature 61.776214599609375
+------------iteration 500----------
+total loss 1863.020586472406
+main criterion 52.284990769281
+weighted_aux_loss 1810.735595703125
+loss_r_bn_feature 60.357852935791016
+------------iteration 600----------
+total loss 1852.1486775770136
+main criterion 59.81469320201353
+weighted_aux_loss 1792.333984375
+loss_r_bn_feature 59.74446487426758
+------------iteration 700----------
+total loss 1501.9513183970964
+main criterion 50.16433109240893
+weighted_aux_loss 1451.7869873046875
+loss_r_bn_feature 48.39289855957031
+------------iteration 800----------
+total loss 1654.6776056217077
+main criterion 58.14086245764525
+weighted_aux_loss 1596.5367431640625
+loss_r_bn_feature 53.217891693115234
+------------iteration 900----------
+total loss 1620.2858989887723
+main criterion 62.964731996584824
+weighted_aux_loss 1557.3211669921875
+loss_r_bn_feature 51.91070556640625
+------------iteration 1000----------
+total loss 3590.1542373232364
+main criterion 86.24554591698637
+weighted_aux_loss 3503.90869140625
+loss_r_bn_feature 116.79695892333984
+------------iteration 1100----------
+total loss 1451.8872392064304
+main criterion 49.287263620492844
+weighted_aux_loss 1402.5999755859375
+loss_r_bn_feature 46.753334045410156
+------------iteration 1200----------
+total loss 1448.6965198265345
+main criterion 47.999742482784455
+weighted_aux_loss 1400.69677734375
+loss_r_bn_feature 46.68989181518555
+------------iteration 1300----------
+total loss 1465.2899961002418
+main criterion 58.607623053366765
+weighted_aux_loss 1406.682373046875
+loss_r_bn_feature 46.88941192626953
+------------iteration 1400----------
+total loss 1292.0978434326812
+main criterion 47.311222338931216
+weighted_aux_loss 1244.78662109375
+loss_r_bn_feature 41.492889404296875
+------------iteration 1500----------
+total loss 2024.5264676409531
+main criterion 64.83078893001553
+weighted_aux_loss 1959.6956787109375
+loss_r_bn_feature 65.32318878173828
+------------iteration 1600----------
+total loss 1204.4233231473531
+main criterion 52.830427639540645
+weighted_aux_loss 1151.5928955078125
+loss_r_bn_feature 38.38642883300781
+------------iteration 1700----------
+total loss 1241.5986160693562
+main criterion 48.53391880373119
+weighted_aux_loss 1193.064697265625
+loss_r_bn_feature 39.768821716308594
+------------iteration 1800----------
+total loss 1373.1095350435778
+main criterion 66.68143445764026
+weighted_aux_loss 1306.4281005859375
+loss_r_bn_feature 43.547603607177734
+------------iteration 1900----------
+total loss 1156.818549928732
+main criterion 51.19574719435687
+weighted_aux_loss 1105.622802734375
+loss_r_bn_feature 36.85409164428711
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/tiny-imagenet/472
+  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:04<22:29,  4.51s/it]  1%|          | 2/300 [00:06<16:00,  3.22s/it]  1%|          | 3/300 [00:09<13:59,  2.83s/it]  1%|▏         | 4/300 [00:11<12:45,  2.59s/it]  2%|▏         | 5/300 [00:13<12:19,  2.51s/it]  2%|▏         | 6/300 [00:16<11:54,  2.43s/it]  2%|▏         | 7/300 [00:18<11:38,  2.38s/it]  3%|▎         | 8/300 [00:20<11:34,  2.38s/it]  3%|▎         | 9/300 [00:23<11:25,  2.35s/it]  3%|▎         | 10/300 [00:25<11:13,  2.32s/it]  4%|▎         | 11/300 [00:27<11:15,  2.34s/it]  4%|▍         | 12/300 [00:29<11:12,  2.33s/it]  4%|▍         | 13/300 [00:32<11:12,  2.34s/it]  5%|▍         | 14/300 [00:34<11:07,  2.33s/it]  5%|▌         | 15/300 [00:36<11:02,  2.33s/it]  5%|▌         | 16/300 [00:39<10:57,  2.31s/it]  6%|▌         | 17/300 [00:41<10:50,  2.30s/it]  6%|▌         | 18/300 [00:43<10:41,  2.27s/it]  6%|▋         | 19/300 [00:45<10:34,  2.26s/it]  7%|▋         | 20/300 [00:48<10:27,  2.24s/it]  7%|▋         | 21/300 [00:50<10:35,  2.28s/it]  7%|▋         | 22/300 [00:52<10:43,  2.32s/it]  8%|▊         | 23/300 [00:55<10:42,  2.32s/it]  8%|▊         | 24/300 [00:57<10:37,  2.31s/it]  8%|▊         | 25/300 [00:59<10:40,  2.33s/it]  9%|▊         | 26/300 [01:02<10:27,  2.29s/it]  9%|▉         | 27/300 [01:04<10:23,  2.28s/it]  9%|▉         | 28/300 [01:06<10:20,  2.28s/it] 10%|▉         | 29/300 [01:08<10:16,  2.27s/it] 10%|█         | 30/300 [01:11<10:06,  2.25s/it] 10%|█         | 31/300 [01:13<10:08,  2.26s/it] 11%|█         | 32/300 [01:15<10:06,  2.26s/it] 11%|█         | 33/300 [01:17<10:04,  2.26s/it] 11%|█▏        | 34/300 [01:20<10:10,  2.29s/it] 12%|█▏        | 35/300 [01:22<10:06,  2.29s/it] 12%|█▏        | 36/300 [01:24<10:04,  2.29s/it] 12%|█▏        | 37/300 [01:27<10:00,  2.28s/it] 13%|█▎        | 38/300 [01:29<10:02,  2.30s/it] 13%|█▎        | 39/300 [01:31<09:56,  2.28s/it] 13%|█▎        | 40/300 [01:33<09:46,  2.25s/it] 14%|█▎        | 41/300 [01:36<09:40,  2.24s/it] 14%|█▍        | 42/300 [01:38<09:38,  2.24s/it] 14%|█▍        | 43/300 [01:40<09:38,  2.25s/it] 15%|█▍        | 44/300 [01:42<09:37,  2.25s/it] 15%|█▌        | 45/300 [01:45<09:36,  2.26s/it] 15%|█▌        | 46/300 [01:47<09:31,  2.25s/it] 16%|█▌        | 47/300 [01:49<09:32,  2.26s/it] 16%|█▌        | 48/300 [01:52<09:38,  2.30s/it] 16%|█▋        | 49/300 [01:54<09:33,  2.29s/it] 17%|█▋        | 50/300 [01:56<09:29,  2.28s/it] 17%|█▋        | 51/300 [01:58<09:36,  2.31s/it] 17%|█▋        | 52/300 [02:01<09:27,  2.29s/it] 18%|█▊        | 53/300 [02:03<09:30,  2.31s/it] 18%|█▊        | 54/300 [02:05<09:26,  2.30s/it] 18%|█▊        | 55/300 [02:08<09:25,  2.31s/it] 19%|█▊        | 56/300 [02:10<09:21,  2.30s/it] 19%|█▉        | 57/300 [02:12<09:16,  2.29s/it] 19%|█▉        | 58/300 [02:14<09:12,  2.28s/it] 20%|█▉        | 59/300 [02:17<09:07,  2.27s/it] 20%|██        | 60/300 [02:19<09:12,  2.30s/it] 20%|██        | 61/300 [02:21<09:09,  2.30s/it] 21%|██        | 62/300 [02:24<09:08,  2.30s/it] 21%|██        | 63/300 [02:26<09:04,  2.30s/it] 21%|██▏       | 64/300 [02:28<08:58,  2.28s/it] 22%|██▏       | 65/300 [02:30<08:52,  2.27s/it] 22%|██▏       | 66/300 [02:33<08:56,  2.29s/it] 22%|██▏       | 67/300 [02:35<08:50,  2.28s/it] 23%|██▎       | 68/300 [02:37<08:47,  2.28s/it] 23%|██▎       | 69/300 [02:40<08:47,  2.29s/it] 23%|██▎       | 70/300 [02:42<08:45,  2.28s/it] 24%|██▎       | 71/300 [02:44<08:39,  2.27s/it] 24%|██▍       | 72/300 [02:46<08:40,  2.28s/it] 24%|██▍       | 73/300 [02:49<08:39,  2.29s/it] 25%|██▍       | 74/300 [02:51<08:37,  2.29s/it] 25%|██▌       | 75/300 [02:53<08:36,  2.30s/it] 25%|██▌       | 76/300 [02:56<08:30,  2.28s/it] 26%|██▌       | 77/300 [02:58<08:28,  2.28s/it] 26%|██▌       | 78/300 [03:00<08:18,  2.25s/it] 26%|██▋       | 79/300 [03:02<08:13,  2.23s/it] 27%|██▋       | 80/300 [03:05<08:13,  2.24s/it] 27%|██▋       | 81/300 [03:07<08:18,  2.27s/it] 27%|██▋       | 82/300 [03:09<08:10,  2.25s/it] 28%|██▊       | 83/300 [03:11<08:16,  2.29s/it] 28%|██▊       | 84/300 [03:14<08:16,  2.30s/it] 28%|██▊       | 85/300 [03:16<08:17,  2.31s/it] 29%|██▊       | 86/300 [03:18<08:09,  2.29s/it] 29%|██▉       | 87/300 [03:21<08:08,  2.29s/it] 29%|██▉       | 88/300 [03:23<08:05,  2.29s/it] 30%|██▉       | 89/300 [03:25<08:07,  2.31s/it] 30%|███       | 90/300 [03:28<08:06,  2.32s/it] 30%|███       | 91/300 [03:30<08:02,  2.31s/it] 31%|███       | 92/300 [03:32<07:58,  2.30s/it] 31%|███       | 93/300 [03:34<07:56,  2.30s/it] 31%|███▏      | 94/300 [03:37<07:52,  2.30s/it] 32%|███▏      | 95/300 [03:39<07:53,  2.31s/it] 32%|███▏      | 96/300 [03:41<07:54,  2.33s/it] 32%|███▏      | 97/300 [03:44<07:48,  2.31s/it] 33%|███▎      | 98/300 [03:46<07:47,  2.31s/it] 33%|███▎      | 99/300 [03:48<07:48,  2.33s/it] 33%|███▎      | 100/300 [03:51<07:48,  2.34s/it] 34%|███▎      | 101/300 [03:53<07:37,  2.30s/it] 34%|███▍      | 102/300 [03:55<07:38,  2.32s/it] 34%|███▍      | 103/300 [03:58<07:38,  2.33s/it] 35%|███▍      | 104/300 [04:00<07:35,  2.32s/it] 35%|███▌      | 105/300 [04:02<07:30,  2.31s/it] 35%|███▌      | 106/300 [04:05<07:24,  2.29s/it] 36%|███▌      | 107/300 [04:07<07:19,  2.28s/it] 36%|███▌      | 108/300 [04:09<07:22,  2.31s/it] 36%|███▋      | 109/300 [04:11<07:15,  2.28s/it] 37%|███▋      | 110/300 [04:14<07:09,  2.26s/it] 37%|███▋      | 111/300 [04:16<07:12,  2.29s/it] 37%|███▋      | 112/300 [04:18<07:05,  2.26s/it] 38%|███▊      | 113/300 [04:20<06:58,  2.24s/it] 38%|███▊      | 114/300 [04:23<06:54,  2.23s/it] 38%|███▊      | 115/300 [04:25<06:52,  2.23s/it] 39%|███▊      | 116/300 [04:27<06:55,  2.26s/it] 39%|███▉      | 117/300 [04:29<06:52,  2.25s/it] 39%|███▉      | 118/300 [04:32<06:52,  2.27s/it] 40%|███▉      | 119/300 [04:34<06:49,  2.26s/it] 40%|████      | 120/300 [04:36<06:45,  2.25s/it] 40%|████      | 121/300 [04:38<06:40,  2.24s/it] 41%|████      | 122/300 [04:41<06:40,  2.25s/it] 41%|████      | 123/300 [04:43<06:41,  2.27s/it] 41%|████▏     | 124/300 [04:45<06:35,  2.24s/it] 42%|████▏     | 125/300 [04:47<06:36,  2.26s/it] 42%|████▏     | 126/300 [04:50<06:33,  2.26s/it] 42%|████▏     | 127/300 [04:52<06:37,  2.30s/it] 43%|████▎     | 128/300 [04:54<06:32,  2.28s/it] 43%|████▎     | 129/300 [04:57<06:31,  2.29s/it] 43%|████▎     | 130/300 [04:59<06:29,  2.29s/it] 44%|████▎     | 131/300 [05:01<06:25,  2.28s/it] 44%|████▍     | 132/300 [05:04<06:27,  2.31s/it] 44%|████▍     | 133/300 [05:06<06:24,  2.30s/it] 45%|████▍     | 134/300 [05:08<06:21,  2.30s/it] 45%|████▌     | 135/300 [05:10<06:17,  2.29s/it] 45%|████▌     | 136/300 [05:13<06:19,  2.31s/it] 46%|████▌     | 137/300 [05:15<06:09,  2.27s/it] 46%|████▌     | 138/300 [05:17<06:07,  2.27s/it] 46%|████▋     | 139/300 [05:19<06:05,  2.27s/it] 47%|████▋     | 140/300 [05:22<06:05,  2.28s/it] 47%|████▋     | 141/300 [05:24<06:06,  2.31s/it] 47%|████▋     | 142/300 [05:26<06:00,  2.28s/it] 48%|████▊     | 143/300 [05:29<06:02,  2.31s/it] 48%|████▊     | 144/300 [05:31<05:57,  2.29s/it] 48%|████▊     | 145/300 [05:33<05:54,  2.28s/it] 49%|████▊     | 146/300 [05:35<05:49,  2.27s/it] 49%|████▉     | 147/300 [05:38<05:45,  2.26s/it] 49%|████▉     | 148/300 [05:40<05:43,  2.26s/it] 50%|████▉     | 149/300 [05:42<05:41,  2.26s/it] 50%|█████     | 150/300 [05:45<05:42,  2.28s/it] 50%|█████     | 151/300 [05:47<05:38,  2.27s/it] 51%|█████     | 152/300 [05:49<05:35,  2.27s/it] 51%|█████     | 153/300 [05:51<05:34,  2.27s/it] 51%|█████▏    | 154/300 [05:54<05:35,  2.30s/it] 52%|█████▏    | 155/300 [05:56<05:28,  2.27s/it] 52%|█████▏    | 156/300 [05:58<05:24,  2.26s/it] 52%|█████▏    | 157/300 [06:00<05:25,  2.28s/it] 53%|█████▎    | 158/300 [06:03<05:27,  2.31s/it] 53%|█████▎    | 159/300 [06:05<05:26,  2.32s/it] 53%|█████▎    | 160/300 [06:08<05:26,  2.33s/it] 54%|█████▎    | 161/300 [06:10<05:25,  2.34s/it] 54%|█████▍    | 162/300 [06:12<05:23,  2.35s/it] 54%|█████▍    | 163/300 [06:14<05:16,  2.31s/it] 55%|█████▍    | 164/300 [06:17<05:15,  2.32s/it] 55%|█████▌    | 165/300 [06:19<05:13,  2.32s/it] 55%|█████▌    | 166/300 [06:21<05:09,  2.31s/it] 56%|█████▌    | 167/300 [06:24<05:01,  2.27s/it] 56%|█████▌    | 168/300 [06:26<05:01,  2.28s/it] 56%|█████▋    | 169/300 [06:28<05:01,  2.30s/it] 57%|█████▋    | 170/300 [06:31<05:00,  2.32s/it] 57%|█████▋    | 171/300 [06:33<04:55,  2.29s/it] 57%|█████▋    | 172/300 [06:35<04:51,  2.28s/it] 58%|█████▊    | 173/300 [06:37<04:50,  2.28s/it] 58%|█████▊    | 174/300 [06:40<04:45,  2.27s/it] 58%|█████▊    | 175/300 [06:42<04:41,  2.25s/it] 59%|█████▊    | 176/300 [06:44<04:39,  2.26s/it] 59%|█████▉    | 177/300 [06:46<04:38,  2.27s/it] 59%|█████▉    | 178/300 [06:49<04:36,  2.27s/it] 60%|█████▉    | 179/300 [06:51<04:32,  2.25s/it] 60%|██████    | 180/300 [06:53<04:34,  2.29s/it] 60%|██████    | 181/300 [06:55<04:29,  2.26s/it] 61%|██████    | 182/300 [06:58<04:26,  2.26s/it] 61%|██████    | 183/300 [07:00<04:27,  2.28s/it] 61%|██████▏   | 184/300 [07:02<04:28,  2.31s/it] 62%|██████▏   | 185/300 [07:05<04:24,  2.30s/it] 62%|██████▏   | 186/300 [07:07<04:20,  2.28s/it] 62%|██████▏   | 187/300 [07:09<04:17,  2.28s/it] 63%|██████▎   | 188/300 [07:11<04:11,  2.25s/it] 63%|██████▎   | 189/300 [07:14<04:11,  2.26s/it] 63%|██████▎   | 190/300 [07:16<04:10,  2.27s/it] 64%|██████▎   | 191/300 [07:18<04:05,  2.25s/it] 64%|██████▍   | 192/300 [07:20<04:03,  2.26s/it] 64%|██████▍   | 193/300 [07:23<04:02,  2.27s/it] 65%|██████▍   | 194/300 [07:25<04:03,  2.30s/it] 65%|██████▌   | 195/300 [07:27<03:57,  2.26s/it] 65%|██████▌   | 196/300 [07:30<03:55,  2.27s/it] 66%|██████▌   | 197/300 [07:32<03:50,  2.24s/it] 66%|██████▌   | 198/300 [07:34<03:49,  2.25s/it] 66%|██████▋   | 199/300 [07:36<03:49,  2.27s/it] 67%|██████▋   | 200/300 [07:39<03:48,  2.28s/it] 67%|██████▋   | 201/300 [07:41<03:45,  2.28s/it] 67%|██████▋   | 202/300 [07:43<03:39,  2.24s/it] 68%|██████▊   | 203/300 [07:45<03:35,  2.22s/it] 68%|██████▊   | 204/300 [07:48<03:38,  2.27s/it] 68%|██████▊   | 205/300 [07:50<03:34,  2.26s/it] 69%|██████▊   | 206/300 [07:52<03:31,  2.26s/it] 69%|██████▉   | 207/300 [07:54<03:30,  2.26s/it] 69%|██████▉   | 208/300 [07:57<03:26,  2.24s/it] 70%|██████▉   | 209/300 [07:59<03:23,  2.23s/it] 70%|███████   | 210/300 [08:01<03:21,  2.24s/it] 70%|███████   | 211/300 [08:03<03:16,  2.21s/it] 71%|███████   | 212/300 [08:05<03:15,  2.22s/it] 71%|███████   | 213/300 [08:08<03:14,  2.24s/it] 71%|███████▏  | 214/300 [08:10<03:14,  2.26s/it] 72%|███████▏  | 215/300 [08:12<03:14,  2.29s/it] 72%|███████▏  | 216/300 [08:15<03:10,  2.27s/it] 72%|███████▏  | 217/300 [08:17<03:10,  2.29s/it] 73%|███████▎  | 218/300 [08:19<03:09,  2.32s/it] 73%|███████▎  | 219/300 [08:22<03:08,  2.33s/it] 73%|███████▎  | 220/300 [08:24<03:07,  2.35s/it] 74%|███████▎  | 221/300 [08:26<03:03,  2.32s/it] 74%|███████▍  | 222/300 [08:29<02:56,  2.27s/it] 74%|███████▍  | 223/300 [08:31<02:53,  2.26s/it] 75%|███████▍  | 224/300 [08:33<02:51,  2.25s/it] 75%|███████▌  | 225/300 [08:35<02:49,  2.25s/it] 75%|███████▌  | 226/300 [08:38<02:47,  2.26s/it] 76%|███████▌  | 227/300 [08:40<02:43,  2.24s/it] 76%|███████▌  | 228/300 [08:42<02:40,  2.23s/it] 76%|███████▋  | 229/300 [08:44<02:39,  2.25s/it] 77%|███████▋  | 230/300 [08:46<02:37,  2.25s/it] 77%|███████▋  | 231/300 [08:49<02:37,  2.28s/it] 77%|███████▋  | 232/300 [08:51<02:33,  2.25s/it] 78%|███████▊  | 233/300 [08:53<02:33,  2.28s/it] 78%|███████▊  | 234/300 [08:56<02:29,  2.26s/it] 78%|███████▊  | 235/300 [08:58<02:27,  2.27s/it] 79%|███████▊  | 236/300 [09:00<02:24,  2.26s/it] 79%|███████▉  | 237/300 [09:02<02:22,  2.25s/it] 79%|███████▉  | 238/300 [09:05<02:18,  2.23s/it] 80%|███████▉  | 239/300 [09:07<02:16,  2.23s/it] 80%|████████  | 240/300 [09:09<02:14,  2.25s/it] 80%|████████  | 241/300 [09:11<02:13,  2.26s/it] 81%|████████  | 242/300 [09:14<02:10,  2.25s/it] 81%|████████  | 243/300 [09:16<02:09,  2.27s/it] 81%|████████▏ | 244/300 [09:18<02:08,  2.29s/it] 82%|████████▏ | 245/300 [09:21<02:07,  2.31s/it] 82%|████████▏ | 246/300 [09:23<02:05,  2.33s/it] 82%|████████▏ | 247/300 [09:25<02:04,  2.34s/it] 83%|████████▎ | 248/300 [09:28<02:00,  2.31s/it] 83%|████████▎ | 249/300 [09:30<01:58,  2.32s/it] 83%|████████▎ | 250/300 [09:32<01:56,  2.33s/it] 84%|████████▎ | 251/300 [09:34<01:52,  2.30s/it] 84%|████████▍ | 252/300 [09:37<01:50,  2.30s/it] 84%|████████▍ | 253/300 [09:39<01:47,  2.30s/it] 85%|████████▍ | 254/300 [09:41<01:46,  2.31s/it] 85%|████████▌ | 255/300 [09:44<01:42,  2.28s/it] 85%|████████▌ | 256/300 [09:46<01:38,  2.24s/it] 86%|████████▌ | 257/300 [09:48<01:36,  2.26s/it] 86%|████████▌ | 258/300 [09:50<01:33,  2.23s/it] 86%|████████▋ | 259/300 [09:53<01:32,  2.25s/it] 87%|████████▋ | 260/300 [09:55<01:29,  2.24s/it] 87%|████████▋ | 261/300 [09:57<01:26,  2.23s/it] 87%|████████▋ | 262/300 [09:59<01:26,  2.27s/it] 88%|████████▊ | 263/300 [10:02<01:24,  2.27s/it] 88%|████████▊ | 264/300 [10:04<01:21,  2.26s/it] 88%|████████▊ | 265/300 [10:06<01:18,  2.25s/it] 89%|████████▊ | 266/300 [10:08<01:17,  2.27s/it] 89%|████████▉ | 267/300 [10:11<01:14,  2.25s/it] 89%|████████▉ | 268/300 [10:13<01:11,  2.25s/it] 90%|████████▉ | 269/300 [10:15<01:09,  2.24s/it] 90%|█████████ | 270/300 [10:17<01:08,  2.27s/it] 90%|█████████ | 271/300 [10:20<01:05,  2.27s/it] 91%|█████████ | 272/300 [10:22<01:04,  2.30s/it] 91%|█████████ | 273/300 [10:24<01:00,  2.26s/it] 91%|█████████▏| 274/300 [10:26<00:58,  2.25s/it] 92%|█████████▏| 275/300 [10:29<00:56,  2.27s/it] 92%|█████████▏| 276/300 [10:31<00:55,  2.30s/it] 92%|█████████▏| 277/300 [10:33<00:52,  2.29s/it] 93%|█████████▎| 278/300 [10:36<00:50,  2.30s/it] 93%|█████████▎| 279/300 [10:38<00:47,  2.28s/it] 93%|█████████▎| 280/300 [10:40<00:45,  2.28s/it] 94%|█████████▎| 281/300 [10:42<00:43,  2.27s/it] 94%|█████████▍| 282/300 [10:45<00:40,  2.24s/it] 94%|█████████▍| 283/300 [10:47<00:38,  2.24s/it] 95%|█████████▍| 284/300 [10:49<00:36,  2.25s/it] 95%|█████████▌| 285/300 [10:51<00:33,  2.24s/it] 95%|█████████▌| 286/300 [10:54<00:31,  2.26s/it] 96%|█████████▌| 287/300 [10:56<00:29,  2.30s/it] 96%|█████████▌| 288/300 [10:58<00:27,  2.28s/it] 96%|█████████▋| 289/300 [11:01<00:25,  2.32s/it] 97%|█████████▋| 290/300 [11:03<00:23,  2.37s/it] 97%|█████████▋| 291/300 [11:06<00:21,  2.42s/it] 97%|█████████▋| 292/300 [11:08<00:19,  2.42s/it] 98%|█████████▊| 293/300 [11:10<00:16,  2.36s/it] 98%|█████████▊| 294/300 [11:13<00:14,  2.38s/it] 98%|█████████▊| 295/300 [11:15<00:11,  2.35s/it] 99%|█████████▊| 296/300 [11:17<00:09,  2.35s/it] 99%|█████████▉| 297/300 [11:20<00:07,  2.39s/it] 99%|█████████▉| 298/300 [11:22<00:04,  2.35s/it]100%|█████████▉| 299/300 [11:24<00:02,  2.32s/it]100%|██████████| 300/300 [11:27<00:00,  2.32s/it]100%|██████████| 300/300 [11:27<00:00,  2.29s/it]
+W&B disabled.
+W&B online. Running your script from this directory will now sync to the cloud.
+wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231031_133209-071cbbrb
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run nightmarish-phantom-598
+wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
+wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/071cbbrb
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/tiny-imagenet/472/
+num img: 2000
+batch size: 100
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'resnet18'
+TRAIN Iter 0: lr = 0.001000,	loss = 0.008184,	Top-1 err = 99.250000,	Top-5 err = 96.650000,	train_time = 16.649525
+TEST Iter 0: loss = 7.911509,	Top-1 err = 99.160000,	Top-5 err = 96.520000,	val_time = 19.367616
+TRAIN Iter 10: lr = 0.000997,	loss = 0.005888,	Top-1 err = 96.500000,	Top-5 err = 86.800000,	train_time = 15.495116
+TEST Iter 10: loss = 5.356621,	Top-1 err = 97.620000,	Top-5 err = 89.050000,	val_time = 19.371147
+TRAIN Iter 20: lr = 0.000989,	loss = 0.005741,	Top-1 err = 94.300000,	Top-5 err = 80.150000,	train_time = 15.293700
+TEST Iter 20: loss = 4.961330,	Top-1 err = 95.240000,	Top-5 err = 83.370000,	val_time = 19.163271
+TRAIN Iter 30: lr = 0.000976,	loss = 0.004896,	Top-1 err = 93.150000,	Top-5 err = 79.550000,	train_time = 15.388271
+TEST Iter 30: loss = 5.309054,	Top-1 err = 95.490000,	Top-5 err = 83.540000,	val_time = 19.268645
+TRAIN Iter 40: lr = 0.000957,	loss = 0.004698,	Top-1 err = 91.700000,	Top-5 err = 76.100000,	train_time = 15.690486
+TEST Iter 40: loss = 4.960619,	Top-1 err = 92.530000,	Top-5 err = 76.920000,	val_time = 19.449776
+TRAIN Iter 50: lr = 0.000933,	loss = 0.004432,	Top-1 err = 90.900000,	Top-5 err = 76.600000,	train_time = 15.909225
+TEST Iter 50: loss = 5.209834,	Top-1 err = 92.490000,	Top-5 err = 76.320000,	val_time = 20.156006
+TRAIN Iter 60: lr = 0.000905,	loss = 0.004151,	Top-1 err = 86.900000,	Top-5 err = 66.800000,	train_time = 15.710817
+TEST Iter 60: loss = 4.573633,	Top-1 err = 89.300000,	Top-5 err = 70.270000,	val_time = 19.608428
+TRAIN Iter 70: lr = 0.000872,	loss = 0.003967,	Top-1 err = 84.050000,	Top-5 err = 61.500000,	train_time = 15.469882
+TEST Iter 70: loss = 4.177070,	Top-1 err = 86.710000,	Top-5 err = 65.170000,	val_time = 19.583107
+TRAIN Iter 80: lr = 0.000835,	loss = 0.003792,	Top-1 err = 82.900000,	Top-5 err = 59.950000,	train_time = 15.823021
+TEST Iter 80: loss = 4.595779,	Top-1 err = 86.710000,	Top-5 err = 65.650000,	val_time = 19.346683
+TRAIN Iter 90: lr = 0.000794,	loss = 0.003581,	Top-1 err = 77.750000,	Top-5 err = 53.750000,	train_time = 16.129430
+TEST Iter 90: loss = 4.117730,	Top-1 err = 83.550000,	Top-5 err = 59.310000,	val_time = 19.909857
+TRAIN Iter 100: lr = 0.000750,	loss = 0.003450,	Top-1 err = 75.850000,	Top-5 err = 53.450000,	train_time = 15.936395
+TEST Iter 100: loss = 3.780942,	Top-1 err = 80.870000,	Top-5 err = 55.350000,	val_time = 20.051492
+TRAIN Iter 110: lr = 0.000703,	loss = 0.003236,	Top-1 err = 76.800000,	Top-5 err = 53.250000,	train_time = 15.910835
+TEST Iter 110: loss = 3.882859,	Top-1 err = 80.310000,	Top-5 err = 54.040000,	val_time = 19.306672
+TRAIN Iter 120: lr = 0.000655,	loss = 0.003160,	Top-1 err = 72.250000,	Top-5 err = 48.750000,	train_time = 15.413459
+TEST Iter 120: loss = 3.516284,	Top-1 err = 76.910000,	Top-5 err = 48.890000,	val_time = 19.418927
+TRAIN Iter 130: lr = 0.000604,	loss = 0.003003,	Top-1 err = 72.650000,	Top-5 err = 49.450000,	train_time = 15.361634
+TEST Iter 130: loss = 3.425391,	Top-1 err = 75.170000,	Top-5 err = 46.870000,	val_time = 19.276370
+TRAIN Iter 140: lr = 0.000552,	loss = 0.002783,	Top-1 err = 83.100000,	Top-5 err = 63.550000,	train_time = 15.806032
+TEST Iter 140: loss = 3.174594,	Top-1 err = 71.430000,	Top-5 err = 42.740000,	val_time = 19.988047
+TRAIN Iter 150: lr = 0.000500,	loss = 0.002738,	Top-1 err = 66.800000,	Top-5 err = 45.500000,	train_time = 15.462183
+TEST Iter 150: loss = 3.158436,	Top-1 err = 71.030000,	Top-5 err = 42.440000,	val_time = 19.348770
+TRAIN Iter 160: lr = 0.000448,	loss = 0.002578,	Top-1 err = 70.600000,	Top-5 err = 47.750000,	train_time = 15.546217
+TEST Iter 160: loss = 3.015458,	Top-1 err = 69.300000,	Top-5 err = 39.840000,	val_time = 19.571809
+TRAIN Iter 170: lr = 0.000396,	loss = 0.002520,	Top-1 err = 60.650000,	Top-5 err = 37.050000,	train_time = 15.529841
+TEST Iter 170: loss = 2.993036,	Top-1 err = 68.580000,	Top-5 err = 39.920000,	val_time = 19.586544
+TRAIN Iter 180: lr = 0.000345,	loss = 0.002521,	Top-1 err = 67.350000,	Top-5 err = 44.800000,	train_time = 15.592507
+TEST Iter 180: loss = 3.113298,	Top-1 err = 69.160000,	Top-5 err = 40.090000,	val_time = 19.598060
+TRAIN Iter 190: lr = 0.000297,	loss = 0.002358,	Top-1 err = 71.000000,	Top-5 err = 50.550000,	train_time = 15.646458
+TEST Iter 190: loss = 2.950301,	Top-1 err = 66.460000,	Top-5 err = 37.550000,	val_time = 19.654171
+TRAIN Iter 200: lr = 0.000250,	loss = 0.002345,	Top-1 err = 67.500000,	Top-5 err = 46.750000,	train_time = 15.524964
+TEST Iter 200: loss = 2.794277,	Top-1 err = 65.090000,	Top-5 err = 36.080000,	val_time = 19.479748
+TRAIN Iter 210: lr = 0.000206,	loss = 0.002192,	Top-1 err = 64.150000,	Top-5 err = 45.600000,	train_time = 15.701481
+TEST Iter 210: loss = 2.757367,	Top-1 err = 64.240000,	Top-5 err = 34.410000,	val_time = 18.673424
+TRAIN Iter 220: lr = 0.000165,	loss = 0.002218,	Top-1 err = 54.350000,	Top-5 err = 32.350000,	train_time = 15.517224
+TEST Iter 220: loss = 2.711693,	Top-1 err = 63.290000,	Top-5 err = 33.880000,	val_time = 19.328117
+TRAIN Iter 230: lr = 0.000128,	loss = 0.002166,	Top-1 err = 60.700000,	Top-5 err = 40.600000,	train_time = 15.503942
+TEST Iter 230: loss = 2.709729,	Top-1 err = 63.470000,	Top-5 err = 34.150000,	val_time = 18.808923
+TRAIN Iter 240: lr = 0.000095,	loss = 0.002139,	Top-1 err = 65.200000,	Top-5 err = 45.200000,	train_time = 15.571748
+TEST Iter 240: loss = 2.655565,	Top-1 err = 62.170000,	Top-5 err = 32.890000,	val_time = 19.465746
+TRAIN Iter 250: lr = 0.000067,	loss = 0.002095,	Top-1 err = 58.950000,	Top-5 err = 36.550000,	train_time = 15.600126
+TEST Iter 250: loss = 2.601075,	Top-1 err = 61.560000,	Top-5 err = 32.100000,	val_time = 18.985537
+TRAIN Iter 260: lr = 0.000043,	loss = 0.002067,	Top-1 err = 61.050000,	Top-5 err = 41.000000,	train_time = 15.732881
+TEST Iter 260: loss = 2.596432,	Top-1 err = 61.500000,	Top-5 err = 31.860000,	val_time = 20.295128
+TRAIN Iter 270: lr = 0.000024,	loss = 0.002033,	Top-1 err = 59.050000,	Top-5 err = 38.050000,	train_time = 15.973553
+TEST Iter 270: loss = 2.590549,	Top-1 err = 61.230000,	Top-5 err = 31.820000,	val_time = 19.447136
+TRAIN Iter 280: lr = 0.000011,	loss = 0.002044,	Top-1 err = 56.100000,	Top-5 err = 34.250000,	train_time = 15.581776
+TEST Iter 280: loss = 2.563658,	Top-1 err = 60.980000,	Top-5 err = 31.550000,	val_time = 19.065595
+TRAIN Iter 290: lr = 0.000003,	loss = 0.002051,	Top-1 err = 67.950000,	Top-5 err = 47.300000,	train_time = 15.580881
+TEST Iter 290: loss = 2.573844,	Top-1 err = 61.190000,	Top-5 err = 31.700000,	val_time = 19.878188
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.004 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.004 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:  train/Top1 ▁▁▁▂▂▂▂▃▃▃▃▃▃▄▄▄▅▅▅▄▅▄▅▆▅▅▅▆▆▅▆██▆▆▅▆▆▆▆
+wandb:  train/Top5 ▁▁▂▂▃▃▃▄▄▄▄▄▄▅▅▅▆▆▆▅▆▅▆▆▆▆▅▇▇▆▆██▆▇▆▆▆▆▆
+wandb: train/epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:  train/loss █▇▇▆▅▆▅▅▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    train/lr ███████▇▇▇▇▇▇▆▆▆▅▅▅▅▄▄▄▄▃▃▃▃▂▂▂▂▂▁▁▁▁▁▁▁
+wandb:   val/epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:    val/loss █▅▄▅▄▄▄▃▄▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:    val/top1 ▁▁▂▂▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇▇▇█████████
+wandb:    val/top5 ▁▂▂▂▃▃▄▄▄▅▅▆▆▆▇▇▇▇▇▇███████████
+wandb: 
+wandb: Run summary:
+wandb:  train/Top1 37.05
+wandb:  train/Top5 57.0
+wandb: train/epoch 299
+wandb:  train/loss 0.00206
+wandb:    train/lr 0.0
+wandb:   val/epoch 299
+wandb:    val/loss 2.56819
+wandb:    val/top1 38.83
+wandb:    val/top5 68.43
+wandb: 
+wandb: 🚀 View run nightmarish-phantom-598 at: https://wandb.ai/hl57/final_rn18_fkd/runs/071cbbrb
+wandb: ️⚡ View job at https://wandb.ai/hl57/final_rn18_fkd/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk3MzkyNjU3/version_details/v55
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20231031_133209-071cbbrb/logs
+TEST Iter 299: loss = 2.568192,	Top-1 err = 61.170000,	Top-5 err = 31.570000,	val_time = 19.195940

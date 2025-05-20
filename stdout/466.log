@@ -1,0 +1,565 @@
+r_bn:  30.0
+lr:  0.1
+bc loaded
+bc shape (200, 10, 512)
+Computing BatchNorm statistics for class 0
+Computing BatchNorm statistics for class 1
+Computing BatchNorm statistics for class 2
+Computing BatchNorm statistics for class 3
+Computing BatchNorm statistics for class 4
+Computing BatchNorm statistics for class 5
+Computing BatchNorm statistics for class 6
+Computing BatchNorm statistics for class 7
+Computing BatchNorm statistics for class 8
+Computing BatchNorm statistics for class 9
+Computing BatchNorm statistics for class 10
+Computing BatchNorm statistics for class 11
+Computing BatchNorm statistics for class 12
+Computing BatchNorm statistics for class 13
+Computing BatchNorm statistics for class 14
+Computing BatchNorm statistics for class 15
+Computing BatchNorm statistics for class 16
+Computing BatchNorm statistics for class 17
+Computing BatchNorm statistics for class 18
+Computing BatchNorm statistics for class 19
+Computing BatchNorm statistics for class 20
+Computing BatchNorm statistics for class 21
+Computing BatchNorm statistics for class 22
+Computing BatchNorm statistics for class 23
+Computing BatchNorm statistics for class 24
+Computing BatchNorm statistics for class 25
+Computing BatchNorm statistics for class 26
+Computing BatchNorm statistics for class 27
+Computing BatchNorm statistics for class 28
+Computing BatchNorm statistics for class 29
+Computing BatchNorm statistics for class 30
+Computing BatchNorm statistics for class 31
+Computing BatchNorm statistics for class 32
+Computing BatchNorm statistics for class 33
+Computing BatchNorm statistics for class 34
+Computing BatchNorm statistics for class 35
+Computing BatchNorm statistics for class 36
+Computing BatchNorm statistics for class 37
+Computing BatchNorm statistics for class 38
+Computing BatchNorm statistics for class 39
+Computing BatchNorm statistics for class 40
+Computing BatchNorm statistics for class 41
+Computing BatchNorm statistics for class 42
+Computing BatchNorm statistics for class 43
+Computing BatchNorm statistics for class 44
+Computing BatchNorm statistics for class 45
+Computing BatchNorm statistics for class 46
+Computing BatchNorm statistics for class 47
+Computing BatchNorm statistics for class 48
+Computing BatchNorm statistics for class 49
+Computing BatchNorm statistics for class 50
+Computing BatchNorm statistics for class 51
+Computing BatchNorm statistics for class 52
+Computing BatchNorm statistics for class 53
+Computing BatchNorm statistics for class 54
+Computing BatchNorm statistics for class 55
+Computing BatchNorm statistics for class 56
+Computing BatchNorm statistics for class 57
+Computing BatchNorm statistics for class 58
+Computing BatchNorm statistics for class 59
+Computing BatchNorm statistics for class 60
+Computing BatchNorm statistics for class 61
+Computing BatchNorm statistics for class 62
+Computing BatchNorm statistics for class 63
+Computing BatchNorm statistics for class 64
+Computing BatchNorm statistics for class 65
+Computing BatchNorm statistics for class 66
+Computing BatchNorm statistics for class 67
+Computing BatchNorm statistics for class 68
+Computing BatchNorm statistics for class 69
+Computing BatchNorm statistics for class 70
+Computing BatchNorm statistics for class 71
+Computing BatchNorm statistics for class 72
+Computing BatchNorm statistics for class 73
+Computing BatchNorm statistics for class 74
+Computing BatchNorm statistics for class 75
+Computing BatchNorm statistics for class 76
+Computing BatchNorm statistics for class 77
+Computing BatchNorm statistics for class 78
+Computing BatchNorm statistics for class 79
+Computing BatchNorm statistics for class 80
+Computing BatchNorm statistics for class 81
+Computing BatchNorm statistics for class 82
+Computing BatchNorm statistics for class 83
+Computing BatchNorm statistics for class 84
+Computing BatchNorm statistics for class 85
+Computing BatchNorm statistics for class 86
+Computing BatchNorm statistics for class 87
+Computing BatchNorm statistics for class 88
+Computing BatchNorm statistics for class 89
+Computing BatchNorm statistics for class 90
+Computing BatchNorm statistics for class 91
+Computing BatchNorm statistics for class 92
+Computing BatchNorm statistics for class 93
+Computing BatchNorm statistics for class 94
+Computing BatchNorm statistics for class 95
+Computing BatchNorm statistics for class 96
+Computing BatchNorm statistics for class 97
+Computing BatchNorm statistics for class 98
+Computing BatchNorm statistics for class 99
+Computing BatchNorm statistics for class 100
+Computing BatchNorm statistics for class 101
+Computing BatchNorm statistics for class 102
+Computing BatchNorm statistics for class 103
+Computing BatchNorm statistics for class 104
+Computing BatchNorm statistics for class 105
+Computing BatchNorm statistics for class 106
+Computing BatchNorm statistics for class 107
+Computing BatchNorm statistics for class 108
+Computing BatchNorm statistics for class 109
+Computing BatchNorm statistics for class 110
+Computing BatchNorm statistics for class 111
+Computing BatchNorm statistics for class 112
+Computing BatchNorm statistics for class 113
+Computing BatchNorm statistics for class 114
+Computing BatchNorm statistics for class 115
+Computing BatchNorm statistics for class 116
+Computing BatchNorm statistics for class 117
+Computing BatchNorm statistics for class 118
+Computing BatchNorm statistics for class 119
+Computing BatchNorm statistics for class 120
+Computing BatchNorm statistics for class 121
+Computing BatchNorm statistics for class 122
+Computing BatchNorm statistics for class 123
+Computing BatchNorm statistics for class 124
+Computing BatchNorm statistics for class 125
+Computing BatchNorm statistics for class 126
+Computing BatchNorm statistics for class 127
+Computing BatchNorm statistics for class 128
+Computing BatchNorm statistics for class 129
+Computing BatchNorm statistics for class 130
+Computing BatchNorm statistics for class 131
+Computing BatchNorm statistics for class 132
+Computing BatchNorm statistics for class 133
+Computing BatchNorm statistics for class 134
+Computing BatchNorm statistics for class 135
+Computing BatchNorm statistics for class 136
+Computing BatchNorm statistics for class 137
+Computing BatchNorm statistics for class 138
+Computing BatchNorm statistics for class 139
+Computing BatchNorm statistics for class 140
+Computing BatchNorm statistics for class 141
+Computing BatchNorm statistics for class 142
+Computing BatchNorm statistics for class 143
+Computing BatchNorm statistics for class 144
+Computing BatchNorm statistics for class 145
+Computing BatchNorm statistics for class 146
+Computing BatchNorm statistics for class 147
+Computing BatchNorm statistics for class 148
+Computing BatchNorm statistics for class 149
+Computing BatchNorm statistics for class 150
+Computing BatchNorm statistics for class 151
+Computing BatchNorm statistics for class 152
+Computing BatchNorm statistics for class 153
+Computing BatchNorm statistics for class 154
+Computing BatchNorm statistics for class 155
+Computing BatchNorm statistics for class 156
+Computing BatchNorm statistics for class 157
+Computing BatchNorm statistics for class 158
+Computing BatchNorm statistics for class 159
+Computing BatchNorm statistics for class 160
+Computing BatchNorm statistics for class 161
+Computing BatchNorm statistics for class 162
+Computing BatchNorm statistics for class 163
+Computing BatchNorm statistics for class 164
+Computing BatchNorm statistics for class 165
+Computing BatchNorm statistics for class 166
+Computing BatchNorm statistics for class 167
+Computing BatchNorm statistics for class 168
+Computing BatchNorm statistics for class 169
+Computing BatchNorm statistics for class 170
+Computing BatchNorm statistics for class 171
+Computing BatchNorm statistics for class 172
+Computing BatchNorm statistics for class 173
+Computing BatchNorm statistics for class 174
+Computing BatchNorm statistics for class 175
+Computing BatchNorm statistics for class 176
+Computing BatchNorm statistics for class 177
+Computing BatchNorm statistics for class 178
+Computing BatchNorm statistics for class 179
+Computing BatchNorm statistics for class 180
+Computing BatchNorm statistics for class 181
+Computing BatchNorm statistics for class 182
+Computing BatchNorm statistics for class 183
+Computing BatchNorm statistics for class 184
+Computing BatchNorm statistics for class 185
+Computing BatchNorm statistics for class 186
+Computing BatchNorm statistics for class 187
+Computing BatchNorm statistics for class 188
+Computing BatchNorm statistics for class 189
+Computing BatchNorm statistics for class 190
+Computing BatchNorm statistics for class 191
+Computing BatchNorm statistics for class 192
+Computing BatchNorm statistics for class 193
+Computing BatchNorm statistics for class 194
+Computing BatchNorm statistics for class 195
+Computing BatchNorm statistics for class 196
+Computing BatchNorm statistics for class 197
+Computing BatchNorm statistics for class 198
+Computing BatchNorm statistics for class 199
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+get_images call
+class_per_batch  10 batch_size  100 args.ipc  10
+------------iteration 0----------
+total loss 7101.781776948188
+main criterion 138.37943319818834
+weighted_aux_loss 6963.40234375
+loss_r_bn_feature 232.1134033203125
+------------iteration 100----------
+total loss 2491.70519704368
+main criterion 60.25988454368028
+weighted_aux_loss 2431.4453125
+loss_r_bn_feature 81.04817962646484
+------------iteration 200----------
+total loss 2013.595441334468
+main criterion 55.99339055321802
+weighted_aux_loss 1957.60205078125
+loss_r_bn_feature 65.25340270996094
+------------iteration 300----------
+total loss 1724.9075997392533
+main criterion 58.17835169237825
+weighted_aux_loss 1666.729248046875
+loss_r_bn_feature 55.557640075683594
+------------iteration 400----------
+total loss 1809.951986511421
+main criterion 53.21993084735843
+weighted_aux_loss 1756.7320556640625
+loss_r_bn_feature 58.557735443115234
+------------iteration 500----------
+total loss 2455.3664188796797
+main criterion 79.9589481765549
+weighted_aux_loss 2375.407470703125
+loss_r_bn_feature 79.18025207519531
+------------iteration 600----------
+total loss 1501.7244240754471
+main criterion 56.74126977857204
+weighted_aux_loss 1444.983154296875
+loss_r_bn_feature 48.166107177734375
+------------iteration 700----------
+total loss 1350.7645234872166
+main criterion 59.62853715909154
+weighted_aux_loss 1291.135986328125
+loss_r_bn_feature 43.037864685058594
+------------iteration 800----------
+total loss 1176.7515988186608
+main criterion 53.77613495147325
+weighted_aux_loss 1122.9754638671875
+loss_r_bn_feature 37.43251419067383
+------------iteration 900----------
+total loss 1174.5372870396432
+main criterion 57.73504094589308
+weighted_aux_loss 1116.80224609375
+loss_r_bn_feature 37.226741790771484
+------------iteration 1000----------
+total loss 1403.1288288579397
+main criterion 58.23307690481465
+weighted_aux_loss 1344.895751953125
+loss_r_bn_feature 44.829856872558594
+------------iteration 1100----------
+total loss 2225.027468379884
+main criterion 78.92346447363367
+weighted_aux_loss 2146.10400390625
+loss_r_bn_feature 71.53680419921875
+------------iteration 1200----------
+total loss 920.4575570077299
+main criterion 49.84506921476108
+weighted_aux_loss 870.6124877929688
+loss_r_bn_feature 29.020416259765625
+------------iteration 1300----------
+total loss 933.6701220174812
+main criterion 48.53120600185615
+weighted_aux_loss 885.138916015625
+loss_r_bn_feature 29.50463104248047
+------------iteration 1400----------
+total loss 939.0864034442363
+main criterion 48.26364953798637
+weighted_aux_loss 890.82275390625
+loss_r_bn_feature 29.694091796875
+------------iteration 1500----------
+total loss 819.3158573688628
+main criterion 44.065247017300315
+weighted_aux_loss 775.2506103515625
+loss_r_bn_feature 25.841686248779297
+------------iteration 1600----------
+total loss 2056.6611774452845
+main criterion 76.6490924843471
+weighted_aux_loss 1980.0120849609375
+loss_r_bn_feature 66.00040435791016
+------------iteration 1700----------
+total loss 815.4675269604691
+main criterion 45.659360456562844
+weighted_aux_loss 769.8081665039062
+loss_r_bn_feature 25.6602725982666
+------------iteration 1800----------
+total loss 1156.3063419636164
+main criterion 62.579779463616525
+weighted_aux_loss 1093.7265625
+loss_r_bn_feature 36.45755386352539
+------------iteration 1900----------
+total loss 1141.437154105431
+main criterion 60.77455644918104
+weighted_aux_loss 1080.66259765625
+loss_r_bn_feature 36.02208709716797
+------------iteration 0----------
+total loss 7251.014262587952
+main criterion 147.32871571295158
+weighted_aux_loss 7103.685546875
+loss_r_bn_feature 236.78952026367188
+------------iteration 100----------
+total loss 2420.965873638985
+main criterion 65.65972129523495
+weighted_aux_loss 2355.30615234375
+loss_r_bn_feature 78.51020812988281
+------------iteration 200----------
+total loss 2064.917955260684
+main criterion 60.60264764349613
+weighted_aux_loss 2004.3153076171875
+loss_r_bn_feature 66.81050872802734
+------------iteration 300----------
+total loss 1918.711361391775
+main criterion 59.113461001149865
+weighted_aux_loss 1859.597900390625
+loss_r_bn_feature 61.986595153808594
+------------iteration 400----------
+total loss 1666.6109289259134
+main criterion 55.00204220716341
+weighted_aux_loss 1611.60888671875
+loss_r_bn_feature 53.72029495239258
+------------iteration 500----------
+total loss 1665.30673107462
+main criterion 67.38888439493263
+weighted_aux_loss 1597.9178466796875
+loss_r_bn_feature 53.2639274597168
+------------iteration 600----------
+total loss 1495.3532798552233
+main criterion 54.000618722410714
+weighted_aux_loss 1441.3526611328125
+loss_r_bn_feature 48.04508972167969
+------------iteration 700----------
+total loss 1305.3684877231499
+main criterion 57.73237932471249
+weighted_aux_loss 1247.6361083984375
+loss_r_bn_feature 41.58787155151367
+------------iteration 800----------
+total loss 1626.5987429242055
+main criterion 70.53001733826798
+weighted_aux_loss 1556.0687255859375
+loss_r_bn_feature 51.86895751953125
+------------iteration 900----------
+total loss 2342.13670299593
+main criterion 80.86180065218034
+weighted_aux_loss 2261.27490234375
+loss_r_bn_feature 75.3758316040039
+------------iteration 1000----------
+total loss 1200.6834869879835
+main criterion 49.5799713629836
+weighted_aux_loss 1151.103515625
+loss_r_bn_feature 38.3701171875
+------------iteration 1100----------
+total loss 1242.341529102763
+main criterion 58.470557423075334
+weighted_aux_loss 1183.8709716796875
+loss_r_bn_feature 39.462364196777344
+------------iteration 1200----------
+total loss 922.0215263591608
+main criterion 49.02384569509827
+weighted_aux_loss 872.9976806640625
+loss_r_bn_feature 29.09992218017578
+------------iteration 1300----------
+total loss 956.4727146174191
+main criterion 48.44634742991912
+weighted_aux_loss 908.0263671875
+loss_r_bn_feature 30.267545700073242
+------------iteration 1400----------
+total loss 884.8256176927682
+main criterion 50.722346208393176
+weighted_aux_loss 834.103271484375
+loss_r_bn_feature 27.803442001342773
+------------iteration 1500----------
+total loss 2188.9183507676375
+main criterion 77.50868279888768
+weighted_aux_loss 2111.40966796875
+loss_r_bn_feature 70.38032531738281
+------------iteration 1600----------
+total loss 776.1966817535871
+main criterion 48.38058067936831
+weighted_aux_loss 727.8161010742188
+loss_r_bn_feature 24.260536193847656
+------------iteration 1700----------
+total loss 811.7222063788806
+main criterion 48.69919612497434
+weighted_aux_loss 763.0230102539062
+loss_r_bn_feature 25.434101104736328
+------------iteration 1800----------
+total loss 1036.2794156552127
+main criterion 56.70568518646263
+weighted_aux_loss 979.57373046875
+loss_r_bn_feature 32.65245819091797
+------------iteration 1900----------
+total loss 815.2485312244052
+main criterion 46.29900729862393
+weighted_aux_loss 768.9495239257812
+loss_r_bn_feature 25.631650924682617
+------------iteration 0----------
+total loss 7074.430410207262
+main criterion 134.07494145726162
+weighted_aux_loss 6940.35546875
+loss_r_bn_feature 231.34518432617188
+------------iteration 100----------
+total loss 2533.0839800345875
+main criterion 69.63622612833738
+weighted_aux_loss 2463.44775390625
+loss_r_bn_feature 82.11492919921875
+------------iteration 200----------
+total loss 2415.8544264771417
+main criterion 58.21233663339152
+weighted_aux_loss 2357.64208984375
+loss_r_bn_feature 78.58807373046875
+------------iteration 300----------
+total loss 2134.348956820745
+main criterion 58.5169255707453
+weighted_aux_loss 2075.83203125
+loss_r_bn_feature 69.19440460205078
+------------iteration 400----------
+total loss 1975.7691016093136
+main criterion 65.12530278118848
+weighted_aux_loss 1910.643798828125
+loss_r_bn_feature 63.68812561035156
+------------iteration 500----------
+total loss 1660.522525341113
+main criterion 54.25470307548781
+weighted_aux_loss 1606.267822265625
+loss_r_bn_feature 53.542259216308594
+------------iteration 600----------
+total loss 1364.5804384893834
+main criterion 58.54039942688329
+weighted_aux_loss 1306.0400390625
+loss_r_bn_feature 43.53466796875
+------------iteration 700----------
+total loss 1463.832028325564
+main criterion 52.97082227087629
+weighted_aux_loss 1410.8612060546875
+loss_r_bn_feature 47.02870559692383
+------------iteration 800----------
+total loss 1344.6954782161035
+main criterion 52.23429657547849
+weighted_aux_loss 1292.461181640625
+loss_r_bn_feature 43.08203887939453
+------------iteration 900----------
+total loss 1321.1251691709874
+main criterion 61.717942608487405
+weighted_aux_loss 1259.4072265625
+loss_r_bn_feature 41.98023986816406
+------------iteration 1000----------
+total loss 1120.052676712145
+main criterion 58.761416946520136
+weighted_aux_loss 1061.291259765625
+loss_r_bn_feature 35.37637710571289
+------------iteration 1100----------
+total loss 946.3884275026626
+main criterion 50.93994117453756
+weighted_aux_loss 895.448486328125
+loss_r_bn_feature 29.848283767700195
+------------iteration 1200----------
+total loss 915.681497842078
+main criterion 51.348551064734266
+weighted_aux_loss 864.3329467773438
+loss_r_bn_feature 28.811098098754883
+------------iteration 1300----------
+total loss 901.5411126243728
+main criterion 51.35812922593526
+weighted_aux_loss 850.1829833984375
+loss_r_bn_feature 28.339431762695312
+------------iteration 1400----------
+total loss 824.7522899639102
+main criterion 56.319123460003986
+weighted_aux_loss 768.4331665039062
+loss_r_bn_feature 25.614439010620117
+------------iteration 1500----------
+total loss 2230.9473343856685
+main criterion 88.17585001066865
+weighted_aux_loss 2142.771484375
+loss_r_bn_feature 71.42572021484375
+------------iteration 1600----------
+total loss 911.2514603836036
+main criterion 48.05224163360356
+weighted_aux_loss 863.19921875
+loss_r_bn_feature 28.77330780029297
+------------iteration 1700----------
+total loss 730.4537424024776
+main criterion 48.84821261732134
+weighted_aux_loss 681.6055297851562
+loss_r_bn_feature 22.720184326171875
+------------iteration 1800----------
+total loss 640.9056878679766
+main criterion 46.71556335625777
+weighted_aux_loss 594.1901245117188
+loss_r_bn_feature 19.806337356567383
+------------iteration 1900----------
+total loss 757.6780950676681
+main criterion 51.205438817668146
+weighted_aux_loss 706.47265625
+loss_r_bn_feature 23.549089431762695
+------------iteration 0----------
+total loss 7020.395087525098
+main criterion 137.02497033759764
+weighted_aux_loss 6883.3701171875
+loss_r_bn_feature 229.44566345214844
+------------iteration 100----------
+total loss 2651.202184780873
+main criterion 62.805456265247805
+weighted_aux_loss 2588.396728515625
+loss_r_bn_feature 86.27989196777344
+------------iteration 200----------
+total loss 2550.4469064824284
+main criterion 74.10047093555322
+weighted_aux_loss 2476.346435546875
+loss_r_bn_feature 82.54488372802734
+------------iteration 300----------
+total loss 2043.1028877865053
+main criterion 55.70310751306794
+weighted_aux_loss 1987.3997802734375
+loss_r_bn_feature 66.24665832519531
+------------iteration 400----------
+total loss 2017.2697619563587
+main criterion 58.77574340167127
+weighted_aux_loss 1958.4940185546875
+loss_r_bn_feature 65.28313446044922
+------------iteration 500----------
+total loss 2486.264445400397
+main criterion 79.36185750977218
+weighted_aux_loss 2406.902587890625
+loss_r_bn_feature 80.23008728027344
+------------iteration 600----------
+total loss 2515.584303622411
+main criterion 87.05256534116108
+weighted_aux_loss 2428.53173828125
+loss_r_bn_feature 80.95105743408203
+------------iteration 700----------
+total loss 1057.9998358936173
+main criterion 56.19948188971095
+weighted_aux_loss 1001.8003540039062
+loss_r_bn_feature 33.39334487915039
+------------iteration 800----------
+total loss 1602.8861636303861
+main criterion 68.59966460694864
+weighted_aux_loss 1534.2864990234375
+loss_r_bn_feature 51.14288330078125
+Traceback (most recent call last):
+  File "data_synthesis_new.py", line 401, in <module>
+    main_syn(args, bc)
+  File "data_synthesis_new.py", line 303, in main_syn
+    get_images(args, model_teacher, hook_for_display, bc=bc)
+  File "data_synthesis_new.py", line 170, in get_images
+    if best_cost > loss.item() or iteration == 1:
+KeyboardInterrupt

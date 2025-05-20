@@ -1,0 +1,25 @@
+data_synthesis.py:169: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  print('Duration per iteration: ' (ed_time - st_time) / 2000)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+r_bn:  30.0
+lr:  0.1
+ipc_id =  0
+get_images call
+------------iteration 0----------
+total loss 12368.02734375
+main criterion 7.800327777862549
+weighted_aux_loss 12360.2265625
+loss_r_bn_feature 412.007568359375
+Traceback (most recent call last):
+  File "data_synthesis.py", line 401, in <module>
+    main_syn(args)
+  File "data_synthesis.py", line 297, in main_syn
+    get_images(args, model_teacher, hook_for_display, ipc_id, bc_i=bc_i)
+  File "data_synthesis.py", line 165, in get_images
+    if best_cost > loss.item() or iteration == 1:
+KeyboardInterrupt

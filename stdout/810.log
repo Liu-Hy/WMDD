@@ -1,0 +1,26 @@
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/imagenette/809/
+num img: 100
+batch size: 100
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'ViT'
+TRAIN Iter 0: lr = 0.001000,	loss = 0.023479,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 15.118691
+TEST Iter 0: loss = 2.325742,	Top-1 acc = 13.019108,	Top-5 acc = 52.101911,	val_time = 17.765391
+TRAIN Iter 10: lr = 0.000997,	loss = 0.000574,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 12.463196
+TEST Iter 10: loss = 11.784272,	Top-1 acc = 10.063694,	Top-5 acc = 48.942675,	val_time = 14.656638
+TRAIN Iter 20: lr = 0.000989,	loss = 0.000005,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 13.473170
+TEST Iter 20: loss = 6.654661,	Top-1 acc = 10.165605,	Top-5 acc = 49.757962,	val_time = 15.496885
+TRAIN Iter 30: lr = 0.000976,	loss = 0.000009,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 12.576139
+TEST Iter 30: loss = 5.453678,	Top-1 acc = 10.165605,	Top-5 acc = 50.292994,	val_time = 14.555881
+TRAIN Iter 40: lr = 0.000957,	loss = 0.000002,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 11.991854
+TEST Iter 40: loss = 5.032180,	Top-1 acc = 10.165605,	Top-5 acc = 50.191083,	val_time = 16.476716
+TRAIN Iter 50: lr = 0.000933,	loss = 0.000000,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 9.661186
+TEST Iter 50: loss = 5.334288,	Top-1 acc = 10.165605,	Top-5 acc = 50.369427,	val_time = 12.200152
+TRAIN Iter 60: lr = 0.000905,	loss = 0.000000,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 8.808403
+TEST Iter 60: loss = 7.921456,	Top-1 acc = 9.197452,	Top-5 acc = 47.414013,	val_time = 11.611629
+TRAIN Iter 70: lr = 0.000872,	loss = -0.000000,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 10.272427
+TEST Iter 70: loss = 12.227841,	Top-1 acc = 9.783439,	Top-5 acc = 49.656051,	val_time = 13.593660
+TRAIN Iter 80: lr = 0.000835,	loss = -0.000000,	Top-1 acc = 10.000000,	Top-5 acc = 50.000000,	train_time = 8.944705
+TEST Iter 80: loss = 14.782478,	Top-1 acc = 9.834395,	Top-5 acc = 50.114650,	val_time = 11.504421

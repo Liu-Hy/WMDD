@@ -1,0 +1,305 @@
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+r_bn:  0.1
+lr:  0.25
+Processing class 0
+Execution time for loading class data: 0.000346 seconds
+Execution time for forwad pass only: 1.007607 seconds
+Execution time for hook only: 0.000001 seconds
+Execution time for forwad pass only: 0.007308 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007792 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006956 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007146 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007200 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006871 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007262 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007149 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.018353 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.001475 seconds
+Execution time for computing barycenter: 0.035339 seconds
+Processing class 1
+Execution time for loading class data: 0.000321 seconds
+Execution time for forwad pass only: 0.006687 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.006882 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006972 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006869 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006946 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006798 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006761 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006783 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006852 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.017539 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.001025 seconds
+Execution time for computing barycenter: 0.063442 seconds
+Processing class 2
+Execution time for loading class data: 0.000305 seconds
+Execution time for forwad pass only: 0.006729 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.007322 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006967 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006948 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006926 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007286 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006975 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006773 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006899 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.021456 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.006252 seconds
+Execution time for computing barycenter: 0.053716 seconds
+Processing class 3
+Execution time for loading class data: 0.000308 seconds
+Execution time for forwad pass only: 0.007283 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.006953 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006829 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006791 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006884 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006732 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007176 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006944 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.017978 seconds
+Execution time for hook only: 0.000001 seconds
+Execution time for converting features to numpy: 0.001042 seconds
+Execution time for computing barycenter: 0.054496 seconds
+Processing class 4
+Execution time for loading class data: 0.000306 seconds
+Execution time for forwad pass only: 0.007030 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.006932 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006813 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006695 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006683 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006805 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006750 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006967 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007462 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.018364 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.000727 seconds
+Execution time for computing barycenter: 0.074254 seconds
+Processing class 5
+Execution time for loading class data: 0.000324 seconds
+Execution time for forwad pass only: 0.007225 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.006878 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007154 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006921 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006745 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006839 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006746 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006947 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007271 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.017789 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.001025 seconds
+Execution time for computing barycenter: 0.043980 seconds
+Processing class 6
+Execution time for loading class data: 0.000298 seconds
+Execution time for forwad pass only: 0.007032 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.006961 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007309 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007210 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006745 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006786 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007312 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007192 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007165 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.018085 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.001193 seconds
+Execution time for computing barycenter: 0.042659 seconds
+Processing class 7
+Execution time for loading class data: 0.000307 seconds
+Execution time for forwad pass only: 0.007272 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.006979 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006881 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006911 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006911 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006846 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006743 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007251 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007388 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.018317 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.000513 seconds
+Execution time for computing barycenter: 0.074222 seconds
+Processing class 8
+Execution time for loading class data: 0.000313 seconds
+Execution time for forwad pass only: 0.006990 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.006795 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006878 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006856 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006930 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006773 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006754 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006732 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007140 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.018406 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.000839 seconds
+Execution time for computing barycenter: 0.058644 seconds
+Processing class 9
+Execution time for loading class data: 0.000309 seconds
+Execution time for forwad pass only: 0.006882 seconds
+Execution time for hook only: 0.000003 seconds
+Execution time for forwad pass only: 0.007240 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007197 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006771 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007256 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006874 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.007090 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006885 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.006912 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for forwad pass only: 0.019113 seconds
+Execution time for hook only: 0.000000 seconds
+Execution time for converting features to numpy: 0.001169 seconds
+Execution time for computing barycenter: 0.047621 seconds
+bc shape (10, 10, 512)
+Execution time for computing per-class batchnorm statistics: 47.238098 seconds
+get_images call
+class_per_batch  10 batch_size  100 args.ipc  10
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+per-class-batchnorm:  True
+start_cls 0 end_cls 10
+Length of input 100 is different from effective batch size 100
+------------iteration 0----------
+total loss 329.1318372190381
+main criterion 93.06601080302251
+weighted_aux_loss 236.06582641601562
+loss_r_bn_feature 2360.658203125
+------------iteration 100----------
+total loss 95.50283603065088
+main criterion 36.06910876624658
+weighted_aux_loss 59.4337272644043
+loss_r_bn_feature 594.3372802734375
+------------iteration 200----------
+total loss 82.93875141871413
+main criterion 32.603370864514915
+weighted_aux_loss 50.33538055419922
+loss_r_bn_feature 503.3537902832031
+------------iteration 300----------
+total loss 70.61419048301339
+main criterion 31.44132747642159
+weighted_aux_loss 39.1728630065918
+loss_r_bn_feature 391.7286376953125
+------------iteration 400----------
+total loss 89.30663907559091
+main criterion 39.06294477017098
+weighted_aux_loss 50.24369430541992
+loss_r_bn_feature 502.43695068359375
+Traceback (most recent call last):
+  File "data_synthesis_new.py", line 422, in <module>
+    main_syn(args, bc)
+  File "data_synthesis_new.py", line 325, in main_syn
+    get_images(args, model_teacher, hook_for_display, bc=bc)
+  File "data_synthesis_new.py", line 172, in get_images
+    if best_cost > loss.item() or iteration == 1:
+KeyboardInterrupt

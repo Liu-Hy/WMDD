@@ -1,0 +1,204 @@
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+r_bn:  0.01
+lr:  0.25
+ipc_id =  0
+get_images call
+------------iteration 0----------
+total loss 26.358016967773438
+main criterion 3.3395588397979736
+weighted_aux_loss 23.018457412719727
+loss_r_bn_feature 2301.845703125
+------------iteration 100----------
+total loss 2.8454782962799072
+main criterion 0.0021479323040694
+weighted_aux_loss 2.8433303833007812
+loss_r_bn_feature 284.3330383300781
+------------iteration 200----------
+total loss 5.515091896057129
+main criterion 0.4808979034423828
+weighted_aux_loss 5.034193992614746
+loss_r_bn_feature 503.41943359375
+------------iteration 300----------
+total loss 5.930713176727295
+main criterion 0.0035018841736018658
+weighted_aux_loss 5.927211284637451
+loss_r_bn_feature 592.7211303710938
+------------iteration 400----------
+total loss 3.7579245567321777
+main criterion 0.010353697463870049
+weighted_aux_loss 3.747570753097534
+loss_r_bn_feature 374.757080078125
+------------iteration 500----------
+total loss 4.602771759033203
+main criterion 0.00618127454072237
+weighted_aux_loss 4.596590518951416
+loss_r_bn_feature 459.6590576171875
+------------iteration 600----------
+total loss 2.7625505924224854
+main criterion 0.018261145800352097
+weighted_aux_loss 2.7442893981933594
+loss_r_bn_feature 274.428955078125
+------------iteration 700----------
+total loss 3.1427035331726074
+main criterion 0.000513223116286099
+weighted_aux_loss 3.1421902179718018
+loss_r_bn_feature 314.2190246582031
+------------iteration 800----------
+total loss 1.7380388975143433
+main criterion 0.0018605075310915709
+weighted_aux_loss 1.7361783981323242
+loss_r_bn_feature 173.6178436279297
+------------iteration 900----------
+total loss 1.589950680732727
+main criterion 0.006202362477779388
+weighted_aux_loss 1.5837483406066895
+loss_r_bn_feature 158.3748321533203
+------------iteration 1000----------
+total loss 2.8614654541015625
+main criterion 0.008107750676572323
+weighted_aux_loss 2.8533577919006348
+loss_r_bn_feature 285.3357849121094
+------------iteration 1100----------
+total loss 2.579253911972046
+main criterion 0.0076843188144266605
+weighted_aux_loss 2.5715696811676025
+loss_r_bn_feature 257.156982421875
+------------iteration 1200----------
+total loss 1.5559465885162354
+main criterion 0.0032819323241710663
+weighted_aux_loss 1.5526646375656128
+loss_r_bn_feature 155.26646423339844
+------------iteration 1300----------
+total loss 1.73423433303833
+main criterion 0.0009189824340865016
+weighted_aux_loss 1.733315348625183
+loss_r_bn_feature 173.33154296875
+------------iteration 1400----------
+total loss 1.0686718225479126
+main criterion 0.001061521004885435
+weighted_aux_loss 1.067610263824463
+loss_r_bn_feature 106.76103210449219
+------------iteration 1500----------
+total loss 0.8757634162902832
+main criterion 0.002023601671680808
+weighted_aux_loss 0.8737398386001587
+loss_r_bn_feature 87.37398529052734
+------------iteration 1600----------
+total loss 0.8401124477386475
+main criterion 0.001064591109752655
+weighted_aux_loss 0.8390478491783142
+loss_r_bn_feature 83.90478515625
+------------iteration 1700----------
+total loss 0.6031020879745483
+main criterion 0.0011053464841097593
+weighted_aux_loss 0.6019967198371887
+loss_r_bn_feature 60.19967269897461
+------------iteration 1800----------
+total loss 1.7177767753601074
+main criterion 0.02821500599384308
+weighted_aux_loss 1.6895617246627808
+loss_r_bn_feature 168.9561767578125
+------------iteration 1900----------
+total loss 0.5599346160888672
+main criterion 0.0010492722503840923
+weighted_aux_loss 0.5588853359222412
+loss_r_bn_feature 55.88853454589844
+ipc_id =  1
+get_images call
+------------iteration 0----------
+total loss 25.730541229248047
+main criterion 3.1749892234802246
+weighted_aux_loss 22.555551528930664
+loss_r_bn_feature 2255.55517578125
+------------iteration 100----------
+total loss 4.459476470947266
+main criterion 0.0032868224661797285
+weighted_aux_loss 4.4561896324157715
+loss_r_bn_feature 445.6189880371094
+------------iteration 200----------
+total loss 4.729442119598389
+main criterion 0.029539097100496292
+weighted_aux_loss 4.6999030113220215
+loss_r_bn_feature 469.9903259277344
+------------iteration 300----------
+total loss 4.2925567626953125
+main criterion 0.005177758168429136
+weighted_aux_loss 4.287378787994385
+loss_r_bn_feature 428.7378845214844
+------------iteration 400----------
+total loss 2.878868579864502
+main criterion 0.059853602200746536
+weighted_aux_loss 2.8190150260925293
+loss_r_bn_feature 281.9015197753906
+------------iteration 500----------
+total loss 2.4547533988952637
+main criterion 0.006462167017161846
+weighted_aux_loss 2.448291301727295
+loss_r_bn_feature 244.82913208007812
+------------iteration 600----------
+total loss 2.5863850116729736
+main criterion 0.0012873010709881783
+weighted_aux_loss 2.5850977897644043
+loss_r_bn_feature 258.5097961425781
+------------iteration 700----------
+total loss 2.3639001846313477
+main criterion 0.0030070883221924305
+weighted_aux_loss 2.3608930110931396
+loss_r_bn_feature 236.0893096923828
+------------iteration 800----------
+total loss 5.230985164642334
+main criterion 0.337284654378891
+weighted_aux_loss 4.89370059967041
+loss_r_bn_feature 489.3700866699219
+------------iteration 900----------
+total loss 4.2167558670043945
+main criterion 0.11310937255620956
+weighted_aux_loss 4.103646278381348
+loss_r_bn_feature 410.3646545410156
+------------iteration 1000----------
+total loss 1.4096320867538452
+main criterion 0.0005511573399417102
+weighted_aux_loss 1.409080982208252
+loss_r_bn_feature 140.90809631347656
+------------iteration 1100----------
+total loss 1.5602881908416748
+main criterion 0.0010867002420127392
+weighted_aux_loss 1.5592014789581299
+loss_r_bn_feature 155.92015075683594
+------------iteration 1200----------
+total loss 1.4586397409439087
+main criterion 0.0014329609693959355
+weighted_aux_loss 1.4572067260742188
+loss_r_bn_feature 145.72067260742188
+------------iteration 1300----------
+total loss 1.4819245338439941
+main criterion 0.0009153828723356128
+weighted_aux_loss 1.4810091257095337
+loss_r_bn_feature 148.10092163085938
+------------iteration 1400----------
+total loss 1.290005087852478
+main criterion 0.00470911618322134
+weighted_aux_loss 1.2852959632873535
+loss_r_bn_feature 128.52960205078125
+------------iteration 1500----------
+total loss 0.9929701089859009
+main criterion 0.0033492837101221085
+weighted_aux_loss 0.9896208047866821
+loss_r_bn_feature 98.96208190917969
+Traceback (most recent call last):
+  File "data_synthesis.py", line 384, in <module>
+    main_syn(args)
+  File "data_synthesis.py", line 289, in main_syn
+    get_images(args, model_teacher, hook_for_display, ipc_id, bc_i=bc_i)
+  File "data_synthesis.py", line 172, in get_images
+    loss.backward()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

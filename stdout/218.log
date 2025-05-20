@@ -1,0 +1,1894 @@
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+r_bn:  0.01
+lr:  0.25
+ipc_id =  0
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 26.620540618896484
+main criterion 3.386129856109619
+weighted_aux_loss 23.234411239624023
+loss_r_bn_feature 2323.441162109375
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 3.2461998462677
+main criterion 0.0037589215207844973
+weighted_aux_loss 3.242440938949585
+loss_r_bn_feature 324.2441101074219
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 3.3139798641204834
+main criterion 0.003646211000159383
+weighted_aux_loss 3.310333728790283
+loss_r_bn_feature 331.03338623046875
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 3.3617498874664307
+main criterion 0.0031125114765018225
+weighted_aux_loss 3.3586373329162598
+loss_r_bn_feature 335.8637390136719
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 2.425177812576294
+main criterion 0.013899656943976879
+weighted_aux_loss 2.411278247833252
+loss_r_bn_feature 241.12783813476562
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 2.276473045349121
+main criterion 0.0016265001613646746
+weighted_aux_loss 2.2748465538024902
+loss_r_bn_feature 227.48464965820312
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 2.494529962539673
+main criterion 0.0016083021182566881
+weighted_aux_loss 2.4929215908050537
+loss_r_bn_feature 249.2921600341797
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 3.068222999572754
+main criterion 0.05035264417529106
+weighted_aux_loss 3.0178704261779785
+loss_r_bn_feature 301.78704833984375
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 2.3003199100494385
+main criterion 0.009932838380336761
+weighted_aux_loss 2.2903871536254883
+loss_r_bn_feature 229.03872680664062
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 2.3617095947265625
+main criterion 0.04297482967376709
+weighted_aux_loss 2.318734645843506
+loss_r_bn_feature 231.87347412109375
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 2.91156268119812
+main criterion 0.012604175135493279
+weighted_aux_loss 2.898958444595337
+loss_r_bn_feature 289.8958435058594
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 3.1709368228912354
+main criterion 0.05190294235944748
+weighted_aux_loss 3.1190338134765625
+loss_r_bn_feature 311.90338134765625
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 2.6872341632843018
+main criterion 0.05627847835421562
+weighted_aux_loss 2.630955696105957
+loss_r_bn_feature 263.0955810546875
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 2.0721209049224854
+main criterion 0.014469633810222149
+weighted_aux_loss 2.0576512813568115
+loss_r_bn_feature 205.76512145996094
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 1.609648585319519
+main criterion 0.008648517541587353
+weighted_aux_loss 1.6010000705718994
+loss_r_bn_feature 160.10000610351562
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 0.8254386782646179
+main criterion 0.0015106047503650188
+weighted_aux_loss 0.8239280581474304
+loss_r_bn_feature 82.39280700683594
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 0.9503124356269836
+main criterion 0.001639356603845954
+weighted_aux_loss 0.9486730694770813
+loss_r_bn_feature 94.8673095703125
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 0.7401219010353088
+main criterion 0.0015631892019882798
+weighted_aux_loss 0.7385587096214294
+loss_r_bn_feature 73.85587310791016
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 2.084089994430542
+main criterion 0.05244819447398186
+weighted_aux_loss 2.031641721725464
+loss_r_bn_feature 203.16416931152344
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.5521331429481506
+main criterion 0.00045774527825415134
+weighted_aux_loss 0.5516753792762756
+loss_r_bn_feature 55.16754150390625
+Verifier accuracy:  0.0
+ipc_id =  1
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 26.059192657470703
+main criterion 3.2103142738342285
+weighted_aux_loss 22.848878860473633
+loss_r_bn_feature 2284.887939453125
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 4.853146076202393
+main criterion 0.0020124262664467096
+weighted_aux_loss 4.851133823394775
+loss_r_bn_feature 485.1133728027344
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 4.146110534667969
+main criterion 0.03178391978144646
+weighted_aux_loss 4.114326477050781
+loss_r_bn_feature 411.43267822265625
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 2.849856376647949
+main criterion 0.0033889878541231155
+weighted_aux_loss 2.8464674949645996
+loss_r_bn_feature 284.6467590332031
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 2.734846830368042
+main criterion 0.00924640242010355
+weighted_aux_loss 2.725600481033325
+loss_r_bn_feature 272.56005859375
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 2.4192285537719727
+main criterion 0.0019831713289022446
+weighted_aux_loss 2.417245388031006
+loss_r_bn_feature 241.7245330810547
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 2.9782872200012207
+main criterion 0.021674254909157753
+weighted_aux_loss 2.956613063812256
+loss_r_bn_feature 295.66131591796875
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 2.4231672286987305
+main criterion 0.0003366910677868873
+weighted_aux_loss 2.422830581665039
+loss_r_bn_feature 242.28306579589844
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 2.286454439163208
+main criterion 0.005507545545697212
+weighted_aux_loss 2.280946969985962
+loss_r_bn_feature 228.09469604492188
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 2.6813039779663086
+main criterion 0.0027266100514680147
+weighted_aux_loss 2.678577423095703
+loss_r_bn_feature 267.8577575683594
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 2.0665786266326904
+main criterion 0.013905349187552929
+weighted_aux_loss 2.05267333984375
+loss_r_bn_feature 205.267333984375
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 1.8669941425323486
+main criterion 0.0013589486479759216
+weighted_aux_loss 1.8656351566314697
+loss_r_bn_feature 186.5635223388672
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 1.5378963947296143
+main criterion 0.0008228120277635753
+weighted_aux_loss 1.5370736122131348
+loss_r_bn_feature 153.70736694335938
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 2.068408250808716
+main criterion 0.015217604115605354
+weighted_aux_loss 2.0531907081604004
+loss_r_bn_feature 205.31907653808594
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 1.0198369026184082
+main criterion 0.000564606161788106
+weighted_aux_loss 1.0192723274230957
+loss_r_bn_feature 101.92723846435547
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 1.829440712928772
+main criterion 0.010651109740138054
+weighted_aux_loss 1.8187896013259888
+loss_r_bn_feature 181.87896728515625
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 1.4460538625717163
+main criterion 0.002422032644972205
+weighted_aux_loss 1.443631887435913
+loss_r_bn_feature 144.36318969726562
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 1.1904033422470093
+main criterion 0.004992812871932983
+weighted_aux_loss 1.185410499572754
+loss_r_bn_feature 118.54105377197266
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 2.218400478363037
+main criterion 0.0290084145963192
+weighted_aux_loss 2.18939208984375
+loss_r_bn_feature 218.939208984375
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.8540101647377014
+main criterion 0.003381546586751938
+weighted_aux_loss 0.8506286144256592
+loss_r_bn_feature 85.0628662109375
+Verifier accuracy:  0.0
+ipc_id =  2
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 24.756196975708008
+main criterion 3.0035717487335205
+weighted_aux_loss 21.75262451171875
+loss_r_bn_feature 2175.262451171875
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 2.5185978412628174
+main criterion 0.0029457074124366045
+weighted_aux_loss 2.5156521797180176
+loss_r_bn_feature 251.56521606445312
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 2.743154764175415
+main criterion 0.0004064248059876263
+weighted_aux_loss 2.742748260498047
+loss_r_bn_feature 274.27484130859375
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 3.219191789627075
+main criterion 0.003074775915592909
+weighted_aux_loss 3.2161169052124023
+loss_r_bn_feature 321.6116943359375
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 2.4246573448181152
+main criterion 0.002458929782733321
+weighted_aux_loss 2.422198534011841
+loss_r_bn_feature 242.21986389160156
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 4.931427955627441
+main criterion 0.014614406041800976
+weighted_aux_loss 4.916813373565674
+loss_r_bn_feature 491.6813659667969
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 2.810554265975952
+main criterion 0.0009477207204326987
+weighted_aux_loss 2.8096065521240234
+loss_r_bn_feature 280.9606628417969
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 2.6409451961517334
+main criterion 0.03625119477510452
+weighted_aux_loss 2.60469388961792
+loss_r_bn_feature 260.4693908691406
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 3.353844165802002
+main criterion 0.003937317989766598
+weighted_aux_loss 3.3499069213867188
+loss_r_bn_feature 334.9906921386719
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 1.979657769203186
+main criterion 0.0021462193690240383
+weighted_aux_loss 1.9775115251541138
+loss_r_bn_feature 197.75115966796875
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 1.6469777822494507
+main criterion 0.0030522774904966354
+weighted_aux_loss 1.6439255475997925
+loss_r_bn_feature 164.39256286621094
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 1.8116552829742432
+main criterion 0.0006692685419693589
+weighted_aux_loss 1.810986042022705
+loss_r_bn_feature 181.09860229492188
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 2.265749216079712
+main criterion 0.06952856481075287
+weighted_aux_loss 2.196220636367798
+loss_r_bn_feature 219.6220703125
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 1.2117310762405396
+main criterion 0.0008709848625585437
+weighted_aux_loss 1.2108601331710815
+loss_r_bn_feature 121.08602142333984
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 1.1781543493270874
+main criterion 0.0010578978108242154
+weighted_aux_loss 1.1770964860916138
+loss_r_bn_feature 117.70964813232422
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 0.8562312126159668
+main criterion 0.001825840212404728
+weighted_aux_loss 0.8544053435325623
+loss_r_bn_feature 85.44053649902344
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 0.7874760031700134
+main criterion 0.0010603065602481365
+weighted_aux_loss 0.786415696144104
+loss_r_bn_feature 78.64157104492188
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 1.504736304283142
+main criterion 0.02377392165362835
+weighted_aux_loss 1.4809623956680298
+loss_r_bn_feature 148.0962371826172
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 1.509759783744812
+main criterion 0.02666548267006874
+weighted_aux_loss 1.483094334602356
+loss_r_bn_feature 148.30943298339844
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.6886057257652283
+main criterion 0.0006180488271638751
+weighted_aux_loss 0.6879876852035522
+loss_r_bn_feature 68.79876708984375
+Verifier accuracy:  0.0
+ipc_id =  3
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 26.603870391845703
+main criterion 3.327913761138916
+weighted_aux_loss 23.275957107543945
+loss_r_bn_feature 2327.595703125
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 3.409156560897827
+main criterion 0.024368764832615852
+weighted_aux_loss 3.3847877979278564
+loss_r_bn_feature 338.4787902832031
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 2.2076661586761475
+main criterion 0.0008620910230092704
+weighted_aux_loss 2.206804037094116
+loss_r_bn_feature 220.680419921875
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 3.8921384811401367
+main criterion 0.009430110454559326
+weighted_aux_loss 3.8827083110809326
+loss_r_bn_feature 388.2708435058594
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 2.2883450984954834
+main criterion 0.003313704626634717
+weighted_aux_loss 2.285031318664551
+loss_r_bn_feature 228.50314331054688
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 3.0972766876220703
+main criterion 0.004346881061792374
+weighted_aux_loss 3.0929298400878906
+loss_r_bn_feature 309.2929992675781
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 2.9098942279815674
+main criterion 0.00253293733112514
+weighted_aux_loss 2.9073612689971924
+loss_r_bn_feature 290.73614501953125
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 2.2787513732910156
+main criterion 0.004207036457955837
+weighted_aux_loss 2.2745442390441895
+loss_r_bn_feature 227.4544219970703
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 2.4864628314971924
+main criterion 0.003387265373021364
+weighted_aux_loss 2.4830756187438965
+loss_r_bn_feature 248.30755615234375
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 1.998280644416809
+main criterion 0.023097369819879532
+weighted_aux_loss 1.9751832485198975
+loss_r_bn_feature 197.51832580566406
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 2.2478067874908447
+main criterion 0.003223758889362216
+weighted_aux_loss 2.2445831298828125
+loss_r_bn_feature 224.4583282470703
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 2.1744251251220703
+main criterion 0.002334203338250518
+weighted_aux_loss 2.172091007232666
+loss_r_bn_feature 217.2091064453125
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 1.2985199689865112
+main criterion 0.0017750903498381376
+weighted_aux_loss 1.2967448234558105
+loss_r_bn_feature 129.6744842529297
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 1.0473008155822754
+main criterion 0.0024586026556789875
+weighted_aux_loss 1.04484224319458
+loss_r_bn_feature 104.48422241210938
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 1.0001299381256104
+main criterion 0.00038466096157208085
+weighted_aux_loss 0.99974524974823
+loss_r_bn_feature 99.97452545166016
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 2.214383602142334
+main criterion 0.10757917165756226
+weighted_aux_loss 2.106804370880127
+loss_r_bn_feature 210.68043518066406
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 0.9387486577033997
+main criterion 0.0010126016568392515
+weighted_aux_loss 0.9377360343933105
+loss_r_bn_feature 93.77360534667969
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 1.2067632675170898
+main criterion 0.0011999907437711954
+weighted_aux_loss 1.2055633068084717
+loss_r_bn_feature 120.55632781982422
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 0.6590099334716797
+main criterion 0.0014155009994283319
+weighted_aux_loss 0.6575944423675537
+loss_r_bn_feature 65.75944519042969
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.6738235354423523
+main criterion 0.000618539925199002
+weighted_aux_loss 0.6732050180435181
+loss_r_bn_feature 67.32050323486328
+Verifier accuracy:  0.0
+ipc_id =  4
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 26.7443790435791
+main criterion 3.4042537212371826
+weighted_aux_loss 23.340126037597656
+loss_r_bn_feature 2334.0126953125
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 4.431857585906982
+main criterion 0.04602934047579765
+weighted_aux_loss 4.385828018188477
+loss_r_bn_feature 438.58282470703125
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 3.067326545715332
+main criterion 0.0027622543275356293
+weighted_aux_loss 3.0645642280578613
+loss_r_bn_feature 306.4564208984375
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 4.330472946166992
+main criterion 0.0010382909094914794
+weighted_aux_loss 4.329434871673584
+loss_r_bn_feature 432.9435119628906
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 2.787797689437866
+main criterion 0.020424243062734604
+weighted_aux_loss 2.767373561859131
+loss_r_bn_feature 276.73736572265625
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 2.6646852493286133
+main criterion 0.009700427763164043
+weighted_aux_loss 2.654984712600708
+loss_r_bn_feature 265.49847412109375
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 4.375792980194092
+main criterion 0.4096490740776062
+weighted_aux_loss 3.96614408493042
+loss_r_bn_feature 396.6144104003906
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 2.6650469303131104
+main criterion 0.0008189064683392644
+weighted_aux_loss 2.6642279624938965
+loss_r_bn_feature 266.42279052734375
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 1.7799345254898071
+main criterion 0.0003316183283459395
+weighted_aux_loss 1.7796028852462769
+loss_r_bn_feature 177.96029663085938
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 1.7459951639175415
+main criterion 0.0005971298669464886
+weighted_aux_loss 1.7453980445861816
+loss_r_bn_feature 174.53981018066406
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 1.8437836170196533
+main criterion 0.0032503525726497173
+weighted_aux_loss 1.8405332565307617
+loss_r_bn_feature 184.05332946777344
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 1.4452952146530151
+main criterion 0.0005993316881358624
+weighted_aux_loss 1.4446958303451538
+loss_r_bn_feature 144.46958923339844
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 1.2164068222045898
+main criterion 0.0003752659249585122
+weighted_aux_loss 1.216031551361084
+loss_r_bn_feature 121.60315704345703
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 1.989267110824585
+main criterion 0.0015632532304152846
+weighted_aux_loss 1.987703800201416
+loss_r_bn_feature 198.7703857421875
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 0.8598328232765198
+main criterion 0.0003335694782435894
+weighted_aux_loss 0.8594992756843567
+loss_r_bn_feature 85.9499282836914
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 0.7869397401809692
+main criterion 0.001185115659609437
+weighted_aux_loss 0.7857546210289001
+loss_r_bn_feature 78.5754623413086
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 1.0850706100463867
+main criterion 0.0005328026018105447
+weighted_aux_loss 1.0845378637313843
+loss_r_bn_feature 108.45378875732422
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 0.7111337780952454
+main criterion 0.00048170602531172335
+weighted_aux_loss 0.7106520533561707
+loss_r_bn_feature 71.0652084350586
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 0.5701390504837036
+main criterion 0.0005613203393295407
+weighted_aux_loss 0.5695777535438538
+loss_r_bn_feature 56.9577751159668
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.6249216794967651
+main criterion 0.0004925754619762301
+weighted_aux_loss 0.6244291067123413
+loss_r_bn_feature 62.44291305541992
+Verifier accuracy:  0.0
+ipc_id =  5
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 26.395444869995117
+main criterion 3.3029980659484863
+weighted_aux_loss 23.09244728088379
+loss_r_bn_feature 2309.244873046875
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 4.360002040863037
+main criterion 0.01204861793667078
+weighted_aux_loss 4.3479533195495605
+loss_r_bn_feature 434.7953186035156
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 3.1707987785339355
+main criterion 0.14843380451202393
+weighted_aux_loss 3.022365093231201
+loss_r_bn_feature 302.23651123046875
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 2.955380439758301
+main criterion 0.007735945284366608
+weighted_aux_loss 2.9476444721221924
+loss_r_bn_feature 294.76446533203125
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 3.0641090869903564
+main criterion 0.011775440536439419
+weighted_aux_loss 3.0523335933685303
+loss_r_bn_feature 305.2333679199219
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 1.9891595840454102
+main criterion 0.0017099753022193909
+weighted_aux_loss 1.9874496459960938
+loss_r_bn_feature 198.74496459960938
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 2.8820114135742188
+main criterion 0.001493306364864111
+weighted_aux_loss 2.8805181980133057
+loss_r_bn_feature 288.05181884765625
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 2.234300374984741
+main criterion 0.004912395030260086
+weighted_aux_loss 2.2293879985809326
+loss_r_bn_feature 222.93881225585938
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 2.8023762702941895
+main criterion 0.038491390645504
+weighted_aux_loss 2.7638847827911377
+loss_r_bn_feature 276.38848876953125
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 2.3994925022125244
+main criterion 0.013727113604545593
+weighted_aux_loss 2.385765314102173
+loss_r_bn_feature 238.5765380859375
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 2.2539114952087402
+main criterion 0.006634770892560482
+weighted_aux_loss 2.247276782989502
+loss_r_bn_feature 224.72769165039062
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 1.4377208948135376
+main criterion 0.005810261238366365
+weighted_aux_loss 1.4319106340408325
+loss_r_bn_feature 143.19107055664062
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 1.5772639513015747
+main criterion 0.001052773091942072
+weighted_aux_loss 1.5762112140655518
+loss_r_bn_feature 157.62112426757812
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 1.0050184726715088
+main criterion 0.0021419203840196133
+weighted_aux_loss 1.0028765201568604
+loss_r_bn_feature 100.28765106201172
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 0.965221107006073
+main criterion 0.0015488613862544298
+weighted_aux_loss 0.9636722207069397
+loss_r_bn_feature 96.36722564697266
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 1.565548300743103
+main criterion 0.0007518048514612019
+weighted_aux_loss 1.5647964477539062
+loss_r_bn_feature 156.47964477539062
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 0.743251383304596
+main criterion 0.0017644200706854463
+weighted_aux_loss 0.7414869666099548
+loss_r_bn_feature 74.14869689941406
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 0.7703610062599182
+main criterion 0.0005279695033095777
+weighted_aux_loss 0.7698330283164978
+loss_r_bn_feature 76.98330688476562
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 0.8432866334915161
+main criterion 0.0008892612531781197
+weighted_aux_loss 0.8423973917961121
+loss_r_bn_feature 84.23973846435547
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.9301055669784546
+main criterion 0.0007021531346254051
+weighted_aux_loss 0.9294034242630005
+loss_r_bn_feature 92.94034576416016
+Verifier accuracy:  0.0
+ipc_id =  6
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 24.764860153198242
+main criterion 3.0559074878692627
+weighted_aux_loss 21.708951950073242
+loss_r_bn_feature 2170.895263671875
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 3.4284749031066895
+main criterion 0.01042198110371828
+weighted_aux_loss 3.418052911758423
+loss_r_bn_feature 341.8052978515625
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 2.47048020362854
+main criterion 0.004327074624598026
+weighted_aux_loss 2.466153144836426
+loss_r_bn_feature 246.6153106689453
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 2.9829185009002686
+main criterion 0.0012253961758688092
+weighted_aux_loss 2.9816930294036865
+loss_r_bn_feature 298.1693115234375
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 2.8596603870391846
+main criterion 0.005487431306391954
+weighted_aux_loss 2.854172945022583
+loss_r_bn_feature 285.41729736328125
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 2.404477119445801
+main criterion 0.008966087363660336
+weighted_aux_loss 2.3955111503601074
+loss_r_bn_feature 239.55111694335938
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 3.4814724922180176
+main criterion 0.0005992152146063745
+weighted_aux_loss 3.4808733463287354
+loss_r_bn_feature 348.08734130859375
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 1.8946945667266846
+main criterion 0.002184921409934759
+weighted_aux_loss 1.8925096988677979
+loss_r_bn_feature 189.2509765625
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 2.0276618003845215
+main criterion 0.005717742256820202
+weighted_aux_loss 2.021944046020508
+loss_r_bn_feature 202.1944122314453
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 3.1439948081970215
+main criterion 0.09807877987623215
+weighted_aux_loss 3.0459160804748535
+loss_r_bn_feature 304.59161376953125
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 1.8556495904922485
+main criterion 0.0012415775563567877
+weighted_aux_loss 1.8544080257415771
+loss_r_bn_feature 185.44081115722656
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 1.9805705547332764
+main criterion 0.023455943912267685
+weighted_aux_loss 1.957114577293396
+loss_r_bn_feature 195.71145629882812
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 1.2977797985076904
+main criterion 0.0011706899385899305
+weighted_aux_loss 1.2966091632843018
+loss_r_bn_feature 129.66091918945312
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 1.571035385131836
+main criterion 0.001782706007361412
+weighted_aux_loss 1.5692527294158936
+loss_r_bn_feature 156.92527770996094
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 1.49229097366333
+main criterion 0.0031516849994659424
+weighted_aux_loss 1.4891393184661865
+loss_r_bn_feature 148.9139404296875
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 0.9219136238098145
+main criterion 0.0011025556595996022
+weighted_aux_loss 0.9208110570907593
+loss_r_bn_feature 92.08110809326172
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 0.7593691945075989
+main criterion 0.0006557622109539807
+weighted_aux_loss 0.75871342420578
+loss_r_bn_feature 75.87134552001953
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 0.6495597958564758
+main criterion 0.0008214929257519543
+weighted_aux_loss 0.6487383246421814
+loss_r_bn_feature 64.87383270263672
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 2.0913772583007812
+main criterion 0.0020273833069950342
+weighted_aux_loss 2.0893499851226807
+loss_r_bn_feature 208.93499755859375
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.5780473947525024
+main criterion 0.0012778878444805741
+weighted_aux_loss 0.5767695307731628
+loss_r_bn_feature 57.67695617675781
+Verifier accuracy:  0.0
+ipc_id =  7
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 26.488359451293945
+main criterion 3.2389652729034424
+weighted_aux_loss 23.249393463134766
+loss_r_bn_feature 2324.939453125
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 5.234592437744141
+main criterion 0.04023875668644905
+weighted_aux_loss 5.1943535804748535
+loss_r_bn_feature 519.4353637695312
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 4.177576541900635
+main criterion 0.09159117192029953
+weighted_aux_loss 4.08598518371582
+loss_r_bn_feature 408.5985107421875
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 2.5550718307495117
+main criterion 0.0014225956983864307
+weighted_aux_loss 2.5536491870880127
+loss_r_bn_feature 255.36492919921875
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 4.147089958190918
+main criterion 0.003549790009856224
+weighted_aux_loss 4.143540382385254
+loss_r_bn_feature 414.35406494140625
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 3.1856799125671387
+main criterion 0.001666344702243805
+weighted_aux_loss 3.184013605117798
+loss_r_bn_feature 318.4013671875
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 2.7040767669677734
+main criterion 0.0010637652594596148
+weighted_aux_loss 2.7030129432678223
+loss_r_bn_feature 270.3013000488281
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 3.70438289642334
+main criterion 0.05019763112068176
+weighted_aux_loss 3.6541852951049805
+loss_r_bn_feature 365.4185485839844
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 2.1571760177612305
+main criterion 0.00753479590639472
+weighted_aux_loss 2.149641275405884
+loss_r_bn_feature 214.96414184570312
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 1.959457278251648
+main criterion 0.0012297396315261722
+weighted_aux_loss 1.958227515220642
+loss_r_bn_feature 195.82275390625
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 1.6326426267623901
+main criterion 0.0040464880876243114
+weighted_aux_loss 1.6285961866378784
+loss_r_bn_feature 162.859619140625
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 2.8220434188842773
+main criterion 0.11896948516368866
+weighted_aux_loss 2.7030739784240723
+loss_r_bn_feature 270.3074035644531
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 1.4187824726104736
+main criterion 0.006146653555333614
+weighted_aux_loss 1.4126358032226562
+loss_r_bn_feature 141.26358032226562
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 2.759657621383667
+main criterion 0.0357976034283638
+weighted_aux_loss 2.723860025405884
+loss_r_bn_feature 272.3860168457031
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 0.9819087982177734
+main criterion 0.0012454024981707335
+weighted_aux_loss 0.9806634187698364
+loss_r_bn_feature 98.06634521484375
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 0.9559450745582581
+main criterion 0.001778005389496684
+weighted_aux_loss 0.9541670680046082
+loss_r_bn_feature 95.41670989990234
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 1.6041516065597534
+main criterion 0.0043535372242331505
+weighted_aux_loss 1.5997980833053589
+loss_r_bn_feature 159.9798126220703
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 0.9903059601783752
+main criterion 0.002396136289462447
+weighted_aux_loss 0.9879098534584045
+loss_r_bn_feature 98.79098510742188
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 0.591428279876709
+main criterion 0.0012201599311083555
+weighted_aux_loss 0.590208113193512
+loss_r_bn_feature 59.02081298828125
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.6094979047775269
+main criterion 0.003188841510564089
+weighted_aux_loss 0.6063090562820435
+loss_r_bn_feature 60.63090896606445
+Verifier accuracy:  0.0
+ipc_id =  8
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 26.667198181152344
+main criterion 3.3805289268493652
+weighted_aux_loss 23.28666877746582
+loss_r_bn_feature 2328.6669921875
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 7.593493938446045
+main criterion 0.5632639527320862
+weighted_aux_loss 7.0302300453186035
+loss_r_bn_feature 703.0230102539062
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 3.00087308883667
+main criterion 0.0023423139937222004
+weighted_aux_loss 2.998530864715576
+loss_r_bn_feature 299.85308837890625
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 3.0713412761688232
+main criterion 0.0007253166404552758
+weighted_aux_loss 3.0706160068511963
+loss_r_bn_feature 307.0616149902344
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 2.8810925483703613
+main criterion 0.01170758344233036
+weighted_aux_loss 2.869385004043579
+loss_r_bn_feature 286.9385070800781
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 3.475938081741333
+main criterion 0.0033450969494879246
+weighted_aux_loss 3.472593069076538
+loss_r_bn_feature 347.2593078613281
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 2.5189223289489746
+main criterion 0.003949283622205257
+weighted_aux_loss 2.5149731636047363
+loss_r_bn_feature 251.49732971191406
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 3.1563525199890137
+main criterion 0.0502798967063427
+weighted_aux_loss 3.1060726642608643
+loss_r_bn_feature 310.6072692871094
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 3.4374778270721436
+main criterion 0.04759501665830612
+weighted_aux_loss 3.389882802963257
+loss_r_bn_feature 338.98828125
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 2.615466594696045
+main criterion 0.005932949483394623
+weighted_aux_loss 2.6095335483551025
+loss_r_bn_feature 260.953369140625
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 1.5626734495162964
+main criterion 0.0005984471063129604
+weighted_aux_loss 1.5620750188827515
+loss_r_bn_feature 156.20750427246094
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 2.144942283630371
+main criterion 0.0006212942535057664
+weighted_aux_loss 2.1443209648132324
+loss_r_bn_feature 214.43209838867188
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 1.399443507194519
+main criterion 0.0032827716786414385
+weighted_aux_loss 1.3961607217788696
+loss_r_bn_feature 139.61607360839844
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 2.712280511856079
+main criterion 0.0787060409784317
+weighted_aux_loss 2.6335744857788086
+loss_r_bn_feature 263.3574523925781
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 1.6993507146835327
+main criterion 0.0005382386152632535
+weighted_aux_loss 1.698812484741211
+loss_r_bn_feature 169.88125610351562
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 0.7690821886062622
+main criterion 0.0015943627804517746
+weighted_aux_loss 0.7674878239631653
+loss_r_bn_feature 76.74878692626953
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 0.7917715311050415
+main criterion 0.00021347375877667218
+weighted_aux_loss 0.7915580868721008
+loss_r_bn_feature 79.15580749511719
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 2.1077373027801514
+main criterion 0.005827347747981548
+weighted_aux_loss 2.101909875869751
+loss_r_bn_feature 210.1909942626953
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 0.779787003993988
+main criterion 0.0006033032550476491
+weighted_aux_loss 0.7791836857795715
+loss_r_bn_feature 77.91837310791016
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 1.608102560043335
+main criterion 0.005463479086756706
+weighted_aux_loss 1.602639079093933
+loss_r_bn_feature 160.263916015625
+Verifier accuracy:  0.0
+ipc_id =  9
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 24.731388092041016
+main criterion 3.5604026317596436
+weighted_aux_loss 21.17098617553711
+loss_r_bn_feature 2117.0986328125
+Verifier accuracy:  0.0
+------------iteration 100----------
+total loss 4.21898889541626
+main criterion 0.009366383776068687
+weighted_aux_loss 4.209622383117676
+loss_r_bn_feature 420.9622497558594
+Verifier accuracy:  0.0
+------------iteration 200----------
+total loss 2.69199275970459
+main criterion 0.0013032435672357678
+weighted_aux_loss 2.6906895637512207
+loss_r_bn_feature 269.0689697265625
+Verifier accuracy:  0.0
+------------iteration 300----------
+total loss 2.7919251918792725
+main criterion 0.0022688666358590126
+weighted_aux_loss 2.789656400680542
+loss_r_bn_feature 278.96563720703125
+Verifier accuracy:  0.0
+------------iteration 400----------
+total loss 2.5873098373413086
+main criterion 0.0064239040948450565
+weighted_aux_loss 2.580885887145996
+loss_r_bn_feature 258.0885925292969
+Verifier accuracy:  0.0
+------------iteration 500----------
+total loss 2.783409833908081
+main criterion 0.0004693748487625271
+weighted_aux_loss 2.78294038772583
+loss_r_bn_feature 278.2940368652344
+Verifier accuracy:  0.0
+------------iteration 600----------
+total loss 2.563011646270752
+main criterion 0.002751580672338605
+weighted_aux_loss 2.560260057449341
+loss_r_bn_feature 256.0260009765625
+Verifier accuracy:  0.0
+------------iteration 700----------
+total loss 2.4926159381866455
+main criterion 0.0010324307950213552
+weighted_aux_loss 2.4915835857391357
+loss_r_bn_feature 249.1583709716797
+Verifier accuracy:  0.0
+------------iteration 800----------
+total loss 2.108945846557617
+main criterion 0.008955223485827446
+weighted_aux_loss 2.0999906063079834
+loss_r_bn_feature 209.9990692138672
+Verifier accuracy:  0.0
+------------iteration 900----------
+total loss 1.6091307401657104
+main criterion 0.0018218780169263482
+weighted_aux_loss 1.6073088645935059
+loss_r_bn_feature 160.73089599609375
+Verifier accuracy:  0.0
+------------iteration 1000----------
+total loss 2.465113878250122
+main criterion 0.0940990000963211
+weighted_aux_loss 2.3710148334503174
+loss_r_bn_feature 237.1014862060547
+Verifier accuracy:  0.0
+------------iteration 1100----------
+total loss 1.242201328277588
+main criterion 0.0022879678290337324
+weighted_aux_loss 1.2399133443832397
+loss_r_bn_feature 123.9913330078125
+Verifier accuracy:  0.0
+------------iteration 1200----------
+total loss 2.1112093925476074
+main criterion 0.0775785967707634
+weighted_aux_loss 2.033630847930908
+loss_r_bn_feature 203.3630828857422
+Verifier accuracy:  0.0
+------------iteration 1300----------
+total loss 1.1172900199890137
+main criterion 0.002576144877821207
+weighted_aux_loss 1.1147139072418213
+loss_r_bn_feature 111.47138977050781
+Verifier accuracy:  0.0
+------------iteration 1400----------
+total loss 0.8857950568199158
+main criterion 0.0020426535047590733
+weighted_aux_loss 0.8837524056434631
+loss_r_bn_feature 88.375244140625
+Verifier accuracy:  0.0
+------------iteration 1500----------
+total loss 1.7669050693511963
+main criterion 0.01370151061564684
+weighted_aux_loss 1.7532035112380981
+loss_r_bn_feature 175.3203582763672
+Verifier accuracy:  0.0
+------------iteration 1600----------
+total loss 1.3825689554214478
+main criterion 0.0014789265114814043
+weighted_aux_loss 1.3810900449752808
+loss_r_bn_feature 138.1090087890625
+Verifier accuracy:  0.0
+------------iteration 1700----------
+total loss 0.6840083599090576
+main criterion 0.0006579658365808427
+weighted_aux_loss 0.6833503842353821
+loss_r_bn_feature 68.33503723144531
+Verifier accuracy:  0.0
+------------iteration 1800----------
+total loss 1.2853899002075195
+main criterion 0.007609800901263952
+weighted_aux_loss 1.2777800559997559
+loss_r_bn_feature 127.77800750732422
+Verifier accuracy:  0.0
+------------iteration 1900----------
+total loss 0.5880969166755676
+main criterion 0.0009160187910310924
+weighted_aux_loss 0.5871809124946594
+loss_r_bn_feature 58.71809005737305
+Verifier accuracy:  0.0
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/imagenette/218
+  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:01<07:29,  1.50s/it]  1%|          | 2/300 [00:01<04:12,  1.18it/s]  1%|          | 3/300 [00:02<03:10,  1.56it/s]  1%|▏         | 4/300 [00:02<02:40,  1.85it/s]  2%|▏         | 5/300 [00:03<02:24,  2.04it/s]  2%|▏         | 6/300 [00:03<02:13,  2.20it/s]  2%|▏         | 7/300 [00:03<02:07,  2.29it/s]  3%|▎         | 8/300 [00:04<02:03,  2.37it/s]  3%|▎         | 9/300 [00:04<02:00,  2.41it/s]  3%|▎         | 10/300 [00:05<01:57,  2.46it/s]  4%|▎         | 11/300 [00:05<01:56,  2.49it/s]  4%|▍         | 12/300 [00:05<01:55,  2.48it/s]  4%|▍         | 13/300 [00:06<01:54,  2.50it/s]  5%|▍         | 14/300 [00:06<01:53,  2.52it/s]  5%|▌         | 15/300 [00:07<01:52,  2.54it/s]  5%|▌         | 16/300 [00:07<01:49,  2.59it/s]  6%|▌         | 17/300 [00:07<01:48,  2.60it/s]  6%|▌         | 18/300 [00:08<01:49,  2.59it/s]  6%|▋         | 19/300 [00:08<01:48,  2.59it/s]  7%|▋         | 20/300 [00:08<01:48,  2.58it/s]  7%|▋         | 21/300 [00:09<01:47,  2.60it/s]  7%|▋         | 22/300 [00:09<01:47,  2.58it/s]  8%|▊         | 23/300 [00:10<01:46,  2.59it/s]  8%|▊         | 24/300 [00:10<01:46,  2.60it/s]  8%|▊         | 25/300 [00:10<01:46,  2.59it/s]  9%|▊         | 26/300 [00:11<01:46,  2.57it/s]  9%|▉         | 27/300 [00:11<01:45,  2.58it/s]  9%|▉         | 28/300 [00:12<01:45,  2.59it/s] 10%|▉         | 29/300 [00:12<01:44,  2.59it/s] 10%|█         | 30/300 [00:12<01:43,  2.60it/s] 10%|█         | 31/300 [00:13<01:42,  2.62it/s] 11%|█         | 32/300 [00:13<01:41,  2.63it/s] 11%|█         | 33/300 [00:13<01:41,  2.62it/s] 11%|█▏        | 34/300 [00:14<01:41,  2.62it/s] 12%|█▏        | 35/300 [00:14<01:40,  2.63it/s] 12%|█▏        | 36/300 [00:15<01:40,  2.62it/s] 12%|█▏        | 37/300 [00:15<01:40,  2.63it/s] 13%|█▎        | 38/300 [00:15<01:39,  2.63it/s] 13%|█▎        | 39/300 [00:16<01:41,  2.58it/s] 13%|█▎        | 40/300 [00:16<01:42,  2.54it/s] 14%|█▎        | 41/300 [00:17<01:41,  2.56it/s] 14%|█▍        | 42/300 [00:17<01:40,  2.56it/s] 14%|█▍        | 43/300 [00:17<01:39,  2.58it/s] 15%|█▍        | 44/300 [00:18<01:39,  2.57it/s] 15%|█▌        | 45/300 [00:18<01:39,  2.57it/s] 15%|█▌        | 46/300 [00:18<01:39,  2.55it/s] 16%|█▌        | 47/300 [00:19<01:39,  2.55it/s] 16%|█▌        | 48/300 [00:19<01:38,  2.56it/s] 16%|█▋        | 49/300 [00:20<01:38,  2.55it/s] 17%|█▋        | 50/300 [00:20<01:37,  2.56it/s] 17%|█▋        | 51/300 [00:20<01:37,  2.55it/s] 17%|█▋        | 52/300 [00:21<01:37,  2.54it/s] 18%|█▊        | 53/300 [00:21<01:36,  2.55it/s] 18%|█▊        | 54/300 [00:22<01:36,  2.55it/s] 18%|█▊        | 55/300 [00:22<01:35,  2.55it/s] 19%|█▊        | 56/300 [00:22<01:36,  2.53it/s] 19%|█▉        | 57/300 [00:23<01:35,  2.54it/s] 19%|█▉        | 58/300 [00:23<01:34,  2.57it/s] 20%|█▉        | 59/300 [00:24<01:34,  2.56it/s] 20%|██        | 60/300 [00:24<01:33,  2.56it/s] 20%|██        | 61/300 [00:24<01:33,  2.56it/s] 21%|██        | 62/300 [00:25<01:33,  2.54it/s] 21%|██        | 63/300 [00:25<01:32,  2.55it/s] 21%|██▏       | 64/300 [00:26<01:32,  2.55it/s] 22%|██▏       | 65/300 [00:26<01:32,  2.55it/s] 22%|██▏       | 66/300 [00:26<01:31,  2.57it/s] 22%|██▏       | 67/300 [00:27<01:30,  2.57it/s] 23%|██▎       | 68/300 [00:27<01:30,  2.57it/s] 23%|██▎       | 69/300 [00:27<01:30,  2.55it/s] 23%|██▎       | 70/300 [00:28<01:30,  2.53it/s] 24%|██▎       | 71/300 [00:28<01:31,  2.50it/s] 24%|██▍       | 72/300 [00:29<01:30,  2.52it/s] 24%|██▍       | 73/300 [00:29<01:29,  2.53it/s] 25%|██▍       | 74/300 [00:29<01:29,  2.53it/s] 25%|██▌       | 75/300 [00:30<01:28,  2.54it/s] 25%|██▌       | 76/300 [00:30<01:28,  2.53it/s] 26%|██▌       | 77/300 [00:31<01:28,  2.52it/s] 26%|██▌       | 78/300 [00:31<01:27,  2.54it/s] 26%|██▋       | 79/300 [00:31<01:26,  2.54it/s] 27%|██▋       | 80/300 [00:32<01:26,  2.55it/s] 27%|██▋       | 81/300 [00:32<01:25,  2.57it/s] 27%|██▋       | 82/300 [00:33<01:25,  2.55it/s] 28%|██▊       | 83/300 [00:33<01:24,  2.56it/s] 28%|██▊       | 84/300 [00:33<01:24,  2.55it/s] 28%|██▊       | 85/300 [00:34<01:24,  2.54it/s] 29%|██▊       | 86/300 [00:34<01:24,  2.53it/s] 29%|██▉       | 87/300 [00:35<01:24,  2.52it/s] 29%|██▉       | 88/300 [00:35<01:23,  2.53it/s] 30%|██▉       | 89/300 [00:35<01:22,  2.55it/s] 30%|███       | 90/300 [00:36<01:21,  2.58it/s] 30%|███       | 91/300 [00:36<01:20,  2.59it/s] 31%|███       | 92/300 [00:37<01:20,  2.58it/s] 31%|███       | 93/300 [00:37<01:19,  2.59it/s] 31%|███▏      | 94/300 [00:37<01:19,  2.59it/s] 32%|███▏      | 95/300 [00:38<01:19,  2.58it/s] 32%|███▏      | 96/300 [00:38<01:18,  2.59it/s] 32%|███▏      | 97/300 [00:38<01:18,  2.59it/s] 33%|███▎      | 98/300 [00:39<01:18,  2.58it/s] 33%|███▎      | 99/300 [00:39<01:17,  2.59it/s] 33%|███▎      | 100/300 [00:40<01:17,  2.57it/s] 34%|███▎      | 101/300 [00:40<01:17,  2.58it/s] 34%|███▍      | 102/300 [00:40<01:16,  2.57it/s] 34%|███▍      | 103/300 [00:41<01:16,  2.59it/s] 35%|███▍      | 104/300 [00:41<01:15,  2.59it/s] 35%|███▌      | 105/300 [00:42<01:15,  2.57it/s] 35%|███▌      | 106/300 [00:42<01:14,  2.59it/s] 36%|███▌      | 107/300 [00:42<01:14,  2.59it/s] 36%|███▌      | 108/300 [00:43<01:14,  2.58it/s] 36%|███▋      | 109/300 [00:43<01:13,  2.60it/s] 37%|███▋      | 110/300 [00:43<01:13,  2.60it/s] 37%|███▋      | 111/300 [00:44<01:12,  2.61it/s] 37%|███▋      | 112/300 [00:44<01:11,  2.63it/s] 38%|███▊      | 113/300 [00:45<01:10,  2.64it/s] 38%|███▊      | 114/300 [00:45<01:11,  2.62it/s] 38%|███▊      | 115/300 [00:45<01:10,  2.61it/s] 39%|███▊      | 116/300 [00:46<01:10,  2.62it/s] 39%|███▉      | 117/300 [00:46<01:10,  2.61it/s] 39%|███▉      | 118/300 [00:47<01:09,  2.61it/s] 40%|███▉      | 119/300 [00:47<01:09,  2.59it/s] 40%|████      | 120/300 [00:47<01:09,  2.61it/s] 40%|████      | 121/300 [00:48<01:08,  2.60it/s] 41%|████      | 122/300 [00:48<01:08,  2.59it/s] 41%|████      | 123/300 [00:48<01:08,  2.57it/s] 41%|████▏     | 124/300 [00:49<01:08,  2.57it/s] 42%|████▏     | 125/300 [00:49<01:07,  2.59it/s] 42%|████▏     | 126/300 [00:50<01:07,  2.60it/s] 42%|████▏     | 127/300 [00:50<01:06,  2.59it/s] 43%|████▎     | 128/300 [00:50<01:06,  2.60it/s] 43%|████▎     | 129/300 [00:51<01:06,  2.58it/s] 43%|████▎     | 130/300 [00:51<01:05,  2.58it/s] 44%|████▎     | 131/300 [00:52<01:05,  2.60it/s] 44%|████▍     | 132/300 [00:52<01:04,  2.59it/s] 44%|████▍     | 133/300 [00:52<01:04,  2.58it/s] 45%|████▍     | 134/300 [00:53<01:04,  2.59it/s] 45%|████▌     | 135/300 [00:53<01:03,  2.61it/s] 45%|████▌     | 136/300 [00:53<01:03,  2.60it/s] 46%|████▌     | 137/300 [00:54<01:03,  2.58it/s] 46%|████▌     | 138/300 [00:54<01:02,  2.60it/s] 46%|████▋     | 139/300 [00:55<01:02,  2.60it/s] 47%|████▋     | 140/300 [00:55<01:01,  2.62it/s] 47%|████▋     | 141/300 [00:55<01:00,  2.63it/s] 47%|████▋     | 142/300 [00:56<01:00,  2.63it/s] 48%|████▊     | 143/300 [00:56<01:00,  2.62it/s] 48%|████▊     | 144/300 [00:57<00:59,  2.62it/s] 48%|████▊     | 145/300 [00:57<00:59,  2.62it/s] 49%|████▊     | 146/300 [00:57<00:58,  2.62it/s] 49%|████▉     | 147/300 [00:58<00:58,  2.63it/s] 49%|████▉     | 148/300 [00:58<00:58,  2.62it/s] 50%|████▉     | 149/300 [00:58<00:57,  2.62it/s] 50%|█████     | 150/300 [00:59<00:57,  2.61it/s] 50%|█████     | 151/300 [00:59<00:57,  2.57it/s] 51%|█████     | 152/300 [01:00<00:57,  2.59it/s] 51%|█████     | 153/300 [01:00<00:56,  2.59it/s] 51%|█████▏    | 154/300 [01:00<00:56,  2.60it/s] 52%|█████▏    | 155/300 [01:01<00:55,  2.61it/s] 52%|█████▏    | 156/300 [01:01<00:55,  2.62it/s] 52%|█████▏    | 157/300 [01:02<00:55,  2.59it/s] 53%|█████▎    | 158/300 [01:02<00:54,  2.60it/s] 53%|█████▎    | 159/300 [01:02<00:54,  2.61it/s] 53%|█████▎    | 160/300 [01:03<00:54,  2.59it/s] 54%|█████▎    | 161/300 [01:03<00:53,  2.59it/s] 54%|█████▍    | 162/300 [01:03<00:53,  2.60it/s] 54%|█████▍    | 163/300 [01:04<00:52,  2.60it/s] 55%|█████▍    | 164/300 [01:04<00:52,  2.60it/s] 55%|█████▌    | 165/300 [01:05<00:52,  2.58it/s] 55%|█████▌    | 166/300 [01:05<00:51,  2.60it/s] 56%|█████▌    | 167/300 [01:05<00:51,  2.59it/s] 56%|█████▌    | 168/300 [01:06<00:50,  2.61it/s] 56%|█████▋    | 169/300 [01:06<00:50,  2.60it/s] 57%|█████▋    | 170/300 [01:07<00:49,  2.60it/s] 57%|█████▋    | 171/300 [01:07<00:49,  2.60it/s] 57%|█████▋    | 172/300 [01:07<00:49,  2.58it/s] 58%|█████▊    | 173/300 [01:08<00:49,  2.59it/s] 58%|█████▊    | 174/300 [01:08<00:48,  2.58it/s] 58%|█████▊    | 175/300 [01:08<00:48,  2.59it/s] 59%|█████▊    | 176/300 [01:09<00:47,  2.59it/s] 59%|█████▉    | 177/300 [01:09<00:47,  2.59it/s] 59%|█████▉    | 178/300 [01:10<00:47,  2.60it/s] 60%|█████▉    | 179/300 [01:10<00:46,  2.61it/s] 60%|██████    | 180/300 [01:10<00:45,  2.61it/s] 60%|██████    | 181/300 [01:11<00:45,  2.62it/s] 61%|██████    | 182/300 [01:11<00:45,  2.61it/s] 61%|██████    | 183/300 [01:12<00:45,  2.59it/s] 61%|██████▏   | 184/300 [01:12<00:44,  2.59it/s] 62%|██████▏   | 185/300 [01:12<00:44,  2.59it/s] 62%|██████▏   | 186/300 [01:13<00:43,  2.61it/s] 62%|██████▏   | 187/300 [01:13<00:43,  2.60it/s] 63%|██████▎   | 188/300 [01:13<00:42,  2.61it/s] 63%|██████▎   | 189/300 [01:14<00:43,  2.57it/s] 63%|██████▎   | 190/300 [01:14<00:42,  2.57it/s] 64%|██████▎   | 191/300 [01:15<00:42,  2.59it/s] 64%|██████▍   | 192/300 [01:15<00:42,  2.55it/s] 64%|██████▍   | 193/300 [01:15<00:42,  2.55it/s] 65%|██████▍   | 194/300 [01:16<00:41,  2.55it/s] 65%|██████▌   | 195/300 [01:16<00:40,  2.58it/s] 65%|██████▌   | 196/300 [01:17<00:40,  2.58it/s] 66%|██████▌   | 197/300 [01:17<00:39,  2.59it/s] 66%|██████▌   | 198/300 [01:17<00:39,  2.61it/s] 66%|██████▋   | 199/300 [01:18<00:38,  2.62it/s] 67%|██████▋   | 200/300 [01:18<00:38,  2.62it/s] 67%|██████▋   | 201/300 [01:18<00:38,  2.60it/s] 67%|██████▋   | 202/300 [01:19<00:37,  2.60it/s] 68%|██████▊   | 203/300 [01:19<00:37,  2.56it/s] 68%|██████▊   | 204/300 [01:20<00:37,  2.57it/s] 68%|██████▊   | 205/300 [01:20<00:36,  2.57it/s] 69%|██████▊   | 206/300 [01:20<00:36,  2.57it/s] 69%|██████▉   | 207/300 [01:21<00:36,  2.57it/s] 69%|██████▉   | 208/300 [01:21<00:35,  2.58it/s] 70%|██████▉   | 209/300 [01:22<00:35,  2.58it/s] 70%|███████   | 210/300 [01:22<00:34,  2.60it/s] 70%|███████   | 211/300 [01:22<00:34,  2.60it/s] 71%|███████   | 212/300 [01:23<00:33,  2.61it/s] 71%|███████   | 213/300 [01:23<00:33,  2.62it/s] 71%|███████▏  | 214/300 [01:23<00:33,  2.60it/s] 72%|███████▏  | 215/300 [01:24<00:33,  2.57it/s] 72%|███████▏  | 216/300 [01:24<00:32,  2.58it/s] 72%|███████▏  | 217/300 [01:25<00:32,  2.55it/s] 73%|███████▎  | 218/300 [01:25<00:32,  2.53it/s] 73%|███████▎  | 219/300 [01:25<00:31,  2.53it/s] 73%|███████▎  | 220/300 [01:26<00:31,  2.54it/s] 74%|███████▎  | 221/300 [01:26<00:31,  2.54it/s] 74%|███████▍  | 222/300 [01:27<00:30,  2.53it/s] 74%|███████▍  | 223/300 [01:27<00:30,  2.55it/s] 75%|███████▍  | 224/300 [01:27<00:29,  2.55it/s] 75%|███████▌  | 225/300 [01:28<00:29,  2.53it/s] 75%|███████▌  | 226/300 [01:28<00:29,  2.54it/s] 76%|███████▌  | 227/300 [01:29<00:28,  2.54it/s] 76%|███████▌  | 228/300 [01:29<00:28,  2.56it/s] 76%|███████▋  | 229/300 [01:29<00:27,  2.55it/s] 77%|███████▋  | 230/300 [01:30<00:27,  2.54it/s] 77%|███████▋  | 231/300 [01:30<00:27,  2.54it/s] 77%|███████▋  | 232/300 [01:31<00:26,  2.53it/s] 78%|███████▊  | 233/300 [01:31<00:26,  2.53it/s] 78%|███████▊  | 234/300 [01:31<00:26,  2.51it/s] 78%|███████▊  | 235/300 [01:32<00:25,  2.53it/s] 79%|███████▊  | 236/300 [01:32<00:25,  2.54it/s] 79%|███████▉  | 237/300 [01:33<00:24,  2.55it/s] 79%|███████▉  | 238/300 [01:33<00:24,  2.55it/s] 80%|███████▉  | 239/300 [01:33<00:23,  2.56it/s] 80%|████████  | 240/300 [01:34<00:23,  2.55it/s] 80%|████████  | 241/300 [01:34<00:23,  2.54it/s] 81%|████████  | 242/300 [01:35<00:22,  2.54it/s] 81%|████████  | 243/300 [01:35<00:22,  2.54it/s] 81%|████████▏ | 244/300 [01:35<00:22,  2.53it/s] 82%|████████▏ | 245/300 [01:36<00:21,  2.52it/s] 82%|████████▏ | 246/300 [01:36<00:21,  2.53it/s] 82%|████████▏ | 247/300 [01:37<00:20,  2.53it/s] 83%|████████▎ | 248/300 [01:37<00:20,  2.52it/s] 83%|████████▎ | 249/300 [01:37<00:20,  2.53it/s] 83%|████████▎ | 250/300 [01:38<00:19,  2.55it/s] 84%|████████▎ | 251/300 [01:38<00:19,  2.53it/s] 84%|████████▍ | 252/300 [01:38<00:18,  2.54it/s] 84%|████████▍ | 253/300 [01:39<00:18,  2.54it/s] 85%|████████▍ | 254/300 [01:39<00:18,  2.55it/s] 85%|████████▌ | 255/300 [01:40<00:17,  2.54it/s] 85%|████████▌ | 256/300 [01:40<00:17,  2.51it/s] 86%|████████▌ | 257/300 [01:40<00:17,  2.49it/s] 86%|████████▌ | 258/300 [01:41<00:16,  2.50it/s] 86%|████████▋ | 259/300 [01:41<00:16,  2.52it/s] 87%|████████▋ | 260/300 [01:42<00:15,  2.52it/s] 87%|████████▋ | 261/300 [01:42<00:15,  2.52it/s] 87%|████████▋ | 262/300 [01:42<00:15,  2.51it/s] 88%|████████▊ | 263/300 [01:43<00:14,  2.52it/s] 88%|████████▊ | 264/300 [01:43<00:14,  2.52it/s] 88%|████████▊ | 265/300 [01:44<00:13,  2.53it/s] 89%|████████▊ | 266/300 [01:44<00:13,  2.56it/s] 89%|████████▉ | 267/300 [01:44<00:12,  2.55it/s] 89%|████████▉ | 268/300 [01:45<00:12,  2.57it/s] 90%|████████▉ | 269/300 [01:45<00:12,  2.55it/s] 90%|█████████ | 270/300 [01:46<00:11,  2.54it/s] 90%|█████████ | 271/300 [01:46<00:11,  2.53it/s] 91%|█████████ | 272/300 [01:46<00:11,  2.53it/s] 91%|█████████ | 273/300 [01:47<00:10,  2.52it/s] 91%|█████████▏| 274/300 [01:47<00:10,  2.52it/s] 92%|█████████▏| 275/300 [01:48<00:09,  2.52it/s] 92%|█████████▏| 276/300 [01:48<00:09,  2.53it/s] 92%|█████████▏| 277/300 [01:48<00:09,  2.55it/s] 93%|█████████▎| 278/300 [01:49<00:08,  2.55it/s] 93%|█████████▎| 279/300 [01:49<00:08,  2.54it/s] 93%|█████████▎| 280/300 [01:50<00:07,  2.55it/s] 94%|█████████▎| 281/300 [01:50<00:07,  2.53it/s] 94%|█████████▍| 282/300 [01:50<00:07,  2.54it/s] 94%|█████████▍| 283/300 [01:51<00:06,  2.54it/s] 95%|█████████▍| 284/300 [01:51<00:06,  2.53it/s] 95%|█████████▌| 285/300 [01:52<00:05,  2.53it/s] 95%|█████████▌| 286/300 [01:52<00:05,  2.53it/s] 96%|█████████▌| 287/300 [01:52<00:05,  2.52it/s] 96%|█████████▌| 288/300 [01:53<00:04,  2.53it/s] 96%|█████████▋| 289/300 [01:53<00:04,  2.52it/s] 97%|█████████▋| 290/300 [01:54<00:03,  2.51it/s] 97%|█████████▋| 291/300 [01:54<00:03,  2.53it/s] 97%|█████████▋| 292/300 [01:54<00:03,  2.52it/s] 98%|█████████▊| 293/300 [01:55<00:02,  2.53it/s] 98%|█████████▊| 294/300 [01:55<00:02,  2.54it/s] 98%|█████████▊| 295/300 [01:55<00:01,  2.54it/s] 99%|█████████▊| 296/300 [01:56<00:01,  2.54it/s] 99%|█████████▉| 297/300 [01:56<00:01,  2.53it/s] 99%|█████████▉| 298/300 [01:57<00:00,  2.55it/s]100%|█████████▉| 299/300 [01:57<00:00,  2.52it/s]100%|██████████| 300/300 [01:57<00:00,  2.55it/s]100%|██████████| 300/300 [01:57<00:00,  2.54it/s]
+W&B disabled.
+W&B online. Running your script from this directory will now sync to the cloud.
+wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231005_185154-r8mmscxg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run devout-wildflower-382
+wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
+wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/r8mmscxg
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/imagenette/218/
+num img: 100
+batch size: 100
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'resnet18'
+
+Epoch: 0
+TRAIN Iter 0: lr = 0.001000,	loss = 0.014700,	Top-1 err = 89.000000,	Top-5 err = 50.000000,	train_time = 2.853017
+TEST Iter 0: loss = 77.436533,	Top-1 err = 89.936306,	Top-5 err = 50.573248,	val_time = 11.870708
+
+Epoch: 1
+
+Epoch: 2
+
+Epoch: 3
+
+Epoch: 4
+
+Epoch: 5
+
+Epoch: 6
+
+Epoch: 7
+
+Epoch: 8
+
+Epoch: 9
+
+Epoch: 10
+TRAIN Iter 10: lr = 0.000997,	loss = 0.008660,	Top-1 err = 57.000000,	Top-5 err = 18.000000,	train_time = 2.158821
+TEST Iter 10: loss = 18.725185,	Top-1 err = 83.286624,	Top-5 err = 47.184713,	val_time = 11.739620
+
+Epoch: 11
+
+Epoch: 12
+
+Epoch: 13
+
+Epoch: 14
+
+Epoch: 15
+
+Epoch: 16
+
+Epoch: 17
+
+Epoch: 18
+
+Epoch: 19
+
+Epoch: 20
+TRAIN Iter 20: lr = 0.000989,	loss = 0.008487,	Top-1 err = 12.000000,	Top-5 err = 1.000000,	train_time = 2.201914
+TEST Iter 20: loss = 8.652980,	Top-1 err = 84.127389,	Top-5 err = 44.356688,	val_time = 11.750420
+
+Epoch: 21
+
+Epoch: 22
+
+Epoch: 23
+
+Epoch: 24
+
+Epoch: 25
+
+Epoch: 26
+
+Epoch: 27
+
+Epoch: 28
+
+Epoch: 29
+
+Epoch: 30
+TRAIN Iter 30: lr = 0.000976,	loss = 0.006405,	Top-1 err = 46.000000,	Top-5 err = 6.000000,	train_time = 2.212770
+TEST Iter 30: loss = 6.024047,	Top-1 err = 77.452229,	Top-5 err = 32.585987,	val_time = 11.726217
+
+Epoch: 31
+
+Epoch: 32
+
+Epoch: 33
+
+Epoch: 34
+
+Epoch: 35
+
+Epoch: 36
+
+Epoch: 37
+
+Epoch: 38
+
+Epoch: 39
+
+Epoch: 40
+TRAIN Iter 40: lr = 0.000957,	loss = 0.005862,	Top-1 err = 17.000000,	Top-5 err = 1.000000,	train_time = 2.173912
+TEST Iter 40: loss = 4.449388,	Top-1 err = 75.566879,	Top-5 err = 30.547771,	val_time = 11.896478
+
+Epoch: 41
+
+Epoch: 42
+
+Epoch: 43
+
+Epoch: 44
+
+Epoch: 45
+
+Epoch: 46
+
+Epoch: 47
+
+Epoch: 48
+
+Epoch: 49
+
+Epoch: 50
+TRAIN Iter 50: lr = 0.000933,	loss = 0.005260,	Top-1 err = 36.000000,	Top-5 err = 0.000000,	train_time = 2.912356
+TEST Iter 50: loss = 5.407168,	Top-1 err = 77.401274,	Top-5 err = 32.458599,	val_time = 11.855785
+
+Epoch: 51
+
+Epoch: 52
+
+Epoch: 53
+
+Epoch: 54
+
+Epoch: 55
+
+Epoch: 56
+
+Epoch: 57
+
+Epoch: 58
+
+Epoch: 59
+
+Epoch: 60
+TRAIN Iter 60: lr = 0.000905,	loss = 0.003720,	Top-1 err = 4.000000,	Top-5 err = 0.000000,	train_time = 2.191282
+TEST Iter 60: loss = 3.927452,	Top-1 err = 72.764331,	Top-5 err = 21.783439,	val_time = 11.846433
+
+Epoch: 61
+
+Epoch: 62
+
+Epoch: 63
+
+Epoch: 64
+
+Epoch: 65
+
+Epoch: 66
+
+Epoch: 67
+
+Epoch: 68
+
+Epoch: 69
+
+Epoch: 70
+TRAIN Iter 70: lr = 0.000872,	loss = 0.003444,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.259513
+TEST Iter 70: loss = 4.132227,	Top-1 err = 71.439490,	Top-5 err = 24.866242,	val_time = 11.928882
+
+Epoch: 71
+
+Epoch: 72
+
+Epoch: 73
+
+Epoch: 74
+
+Epoch: 75
+
+Epoch: 76
+
+Epoch: 77
+
+Epoch: 78
+
+Epoch: 79
+
+Epoch: 80
+TRAIN Iter 80: lr = 0.000835,	loss = 0.003615,	Top-1 err = 4.000000,	Top-5 err = 0.000000,	train_time = 2.219656
+TEST Iter 80: loss = 4.556910,	Top-1 err = 70.191083,	Top-5 err = 23.159236,	val_time = 11.981790
+
+Epoch: 81
+
+Epoch: 82
+
+Epoch: 83
+
+Epoch: 84
+
+Epoch: 85
+
+Epoch: 86
+
+Epoch: 87
+
+Epoch: 88
+
+Epoch: 89
+
+Epoch: 90
+TRAIN Iter 90: lr = 0.000794,	loss = 0.003291,	Top-1 err = 1.000000,	Top-5 err = 0.000000,	train_time = 2.209514
+TEST Iter 90: loss = 3.675564,	Top-1 err = 65.222930,	Top-5 err = 21.197452,	val_time = 11.834588
+
+Epoch: 91
+
+Epoch: 92
+
+Epoch: 93
+
+Epoch: 94
+
+Epoch: 95
+
+Epoch: 96
+
+Epoch: 97
+
+Epoch: 98
+
+Epoch: 99
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 8, in <module>
+    import wandb
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/__init__.py", line 26, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/__init__.py", line 7, in <module>
+    from .wandb_init import _attach, init  # noqa: F401
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 957, in <module>
+    settings: Union[Settings, Dict[str, Any], None] = None,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/typing.py", line 258, in inner
+    return cached(*args, **kwds)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/typing.py", line 362, in __getitem__
+    return _GenericAlias(self, parameters)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/typing.py", line 669, in __init__
+    self.__args__ = tuple(... if a is _TypingEllipsis else
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/typing.py", line 764, in __setattr__
+    super().__setattr__(attr, val)
+KeyboardInterrupt
+wandb: Waiting for W&B process to finish... (failed 255). Press Control-C to abort syncing.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 11, in <module>
+    import torch
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 228, in <module>
+    _load_global_deps()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 168, in _load_global_deps
+    ctypes.CDLL(lib_path, mode=ctypes.RTLD_GLOBAL)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/ctypes/__init__.py", line 373, in __init__
+    self._handle = _dlopen(self._name, mode)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 11, in <module>
+    import torch
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 229, in <module>
+    from torch._C import *  # noqa: F403
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 11, in <module>
+    import torch
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 229, in <module>
+    from torch._C import *  # noqa: F403
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 11, in <module>
+    import torch
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 229, in <module>
+    from torch._C import *  # noqa: F403
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 11, in <module>
+    import torch
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 229, in <module>
+    from torch._C import *  # noqa: F403
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 11, in <module>
+    import torch
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 229, in <module>
+    from torch._C import *  # noqa: F403
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 11, in <module>
+    import torch
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 229, in <module>
+    from torch._C import *  # noqa: F403
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train_FKD.py", line 390, in <module>
+    main()
+  File "train_FKD.py", line 196, in main
+    train(model, args, epoch)
+  File "train_FKD.py", line 236, in train
+    for batch_idx, batch_data in enumerate(args.train_loader):
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 441, in __iter__
+    return self._get_iterator()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 388, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1042, in __init__
+    w.start()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 62, in _launch
+    f.write(fp.getbuffer())
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 175, in _teardown
+    result = self._service.join()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/service/service.py", line 258, in join
+    ret = self._internal_proc.wait()
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/subprocess.py", line 1822, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/subprocess.py", line 1780, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

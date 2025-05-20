@@ -1,0 +1,68 @@
+[
+    {
+        "script": "generate_soft_label.py",
+        "args": {
+            "dataset": "imagenette",
+            "data": "../recover/syn_data/imagenette/t2",
+            "model": "resnet18",
+            "ckpt_path": "../pretrain/output/imagenette_resnet18/214/model_49.pth",
+            "workers": 8,
+            "batch_size": 100,
+            "world_size": -1,
+            "rank": -1,
+            "dist_url": "tcp://224.66.41.62:23456",
+            "dist_backend": "nccl",
+            "seed": null,
+            "gpu": null,
+            "multiprocessing_distributed": false,
+            "epochs": 300,
+            "input_size": 224,
+            "min_scale_crops": 0.08,
+            "max_scale_crops": 1.0,
+            "fkd_path": "FKD_cutmix_fp16/imagenette/t2",
+            "exp_name": "t2",
+            "use_fp16": true,
+            "mode": "fkd_save",
+            "fkd_seed": 42,
+            "mix_type": "cutmix",
+            "mixup": 0.8,
+            "cutmix": 1.0
+        }
+    },
+    {
+        "script": "train_FKD.py",
+        "args": {
+            "dataset": "imagenette",
+            "batch_size": 100,
+            "input_size": 224,
+            "gradient_accumulation_steps": 1,
+            "start_epoch": 0,
+            "epochs": 300,
+            "workers": 8,
+            "train_dir": "../recover/syn_data/imagenette/t2",
+            "val_dir": "/home/techt/Desktop/imagenette/val",
+            "output_dir": "./save/final_rn18_fkd/t2/",
+            "exp_name": "t2",
+            "cos": true,
+            "sgd": false,
+            "learning_rate": 1.024,
+            "momentum": 0.875,
+            "weight_decay": 3e-05,
+            "adamw_lr": 0.001,
+            "adamw_weight_decay": 0.01,
+            "model": "resnet18",
+            "keep_topk": 1000,
+            "temperature": 20.0,
+            "fkd_path": "../relabel/FKD_cutmix_fp16/imagenette/t2",
+            "mix_type": "cutmix",
+            "fkd_seed": 42,
+            "mode": "fkd_load"
+        }
+    },
+    {
+        "acc": 0.5
+    },
+    {
+        "acc": 0.37
+    }
+]

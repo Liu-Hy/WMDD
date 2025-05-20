@@ -1,0 +1,79 @@
+r_bn:  10.0
+lr:  0.25
+r_wb:  0.0
+Computing sample features for class 0
+Computing sample features for class 1
+Computing sample features for class 2
+Computing sample features for class 3
+Computing sample features for class 4
+Computing sample features for class 5
+Computing sample features for class 6
+Computing sample features for class 7
+Computing sample features for class 8
+Computing sample features for class 9
+bc shape (10, 10, 192)
+Computing BatchNorm statistics for class 0
+Computing BatchNorm statistics for class 1
+Computing BatchNorm statistics for class 2
+Computing BatchNorm statistics for class 3
+Computing BatchNorm statistics for class 4
+Computing BatchNorm statistics for class 5
+Computing BatchNorm statistics for class 6
+Computing BatchNorm statistics for class 7
+Computing BatchNorm statistics for class 8
+Computing BatchNorm statistics for class 9
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+get_images call
+class_per_batch  10 batch_size  100 args.ipc  10
+------------iteration 0----------
+total loss 62.75009699484016
+main criterion 62.75009699484016
+Traceback (most recent call last):
+  File "data_synthesis_new.py", line 418, in <module>
+    main_syn(args, bc)
+  File "data_synthesis_new.py", line 317, in main_syn
+    get_images(args, model_teacher, hook_for_display, bc=bc)
+  File "data_synthesis_new.py", line 164, in get_images
+    print("weighted_aux_loss", loss_aux.item())
+AttributeError: 'float' object has no attribute 'item'
+=> using pytorch pre-trained model 'ViT'
+process data from ../recover/syn_data/imagenette/801
+Traceback (most recent call last):
+  File "generate_soft_label.py", line 253, in <module>
+    main()
+  File "generate_soft_label.py", line 126, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "generate_soft_label.py", line 201, in main_worker
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/relabel/utils_fkd.py", line 155, in __init__
+    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 42, in find_classes
+    raise FileNotFoundError(f"Couldn't find any class folder in {directory}.")
+FileNotFoundError: Couldn't find any class folder in ../recover/syn_data/imagenette/801.
+Traceback (most recent call last):
+  File "train_FKD.py", line 367, in <module>
+    main()
+  File "train_FKD.py", line 103, in main
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/train/../relabel/utils_fkd.py", line 155, in __init__
+    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 42, in find_classes
+    raise FileNotFoundError(f"Couldn't find any class folder in {directory}.")
+FileNotFoundError: Couldn't find any class folder in ../recover/syn_data/imagenette/801.

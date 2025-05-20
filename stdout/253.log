@@ -1,0 +1,1939 @@
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+r_bn:  0.1
+lr:  0.25
+ipc_id =  0
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 233.23455810546875
+main criterion 3.3021602630615234
+weighted_aux_loss 229.93240356445312
+loss_r_bn_feature 2299.323974609375
+------------iteration 100----------
+total loss 34.078826904296875
+main criterion 0.0020002941600978374
+weighted_aux_loss 34.07682800292969
+loss_r_bn_feature 340.7682800292969
+------------iteration 200----------
+total loss 40.72561264038086
+main criterion 0.09276007115840912
+weighted_aux_loss 40.63285446166992
+loss_r_bn_feature 406.3285217285156
+------------iteration 300----------
+total loss 36.67454147338867
+main criterion 0.007810221053659916
+weighted_aux_loss 36.66673278808594
+loss_r_bn_feature 366.6673278808594
+------------iteration 400----------
+total loss 22.180694580078125
+main criterion 0.021741099655628204
+weighted_aux_loss 22.158952713012695
+loss_r_bn_feature 221.5895233154297
+------------iteration 500----------
+total loss 42.85758590698242
+main criterion 0.3224899172782898
+weighted_aux_loss 42.53509521484375
+loss_r_bn_feature 425.3509521484375
+------------iteration 600----------
+total loss 22.12837028503418
+main criterion 0.013733911328017712
+weighted_aux_loss 22.114635467529297
+loss_r_bn_feature 221.14634704589844
+------------iteration 700----------
+total loss 30.28618049621582
+main criterion 0.3279304504394531
+weighted_aux_loss 29.958250045776367
+loss_r_bn_feature 299.5824890136719
+------------iteration 800----------
+total loss 31.30173683166504
+main criterion 0.3311007022857666
+weighted_aux_loss 30.97063636779785
+loss_r_bn_feature 309.70635986328125
+------------iteration 900----------
+total loss 16.711076736450195
+main criterion 0.09222937375307083
+weighted_aux_loss 16.618846893310547
+loss_r_bn_feature 166.18846130371094
+------------iteration 1000----------
+total loss 23.888181686401367
+main criterion 0.009612980298697948
+weighted_aux_loss 23.878568649291992
+loss_r_bn_feature 238.78567504882812
+------------iteration 1100----------
+total loss 33.88420104980469
+main criterion 0.27888941764831543
+weighted_aux_loss 33.60531234741211
+loss_r_bn_feature 336.0531311035156
+------------iteration 1200----------
+total loss 13.579355239868164
+main criterion 0.04017878323793411
+weighted_aux_loss 13.539175987243652
+loss_r_bn_feature 135.39175415039062
+------------iteration 1300----------
+total loss 9.184690475463867
+main criterion 0.008014366030693054
+weighted_aux_loss 9.176675796508789
+loss_r_bn_feature 91.76675415039062
+------------iteration 1400----------
+total loss 17.393558502197266
+main criterion 0.035203717648983
+weighted_aux_loss 17.358354568481445
+loss_r_bn_feature 173.5835418701172
+------------iteration 1500----------
+total loss 8.745920181274414
+main criterion 0.005383325740695
+weighted_aux_loss 8.7405366897583
+loss_r_bn_feature 87.40536499023438
+------------iteration 1600----------
+total loss 10.696903228759766
+main criterion 0.008503099903464317
+weighted_aux_loss 10.688400268554688
+loss_r_bn_feature 106.88400268554688
+------------iteration 1700----------
+total loss 6.141441345214844
+main criterion 0.005131813231855631
+weighted_aux_loss 6.136309623718262
+loss_r_bn_feature 61.363094329833984
+------------iteration 1800----------
+total loss 26.026546478271484
+main criterion 0.35677918791770935
+weighted_aux_loss 25.669767379760742
+loss_r_bn_feature 256.6976623535156
+------------iteration 1900----------
+total loss 8.00893497467041
+main criterion 0.0040003592148423195
+weighted_aux_loss 8.004934310913086
+loss_r_bn_feature 80.0493392944336
+ipc_id =  1
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 235.01162719726562
+main criterion 3.5069892406463623
+weighted_aux_loss 231.504638671875
+loss_r_bn_feature 2315.04638671875
+------------iteration 100----------
+total loss 32.748775482177734
+main criterion 0.11272177845239639
+weighted_aux_loss 32.63605499267578
+loss_r_bn_feature 326.36053466796875
+------------iteration 200----------
+total loss 33.692955017089844
+main criterion 0.006029472220689058
+weighted_aux_loss 33.68692398071289
+loss_r_bn_feature 336.8692321777344
+------------iteration 300----------
+total loss 26.888151168823242
+main criterion 0.056274812668561935
+weighted_aux_loss 26.831876754760742
+loss_r_bn_feature 268.3187561035156
+------------iteration 400----------
+total loss 24.227365493774414
+main criterion 0.1084141731262207
+weighted_aux_loss 24.11895179748535
+loss_r_bn_feature 241.18951416015625
+------------iteration 500----------
+total loss 26.673633575439453
+main criterion 0.016218075528740883
+weighted_aux_loss 26.65741539001465
+loss_r_bn_feature 266.57415771484375
+------------iteration 600----------
+total loss 29.53488540649414
+main criterion 0.4376658499240875
+weighted_aux_loss 29.097219467163086
+loss_r_bn_feature 290.9721984863281
+------------iteration 700----------
+total loss 24.804636001586914
+main criterion 0.023108523339033127
+weighted_aux_loss 24.781526565551758
+loss_r_bn_feature 247.8152618408203
+------------iteration 800----------
+total loss 23.894948959350586
+main criterion 0.027526801452040672
+weighted_aux_loss 23.867422103881836
+loss_r_bn_feature 238.67422485351562
+------------iteration 900----------
+total loss 26.7781982421875
+main criterion 0.012025459669530392
+weighted_aux_loss 26.766172409057617
+loss_r_bn_feature 267.6617126464844
+------------iteration 1000----------
+total loss 19.032573699951172
+main criterion 0.007795264478772879
+weighted_aux_loss 19.024778366088867
+loss_r_bn_feature 190.24777221679688
+------------iteration 1100----------
+total loss 11.749417304992676
+main criterion 0.027355322614312172
+weighted_aux_loss 11.722062110900879
+loss_r_bn_feature 117.22061920166016
+------------iteration 1200----------
+total loss 16.646827697753906
+main criterion 0.008005792275071144
+weighted_aux_loss 16.638822555541992
+loss_r_bn_feature 166.38821411132812
+------------iteration 1300----------
+total loss 24.607694625854492
+main criterion 0.007353289518505335
+weighted_aux_loss 24.600341796875
+loss_r_bn_feature 246.00341796875
+------------iteration 1400----------
+total loss 10.436813354492188
+main criterion 0.015912143513560295
+weighted_aux_loss 10.42090129852295
+loss_r_bn_feature 104.20901489257812
+------------iteration 1500----------
+total loss 10.014370918273926
+main criterion 0.0056527163833379745
+weighted_aux_loss 10.008718490600586
+loss_r_bn_feature 100.0871810913086
+------------iteration 1600----------
+total loss 11.045439720153809
+main criterion 0.002651173621416092
+weighted_aux_loss 11.0427885055542
+loss_r_bn_feature 110.4278793334961
+------------iteration 1700----------
+total loss 10.093668937683105
+main criterion 0.005956334061920643
+weighted_aux_loss 10.087712287902832
+loss_r_bn_feature 100.87712097167969
+------------iteration 1800----------
+total loss 7.824459075927734
+main criterion 0.016722142696380615
+weighted_aux_loss 7.807736873626709
+loss_r_bn_feature 78.0773696899414
+------------iteration 1900----------
+total loss 6.3769941329956055
+main criterion 0.0037878844887018204
+weighted_aux_loss 6.37320613861084
+loss_r_bn_feature 63.732059478759766
+ipc_id =  2
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 235.02340698242188
+main criterion 3.3476219177246094
+weighted_aux_loss 231.67578125
+loss_r_bn_feature 2316.7578125
+------------iteration 100----------
+total loss 42.91167068481445
+main criterion 0.6566304564476013
+weighted_aux_loss 42.25503921508789
+loss_r_bn_feature 422.5503845214844
+------------iteration 200----------
+total loss 37.9021110534668
+main criterion 0.037733737379312515
+weighted_aux_loss 37.864376068115234
+loss_r_bn_feature 378.6437683105469
+------------iteration 300----------
+total loss 23.709794998168945
+main criterion 0.04344100505113602
+weighted_aux_loss 23.666353225708008
+loss_r_bn_feature 236.6635284423828
+------------iteration 400----------
+total loss 22.706912994384766
+main criterion 0.0244450680911541
+weighted_aux_loss 22.68246841430664
+loss_r_bn_feature 226.82467651367188
+------------iteration 500----------
+total loss 34.18641662597656
+main criterion 0.22966429591178894
+weighted_aux_loss 33.95675277709961
+loss_r_bn_feature 339.5675048828125
+------------iteration 600----------
+total loss 27.3964786529541
+main criterion 0.08200522512197495
+weighted_aux_loss 27.31447410583496
+loss_r_bn_feature 273.1447448730469
+------------iteration 700----------
+total loss 17.343017578125
+main criterion 0.012515487149357796
+weighted_aux_loss 17.330501556396484
+loss_r_bn_feature 173.3050079345703
+------------iteration 800----------
+total loss 20.662351608276367
+main criterion 0.0338970385491848
+weighted_aux_loss 20.628454208374023
+loss_r_bn_feature 206.2845458984375
+------------iteration 900----------
+total loss 16.83967399597168
+main criterion 0.04453698918223381
+weighted_aux_loss 16.795137405395508
+loss_r_bn_feature 167.9513702392578
+------------iteration 1000----------
+total loss 25.262128829956055
+main criterion 0.4249034523963928
+weighted_aux_loss 24.83722496032715
+loss_r_bn_feature 248.3722381591797
+------------iteration 1100----------
+total loss 25.631492614746094
+main criterion 0.16677464544773102
+weighted_aux_loss 25.464717864990234
+loss_r_bn_feature 254.6471710205078
+------------iteration 1200----------
+total loss 12.742918014526367
+main criterion 0.029362281784415245
+weighted_aux_loss 12.713555335998535
+loss_r_bn_feature 127.13555145263672
+------------iteration 1300----------
+total loss 12.211454391479492
+main criterion 0.02665279246866703
+weighted_aux_loss 12.184802055358887
+loss_r_bn_feature 121.8480224609375
+------------iteration 1400----------
+total loss 11.725150108337402
+main criterion 0.024562934413552284
+weighted_aux_loss 11.700587272644043
+loss_r_bn_feature 117.00587463378906
+------------iteration 1500----------
+total loss 14.284124374389648
+main criterion 0.10020053386688232
+weighted_aux_loss 14.183923721313477
+loss_r_bn_feature 141.8392333984375
+------------iteration 1600----------
+total loss 16.55329132080078
+main criterion 0.18589867651462555
+weighted_aux_loss 16.367393493652344
+loss_r_bn_feature 163.67393493652344
+------------iteration 1700----------
+total loss 9.590681076049805
+main criterion 0.04300009086728096
+weighted_aux_loss 9.547680854797363
+loss_r_bn_feature 95.476806640625
+------------iteration 1800----------
+total loss 17.785778045654297
+main criterion 0.050901688635349274
+weighted_aux_loss 17.73487663269043
+loss_r_bn_feature 177.34877014160156
+------------iteration 1900----------
+total loss 18.171937942504883
+main criterion 0.12148771435022354
+weighted_aux_loss 18.05044937133789
+loss_r_bn_feature 180.50448608398438
+ipc_id =  3
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 234.43017578125
+main criterion 3.2853775024414062
+weighted_aux_loss 231.14480590820312
+loss_r_bn_feature 2311.447998046875
+------------iteration 100----------
+total loss 44.36585235595703
+main criterion 0.2501734793186188
+weighted_aux_loss 44.11568069458008
+loss_r_bn_feature 441.15679931640625
+------------iteration 200----------
+total loss 23.73973274230957
+main criterion 0.08905282616615295
+weighted_aux_loss 23.650680541992188
+loss_r_bn_feature 236.50680541992188
+------------iteration 300----------
+total loss 39.418434143066406
+main criterion 0.08420069515705109
+weighted_aux_loss 39.334232330322266
+loss_r_bn_feature 393.3423156738281
+------------iteration 400----------
+total loss 39.461631774902344
+main criterion 0.08599407970905304
+weighted_aux_loss 39.37563705444336
+loss_r_bn_feature 393.75634765625
+------------iteration 500----------
+total loss 25.594070434570312
+main criterion 0.25392335653305054
+weighted_aux_loss 25.340147018432617
+loss_r_bn_feature 253.40147399902344
+------------iteration 600----------
+total loss 35.13665771484375
+main criterion 0.640857458114624
+weighted_aux_loss 34.49580001831055
+loss_r_bn_feature 344.9579772949219
+------------iteration 700----------
+total loss 28.094430923461914
+main criterion 0.016897957772016525
+weighted_aux_loss 28.077533721923828
+loss_r_bn_feature 280.77532958984375
+------------iteration 800----------
+total loss 26.33965301513672
+main criterion 0.17628245055675507
+weighted_aux_loss 26.16337013244629
+loss_r_bn_feature 261.6336975097656
+------------iteration 900----------
+total loss 24.24683952331543
+main criterion 0.022165559232234955
+weighted_aux_loss 24.224674224853516
+loss_r_bn_feature 242.24673461914062
+------------iteration 1000----------
+total loss 23.491674423217773
+main criterion 0.2851632535457611
+weighted_aux_loss 23.206510543823242
+loss_r_bn_feature 232.06509399414062
+------------iteration 1100----------
+total loss 27.435821533203125
+main criterion 0.09927648305892944
+weighted_aux_loss 27.336545944213867
+loss_r_bn_feature 273.3654479980469
+------------iteration 1200----------
+total loss 16.98476219177246
+main criterion 0.01695934310555458
+weighted_aux_loss 16.967802047729492
+loss_r_bn_feature 169.67800903320312
+------------iteration 1300----------
+total loss 14.1694917678833
+main criterion 0.004351884126663208
+weighted_aux_loss 14.165140151977539
+loss_r_bn_feature 141.65139770507812
+------------iteration 1400----------
+total loss 11.41909122467041
+main criterion 0.001951984828338027
+weighted_aux_loss 11.417139053344727
+loss_r_bn_feature 114.17138671875
+------------iteration 1500----------
+total loss 7.326042175292969
+main criterion 0.003492046846076846
+weighted_aux_loss 7.322550296783447
+loss_r_bn_feature 73.22550201416016
+------------iteration 1600----------
+total loss 6.497365474700928
+main criterion 0.005870660301297903
+weighted_aux_loss 6.491494655609131
+loss_r_bn_feature 64.91494750976562
+------------iteration 1700----------
+total loss 6.002851963043213
+main criterion 0.005311225540935993
+weighted_aux_loss 5.9975409507751465
+loss_r_bn_feature 59.97541046142578
+------------iteration 1800----------
+total loss 7.299746036529541
+main criterion 0.013438311405479908
+weighted_aux_loss 7.2863078117370605
+loss_r_bn_feature 72.86307525634766
+------------iteration 1900----------
+total loss 18.10374641418457
+main criterion 0.02056729607284069
+weighted_aux_loss 18.083179473876953
+loss_r_bn_feature 180.831787109375
+ipc_id =  4
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 235.3929901123047
+main criterion 3.326045274734497
+weighted_aux_loss 232.0669403076172
+loss_r_bn_feature 2320.66943359375
+------------iteration 100----------
+total loss 38.01123809814453
+main criterion 0.11146201193332672
+weighted_aux_loss 37.899776458740234
+loss_r_bn_feature 378.9977722167969
+------------iteration 200----------
+total loss 24.260820388793945
+main criterion 0.07763520628213882
+weighted_aux_loss 24.183185577392578
+loss_r_bn_feature 241.83184814453125
+------------iteration 300----------
+total loss 28.32843589782715
+main criterion 0.037999339401721954
+weighted_aux_loss 28.290435791015625
+loss_r_bn_feature 282.90435791015625
+------------iteration 400----------
+total loss 47.13703918457031
+main criterion 0.006578552536666393
+weighted_aux_loss 47.13045883178711
+loss_r_bn_feature 471.3045654296875
+------------iteration 500----------
+total loss 26.41706085205078
+main criterion 0.01207162719219923
+weighted_aux_loss 26.40498924255371
+loss_r_bn_feature 264.0498962402344
+------------iteration 600----------
+total loss 50.7313346862793
+main criterion 0.07391015440225601
+weighted_aux_loss 50.65742492675781
+loss_r_bn_feature 506.5742492675781
+------------iteration 700----------
+total loss 30.92028045654297
+main criterion 0.056170862168073654
+weighted_aux_loss 30.86410903930664
+loss_r_bn_feature 308.6410827636719
+------------iteration 800----------
+total loss 21.098161697387695
+main criterion 0.02182253822684288
+weighted_aux_loss 21.076339721679688
+loss_r_bn_feature 210.76339721679688
+------------iteration 900----------
+total loss 21.390026092529297
+main criterion 0.0302724689245224
+weighted_aux_loss 21.35975456237793
+loss_r_bn_feature 213.59754943847656
+------------iteration 1000----------
+total loss 25.33360481262207
+main criterion 0.10028289258480072
+weighted_aux_loss 25.233322143554688
+loss_r_bn_feature 252.33322143554688
+------------iteration 1100----------
+total loss 11.143589973449707
+main criterion 0.004358118399977684
+weighted_aux_loss 11.13923168182373
+loss_r_bn_feature 111.39231872558594
+------------iteration 1200----------
+total loss 19.885040283203125
+main criterion 0.010005381889641285
+weighted_aux_loss 19.87503433227539
+loss_r_bn_feature 198.75033569335938
+------------iteration 1300----------
+total loss 17.034679412841797
+main criterion 0.004476227797567844
+weighted_aux_loss 17.030202865600586
+loss_r_bn_feature 170.30201721191406
+------------iteration 1400----------
+total loss 11.999534606933594
+main criterion 0.014770637266337872
+weighted_aux_loss 11.984764099121094
+loss_r_bn_feature 119.84764099121094
+------------iteration 1500----------
+total loss 20.521177291870117
+main criterion 0.46036726236343384
+weighted_aux_loss 20.060810089111328
+loss_r_bn_feature 200.60809326171875
+------------iteration 1600----------
+total loss 7.747960567474365
+main criterion 0.016910521313548088
+weighted_aux_loss 7.73105001449585
+loss_r_bn_feature 77.31050109863281
+------------iteration 1700----------
+total loss 7.404337406158447
+main criterion 0.015047607012093067
+weighted_aux_loss 7.389289855957031
+loss_r_bn_feature 73.89289855957031
+------------iteration 1800----------
+total loss 7.70546817779541
+main criterion 0.002911550458520651
+weighted_aux_loss 7.702556610107422
+loss_r_bn_feature 77.02556610107422
+------------iteration 1900----------
+total loss 33.0469970703125
+main criterion 0.8879088163375854
+weighted_aux_loss 32.159088134765625
+loss_r_bn_feature 321.59088134765625
+ipc_id =  5
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 224.0208282470703
+main criterion 3.046550750732422
+weighted_aux_loss 220.97427368164062
+loss_r_bn_feature 2209.74267578125
+------------iteration 100----------
+total loss 32.78230667114258
+main criterion 0.24990205466747284
+weighted_aux_loss 32.532405853271484
+loss_r_bn_feature 325.3240661621094
+------------iteration 200----------
+total loss 44.62971878051758
+main criterion 1.345417857170105
+weighted_aux_loss 43.2843017578125
+loss_r_bn_feature 432.843017578125
+------------iteration 300----------
+total loss 29.738494873046875
+main criterion 0.009429176338016987
+weighted_aux_loss 29.72906494140625
+loss_r_bn_feature 297.2906494140625
+------------iteration 400----------
+total loss 39.636775970458984
+main criterion 0.037349846214056015
+weighted_aux_loss 39.59942626953125
+loss_r_bn_feature 395.9942626953125
+------------iteration 500----------
+total loss 26.35439682006836
+main criterion 0.041988667100667953
+weighted_aux_loss 26.312408447265625
+loss_r_bn_feature 263.12408447265625
+------------iteration 600----------
+total loss 27.31624412536621
+main criterion 0.008118391036987305
+weighted_aux_loss 27.30812644958496
+loss_r_bn_feature 273.0812683105469
+------------iteration 700----------
+total loss 24.40532875061035
+main criterion 0.0015252754092216492
+weighted_aux_loss 24.4038028717041
+loss_r_bn_feature 244.03802490234375
+------------iteration 800----------
+total loss 20.772817611694336
+main criterion 0.0026464927941560745
+weighted_aux_loss 20.770170211791992
+loss_r_bn_feature 207.70169067382812
+------------iteration 900----------
+total loss 27.643728256225586
+main criterion 0.40471023321151733
+weighted_aux_loss 27.239017486572266
+loss_r_bn_feature 272.3901672363281
+------------iteration 1000----------
+total loss 15.148161888122559
+main criterion 0.013056105002760887
+weighted_aux_loss 15.135106086730957
+loss_r_bn_feature 151.35105895996094
+------------iteration 1100----------
+total loss 18.704965591430664
+main criterion 0.04732729122042656
+weighted_aux_loss 18.657638549804688
+loss_r_bn_feature 186.57638549804688
+------------iteration 1200----------
+total loss 13.75597858428955
+main criterion 0.0038454062305390835
+weighted_aux_loss 13.7521333694458
+loss_r_bn_feature 137.52133178710938
+------------iteration 1300----------
+total loss 13.463984489440918
+main criterion 0.013690561056137085
+weighted_aux_loss 13.45029354095459
+loss_r_bn_feature 134.5029296875
+------------iteration 1400----------
+total loss 14.942177772521973
+main criterion 0.016765808686614037
+weighted_aux_loss 14.92541217803955
+loss_r_bn_feature 149.25411987304688
+------------iteration 1500----------
+total loss 12.32556438446045
+main criterion 0.03278747946023941
+weighted_aux_loss 12.292777061462402
+loss_r_bn_feature 122.92776489257812
+------------iteration 1600----------
+total loss 13.99244213104248
+main criterion 0.13432404398918152
+weighted_aux_loss 13.858118057250977
+loss_r_bn_feature 138.5811767578125
+------------iteration 1700----------
+total loss 11.325543403625488
+main criterion 0.04483228176832199
+weighted_aux_loss 11.28071117401123
+loss_r_bn_feature 112.8071060180664
+------------iteration 1800----------
+total loss 18.339550018310547
+main criterion 0.022557739168405533
+weighted_aux_loss 18.316991806030273
+loss_r_bn_feature 183.169921875
+------------iteration 1900----------
+total loss 14.17190933227539
+main criterion 0.00767870619893074
+weighted_aux_loss 14.164230346679688
+loss_r_bn_feature 141.64230346679688
+ipc_id =  6
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 233.87506103515625
+main criterion 3.358752727508545
+weighted_aux_loss 230.5163116455078
+loss_r_bn_feature 2305.1630859375
+------------iteration 100----------
+total loss 39.56782913208008
+main criterion 0.9614968299865723
+weighted_aux_loss 38.60633087158203
+loss_r_bn_feature 386.06329345703125
+------------iteration 200----------
+total loss 25.148271560668945
+main criterion 0.0384155809879303
+weighted_aux_loss 25.10985565185547
+loss_r_bn_feature 251.0985565185547
+------------iteration 300----------
+total loss 24.242084503173828
+main criterion 0.01778395101428032
+weighted_aux_loss 24.224300384521484
+loss_r_bn_feature 242.2429962158203
+------------iteration 400----------
+total loss 27.416221618652344
+main criterion 0.009458983317017555
+weighted_aux_loss 27.406763076782227
+loss_r_bn_feature 274.067626953125
+------------iteration 500----------
+total loss 41.5777702331543
+main criterion 0.3011470437049866
+weighted_aux_loss 41.2766227722168
+loss_r_bn_feature 412.7662353515625
+------------iteration 600----------
+total loss 21.140899658203125
+main criterion 0.03683898597955704
+weighted_aux_loss 21.104061126708984
+loss_r_bn_feature 211.0406036376953
+------------iteration 700----------
+total loss 27.541786193847656
+main criterion 0.016236431896686554
+weighted_aux_loss 27.525548934936523
+loss_r_bn_feature 275.2554931640625
+------------iteration 800----------
+total loss 18.531309127807617
+main criterion 0.010735565796494484
+weighted_aux_loss 18.520572662353516
+loss_r_bn_feature 185.20571899414062
+------------iteration 900----------
+total loss 17.887771606445312
+main criterion 0.03809474781155586
+weighted_aux_loss 17.84967613220215
+loss_r_bn_feature 178.4967498779297
+------------iteration 1000----------
+total loss 20.5358943939209
+main criterion 0.008257742039859295
+weighted_aux_loss 20.527637481689453
+loss_r_bn_feature 205.2763671875
+------------iteration 1100----------
+total loss 15.105382919311523
+main criterion 0.01678377017378807
+weighted_aux_loss 15.08859920501709
+loss_r_bn_feature 150.885986328125
+------------iteration 1200----------
+total loss 17.758129119873047
+main criterion 0.003840006422251463
+weighted_aux_loss 17.754289627075195
+loss_r_bn_feature 177.5428924560547
+------------iteration 1300----------
+total loss 11.259337425231934
+main criterion 0.008800774812698364
+weighted_aux_loss 11.250536918640137
+loss_r_bn_feature 112.50537109375
+------------iteration 1400----------
+total loss 10.800962448120117
+main criterion 0.0019315492827445269
+weighted_aux_loss 10.799031257629395
+loss_r_bn_feature 107.99031066894531
+------------iteration 1500----------
+total loss 14.720096588134766
+main criterion 0.052632253617048264
+weighted_aux_loss 14.667464256286621
+loss_r_bn_feature 146.6746368408203
+------------iteration 1600----------
+total loss 7.771027565002441
+main criterion 0.01623762771487236
+weighted_aux_loss 7.75478982925415
+loss_r_bn_feature 77.54789733886719
+------------iteration 1700----------
+total loss 17.393211364746094
+main criterion 0.0989634245634079
+weighted_aux_loss 17.294248580932617
+loss_r_bn_feature 172.94247436523438
+------------iteration 1800----------
+total loss 16.736797332763672
+main criterion 0.3989919126033783
+weighted_aux_loss 16.337804794311523
+loss_r_bn_feature 163.3780517578125
+------------iteration 1900----------
+total loss 10.7781343460083
+main criterion 0.009126158431172371
+weighted_aux_loss 10.76900863647461
+loss_r_bn_feature 107.6900863647461
+ipc_id =  7
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 218.4823760986328
+main criterion 3.0600600242614746
+weighted_aux_loss 215.4223175048828
+loss_r_bn_feature 2154.22314453125
+------------iteration 100----------
+total loss 32.05160140991211
+main criterion 0.054875392466783524
+weighted_aux_loss 31.99672508239746
+loss_r_bn_feature 319.9672546386719
+------------iteration 200----------
+total loss 25.585350036621094
+main criterion 0.10783080756664276
+weighted_aux_loss 25.477519989013672
+loss_r_bn_feature 254.7751922607422
+------------iteration 300----------
+total loss 25.541093826293945
+main criterion 0.022208314388990402
+weighted_aux_loss 25.518884658813477
+loss_r_bn_feature 255.1888427734375
+------------iteration 400----------
+total loss 24.028125762939453
+main criterion 0.006690007634460926
+weighted_aux_loss 24.02143669128418
+loss_r_bn_feature 240.21437072753906
+------------iteration 500----------
+total loss 29.064556121826172
+main criterion 0.05703024938702583
+weighted_aux_loss 29.007526397705078
+loss_r_bn_feature 290.07525634765625
+------------iteration 600----------
+total loss 36.1899299621582
+main criterion 0.021550368517637253
+weighted_aux_loss 36.16838073730469
+loss_r_bn_feature 361.6838073730469
+------------iteration 700----------
+total loss 26.201448440551758
+main criterion 0.019102174788713455
+weighted_aux_loss 26.18234634399414
+loss_r_bn_feature 261.8234558105469
+------------iteration 800----------
+total loss 28.951353073120117
+main criterion 0.047301195561885834
+weighted_aux_loss 28.904052734375
+loss_r_bn_feature 289.04052734375
+------------iteration 900----------
+total loss 45.35005569458008
+main criterion 0.9075482487678528
+weighted_aux_loss 44.442508697509766
+loss_r_bn_feature 444.4250793457031
+------------iteration 1000----------
+total loss 18.471078872680664
+main criterion 0.013499608263373375
+weighted_aux_loss 18.457578659057617
+loss_r_bn_feature 184.57577514648438
+------------iteration 1100----------
+total loss 47.635047912597656
+main criterion 0.24826601147651672
+weighted_aux_loss 47.386783599853516
+loss_r_bn_feature 473.8678283691406
+------------iteration 1200----------
+total loss 27.443336486816406
+main criterion 0.18527662754058838
+weighted_aux_loss 27.258060455322266
+loss_r_bn_feature 272.5805969238281
+------------iteration 1300----------
+total loss 15.900737762451172
+main criterion 0.01907517947256565
+weighted_aux_loss 15.881662368774414
+loss_r_bn_feature 158.81661987304688
+------------iteration 1400----------
+total loss 12.005382537841797
+main criterion 0.013508769683539867
+weighted_aux_loss 11.991873741149902
+loss_r_bn_feature 119.91873931884766
+------------iteration 1500----------
+total loss 9.347512245178223
+main criterion 0.018880778923630714
+weighted_aux_loss 9.328631401062012
+loss_r_bn_feature 93.28630828857422
+------------iteration 1600----------
+total loss 10.251554489135742
+main criterion 0.013767004013061523
+weighted_aux_loss 10.237787246704102
+loss_r_bn_feature 102.37786865234375
+------------iteration 1700----------
+total loss 8.341020584106445
+main criterion 0.006784585304558277
+weighted_aux_loss 8.334236145019531
+loss_r_bn_feature 83.34236145019531
+------------iteration 1800----------
+total loss 12.147582054138184
+main criterion 0.006827257573604584
+weighted_aux_loss 12.140754699707031
+loss_r_bn_feature 121.40754699707031
+------------iteration 1900----------
+total loss 11.638630867004395
+main criterion 0.005899849347770214
+weighted_aux_loss 11.632731437683105
+loss_r_bn_feature 116.32730865478516
+ipc_id =  8
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 222.3088836669922
+main criterion 3.0095272064208984
+weighted_aux_loss 219.2993621826172
+loss_r_bn_feature 2192.99365234375
+------------iteration 100----------
+total loss 88.60599517822266
+main criterion 2.2927470207214355
+weighted_aux_loss 86.31324768066406
+loss_r_bn_feature 863.1324462890625
+------------iteration 200----------
+total loss 30.24641227722168
+main criterion 0.0659327581524849
+weighted_aux_loss 30.180479049682617
+loss_r_bn_feature 301.8047790527344
+------------iteration 300----------
+total loss 31.239416122436523
+main criterion 0.1637597382068634
+weighted_aux_loss 31.07565689086914
+loss_r_bn_feature 310.7565612792969
+------------iteration 400----------
+total loss 46.25402069091797
+main criterion 0.15873166918754578
+weighted_aux_loss 46.09528732299805
+loss_r_bn_feature 460.952880859375
+------------iteration 500----------
+total loss 23.671463012695312
+main criterion 0.03434721380472183
+weighted_aux_loss 23.637115478515625
+loss_r_bn_feature 236.37115478515625
+------------iteration 600----------
+total loss 28.14781951904297
+main criterion 0.05111808702349663
+weighted_aux_loss 28.09670066833496
+loss_r_bn_feature 280.9670104980469
+------------iteration 700----------
+total loss 22.690113067626953
+main criterion 0.023326106369495392
+weighted_aux_loss 22.666786193847656
+loss_r_bn_feature 226.66786193847656
+------------iteration 800----------
+total loss 25.891490936279297
+main criterion 0.3885480463504791
+weighted_aux_loss 25.50294303894043
+loss_r_bn_feature 255.0294189453125
+------------iteration 900----------
+total loss 25.237285614013672
+main criterion 0.007580962032079697
+weighted_aux_loss 25.229703903198242
+loss_r_bn_feature 252.29702758789062
+------------iteration 1000----------
+total loss 21.904653549194336
+main criterion 0.04621952772140503
+weighted_aux_loss 21.858434677124023
+loss_r_bn_feature 218.58433532714844
+------------iteration 1100----------
+total loss 34.08621597290039
+main criterion 0.20147383213043213
+weighted_aux_loss 33.884742736816406
+loss_r_bn_feature 338.847412109375
+------------iteration 1200----------
+total loss 21.21677589416504
+main criterion 0.3154985308647156
+weighted_aux_loss 20.901277542114258
+loss_r_bn_feature 209.0127716064453
+------------iteration 1300----------
+total loss 12.910975456237793
+main criterion 0.006327614188194275
+weighted_aux_loss 12.904647827148438
+loss_r_bn_feature 129.04647827148438
+------------iteration 1400----------
+total loss 14.293370246887207
+main criterion 0.006078638136386871
+weighted_aux_loss 14.287291526794434
+loss_r_bn_feature 142.87290954589844
+------------iteration 1500----------
+total loss 9.164546966552734
+main criterion 0.013273055665194988
+weighted_aux_loss 9.151273727416992
+loss_r_bn_feature 91.51273345947266
+------------iteration 1600----------
+total loss 13.867141723632812
+main criterion 0.12106462568044662
+weighted_aux_loss 13.746077537536621
+loss_r_bn_feature 137.4607696533203
+------------iteration 1700----------
+total loss 6.356191635131836
+main criterion 0.0037077455781400204
+weighted_aux_loss 6.352483749389648
+loss_r_bn_feature 63.524837493896484
+------------iteration 1800----------
+total loss 6.252677917480469
+main criterion 0.0013045875821262598
+weighted_aux_loss 6.251373291015625
+loss_r_bn_feature 62.51373291015625
+------------iteration 1900----------
+total loss 13.231696128845215
+main criterion 0.03284163773059845
+weighted_aux_loss 13.198854446411133
+loss_r_bn_feature 131.98854064941406
+ipc_id =  9
+get_images call
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+per-class-batchnorm:  False
+------------iteration 0----------
+total loss 230.43150329589844
+main criterion 3.182494640350342
+weighted_aux_loss 227.24900817871094
+loss_r_bn_feature 2272.489990234375
+------------iteration 100----------
+total loss 30.754770278930664
+main criterion 0.07144574820995331
+weighted_aux_loss 30.683324813842773
+loss_r_bn_feature 306.833251953125
+------------iteration 200----------
+total loss 54.04235076904297
+main criterion 0.5926418304443359
+weighted_aux_loss 53.44970703125
+loss_r_bn_feature 534.4970703125
+------------iteration 300----------
+total loss 28.50130271911621
+main criterion 0.01698264665901661
+weighted_aux_loss 28.48431968688965
+loss_r_bn_feature 284.84320068359375
+------------iteration 400----------
+total loss 30.429367065429688
+main criterion 0.07536457479000092
+weighted_aux_loss 30.354001998901367
+loss_r_bn_feature 303.5400085449219
+------------iteration 500----------
+total loss 27.04570770263672
+main criterion 0.020151328295469284
+weighted_aux_loss 27.025556564331055
+loss_r_bn_feature 270.25555419921875
+------------iteration 600----------
+total loss 27.28990364074707
+main criterion 0.016019267961382866
+weighted_aux_loss 27.273883819580078
+loss_r_bn_feature 272.73883056640625
+------------iteration 700----------
+total loss 20.49958038330078
+main criterion 0.011269778944551945
+weighted_aux_loss 20.488309860229492
+loss_r_bn_feature 204.88308715820312
+------------iteration 800----------
+total loss 26.75448989868164
+main criterion 0.006377390585839748
+weighted_aux_loss 26.748111724853516
+loss_r_bn_feature 267.4811096191406
+------------iteration 900----------
+total loss 20.02758026123047
+main criterion 0.06144949793815613
+weighted_aux_loss 19.96613121032715
+loss_r_bn_feature 199.66131591796875
+------------iteration 1000----------
+total loss 31.17510986328125
+main criterion 0.5664334893226624
+weighted_aux_loss 30.60867691040039
+loss_r_bn_feature 306.0867614746094
+------------iteration 1100----------
+total loss 21.73472023010254
+main criterion 0.16881133615970612
+weighted_aux_loss 21.565908432006836
+loss_r_bn_feature 215.65908813476562
+------------iteration 1200----------
+total loss 36.581138610839844
+main criterion 0.385275661945343
+weighted_aux_loss 36.19586181640625
+loss_r_bn_feature 361.9586181640625
+------------iteration 1300----------
+total loss 23.796483993530273
+main criterion 0.034807778894901276
+weighted_aux_loss 23.761676788330078
+loss_r_bn_feature 237.61676025390625
+------------iteration 1400----------
+total loss 10.848299980163574
+main criterion 0.021898848935961723
+weighted_aux_loss 10.826400756835938
+loss_r_bn_feature 108.26400756835938
+------------iteration 1500----------
+total loss 21.046266555786133
+main criterion 0.15424737334251404
+weighted_aux_loss 20.892019271850586
+loss_r_bn_feature 208.92018127441406
+------------iteration 1600----------
+total loss 9.29744815826416
+main criterion 0.005628474056720734
+weighted_aux_loss 9.29181957244873
+loss_r_bn_feature 92.91819763183594
+------------iteration 1700----------
+total loss 9.432129859924316
+main criterion 0.007309169974178076
+weighted_aux_loss 9.424820899963379
+loss_r_bn_feature 94.24820709228516
+------------iteration 1800----------
+total loss 9.955401420593262
+main criterion 0.030094612389802933
+weighted_aux_loss 9.925307273864746
+loss_r_bn_feature 99.25306701660156
+------------iteration 1900----------
+total loss 6.12908411026001
+main criterion 0.0029229712672531605
+weighted_aux_loss 6.126161098480225
+loss_r_bn_feature 61.26161193847656
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/imagenette/253
+  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:01<09:38,  1.93s/it]  1%|          | 2/300 [00:02<05:48,  1.17s/it]  1%|          | 3/300 [00:03<04:34,  1.08it/s]  1%|▏         | 4/300 [00:03<04:01,  1.23it/s]  2%|▏         | 5/300 [00:04<03:42,  1.32it/s]  2%|▏         | 6/300 [00:05<03:27,  1.42it/s]  2%|▏         | 7/300 [00:05<03:19,  1.47it/s]  3%|▎         | 8/300 [00:06<03:13,  1.51it/s]  3%|▎         | 9/300 [00:07<03:11,  1.52it/s]  3%|▎         | 10/300 [00:07<03:08,  1.54it/s]  4%|▎         | 11/300 [00:08<03:04,  1.56it/s]  4%|▍         | 12/300 [00:08<03:05,  1.55it/s]  4%|▍         | 13/300 [00:09<03:04,  1.55it/s]  5%|▍         | 14/300 [00:10<03:04,  1.55it/s]  5%|▌         | 15/300 [00:10<03:02,  1.56it/s]  5%|▌         | 16/300 [00:11<02:59,  1.58it/s]  6%|▌         | 17/300 [00:12<02:59,  1.58it/s]  6%|▌         | 18/300 [00:12<02:57,  1.59it/s]  6%|▋         | 19/300 [00:13<02:54,  1.61it/s]  7%|▋         | 20/300 [00:13<02:54,  1.60it/s]  7%|▋         | 21/300 [00:14<02:56,  1.58it/s]  7%|▋         | 22/300 [00:15<02:57,  1.57it/s]  8%|▊         | 23/300 [00:15<02:56,  1.57it/s]  8%|▊         | 24/300 [00:16<02:56,  1.57it/s]  8%|▊         | 25/300 [00:17<02:55,  1.57it/s]  9%|▊         | 26/300 [00:17<02:55,  1.56it/s]  9%|▉         | 27/300 [00:18<02:54,  1.56it/s]  9%|▉         | 28/300 [00:19<02:53,  1.57it/s] 10%|▉         | 29/300 [00:19<02:54,  1.56it/s] 10%|█         | 30/300 [00:20<02:53,  1.55it/s] 10%|█         | 31/300 [00:20<02:51,  1.57it/s] 11%|█         | 32/300 [00:21<02:50,  1.57it/s] 11%|█         | 33/300 [00:22<02:49,  1.57it/s] 11%|█▏        | 34/300 [00:22<02:49,  1.57it/s] 12%|█▏        | 35/300 [00:23<02:46,  1.59it/s] 12%|█▏        | 36/300 [00:24<02:45,  1.60it/s] 12%|█▏        | 37/300 [00:24<02:43,  1.61it/s] 13%|█▎        | 38/300 [00:25<02:44,  1.59it/s] 13%|█▎        | 39/300 [00:26<02:44,  1.59it/s] 13%|█▎        | 40/300 [00:26<02:42,  1.60it/s] 14%|█▎        | 41/300 [00:27<02:42,  1.59it/s] 14%|█▍        | 42/300 [00:27<02:41,  1.60it/s] 14%|█▍        | 43/300 [00:28<02:39,  1.61it/s] 15%|█▍        | 44/300 [00:29<02:40,  1.59it/s] 15%|█▌        | 45/300 [00:29<02:38,  1.61it/s] 15%|█▌        | 46/300 [00:30<02:38,  1.60it/s] 16%|█▌        | 47/300 [00:31<02:39,  1.59it/s] 16%|█▌        | 48/300 [00:31<02:38,  1.59it/s] 16%|█▋        | 49/300 [00:32<02:37,  1.59it/s] 17%|█▋        | 50/300 [00:32<02:38,  1.58it/s] 17%|█▋        | 51/300 [00:33<02:37,  1.58it/s] 17%|█▋        | 52/300 [00:34<02:36,  1.59it/s] 18%|█▊        | 53/300 [00:34<02:36,  1.58it/s] 18%|█▊        | 54/300 [00:35<02:35,  1.58it/s] 18%|█▊        | 55/300 [00:36<02:35,  1.58it/s] 19%|█▊        | 56/300 [00:36<02:33,  1.59it/s] 19%|█▉        | 57/300 [00:37<02:33,  1.59it/s] 19%|█▉        | 58/300 [00:37<02:31,  1.60it/s] 20%|█▉        | 59/300 [00:38<02:30,  1.60it/s] 20%|██        | 60/300 [00:39<02:30,  1.59it/s] 20%|██        | 61/300 [00:39<02:28,  1.61it/s] 21%|██        | 62/300 [00:40<02:27,  1.61it/s] 21%|██        | 63/300 [00:41<02:26,  1.62it/s] 21%|██▏       | 64/300 [00:41<02:27,  1.60it/s] 22%|██▏       | 65/300 [00:42<02:25,  1.61it/s] 22%|██▏       | 66/300 [00:42<02:24,  1.62it/s] 22%|██▏       | 67/300 [00:43<02:25,  1.60it/s] 23%|██▎       | 68/300 [00:44<02:26,  1.59it/s] 23%|██▎       | 69/300 [00:44<02:26,  1.57it/s] 23%|██▎       | 70/300 [00:45<02:26,  1.57it/s] 24%|██▎       | 71/300 [00:46<02:25,  1.57it/s] 24%|██▍       | 72/300 [00:46<02:23,  1.59it/s] 24%|██▍       | 73/300 [00:47<02:23,  1.58it/s] 25%|██▍       | 74/300 [00:47<02:21,  1.59it/s] 25%|██▌       | 75/300 [00:48<02:22,  1.58it/s] 25%|██▌       | 76/300 [00:49<02:21,  1.59it/s] 26%|██▌       | 77/300 [00:49<02:19,  1.60it/s] 26%|██▌       | 78/300 [00:50<02:19,  1.59it/s] 26%|██▋       | 79/300 [00:51<02:18,  1.60it/s] 27%|██▋       | 80/300 [00:51<02:16,  1.61it/s] 27%|██▋       | 81/300 [00:52<02:17,  1.60it/s] 27%|██▋       | 82/300 [00:52<02:16,  1.60it/s] 28%|██▊       | 83/300 [00:53<02:17,  1.58it/s] 28%|██▊       | 84/300 [00:54<02:17,  1.57it/s] 28%|██▊       | 85/300 [00:54<02:14,  1.60it/s] 29%|██▊       | 86/300 [00:55<02:15,  1.58it/s] 29%|██▉       | 87/300 [00:56<02:12,  1.61it/s] 29%|██▉       | 88/300 [00:56<02:11,  1.61it/s] 30%|██▉       | 89/300 [00:57<02:12,  1.60it/s] 30%|███       | 90/300 [00:58<02:12,  1.58it/s] 30%|███       | 91/300 [00:58<02:12,  1.57it/s] 31%|███       | 92/300 [00:59<02:12,  1.57it/s] 31%|███       | 93/300 [00:59<02:12,  1.56it/s] 31%|███▏      | 94/300 [01:00<02:11,  1.57it/s] 32%|███▏      | 95/300 [01:01<02:10,  1.57it/s] 32%|███▏      | 96/300 [01:01<02:10,  1.57it/s] 32%|███▏      | 97/300 [01:02<02:07,  1.59it/s] 33%|███▎      | 98/300 [01:03<02:05,  1.61it/s] 33%|███▎      | 99/300 [01:03<02:04,  1.61it/s] 33%|███▎      | 100/300 [01:04<02:04,  1.60it/s] 34%|███▎      | 101/300 [01:04<02:02,  1.62it/s] 34%|███▍      | 102/300 [01:05<02:00,  1.64it/s] 34%|███▍      | 103/300 [01:06<02:02,  1.61it/s] 35%|███▍      | 104/300 [01:06<02:01,  1.62it/s] 35%|███▌      | 105/300 [01:07<02:01,  1.60it/s] 35%|███▌      | 106/300 [01:08<02:02,  1.59it/s] 36%|███▌      | 107/300 [01:08<02:00,  1.60it/s] 36%|███▌      | 108/300 [01:09<01:59,  1.61it/s] 36%|███▋      | 109/300 [01:09<01:59,  1.60it/s] 37%|███▋      | 110/300 [01:10<02:01,  1.57it/s] 37%|███▋      | 111/300 [01:11<01:59,  1.58it/s] 37%|███▋      | 112/300 [01:11<01:56,  1.61it/s] 38%|███▊      | 113/300 [01:12<01:55,  1.62it/s] 38%|███▊      | 114/300 [01:13<01:55,  1.61it/s] 38%|███▊      | 115/300 [01:13<01:56,  1.59it/s] 39%|███▊      | 116/300 [01:14<01:56,  1.57it/s] 39%|███▉      | 117/300 [01:14<01:57,  1.56it/s] 39%|███▉      | 118/300 [01:15<01:56,  1.56it/s] 40%|███▉      | 119/300 [01:16<01:55,  1.56it/s] 40%|████      | 120/300 [01:16<01:54,  1.57it/s] 40%|████      | 121/300 [01:17<01:52,  1.59it/s] 41%|████      | 122/300 [01:18<01:51,  1.59it/s] 41%|████      | 123/300 [01:18<01:51,  1.59it/s] 41%|████▏     | 124/300 [01:19<01:50,  1.59it/s] 42%|████▏     | 125/300 [01:20<01:51,  1.57it/s] 42%|████▏     | 126/300 [01:20<01:50,  1.58it/s] 42%|████▏     | 127/300 [01:21<01:48,  1.60it/s] 43%|████▎     | 128/300 [01:21<01:47,  1.61it/s] 43%|████▎     | 129/300 [01:22<01:47,  1.59it/s] 43%|████▎     | 130/300 [01:23<01:47,  1.58it/s] 44%|████▎     | 131/300 [01:23<01:47,  1.57it/s] 44%|████▍     | 132/300 [01:24<01:47,  1.56it/s] 44%|████▍     | 133/300 [01:25<01:46,  1.57it/s] 45%|████▍     | 134/300 [01:25<01:45,  1.58it/s] 45%|████▌     | 135/300 [01:26<01:42,  1.60it/s] 45%|████▌     | 136/300 [01:26<01:42,  1.60it/s] 46%|████▌     | 137/300 [01:27<01:41,  1.61it/s] 46%|████▌     | 138/300 [01:28<01:40,  1.61it/s] 46%|████▋     | 139/300 [01:28<01:40,  1.61it/s] 47%|████▋     | 140/300 [01:29<01:39,  1.60it/s] 47%|████▋     | 141/300 [01:30<01:38,  1.62it/s] 47%|████▋     | 142/300 [01:30<01:37,  1.63it/s] 48%|████▊     | 143/300 [01:31<01:37,  1.61it/s] 48%|████▊     | 144/300 [01:31<01:35,  1.63it/s] 48%|████▊     | 145/300 [01:32<01:36,  1.61it/s] 49%|████▊     | 146/300 [01:33<01:35,  1.61it/s] 49%|████▉     | 147/300 [01:33<01:36,  1.59it/s] 49%|████▉     | 148/300 [01:34<01:35,  1.59it/s] 50%|████▉     | 149/300 [01:35<01:36,  1.57it/s] 50%|█████     | 150/300 [01:35<01:36,  1.55it/s] 50%|█████     | 151/300 [01:36<01:35,  1.55it/s] 51%|█████     | 152/300 [01:37<01:35,  1.55it/s] 51%|█████     | 153/300 [01:37<01:34,  1.56it/s] 51%|█████▏    | 154/300 [01:38<01:33,  1.55it/s] 52%|█████▏    | 155/300 [01:38<01:33,  1.56it/s] 52%|█████▏    | 156/300 [01:39<01:32,  1.56it/s] 52%|█████▏    | 157/300 [01:40<01:31,  1.57it/s] 53%|█████▎    | 158/300 [01:40<01:29,  1.59it/s] 53%|█████▎    | 159/300 [01:41<01:28,  1.60it/s] 53%|█████▎    | 160/300 [01:42<01:26,  1.62it/s] 54%|█████▎    | 161/300 [01:42<01:26,  1.61it/s] 54%|█████▍    | 162/300 [01:43<01:25,  1.62it/s] 54%|█████▍    | 163/300 [01:43<01:23,  1.63it/s] 55%|█████▍    | 164/300 [01:44<01:22,  1.64it/s] 55%|█████▌    | 165/300 [01:45<01:22,  1.64it/s] 55%|█████▌    | 166/300 [01:45<01:21,  1.65it/s] 56%|█████▌    | 167/300 [01:46<01:20,  1.66it/s] 56%|█████▌    | 168/300 [01:46<01:20,  1.64it/s] 56%|█████▋    | 169/300 [01:47<01:20,  1.63it/s] 57%|█████▋    | 170/300 [01:48<01:20,  1.62it/s] 57%|█████▋    | 171/300 [01:48<01:19,  1.61it/s] 57%|█████▋    | 172/300 [01:49<01:20,  1.58it/s] 58%|█████▊    | 173/300 [01:50<01:20,  1.58it/s] 58%|█████▊    | 174/300 [01:50<01:20,  1.57it/s] 58%|█████▊    | 175/300 [01:51<01:20,  1.54it/s] 59%|█████▊    | 176/300 [01:52<01:20,  1.55it/s] 59%|█████▉    | 177/300 [01:52<01:19,  1.54it/s] 59%|█████▉    | 178/300 [01:53<01:19,  1.54it/s] 60%|█████▉    | 179/300 [01:54<01:18,  1.54it/s] 60%|██████    | 180/300 [01:54<01:17,  1.55it/s] 60%|██████    | 181/300 [01:55<01:15,  1.58it/s] 61%|██████    | 182/300 [01:55<01:15,  1.57it/s] 61%|██████    | 183/300 [01:56<01:13,  1.58it/s] 61%|██████▏   | 184/300 [01:57<01:13,  1.57it/s] 62%|██████▏   | 185/300 [01:57<01:13,  1.57it/s] 62%|██████▏   | 186/300 [01:58<01:13,  1.56it/s] 62%|██████▏   | 187/300 [01:59<01:12,  1.56it/s] 63%|██████▎   | 188/300 [01:59<01:10,  1.58it/s] 63%|██████▎   | 189/300 [02:00<01:10,  1.57it/s] 63%|██████▎   | 190/300 [02:01<01:10,  1.56it/s] 64%|██████▎   | 191/300 [02:01<01:10,  1.55it/s] 64%|██████▍   | 192/300 [02:02<01:10,  1.54it/s] 64%|██████▍   | 193/300 [02:02<01:08,  1.57it/s] 65%|██████▍   | 194/300 [02:03<01:07,  1.57it/s] 65%|██████▌   | 195/300 [02:04<01:07,  1.55it/s] 65%|██████▌   | 196/300 [02:04<01:07,  1.54it/s] 66%|██████▌   | 197/300 [02:05<01:05,  1.56it/s] 66%|██████▌   | 198/300 [02:06<01:05,  1.56it/s] 66%|██████▋   | 199/300 [02:06<01:04,  1.57it/s] 67%|██████▋   | 200/300 [02:07<01:04,  1.55it/s] 67%|██████▋   | 201/300 [02:08<01:02,  1.58it/s] 67%|██████▋   | 202/300 [02:08<01:02,  1.56it/s] 68%|██████▊   | 203/300 [02:09<01:01,  1.57it/s] 68%|██████▊   | 204/300 [02:09<01:02,  1.55it/s] 68%|██████▊   | 205/300 [02:10<01:01,  1.54it/s] 69%|██████▊   | 206/300 [02:11<01:01,  1.54it/s] 69%|██████▉   | 207/300 [02:11<00:58,  1.58it/s] 69%|██████▉   | 208/300 [02:12<00:57,  1.60it/s] 70%|██████▉   | 209/300 [02:13<00:56,  1.62it/s] 70%|███████   | 210/300 [02:13<00:55,  1.62it/s] 70%|███████   | 211/300 [02:14<00:54,  1.64it/s] 71%|███████   | 212/300 [02:14<00:53,  1.65it/s] 71%|███████   | 213/300 [02:15<00:52,  1.65it/s] 71%|███████▏  | 214/300 [02:16<00:52,  1.62it/s] 72%|███████▏  | 215/300 [02:16<00:51,  1.64it/s] 72%|███████▏  | 216/300 [02:17<00:51,  1.62it/s] 72%|███████▏  | 217/300 [02:18<00:51,  1.61it/s] 73%|███████▎  | 218/300 [02:18<00:51,  1.60it/s] 73%|███████▎  | 219/300 [02:19<00:50,  1.60it/s] 73%|███████▎  | 220/300 [02:19<00:49,  1.62it/s] 74%|███████▎  | 221/300 [02:20<00:48,  1.62it/s] 74%|███████▍  | 222/300 [02:21<00:48,  1.60it/s] 74%|███████▍  | 223/300 [02:21<00:47,  1.62it/s] 75%|███████▍  | 224/300 [02:22<00:47,  1.60it/s] 75%|███████▌  | 225/300 [02:22<00:46,  1.62it/s] 75%|███████▌  | 226/300 [02:23<00:45,  1.61it/s] 76%|███████▌  | 227/300 [02:24<00:45,  1.59it/s] 76%|███████▌  | 228/300 [02:24<00:44,  1.61it/s] 76%|███████▋  | 229/300 [02:25<00:44,  1.60it/s] 77%|███████▋  | 230/300 [02:26<00:43,  1.61it/s] 77%|███████▋  | 231/300 [02:26<00:42,  1.63it/s] 77%|███████▋  | 232/300 [02:27<00:42,  1.61it/s] 78%|███████▊  | 233/300 [02:27<00:41,  1.63it/s] 78%|███████▊  | 234/300 [02:28<00:40,  1.62it/s] 78%|███████▊  | 235/300 [02:29<00:40,  1.61it/s] 79%|███████▊  | 236/300 [02:29<00:39,  1.61it/s] 79%|███████▉  | 237/300 [02:30<00:39,  1.61it/s] 79%|███████▉  | 238/300 [02:31<00:38,  1.62it/s] 80%|███████▉  | 239/300 [02:31<00:37,  1.63it/s] 80%|████████  | 240/300 [02:32<00:36,  1.64it/s] 80%|████████  | 241/300 [02:32<00:35,  1.65it/s] 81%|████████  | 242/300 [02:33<00:34,  1.66it/s] 81%|████████  | 243/300 [02:34<00:34,  1.67it/s] 81%|████████▏ | 244/300 [02:34<00:33,  1.67it/s] 82%|████████▏ | 245/300 [02:35<00:33,  1.64it/s] 82%|████████▏ | 246/300 [02:35<00:33,  1.63it/s] 82%|████████▏ | 247/300 [02:36<00:32,  1.64it/s] 83%|████████▎ | 248/300 [02:37<00:32,  1.62it/s] 83%|████████▎ | 249/300 [02:37<00:31,  1.62it/s] 83%|████████▎ | 250/300 [02:38<00:30,  1.64it/s] 84%|████████▎ | 251/300 [02:38<00:30,  1.63it/s] 84%|████████▍ | 252/300 [02:39<00:29,  1.64it/s] 84%|████████▍ | 253/300 [02:40<00:29,  1.61it/s] 85%|████████▍ | 254/300 [02:40<00:28,  1.59it/s] 85%|████████▌ | 255/300 [02:41<00:28,  1.60it/s] 85%|████████▌ | 256/300 [02:42<00:27,  1.58it/s] 86%|████████▌ | 257/300 [02:42<00:27,  1.58it/s] 86%|████████▌ | 258/300 [02:43<00:26,  1.58it/s] 86%|████████▋ | 259/300 [02:44<00:26,  1.56it/s] 87%|████████▋ | 260/300 [02:44<00:25,  1.58it/s] 87%|████████▋ | 261/300 [02:45<00:24,  1.58it/s] 87%|████████▋ | 262/300 [02:45<00:24,  1.57it/s] 88%|████████▊ | 263/300 [02:46<00:23,  1.56it/s] 88%|████████▊ | 264/300 [02:47<00:22,  1.58it/s] 88%|████████▊ | 265/300 [02:47<00:22,  1.58it/s] 89%|████████▊ | 266/300 [02:48<00:21,  1.59it/s] 89%|████████▉ | 267/300 [02:49<00:20,  1.58it/s] 89%|████████▉ | 268/300 [02:49<00:20,  1.58it/s] 90%|████████▉ | 269/300 [02:50<00:19,  1.60it/s] 90%|█████████ | 270/300 [02:50<00:18,  1.60it/s] 90%|█████████ | 271/300 [02:51<00:17,  1.63it/s] 91%|█████████ | 272/300 [02:52<00:17,  1.64it/s] 91%|█████████ | 273/300 [02:52<00:16,  1.65it/s] 91%|█████████▏| 274/300 [02:53<00:15,  1.66it/s] 92%|█████████▏| 275/300 [02:53<00:15,  1.66it/s] 92%|█████████▏| 276/300 [02:54<00:14,  1.64it/s] 92%|█████████▏| 277/300 [02:55<00:13,  1.65it/s] 93%|█████████▎| 278/300 [02:55<00:13,  1.67it/s] 93%|█████████▎| 279/300 [02:56<00:12,  1.67it/s] 93%|█████████▎| 280/300 [02:56<00:12,  1.65it/s] 94%|█████████▎| 281/300 [02:57<00:11,  1.65it/s] 94%|█████████▍| 282/300 [02:58<00:11,  1.63it/s] 94%|█████████▍| 283/300 [02:58<00:10,  1.63it/s] 95%|█████████▍| 284/300 [02:59<00:09,  1.62it/s] 95%|█████████▌| 285/300 [03:00<00:09,  1.61it/s] 95%|█████████▌| 286/300 [03:00<00:08,  1.63it/s] 96%|█████████▌| 287/300 [03:01<00:08,  1.62it/s] 96%|█████████▌| 288/300 [03:01<00:07,  1.62it/s] 96%|█████████▋| 289/300 [03:02<00:06,  1.64it/s] 97%|█████████▋| 290/300 [03:03<00:06,  1.64it/s] 97%|█████████▋| 291/300 [03:03<00:05,  1.64it/s] 97%|█████████▋| 292/300 [03:04<00:04,  1.64it/s] 98%|█████████▊| 293/300 [03:04<00:04,  1.62it/s] 98%|█████████▊| 294/300 [03:05<00:03,  1.60it/s] 98%|█████████▊| 295/300 [03:06<00:03,  1.58it/s] 99%|█████████▊| 296/300 [03:06<00:02,  1.57it/s] 99%|█████████▉| 297/300 [03:07<00:01,  1.58it/s] 99%|█████████▉| 298/300 [03:08<00:01,  1.58it/s]100%|█████████▉| 299/300 [03:08<00:00,  1.57it/s]100%|██████████| 300/300 [03:09<00:00,  1.56it/s]100%|██████████| 300/300 [03:09<00:00,  1.58it/s]
+W&B disabled.
+W&B online. Running your script from this directory will now sync to the cloud.
+wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231020_004829-5ypnmz6i
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run sweet-deluge-430
+wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
+wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/5ypnmz6i
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/imagenette/253/
+num img: 100
+batch size: 100
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'resnet18'
+
+Epoch: 0
+TRAIN Iter 0: lr = 0.001000,	loss = 0.012670,	Top-1 err = 88.000000,	Top-5 err = 49.000000,	train_time = 3.201462
+TEST Iter 0: loss = 12.941971,	Top-1 err = 90.089172,	Top-5 err = 50.445860,	val_time = 12.707079
+
+Epoch: 1
+
+Epoch: 2
+
+Epoch: 3
+
+Epoch: 4
+
+Epoch: 5
+
+Epoch: 6
+
+Epoch: 7
+
+Epoch: 8
+
+Epoch: 9
+
+Epoch: 10
+TRAIN Iter 10: lr = 0.000997,	loss = 0.010232,	Top-1 err = 73.000000,	Top-5 err = 29.000000,	train_time = 2.295459
+TEST Iter 10: loss = 13.441591,	Top-1 err = 84.942675,	Top-5 err = 43.490446,	val_time = 12.915522
+
+Epoch: 11
+
+Epoch: 12
+
+Epoch: 13
+
+Epoch: 14
+
+Epoch: 15
+
+Epoch: 16
+
+Epoch: 17
+
+Epoch: 18
+
+Epoch: 19
+
+Epoch: 20
+TRAIN Iter 20: lr = 0.000989,	loss = 0.007886,	Top-1 err = 42.000000,	Top-5 err = 5.000000,	train_time = 2.243761
+TEST Iter 20: loss = 5.974510,	Top-1 err = 82.318471,	Top-5 err = 43.668790,	val_time = 12.770662
+
+Epoch: 21
+
+Epoch: 22
+
+Epoch: 23
+
+Epoch: 24
+
+Epoch: 25
+
+Epoch: 26
+
+Epoch: 27
+
+Epoch: 28
+
+Epoch: 29
+
+Epoch: 30
+TRAIN Iter 30: lr = 0.000976,	loss = 0.006864,	Top-1 err = 69.000000,	Top-5 err = 20.000000,	train_time = 2.320425
+TEST Iter 30: loss = 4.378356,	Top-1 err = 79.363057,	Top-5 err = 35.286624,	val_time = 12.794271
+
+Epoch: 31
+
+Epoch: 32
+
+Epoch: 33
+
+Epoch: 34
+
+Epoch: 35
+
+Epoch: 36
+
+Epoch: 37
+
+Epoch: 38
+
+Epoch: 39
+
+Epoch: 40
+TRAIN Iter 40: lr = 0.000957,	loss = 0.006690,	Top-1 err = 49.000000,	Top-5 err = 12.000000,	train_time = 2.302496
+TEST Iter 40: loss = 4.279599,	Top-1 err = 77.681529,	Top-5 err = 28.815287,	val_time = 12.701461
+
+Epoch: 41
+
+Epoch: 42
+
+Epoch: 43
+
+Epoch: 44
+
+Epoch: 45
+
+Epoch: 46
+
+Epoch: 47
+
+Epoch: 48
+
+Epoch: 49
+
+Epoch: 50
+TRAIN Iter 50: lr = 0.000933,	loss = 0.007177,	Top-1 err = 87.000000,	Top-5 err = 33.000000,	train_time = 2.303565
+TEST Iter 50: loss = 4.932227,	Top-1 err = 72.152866,	Top-5 err = 22.216561,	val_time = 12.838208
+
+Epoch: 51
+
+Epoch: 52
+
+Epoch: 53
+
+Epoch: 54
+
+Epoch: 55
+
+Epoch: 56
+
+Epoch: 57
+
+Epoch: 58
+
+Epoch: 59
+
+Epoch: 60
+TRAIN Iter 60: lr = 0.000905,	loss = 0.006272,	Top-1 err = 65.000000,	Top-5 err = 19.000000,	train_time = 2.253991
+TEST Iter 60: loss = 6.619934,	Top-1 err = 77.121019,	Top-5 err = 30.089172,	val_time = 12.771113
+
+Epoch: 61
+
+Epoch: 62
+
+Epoch: 63
+
+Epoch: 64
+
+Epoch: 65
+
+Epoch: 66
+
+Epoch: 67
+
+Epoch: 68
+
+Epoch: 69
+
+Epoch: 70
+TRAIN Iter 70: lr = 0.000872,	loss = 0.005766,	Top-1 err = 12.000000,	Top-5 err = 2.000000,	train_time = 2.268066
+TEST Iter 70: loss = 3.467095,	Top-1 err = 64.687898,	Top-5 err = 20.815287,	val_time = 12.778467
+
+Epoch: 71
+
+Epoch: 72
+
+Epoch: 73
+
+Epoch: 74
+
+Epoch: 75
+
+Epoch: 76
+
+Epoch: 77
+
+Epoch: 78
+
+Epoch: 79
+
+Epoch: 80
+TRAIN Iter 80: lr = 0.000835,	loss = 0.003914,	Top-1 err = 14.000000,	Top-5 err = 3.000000,	train_time = 2.227174
+TEST Iter 80: loss = 3.973543,	Top-1 err = 64.305732,	Top-5 err = 18.165605,	val_time = 12.689995
+
+Epoch: 81
+
+Epoch: 82
+
+Epoch: 83
+
+Epoch: 84
+
+Epoch: 85
+
+Epoch: 86
+
+Epoch: 87
+
+Epoch: 88
+
+Epoch: 89
+
+Epoch: 90
+TRAIN Iter 90: lr = 0.000794,	loss = 0.004199,	Top-1 err = 63.000000,	Top-5 err = 11.000000,	train_time = 2.307313
+TEST Iter 90: loss = 4.963395,	Top-1 err = 69.452229,	Top-5 err = 22.114650,	val_time = 12.874615
+
+Epoch: 91
+
+Epoch: 92
+
+Epoch: 93
+
+Epoch: 94
+
+Epoch: 95
+
+Epoch: 96
+
+Epoch: 97
+
+Epoch: 98
+
+Epoch: 99
+
+Epoch: 100
+TRAIN Iter 100: lr = 0.000750,	loss = 0.004115,	Top-1 err = 14.000000,	Top-5 err = 4.000000,	train_time = 2.212960
+TEST Iter 100: loss = 3.891864,	Top-1 err = 67.312102,	Top-5 err = 19.719745,	val_time = 12.806275
+
+Epoch: 101
+
+Epoch: 102
+
+Epoch: 103
+
+Epoch: 104
+
+Epoch: 105
+
+Epoch: 106
+
+Epoch: 107
+
+Epoch: 108
+
+Epoch: 109
+
+Epoch: 110
+TRAIN Iter 110: lr = 0.000703,	loss = 0.003603,	Top-1 err = 8.000000,	Top-5 err = 0.000000,	train_time = 2.293923
+TEST Iter 110: loss = 2.959158,	Top-1 err = 61.095541,	Top-5 err = 13.936306,	val_time = 12.944892
+
+Epoch: 111
+
+Epoch: 112
+
+Epoch: 113
+
+Epoch: 114
+
+Epoch: 115
+
+Epoch: 116
+
+Epoch: 117
+
+Epoch: 118
+
+Epoch: 119
+
+Epoch: 120
+TRAIN Iter 120: lr = 0.000655,	loss = 0.003443,	Top-1 err = 66.000000,	Top-5 err = 15.000000,	train_time = 2.216418
+TEST Iter 120: loss = 3.860001,	Top-1 err = 64.229299,	Top-5 err = 19.949045,	val_time = 12.782781
+
+Epoch: 121
+
+Epoch: 122
+
+Epoch: 123
+
+Epoch: 124
+
+Epoch: 125
+
+Epoch: 126
+
+Epoch: 127
+
+Epoch: 128
+
+Epoch: 129
+
+Epoch: 130
+TRAIN Iter 130: lr = 0.000604,	loss = 0.003751,	Top-1 err = 59.000000,	Top-5 err = 5.000000,	train_time = 2.214640
+TEST Iter 130: loss = 2.987132,	Top-1 err = 58.038217,	Top-5 err = 12.968153,	val_time = 12.792195
+
+Epoch: 131
+
+Epoch: 132
+
+Epoch: 133
+
+Epoch: 134
+
+Epoch: 135
+
+Epoch: 136
+
+Epoch: 137
+
+Epoch: 138
+
+Epoch: 139
+
+Epoch: 140
+TRAIN Iter 140: lr = 0.000552,	loss = 0.003411,	Top-1 err = 84.000000,	Top-5 err = 24.000000,	train_time = 2.266032
+TEST Iter 140: loss = 3.324139,	Top-1 err = 59.796178,	Top-5 err = 15.210191,	val_time = 12.774402
+
+Epoch: 141
+
+Epoch: 142
+
+Epoch: 143
+
+Epoch: 144
+
+Epoch: 145
+
+Epoch: 146
+
+Epoch: 147
+
+Epoch: 148
+
+Epoch: 149
+
+Epoch: 150
+TRAIN Iter 150: lr = 0.000500,	loss = 0.003415,	Top-1 err = 42.000000,	Top-5 err = 7.000000,	train_time = 2.211376
+TEST Iter 150: loss = 2.342638,	Top-1 err = 53.528662,	Top-5 err = 10.980892,	val_time = 12.650089
+
+Epoch: 151
+
+Epoch: 152
+
+Epoch: 153
+
+Epoch: 154
+
+Epoch: 155
+
+Epoch: 156
+
+Epoch: 157
+
+Epoch: 158
+
+Epoch: 159
+
+Epoch: 160
+TRAIN Iter 160: lr = 0.000448,	loss = 0.003889,	Top-1 err = 80.000000,	Top-5 err = 13.000000,	train_time = 2.232955
+TEST Iter 160: loss = 2.545591,	Top-1 err = 53.554140,	Top-5 err = 11.643312,	val_time = 12.829252
+
+Epoch: 161
+
+Epoch: 162
+
+Epoch: 163
+
+Epoch: 164
+
+Epoch: 165
+
+Epoch: 166
+
+Epoch: 167
+
+Epoch: 168
+
+Epoch: 169
+
+Epoch: 170
+TRAIN Iter 170: lr = 0.000396,	loss = 0.002682,	Top-1 err = 8.000000,	Top-5 err = 0.000000,	train_time = 2.221064
+TEST Iter 170: loss = 2.730708,	Top-1 err = 53.656051,	Top-5 err = 10.929936,	val_time = 12.768909
+
+Epoch: 171
+
+Epoch: 172
+
+Epoch: 173
+
+Epoch: 174
+
+Epoch: 175
+
+Epoch: 176
+
+Epoch: 177
+
+Epoch: 178
+
+Epoch: 179
+
+Epoch: 180
+TRAIN Iter 180: lr = 0.000345,	loss = 0.003641,	Top-1 err = 61.000000,	Top-5 err = 11.000000,	train_time = 2.158257
+TEST Iter 180: loss = 2.527001,	Top-1 err = 51.821656,	Top-5 err = 10.547771,	val_time = 12.658366
+
+Epoch: 181
+
+Epoch: 182
+
+Epoch: 183
+
+Epoch: 184
+
+Epoch: 185
+
+Epoch: 186
+
+Epoch: 187
+
+Epoch: 188
+
+Epoch: 189
+
+Epoch: 190
+TRAIN Iter 190: lr = 0.000297,	loss = 0.003095,	Top-1 err = 10.000000,	Top-5 err = 2.000000,	train_time = 2.263945
+TEST Iter 190: loss = 2.958621,	Top-1 err = 55.490446,	Top-5 err = 10.955414,	val_time = 12.795928
+
+Epoch: 191
+
+Epoch: 192
+
+Epoch: 193
+
+Epoch: 194
+
+Epoch: 195
+
+Epoch: 196
+
+Epoch: 197
+
+Epoch: 198
+
+Epoch: 199
+
+Epoch: 200
+TRAIN Iter 200: lr = 0.000250,	loss = 0.003326,	Top-1 err = 34.000000,	Top-5 err = 4.000000,	train_time = 2.222414
+TEST Iter 200: loss = 2.234634,	Top-1 err = 50.445860,	Top-5 err = 10.191083,	val_time = 12.785597
+
+Epoch: 201
+
+Epoch: 202
+
+Epoch: 203
+
+Epoch: 204
+
+Epoch: 205
+
+Epoch: 206
+
+Epoch: 207
+
+Epoch: 208
+
+Epoch: 209
+
+Epoch: 210
+TRAIN Iter 210: lr = 0.000206,	loss = 0.002914,	Top-1 err = 46.000000,	Top-5 err = 3.000000,	train_time = 2.289978
+TEST Iter 210: loss = 2.632447,	Top-1 err = 52.280255,	Top-5 err = 9.503185,	val_time = 12.942037
+
+Epoch: 211
+
+Epoch: 212
+
+Epoch: 213
+
+Epoch: 214
+
+Epoch: 215
+
+Epoch: 216
+
+Epoch: 217
+
+Epoch: 218
+
+Epoch: 219
+
+Epoch: 220
+TRAIN Iter 220: lr = 0.000165,	loss = 0.003079,	Top-1 err = 60.000000,	Top-5 err = 12.000000,	train_time = 2.253997
+TEST Iter 220: loss = 2.032206,	Top-1 err = 48.025478,	Top-5 err = 8.280255,	val_time = 12.807742
+
+Epoch: 221
+
+Epoch: 222
+
+Epoch: 223
+
+Epoch: 224
+
+Epoch: 225
+
+Epoch: 226
+
+Epoch: 227
+
+Epoch: 228
+
+Epoch: 229
+
+Epoch: 230
+TRAIN Iter 230: lr = 0.000128,	loss = 0.002121,	Top-1 err = 1.000000,	Top-5 err = 0.000000,	train_time = 2.239155
+TEST Iter 230: loss = 2.274661,	Top-1 err = 48.229299,	Top-5 err = 8.942675,	val_time = 12.744994
+
+Epoch: 231
+
+Epoch: 232
+
+Epoch: 233
+
+Epoch: 234
+
+Epoch: 235
+
+Epoch: 236
+
+Epoch: 237
+
+Epoch: 238
+
+Epoch: 239
+
+Epoch: 240
+TRAIN Iter 240: lr = 0.000095,	loss = 0.002748,	Top-1 err = 57.000000,	Top-5 err = 14.000000,	train_time = 2.174254
+TEST Iter 240: loss = 2.154195,	Top-1 err = 46.980892,	Top-5 err = 8.585987,	val_time = 12.769291
+
+Epoch: 241
+
+Epoch: 242
+
+Epoch: 243
+
+Epoch: 244
+
+Epoch: 245
+
+Epoch: 246
+
+Epoch: 247
+
+Epoch: 248
+
+Epoch: 249
+
+Epoch: 250
+TRAIN Iter 250: lr = 0.000067,	loss = 0.002355,	Top-1 err = 10.000000,	Top-5 err = 1.000000,	train_time = 2.234985
+TEST Iter 250: loss = 2.401843,	Top-1 err = 49.401274,	Top-5 err = 9.859873,	val_time = 12.708291
+
+Epoch: 251
+
+Epoch: 252
+
+Epoch: 253
+
+Epoch: 254
+
+Epoch: 255
+
+Epoch: 256
+
+Epoch: 257
+
+Epoch: 258
+
+Epoch: 259
+
+Epoch: 260
+TRAIN Iter 260: lr = 0.000043,	loss = 0.002581,	Top-1 err = 30.000000,	Top-5 err = 2.000000,	train_time = 2.269757
+TEST Iter 260: loss = 2.151810,	Top-1 err = 46.853503,	Top-5 err = 8.687898,	val_time = 12.863888
+
+Epoch: 261
+
+Epoch: 262
+
+Epoch: 263
+
+Epoch: 264
+
+Epoch: 265
+
+Epoch: 266
+
+Epoch: 267
+
+Epoch: 268
+
+Epoch: 269
+
+Epoch: 270
+TRAIN Iter 270: lr = 0.000024,	loss = 0.002848,	Top-1 err = 34.000000,	Top-5 err = 2.000000,	train_time = 2.195860
+TEST Iter 270: loss = 2.094314,	Top-1 err = 45.936306,	Top-5 err = 7.796178,	val_time = 12.803195
+
+Epoch: 271
+
+Epoch: 272
+
+Epoch: 273
+
+Epoch: 274
+
+Epoch: 275
+
+Epoch: 276
+
+Epoch: 277
+
+Epoch: 278
+
+Epoch: 279
+
+Epoch: 280
+TRAIN Iter 280: lr = 0.000011,	loss = 0.002121,	Top-1 err = 2.000000,	Top-5 err = 0.000000,	train_time = 2.358321
+TEST Iter 280: loss = 2.072138,	Top-1 err = 45.783439,	Top-5 err = 8.050955,	val_time = 12.873779
+
+Epoch: 281
+
+Epoch: 282
+
+Epoch: 283
+
+Epoch: 284
+
+Epoch: 285
+
+Epoch: 286
+
+Epoch: 287
+
+Epoch: 288
+
+Epoch: 289
+
+Epoch: 290
+TRAIN Iter 290: lr = 0.000003,	loss = 0.002777,	Top-1 err = 84.000000,	Top-5 err = 13.000000,	train_time = 2.242349
+TEST Iter 290: loss = 2.159203,	Top-1 err = 46.522293,	Top-5 err = 8.127389,	val_time = 12.849441
+
+Epoch: 291
+
+Epoch: 292
+
+Epoch: 293
+
+Epoch: 294
+
+Epoch: 295
+
+Epoch: 296
+
+Epoch: 297
+
+Epoch: 298
+
+Epoch: 299
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.004 MB of 0.029 MB uploaded (0.000 MB deduped)wandb: \ 0.004 MB of 0.029 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:  train/Top1 ▂▃▄▅▅▅▆▅▆▄▃▃▇▄▇█▇▅█▇▁▇▄▇▆█▄▇██▇█▆▂▁▄█▆█▁
+wandb:  train/Top5 ▄▂▆▆▇▇▇▇▇▆▆▆█▆███▇██▁█▆█▇█▇███▇▇█▄▆▆█▇█▃
+wandb: train/epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:  train/loss █▅▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    train/lr ███████▇▇▇▇▇▇▆▆▆▅▅▅▅▄▄▄▄▃▃▃▃▂▂▂▂▂▁▁▁▁▁▁▁
+wandb:   val/epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:    val/loss ██▃▂▂▃▄▂▂▃▂▂▂▂▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:    val/top1 ▁▂▂▃▃▄▃▅▅▄▅▆▅▆▆▇▇▇▇▆▇▇███▇█████
+wandb:    val/top5 ▁▂▂▃▅▆▄▆▆▆▆▇▆▇▇▇▇▇█▇███████████
+wandb: 
+wandb: Run summary:
+wandb:  train/Top1 15.0
+wandb:  train/Top5 77.0
+wandb: train/epoch 299
+wandb:  train/loss 0.0025
+wandb:    train/lr 0.0
+wandb:   val/epoch 299
+wandb:    val/loss 2.17534
+wandb:    val/top1 53.55414
+wandb:    val/top5 91.74522
+wandb: 
+wandb: 🚀 View run sweet-deluge-430 at: https://wandb.ai/hl57/final_rn18_fkd/runs/5ypnmz6i
+wandb: ️⚡ View job at https://wandb.ai/hl57/final_rn18_fkd/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk3MzkyNjU3/version_details/v42
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20231020_004829-5ypnmz6i/logs
+TEST Iter 299: loss = 2.175338,	Top-1 err = 46.445860,	Top-5 err = 8.254777,	val_time = 12.948559

@@ -1,0 +1,28 @@
+[
+    {
+        "script": "data_synthesis.py",
+        "args": {
+            "dataset": "imagenette",
+            "exp_name": "182",
+            "syn_data_path": "./syn_data/imagenette/182",
+            "real_data_path": "/home/techt/Desktop/imagenette",
+            "ipc": 10,
+            "store_best_images": true,
+            "wb": true,
+            "weight_wb": false,
+            "per_class_bn": false,
+            "batch_size": 100,
+            "iteration": 2000,
+            "lr": 0.25,
+            "jitter": 32,
+            "r_bn": 0.01,
+            "first_bn_multiplier": 10.0,
+            "tv_l2": 0.0,
+            "l2_scale": 0.0,
+            "model": "resnet18",
+            "ckpt_path": "../pretrain/output/imagenette_resnet18/180/checkpoint.pth",
+            "verifier": true,
+            "verifier_arch": "mobilenet_v2"
+        }
+    }
+]

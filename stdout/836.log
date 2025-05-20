@@ -1,0 +1,14 @@
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/tiny-imagenet/478/
+num img: 2000
+batch size: 25
+max epoch: 300
+================================
+Traceback (most recent call last):
+  File "train_FKD.py", line 367, in <module>
+    main()
+  File "train_FKD.py", line 103, in main
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/train/../relabel/utils_fkd.py", line 163, in __init__
+    raise ValueError('`--batch-size` should be same in both saving and loading phase. Please use `--gradient-accumulation-steps` to control batch size in model forward phase.')
+ValueError: `--batch-size` should be same in both saving and loading phase. Please use `--gradient-accumulation-steps` to control batch size in model forward phase.

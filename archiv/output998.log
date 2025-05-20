@@ -1,0 +1,163 @@
+nohup: ignoring input
+======= FKD: dataset info ======
+path: ../relabel/FKD_cutmix_fp16/imagenette/998/
+num img: 100
+batch size: 100
+max epoch: 300
+================================
+load data successfully
+=> loading student model 'resnet18'
+TRAIN Iter 0: lr = 0.001000,	loss = 0.005591,	Top-1 acc = 10.000000,	Top-5 acc = 49.000000,	train_time = 3.759009
+TEST Iter 0: loss = 12.554089,	Top-1 acc = 10.675159,	Top-5 acc = 51.031847,	val_time = 15.690128
+TEST Iter 0: loss = 22.534525,	Top-1 acc = 0.382166,	Top-5 acc = 41.375796,	val_time = 35.625702
+TEST Iter 0: loss = 15.287424,	Top-1 acc = 10.496815,	Top-5 acc = 48.560510,	val_time = 35.777498
+{'clean': 10.67515923566879, 'robust_PGD1': 0.3821656050955414, 'robust_PGD2': 10.496815286624203}
+TRAIN Iter 10: lr = 0.000997,	loss = 0.003068,	Top-1 acc = 12.000000,	Top-5 acc = 57.000000,	train_time = 2.798224
+TEST Iter 10: loss = 3.912359,	Top-1 acc = 19.235669,	Top-5 acc = 63.057325,	val_time = 15.679226
+TEST Iter 10: loss = 13.943891,	Top-1 acc = 0.280255,	Top-5 acc = 39.643312,	val_time = 37.338493
+TEST Iter 10: loss = 6.578006,	Top-1 acc = 4.101911,	Top-5 acc = 50.573248,	val_time = 36.761930
+{'clean': 19.235668789808916, 'robust_PGD1': 0.2802547770700637, 'robust_PGD2': 4.101910828025478}
+TRAIN Iter 20: lr = 0.000989,	loss = 0.002712,	Top-1 acc = 25.000000,	Top-5 acc = 79.000000,	train_time = 2.755636
+TEST Iter 20: loss = 14.444868,	Top-1 acc = 13.987261,	Top-5 acc = 59.949045,	val_time = 15.595956
+TEST Iter 20: loss = 40.608716,	Top-1 acc = 5.910828,	Top-5 acc = 50.038217,	val_time = 36.071769
+TEST Iter 20: loss = 20.826419,	Top-1 acc = 9.834395,	Top-5 acc = 55.770701,	val_time = 35.998440
+{'clean': 13.987261146496815, 'robust_PGD1': 5.910828025477707, 'robust_PGD2': 9.834394904458598}
+TRAIN Iter 30: lr = 0.000976,	loss = 0.002058,	Top-1 acc = 32.000000,	Top-5 acc = 77.000000,	train_time = 2.883934
+TEST Iter 30: loss = 4.798150,	Top-1 acc = 23.541401,	Top-5 acc = 69.885350,	val_time = 15.733426
+TEST Iter 30: loss = 21.681883,	Top-1 acc = 3.541401,	Top-5 acc = 39.490446,	val_time = 36.569840
+TEST Iter 30: loss = 8.299432,	Top-1 acc = 12.229299,	Top-5 acc = 56.331210,	val_time = 36.504548
+{'clean': 23.54140127388535, 'robust_PGD1': 3.5414012738853504, 'robust_PGD2': 12.229299363057326}
+TRAIN Iter 40: lr = 0.000957,	loss = 0.002117,	Top-1 acc = 25.000000,	Top-5 acc = 62.000000,	train_time = 2.752278
+TEST Iter 40: loss = 2.103659,	Top-1 acc = 32.076433,	Top-5 acc = 81.987261,	val_time = 15.358172
+TEST Iter 40: loss = 8.652545,	Top-1 acc = 0.229299,	Top-5 acc = 30.828025,	val_time = 35.897983
+TEST Iter 40: loss = 3.836090,	Top-1 acc = 10.140127,	Top-5 acc = 62.038217,	val_time = 36.210745
+{'clean': 32.07643312101911, 'robust_PGD1': 0.22929936305732485, 'robust_PGD2': 10.140127388535031}
+TRAIN Iter 50: lr = 0.000933,	loss = 0.002019,	Top-1 acc = 39.000000,	Top-5 acc = 81.000000,	train_time = 2.761082
+TEST Iter 50: loss = 2.003644,	Top-1 acc = 40.840764,	Top-5 acc = 86.394904,	val_time = 15.809065
+TEST Iter 50: loss = 11.512994,	Top-1 acc = 0.840764,	Top-5 acc = 34.114650,	val_time = 36.485333
+TEST Iter 50: loss = 4.129815,	Top-1 acc = 11.414013,	Top-5 acc = 65.656051,	val_time = 36.731181
+{'clean': 40.84076433121019, 'robust_PGD1': 0.8407643312101911, 'robust_PGD2': 11.414012738853502}
+TRAIN Iter 60: lr = 0.000905,	loss = 0.001430,	Top-1 acc = 28.000000,	Top-5 acc = 81.000000,	train_time = 2.736843
+TEST Iter 60: loss = 2.543325,	Top-1 acc = 32.815287,	Top-5 acc = 80.713376,	val_time = 15.788016
+TEST Iter 60: loss = 11.496773,	Top-1 acc = 0.968153,	Top-5 acc = 37.350318,	val_time = 36.717996
+TEST Iter 60: loss = 4.753851,	Top-1 acc = 12.229299,	Top-5 acc = 64.484076,	val_time = 37.364694
+{'clean': 32.81528662420382, 'robust_PGD1': 0.9681528662420382, 'robust_PGD2': 12.229299363057326}
+TRAIN Iter 70: lr = 0.000872,	loss = 0.001600,	Top-1 acc = 30.000000,	Top-5 acc = 79.000000,	train_time = 3.057477
+TEST Iter 70: loss = 2.117037,	Top-1 acc = 43.949045,	Top-5 acc = 88.560510,	val_time = 16.398157
+TEST Iter 70: loss = 12.833655,	Top-1 acc = 1.579618,	Top-5 acc = 39.006369,	val_time = 36.571710
+TEST Iter 70: loss = 4.637746,	Top-1 acc = 14.140127,	Top-5 acc = 71.566879,	val_time = 36.240686
+{'clean': 43.94904458598726, 'robust_PGD1': 1.5796178343949046, 'robust_PGD2': 14.140127388535031}
+TRAIN Iter 80: lr = 0.000835,	loss = 0.001519,	Top-1 acc = 42.000000,	Top-5 acc = 87.000000,	train_time = 2.730428
+TEST Iter 80: loss = 1.673880,	Top-1 acc = 46.445860,	Top-5 acc = 88.229299,	val_time = 15.519726
+TEST Iter 80: loss = 9.645858,	Top-1 acc = 1.070064,	Top-5 acc = 37.146497,	val_time = 36.007215
+TEST Iter 80: loss = 3.576907,	Top-1 acc = 14.369427,	Top-5 acc = 69.910828,	val_time = 36.131175
+{'clean': 46.445859872611464, 'robust_PGD1': 1.070063694267516, 'robust_PGD2': 14.369426751592357}
+TRAIN Iter 90: lr = 0.000794,	loss = 0.001299,	Top-1 acc = 28.000000,	Top-5 acc = 68.000000,	train_time = 2.769471
+TEST Iter 90: loss = 1.858343,	Top-1 acc = 43.694268,	Top-5 acc = 89.783439,	val_time = 15.496315
+TEST Iter 90: loss = 12.474778,	Top-1 acc = 0.458599,	Top-5 acc = 39.057325,	val_time = 36.049387
+TEST Iter 90: loss = 4.277732,	Top-1 acc = 13.350318,	Top-5 acc = 73.681529,	val_time = 36.225042
+{'clean': 43.69426751592356, 'robust_PGD1': 0.4585987261146497, 'robust_PGD2': 13.35031847133758}
+TRAIN Iter 100: lr = 0.000750,	loss = 0.001527,	Top-1 acc = 17.000000,	Top-5 acc = 75.000000,	train_time = 2.777545
+TEST Iter 100: loss = 1.721859,	Top-1 acc = 48.152866,	Top-5 acc = 89.834395,	val_time = 15.449478
+TEST Iter 100: loss = 11.971562,	Top-1 acc = 0.458599,	Top-5 acc = 40.764331,	val_time = 35.927375
+TEST Iter 100: loss = 3.897916,	Top-1 acc = 12.942675,	Top-5 acc = 73.121019,	val_time = 36.133950
+{'clean': 48.152866242038215, 'robust_PGD1': 0.4585987261146497, 'robust_PGD2': 12.94267515923567}
+TRAIN Iter 110: lr = 0.000703,	loss = 0.001212,	Top-1 acc = 47.000000,	Top-5 acc = 90.000000,	train_time = 2.767555
+TEST Iter 110: loss = 1.637987,	Top-1 acc = 47.261146,	Top-5 acc = 89.477707,	val_time = 15.727757
+TEST Iter 110: loss = 9.365731,	Top-1 acc = 1.910828,	Top-5 acc = 34.598726,	val_time = 36.218768
+TEST Iter 110: loss = 3.407129,	Top-1 acc = 17.197452,	Top-5 acc = 70.089172,	val_time = 36.048613
+{'clean': 47.261146496815286, 'robust_PGD1': 1.910828025477707, 'robust_PGD2': 17.197452229299362}
+TRAIN Iter 120: lr = 0.000655,	loss = 0.001190,	Top-1 acc = 47.000000,	Top-5 acc = 83.000000,	train_time = 2.844021
+TEST Iter 120: loss = 1.542066,	Top-1 acc = 50.777070,	Top-5 acc = 91.719745,	val_time = 15.769009
+TEST Iter 120: loss = 11.820302,	Top-1 acc = 0.254777,	Top-5 acc = 39.719745,	val_time = 37.026343
+TEST Iter 120: loss = 3.777285,	Top-1 acc = 15.898089,	Top-5 acc = 77.121019,	val_time = 36.366212
+{'clean': 50.77707006369427, 'robust_PGD1': 0.25477707006369427, 'robust_PGD2': 15.898089171974522}
+TRAIN Iter 130: lr = 0.000604,	loss = 0.001247,	Top-1 acc = 43.000000,	Top-5 acc = 85.000000,	train_time = 2.765409
+TEST Iter 130: loss = 1.556140,	Top-1 acc = 51.031847,	Top-5 acc = 92.611465,	val_time = 15.903606
+TEST Iter 130: loss = 12.457167,	Top-1 acc = 0.458599,	Top-5 acc = 38.700637,	val_time = 36.887823
+TEST Iter 130: loss = 3.941163,	Top-1 acc = 16.917197,	Top-5 acc = 77.681529,	val_time = 36.599777
+{'clean': 51.031847133757964, 'robust_PGD1': 0.4585987261146497, 'robust_PGD2': 16.9171974522293}
+TRAIN Iter 140: lr = 0.000552,	loss = 0.001066,	Top-1 acc = 31.000000,	Top-5 acc = 83.000000,	train_time = 2.866405
+TEST Iter 140: loss = 1.387723,	Top-1 acc = 53.554140,	Top-5 acc = 92.535032,	val_time = 15.892982
+TEST Iter 140: loss = 11.202539,	Top-1 acc = 0.356688,	Top-5 acc = 37.987261,	val_time = 36.563261
+TEST Iter 140: loss = 3.481297,	Top-1 acc = 16.203822,	Top-5 acc = 76.280255,	val_time = 36.344919
+{'clean': 53.554140127388536, 'robust_PGD1': 0.35668789808917195, 'robust_PGD2': 16.203821656050955}
+TRAIN Iter 150: lr = 0.000500,	loss = 0.000967,	Top-1 acc = 37.000000,	Top-5 acc = 85.000000,	train_time = 2.761429
+TEST Iter 150: loss = 1.335392,	Top-1 acc = 59.515924,	Top-5 acc = 93.248408,	val_time = 15.635112
+TEST Iter 150: loss = 11.421550,	Top-1 acc = 0.535032,	Top-5 acc = 34.063694,	val_time = 36.833194
+TEST Iter 150: loss = 3.504120,	Top-1 acc = 16.764331,	Top-5 acc = 74.624204,	val_time = 37.678195
+{'clean': 59.51592356687898, 'robust_PGD1': 0.535031847133758, 'robust_PGD2': 16.764331210191084}
+TRAIN Iter 160: lr = 0.000448,	loss = 0.001156,	Top-1 acc = 32.000000,	Top-5 acc = 79.000000,	train_time = 2.821905
+TEST Iter 160: loss = 1.387139,	Top-1 acc = 57.834395,	Top-5 acc = 91.643312,	val_time = 15.916003
+TEST Iter 160: loss = 12.021994,	Top-1 acc = 0.509554,	Top-5 acc = 35.337580,	val_time = 37.960538
+TEST Iter 160: loss = 3.658403,	Top-1 acc = 16.229299,	Top-5 acc = 74.573248,	val_time = 38.126881
+{'clean': 57.8343949044586, 'robust_PGD1': 0.5095541401273885, 'robust_PGD2': 16.229299363057326}
+TRAIN Iter 170: lr = 0.000396,	loss = 0.000948,	Top-1 acc = 24.000000,	Top-5 acc = 74.000000,	train_time = 2.715331
+TEST Iter 170: loss = 1.315367,	Top-1 acc = 56.968153,	Top-5 acc = 92.585987,	val_time = 15.723441
+TEST Iter 170: loss = 10.645793,	Top-1 acc = 0.152866,	Top-5 acc = 35.414013,	val_time = 37.408390
+TEST Iter 170: loss = 3.297436,	Top-1 acc = 16.560510,	Top-5 acc = 76.662420,	val_time = 37.503984
+{'clean': 56.968152866242036, 'robust_PGD1': 0.15286624203821655, 'robust_PGD2': 16.56050955414013}
+TRAIN Iter 180: lr = 0.000345,	loss = 0.000798,	Top-1 acc = 9.000000,	Top-5 acc = 52.000000,	train_time = 2.834000
+TEST Iter 180: loss = 1.454808,	Top-1 acc = 55.388535,	Top-5 acc = 91.592357,	val_time = 15.868548
+TEST Iter 180: loss = 13.759168,	Top-1 acc = 0.025478,	Top-5 acc = 37.121019,	val_time = 37.176413
+TEST Iter 180: loss = 4.110811,	Top-1 acc = 13.859873,	Top-5 acc = 77.248408,	val_time = 36.781084
+{'clean': 55.388535031847134, 'robust_PGD1': 0.025477707006369428, 'robust_PGD2': 13.859872611464969}
+TRAIN Iter 190: lr = 0.000297,	loss = 0.000975,	Top-1 acc = 28.000000,	Top-5 acc = 72.000000,	train_time = 2.761373
+TEST Iter 190: loss = 1.342228,	Top-1 acc = 58.802548,	Top-5 acc = 93.121019,	val_time = 15.599643
+TEST Iter 190: loss = 11.887734,	Top-1 acc = 0.636943,	Top-5 acc = 28.178344,	val_time = 37.029549
+TEST Iter 190: loss = 3.683584,	Top-1 acc = 16.585987,	Top-5 acc = 74.624204,	val_time = 37.024310
+{'clean': 58.802547770700635, 'robust_PGD1': 0.6369426751592356, 'robust_PGD2': 16.585987261146496}
+TRAIN Iter 200: lr = 0.000250,	loss = 0.000859,	Top-1 acc = 45.000000,	Top-5 acc = 86.000000,	train_time = 2.780136
+TEST Iter 200: loss = 1.211475,	Top-1 acc = 62.726115,	Top-5 acc = 94.318471,	val_time = 15.561463
+TEST Iter 200: loss = 12.640506,	Top-1 acc = 0.254777,	Top-5 acc = 34.878981,	val_time = 37.697209
+TEST Iter 200: loss = 3.586934,	Top-1 acc = 18.777070,	Top-5 acc = 76.968153,	val_time = 37.498140
+{'clean': 62.72611464968153, 'robust_PGD1': 0.25477707006369427, 'robust_PGD2': 18.777070063694268}
+TRAIN Iter 210: lr = 0.000206,	loss = 0.000753,	Top-1 acc = 22.000000,	Top-5 acc = 81.000000,	train_time = 2.795436
+TEST Iter 210: loss = 1.254933,	Top-1 acc = 61.248408,	Top-5 acc = 94.038217,	val_time = 15.711650
+TEST Iter 210: loss = 12.880616,	Top-1 acc = 0.127389,	Top-5 acc = 35.235669,	val_time = 37.514756
+TEST Iter 210: loss = 3.709308,	Top-1 acc = 17.630573,	Top-5 acc = 79.261146,	val_time = 37.621533
+{'clean': 61.2484076433121, 'robust_PGD1': 0.12738853503184713, 'robust_PGD2': 17.630573248407643}
+TRAIN Iter 220: lr = 0.000165,	loss = 0.000749,	Top-1 acc = 45.000000,	Top-5 acc = 88.000000,	train_time = 2.824328
+TEST Iter 220: loss = 1.177552,	Top-1 acc = 63.133758,	Top-5 acc = 93.885350,	val_time = 15.782305
+TEST Iter 220: loss = 12.236359,	Top-1 acc = 0.101911,	Top-5 acc = 34.292994,	val_time = 37.826976
+TEST Iter 220: loss = 3.477232,	Top-1 acc = 15.872611,	Top-5 acc = 77.910828,	val_time = 37.647468
+{'clean': 63.13375796178344, 'robust_PGD1': 0.10191082802547771, 'robust_PGD2': 15.872611464968152}
+TRAIN Iter 230: lr = 0.000128,	loss = 0.000659,	Top-1 acc = 35.000000,	Top-5 acc = 85.000000,	train_time = 2.715784
+TEST Iter 230: loss = 1.168426,	Top-1 acc = 63.770701,	Top-5 acc = 93.936306,	val_time = 15.707023
+TEST Iter 230: loss = 12.331708,	Top-1 acc = 0.331210,	Top-5 acc = 37.197452,	val_time = 36.754261
+TEST Iter 230: loss = 3.428437,	Top-1 acc = 18.140127,	Top-5 acc = 79.414013,	val_time = 36.783309
+{'clean': 63.77070063694268, 'robust_PGD1': 0.33121019108280253, 'robust_PGD2': 18.14012738853503}
+TRAIN Iter 240: lr = 0.000095,	loss = 0.000614,	Top-1 acc = 50.000000,	Top-5 acc = 86.000000,	train_time = 2.787425
+TEST Iter 240: loss = 1.092970,	Top-1 acc = 65.757962,	Top-5 acc = 94.700637,	val_time = 15.629197
+TEST Iter 240: loss = 11.652535,	Top-1 acc = 0.203822,	Top-5 acc = 31.261146,	val_time = 36.844477
+TEST Iter 240: loss = 3.308111,	Top-1 acc = 17.324841,	Top-5 acc = 77.681529,	val_time = 36.797646
+{'clean': 65.75796178343948, 'robust_PGD1': 0.20382165605095542, 'robust_PGD2': 17.32484076433121}
+TRAIN Iter 250: lr = 0.000067,	loss = 0.000647,	Top-1 acc = 52.000000,	Top-5 acc = 92.000000,	train_time = 2.745788
+TEST Iter 250: loss = 1.105784,	Top-1 acc = 65.554140,	Top-5 acc = 94.802548,	val_time = 15.592481
+TEST Iter 250: loss = 12.557815,	Top-1 acc = 0.025478,	Top-5 acc = 33.859873,	val_time = 36.804114
+TEST Iter 250: loss = 3.485093,	Top-1 acc = 15.949045,	Top-5 acc = 78.955414,	val_time = 36.743159
+{'clean': 65.55414012738854, 'robust_PGD1': 0.025477707006369428, 'robust_PGD2': 15.949044585987261}
+TRAIN Iter 260: lr = 0.000043,	loss = 0.000752,	Top-1 acc = 28.000000,	Top-5 acc = 73.000000,	train_time = 2.809512
+TEST Iter 260: loss = 1.118795,	Top-1 acc = 65.579618,	Top-5 acc = 94.573248,	val_time = 15.689880
+TEST Iter 260: loss = 12.862935,	Top-1 acc = 0.101911,	Top-5 acc = 33.197452,	val_time = 36.617101
+TEST Iter 260: loss = 3.587965,	Top-1 acc = 17.019108,	Top-5 acc = 77.859873,	val_time = 36.811504
+{'clean': 65.57961783439491, 'robust_PGD1': 0.10191082802547771, 'robust_PGD2': 17.019108280254777}
+TRAIN Iter 270: lr = 0.000024,	loss = 0.000733,	Top-1 acc = 33.000000,	Top-5 acc = 74.000000,	train_time = 2.776480
+TEST Iter 270: loss = 1.110007,	Top-1 acc = 65.324841,	Top-5 acc = 94.751592,	val_time = 15.709241
+TEST Iter 270: loss = 12.621733,	Top-1 acc = 0.050955,	Top-5 acc = 32.305732,	val_time = 36.742087
+TEST Iter 270: loss = 3.540986,	Top-1 acc = 16.993631,	Top-5 acc = 77.910828,	val_time = 37.271432
+{'clean': 65.32484076433121, 'robust_PGD1': 0.050955414012738856, 'robust_PGD2': 16.993630573248407}
+TRAIN Iter 280: lr = 0.000011,	loss = 0.000721,	Top-1 acc = 28.000000,	Top-5 acc = 82.000000,	train_time = 2.755745
+TEST Iter 280: loss = 1.095589,	Top-1 acc = 65.579618,	Top-5 acc = 94.802548,	val_time = 15.684558
+TEST Iter 280: loss = 12.667584,	Top-1 acc = 0.025478,	Top-5 acc = 32.535032,	val_time = 36.913830
+TEST Iter 280: loss = 3.517688,	Top-1 acc = 16.356688,	Top-5 acc = 78.394904,	val_time = 36.775456
+{'clean': 65.57961783439491, 'robust_PGD1': 0.025477707006369428, 'robust_PGD2': 16.356687898089174}
+TRAIN Iter 290: lr = 0.000003,	loss = 0.000671,	Top-1 acc = 47.000000,	Top-5 acc = 90.000000,	train_time = 2.797311
+TEST Iter 290: loss = 1.094952,	Top-1 acc = 65.426752,	Top-5 acc = 94.777070,	val_time = 15.599338
+TEST Iter 290: loss = 12.711789,	Top-1 acc = 0.025478,	Top-5 acc = 32.789809,	val_time = 36.718617
+TEST Iter 290: loss = 3.527245,	Top-1 acc = 16.152866,	Top-5 acc = 78.267516,	val_time = 36.852997
+{'clean': 65.4267515923567, 'robust_PGD1': 0.025477707006369428, 'robust_PGD2': 16.15286624203822}
+TEST Iter 299: loss = 1.090162,	Top-1 acc = 65.834395,	Top-5 acc = 94.853503,	val_time = 15.640614
+TEST Iter 299: loss = 12.814101,	Top-1 acc = 0.025478,	Top-5 acc = 33.248408,	val_time = 37.137956
+TEST Iter 299: loss = 3.536631,	Top-1 acc = 16.356688,	Top-5 acc = 78.649682,	val_time = 36.799376
+{'clean': 65.8343949044586, 'robust_PGD1': 0.025477707006369428, 'robust_PGD2': 16.356687898089174}

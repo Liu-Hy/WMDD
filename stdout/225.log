@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "data_synthesis.py", line 360, in <module>
+    bc = get_bary(args)
+  File "data_synthesis.py", line 189, in get_bary
+    model_teacher.load_state_dict(checkpoint["model"])
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/nn/modules/module.py", line 2041, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for ResNet:
+	Missing key(s) in state_dict: "bn1.accumulated_mean_per_class", "bn1.accumulated_var_per_class", "bn1.samples_seen_per_class", "layer1.0.bn1.accumulated_mean_per_class", "layer1.0.bn1.accumulated_var_per_class", "layer1.0.bn1.samples_seen_per_class", "layer1.0.bn2.accumulated_mean_per_class", "layer1.0.bn2.accumulated_var_per_class", "layer1.0.bn2.samples_seen_per_class", "layer1.1.bn1.accumulated_mean_per_class", "layer1.1.bn1.accumulated_var_per_class", "layer1.1.bn1.samples_seen_per_class", "layer1.1.bn2.accumulated_mean_per_class", "layer1.1.bn2.accumulated_var_per_class", "layer1.1.bn2.samples_seen_per_class", "layer2.0.bn1.accumulated_mean_per_class", "layer2.0.bn1.accumulated_var_per_class", "layer2.0.bn1.samples_seen_per_class", "layer2.0.bn2.accumulated_mean_per_class", "layer2.0.bn2.accumulated_var_per_class", "layer2.0.bn2.samples_seen_per_class", "layer2.0.downsample.conv.weight", "layer2.0.downsample.norm.weight", "layer2.0.downsample.norm.bias", "layer2.0.downsample.norm.running_mean", "layer2.0.downsample.norm.running_var", "layer2.0.downsample.norm.accumulated_mean_per_class", "layer2.0.downsample.norm.accumulated_var_per_class", "layer2.0.downsample.norm.samples_seen_per_class", "layer2.1.bn1.accumulated_mean_per_class", "layer2.1.bn1.accumulated_var_per_class", "layer2.1.bn1.samples_seen_per_class", "layer2.1.bn2.accumulated_mean_per_class", "layer2.1.bn2.accumulated_var_per_class", "layer2.1.bn2.samples_seen_per_class", "layer3.0.bn1.accumulated_mean_per_class", "layer3.0.bn1.accumulated_var_per_class", "layer3.0.bn1.samples_seen_per_class", "layer3.0.bn2.accumulated_mean_per_class", "layer3.0.bn2.accumulated_var_per_class", "layer3.0.bn2.samples_seen_per_class", "layer3.0.downsample.conv.weight", "layer3.0.downsample.norm.weight", "layer3.0.downsample.norm.bias", "layer3.0.downsample.norm.running_mean", "layer3.0.downsample.norm.running_var", "layer3.0.downsample.norm.accumulated_mean_per_class", "layer3.0.downsample.norm.accumulated_var_per_class", "layer3.0.downsample.norm.samples_seen_per_class", "layer3.1.bn1.accumulated_mean_per_class", "layer3.1.bn1.accumulated_var_per_class", "layer3.1.bn1.samples_seen_per_class", "layer3.1.bn2.accumulated_mean_per_class", "layer3.1.bn2.accumulated_var_per_class", "layer3.1.bn2.samples_seen_per_class", "layer4.0.bn1.accumulated_mean_per_class", "layer4.0.bn1.accumulated_var_per_class", "layer4.0.bn1.samples_seen_per_class", "layer4.0.bn2.accumulated_mean_per_class", "layer4.0.bn2.accumulated_var_per_class", "layer4.0.bn2.samples_seen_per_class", "layer4.0.downsample.conv.weight", "layer4.0.downsample.norm.weight", "layer4.0.downsample.norm.bias", "layer4.0.downsample.norm.running_mean", "layer4.0.downsample.norm.running_var", "layer4.0.downsample.norm.accumulated_mean_per_class", "layer4.0.downsample.norm.accumulated_var_per_class", "layer4.0.downsample.norm.samples_seen_per_class", "layer4.1.bn1.accumulated_mean_per_class", "layer4.1.bn1.accumulated_var_per_class", "layer4.1.bn1.samples_seen_per_class", "layer4.1.bn2.accumulated_mean_per_class", "layer4.1.bn2.accumulated_var_per_class", "layer4.1.bn2.samples_seen_per_class". 
+	Unexpected key(s) in state_dict: "bn1.running_mean_per_class", "bn1.running_var_per_class", "layer1.0.bn1.running_mean_per_class", "layer1.0.bn1.running_var_per_class", "layer1.0.bn2.running_mean_per_class", "layer1.0.bn2.running_var_per_class", "layer1.1.bn1.running_mean_per_class", "layer1.1.bn1.running_var_per_class", "layer1.1.bn2.running_mean_per_class", "layer1.1.bn2.running_var_per_class", "layer2.0.bn1.running_mean_per_class", "layer2.0.bn1.running_var_per_class", "layer2.0.bn2.running_mean_per_class", "layer2.0.bn2.running_var_per_class", "layer2.0.downsample.0.weight", "layer2.0.downsample.1.weight", "layer2.0.downsample.1.bias", "layer2.0.downsample.1.running_mean", "layer2.0.downsample.1.running_var", "layer2.0.downsample.1.num_batches_tracked", "layer2.0.downsample.1.running_mean_per_class", "layer2.0.downsample.1.running_var_per_class", "layer2.1.bn1.running_mean_per_class", "layer2.1.bn1.running_var_per_class", "layer2.1.bn2.running_mean_per_class", "layer2.1.bn2.running_var_per_class", "layer3.0.bn1.running_mean_per_class", "layer3.0.bn1.running_var_per_class", "layer3.0.bn2.running_mean_per_class", "layer3.0.bn2.running_var_per_class", "layer3.0.downsample.0.weight", "layer3.0.downsample.1.weight", "layer3.0.downsample.1.bias", "layer3.0.downsample.1.running_mean", "layer3.0.downsample.1.running_var", "layer3.0.downsample.1.num_batches_tracked", "layer3.0.downsample.1.running_mean_per_class", "layer3.0.downsample.1.running_var_per_class", "layer3.1.bn1.running_mean_per_class", "layer3.1.bn1.running_var_per_class", "layer3.1.bn2.running_mean_per_class", "layer3.1.bn2.running_var_per_class", "layer4.0.bn1.running_mean_per_class", "layer4.0.bn1.running_var_per_class", "layer4.0.bn2.running_mean_per_class", "layer4.0.bn2.running_var_per_class", "layer4.0.downsample.0.weight", "layer4.0.downsample.1.weight", "layer4.0.downsample.1.bias", "layer4.0.downsample.1.running_mean", "layer4.0.downsample.1.running_var", "layer4.0.downsample.1.num_batches_tracked", "layer4.0.downsample.1.running_mean_per_class", "layer4.0.downsample.1.running_var_per_class", "layer4.1.bn1.running_mean_per_class", "layer4.1.bn1.running_var_per_class", "layer4.1.bn2.running_mean_per_class", "layer4.1.bn2.running_var_per_class". 
+=> using pytorch pre-trained model 'resnet18'
+process data from ../recover/syn_data/tiny-imagenet/225
+Traceback (most recent call last):
+  File "generate_soft_label.py", line 250, in <module>
+    main()
+  File "generate_soft_label.py", line 126, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "generate_soft_label.py", line 198, in main_worker
+    train_dataset = ImageFolder_FKD_MIX(
+  File "/media/techt/One Touch/DD/SRe2L/relabel/utils_fkd.py", line 153, in __init__
+    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 40, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [Errno 2] No such file or directory: '../recover/syn_data/tiny-imagenet/225'
+W&B disabled.
+W&B online. Running your script from this directory will now sync to the cloud.
+wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231005_213051-e5jieq9z
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run classic-forest-394
+wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
+wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/e5jieq9z
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: 🚀 View run classic-forest-394 at: https://wandb.ai/hl57/final_rn18_fkd/runs/e5jieq9z
+wandb: ️⚡ View job at https://wandb.ai/hl57/final_rn18_fkd/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk3MzkyNjU3/version_details/v37
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20231005_213051-e5jieq9z/logs
+Traceback (most recent call last):
+  File "train_FKD.py", line 390, in <module>
+    main()
+  File "train_FKD.py", line 102, in main
+    assert os.path.exists(args.train_dir)
+AssertionError

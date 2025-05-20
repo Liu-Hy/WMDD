@@ -1,0 +1,123 @@
+[
+    {
+        "script": "generate_soft_label.py",
+        "args": {
+            "dataset": "imagenette",
+            "data": "../recover/syn_data/imagenette/139",
+            "model": "resnet18",
+            "ckpt_path": "../pretrain/output/imagenette_resnet18/133/checkpoint.pth",
+            "workers": 8,
+            "batch_size": 100,
+            "world_size": -1,
+            "rank": -1,
+            "dist_url": "tcp://224.66.41.62:23456",
+            "dist_backend": "nccl",
+            "seed": null,
+            "gpu": null,
+            "multiprocessing_distributed": false,
+            "epochs": 300,
+            "input_size": 224,
+            "min_scale_crops": 0.08,
+            "max_scale_crops": 1.0,
+            "fkd_path": "FKD_cutmix_fp16/imagenette/139",
+            "exp_name": "139",
+            "use_fp16": true,
+            "mode": "fkd_save",
+            "fkd_seed": 42,
+            "mix_type": "cutmix",
+            "mixup": 0.8,
+            "cutmix": 1.0
+        }
+    },
+    {
+        "script": "data_synthesis.py",
+        "args": {
+            "dataset": "imagenette",
+            "exp_name": "139",
+            "syn_data_path": "./syn_data/imagenette/139",
+            "real_data_path": "/home/techt/Desktop/imagenette",
+            "ipc": 1,
+            "store_best_images": true,
+            "wb": false,
+            "weight_wb": false,
+            "batch_size": 100,
+            "iteration": 2000,
+            "lr": 0.25,
+            "jitter": 32,
+            "r_bn": 0.1,
+            "first_bn_multiplier": 10.0,
+            "tv_l2": 0.0,
+            "l2_scale": 0.0,
+            "model": "resnet18",
+            "ckpt_path": "../pretrain/output/imagenette_resnet18/133/checkpoint.pth",
+            "verifier": true,
+            "verifier_arch": "mobilenet_v2"
+        }
+    },
+    {
+        "script": "train_FKD.py",
+        "args": {
+            "dataset": "imagenette",
+            "batch_size": 10,
+            "gradient_accumulation_steps": 1,
+            "start_epoch": 0,
+            "epochs": 300,
+            "workers": 8,
+            "train_dir": "../recover/syn_data/imagenette/139",
+            "val_dir": "/home/techt/Desktop/imagenette/val",
+            "output_dir": "./save/final_rn18_fkd/139/",
+            "exp_name": "139",
+            "cos": true,
+            "sgd": false,
+            "learning_rate": 1.024,
+            "momentum": 0.875,
+            "weight_decay": 3e-05,
+            "adamw_lr": 0.001,
+            "adamw_weight_decay": 0.01,
+            "model": "resnet18",
+            "keep_topk": 1000,
+            "temperature": 20.0,
+            "fkd_path": "../relabel/FKD_cutmix_fp16/imagenette/139",
+            "wandb_project": "final_rn18_fkd",
+            "wandb_api_key": null,
+            "mix_type": "cutmix",
+            "fkd_seed": 42,
+            "mode": "fkd_load"
+        }
+    },
+    {
+        "clean": 10.67515923566879,
+        "robust_PGD1": 8.305732484076433,
+        "robust_PGD2": 10.64968152866242
+    },
+    {
+        "clean": 12.993630573248408,
+        "robust_PGD1": 1.0445859872611465,
+        "robust_PGD2": 5.630573248407643
+    },
+    {
+        "clean": 16.15286624203822,
+        "robust_PGD1": 0.40764331210191085,
+        "robust_PGD2": 5.375796178343949
+    },
+    {
+        "clean": 15.796178343949045,
+        "robust_PGD1": 0.4840764331210191,
+        "robust_PGD2": 5.375796178343949
+    },
+    {
+        "clean": 16.101910828025478,
+        "robust_PGD1": 0.8662420382165605,
+        "robust_PGD2": 6.471337579617835
+    },
+    {
+        "clean": 17.095541401273884,
+        "robust_PGD1": 0.5605095541401274,
+        "robust_PGD2": 5.656050955414012
+    },
+    {
+        "clean": 16.713375796178344,
+        "robust_PGD1": 0.5095541401273885,
+        "robust_PGD2": 5.7834394904458595
+    }
+]
