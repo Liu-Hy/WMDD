@@ -1,19 +1,20 @@
-# SRe2L
+# Dataset Distillation with Feature Matching through the Wasserstein Metric
 
 Official PyTorch implementation of paper:
->[__"*Squeeze*, *Recover* and *Relabel*: Dataset Condensation at ImageNet Scale From A New Perspective"__](https://arxiv.org/abs/2306.13092)<br>
->[Zeyuan Yin](https://zeyuanyin.github.io), [Eric Xing](http://www.cs.cmu.edu/~epxing/), [Zhiqiang Shen](http://zhiqiangshen.com/)<br>
->MBZUAI, CMU
+>[__"Dataset Distillation with Feature Matching through the Wasserstein Metric"__](https://arxiv.org/abs/2311.18531)<br>
+>Haoyang Liu, Yijiang Li, Tiancheng Xing, Vibhu Dalal, Luwei Li, Jingrui He, Haohan Wang<br>
+>UIUC, UC San Diego, Nanjing University
 
-[`[Project Page]`](https://zeyuanyin.github.io/projects/SRe2L/)  [`[Paper]`](https://arxiv.org/abs/2306.13092)
+[`[Project Page]`]()  [`[Paper]`](https://arxiv.org/abs/2311.18531)  [`[Code]`](https://github.com/Liu-Hy/WMDD)
+
+***Abstract.***
+> Dataset Distillation (DD) aims to generate a compact synthetic dataset that enables models to achieve performance comparable to training on the full large dataset, significantly reducing computational costs. Drawing from optimal transport theory, we introduce WMDD (Dataset Distillation with Wasserstein Metric-based Feature Matching), a straightforward yet powerful method that employs the Wasserstein metric to enhance distribution matching.
+>
+> We compute the Wasserstein barycenter of features from a pretrained classifier to capture essential characteristics of the original data distribution. By optimizing synthetic data to align with this barycenter in feature space and leveraging per-class BatchNorm statistics to preserve intra-class variations, WMDD maintains the efficiency of distribution matching approaches while achieving state-of-the-art results across various high-resolution datasets. Our extensive experiments demonstrate WMDD's effectiveness and adaptability, highlighting its potential for advancing machine learning applications at scale.
 
 <div align=center>
 <img width=80% src="./img/overview.png"/>
 </div>
-
-## Abstract
-
-We present a new dataset condensation framework termed *<b>S</b>queeze* (<img width=2% src="./img/squeeze.png"/>), *<b>Re</b>cover* (<img width=2% src="./img/recover.png"/>) and *<b>Re</b>labe<b>l</b>* (<img width=1.7% src="./img/relabel.png"/>) (SRe<sup>2</sup>L) that decouples the bilevel optimization of model and synthetic data during training, to handle varying scales of datasets, model architectures and image resolutions for effective dataset condensation. The proposed method demonstrates flexibility across diverse dataset scales and exhibits multiple advantages in terms of arbitrary resolutions of synthesized images, low training cost and memory consumption with high-resolution training, and the ability to scale up to arbitrary evaluation network architectures. Extensive experiments are conducted on Tiny-ImageNet and full ImageNet-1K datasets. Under 50 IPC, our approach achieves the highest 42.5% and 60.8% validation accuracy on Tiny-ImageNet and ImageNet-1K, outperforming all previous state-of-the-art methods by margins of 14.5% and 32.9%, respectively. Our approach also outperforms MTT by approximately 52&times; (ConvNet-4) and 16&times; (ResNet-18) faster in speed with less memory consumption of 11.6&times; and 6.4&times; during data synthesis.
 
 
 ## Distillation Animation
@@ -87,11 +88,11 @@ Our Top-1 accuracy (%) under different IPC settings on Tiny-ImageNet and ImageNe
 If you find our code useful for your research, please cite our paper.
 
 ```
-@article{yin2023squeeze,
-	title = {Squeeze, Recover and Relabel: Dataset Condensation at ImageNet Scale From A New Perspective},
-	author = {Yin, Zeyuan and Xing, Eric and Shen, Zhiqiang},
-	journal = {arXiv preprint arXiv:2306.13092},
-	year = {2023}
+@article{liu2023dataset,
+  title={Dataset distillation via the wasserstein metric},
+  author={Liu, Haoyang and Li, Yijiang and Xing, Tiancheng and Dalal, Vibhu and Li, Luwei and He, Jingrui and Wang, Haohan},
+  journal={arXiv preprint arXiv:2311.18531},
+  year={2023}
 }
 ```
 
