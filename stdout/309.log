@@ -1,503 +1,0 @@
-r_bn:  1.0
-lr:  0.25
-Processing class 0
-Execution time for loading class data: 0.000112 seconds
-Execution time for forwad pass only: 0.930148 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009167 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008569 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008308 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008303 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008310 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008299 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008078 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008144 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.018449 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000314 seconds
-Execution time for computing features: 5.061532 seconds
-Execution time for computing barycenter: 0.005274 seconds
-Processing class 1
-Execution time for loading class data: 0.000070 seconds
-Execution time for forwad pass only: 0.011531 seconds
-Execution time for hook only: 0.000006 seconds
-Execution time for forwad pass only: 0.009906 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009922 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008921 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008790 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009014 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008751 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008737 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.011552 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.018704 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000669 seconds
-Execution time for computing features: 4.465162 seconds
-Execution time for computing barycenter: 0.003332 seconds
-Processing class 2
-Execution time for loading class data: 0.000102 seconds
-Execution time for forwad pass only: 0.011670 seconds
-Execution time for hook only: 0.000009 seconds
-Execution time for forwad pass only: 0.010993 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.010632 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009939 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009552 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009454 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009499 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009729 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009429 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.022051 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000865 seconds
-Execution time for computing features: 3.792648 seconds
-Execution time for computing barycenter: 0.004030 seconds
-Processing class 3
-Execution time for loading class data: 0.000102 seconds
-Execution time for forwad pass only: 0.011134 seconds
-Execution time for hook only: 0.000005 seconds
-Execution time for forwad pass only: 0.009326 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009581 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009287 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009097 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008371 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008537 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008537 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.020483 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000729 seconds
-Execution time for computing features: 3.895905 seconds
-Execution time for computing barycenter: 0.003266 seconds
-Processing class 4
-Execution time for loading class data: 0.000102 seconds
-Execution time for forwad pass only: 0.010520 seconds
-Execution time for hook only: 0.000007 seconds
-Execution time for forwad pass only: 0.010396 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009161 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008530 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008859 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008712 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009281 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008697 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008934 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.018752 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000712 seconds
-Execution time for computing features: 4.739629 seconds
-Execution time for computing barycenter: 0.002492 seconds
-Processing class 5
-Execution time for loading class data: 0.000073 seconds
-Execution time for forwad pass only: 0.011244 seconds
-Execution time for hook only: 0.000010 seconds
-Execution time for forwad pass only: 0.009541 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009298 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009299 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009402 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009456 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009185 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008884 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.011599 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.018565 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000750 seconds
-Execution time for computing features: 4.990502 seconds
-Execution time for computing barycenter: 0.003555 seconds
-Processing class 6
-Execution time for loading class data: 0.000103 seconds
-Execution time for forwad pass only: 0.011849 seconds
-Execution time for hook only: 0.000008 seconds
-Execution time for forwad pass only: 0.010933 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009338 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009828 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009775 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009407 seconds
-Execution time for hook only: 0.000001 seconds
-Execution time for forwad pass only: 0.008813 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008772 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.011429 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.018403 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000718 seconds
-Execution time for computing features: 5.104903 seconds
-Execution time for computing barycenter: 0.003669 seconds
-Processing class 7
-Execution time for loading class data: 0.000100 seconds
-Execution time for forwad pass only: 0.011917 seconds
-Execution time for hook only: 0.000005 seconds
-Execution time for forwad pass only: 0.010328 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009246 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009255 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009411 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009458 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009372 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.010301 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.011498 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.018774 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000724 seconds
-Execution time for computing features: 5.280118 seconds
-Execution time for computing barycenter: 0.003669 seconds
-Processing class 8
-Execution time for loading class data: 0.000103 seconds
-Execution time for forwad pass only: 0.012007 seconds
-Execution time for hook only: 0.000005 seconds
-Execution time for forwad pass only: 0.009679 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009284 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009292 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009263 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008972 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009042 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009225 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.011594 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.018569 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000776 seconds
-Execution time for computing features: 4.002582 seconds
-Execution time for computing barycenter: 0.003719 seconds
-Processing class 9
-Execution time for loading class data: 0.000103 seconds
-Execution time for forwad pass only: 0.012117 seconds
-Execution time for hook only: 0.000011 seconds
-Execution time for forwad pass only: 0.010304 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009091 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.009079 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008518 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008707 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008698 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008760 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.008929 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for forwad pass only: 0.018097 seconds
-Execution time for hook only: 0.000000 seconds
-Execution time for converting features to numpy: 0.000757 seconds
-Execution time for computing features: 4.663230 seconds
-Execution time for computing barycenter: 0.003521 seconds
-bc shape (10, 1, 512)
-getting batchnorm for class 0
-getting batchnorm for class 1
-getting batchnorm for class 2
-getting batchnorm for class 3
-getting batchnorm for class 4
-getting batchnorm for class 5
-getting batchnorm for class 6
-getting batchnorm for class 7
-getting batchnorm for class 8
-getting batchnorm for class 9
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
-  warnings.warn(
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
-  warnings.warn(msg)
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
-  warnings.warn(
-Execution time for computing per-class batchnorm statistics: 46.439232 seconds
-get_images call
-class_per_batch  10 batch_size  100 args.ipc  1
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-start_cls 0 end_cls 10
-Length of input 10 is different from effective batch size 10
-------------iteration 0----------
-total loss 2434.497763572528
-main criterion 27.6173924787779
-weighted_aux_loss 2406.88037109375
-loss_r_bn_feature 2406.88037109375
-------------iteration 100----------
-total loss 440.2678638416029
-main criterion 10.871043773243496
-weighted_aux_loss 429.3968200683594
-loss_r_bn_feature 429.3968200683594
-------------iteration 200----------
-total loss 441.4778593492472
-main criterion 11.529495091434699
-weighted_aux_loss 429.9483642578125
-loss_r_bn_feature 429.9483642578125
-------------iteration 300----------
-total loss 513.7499924054082
-main criterion 10.915977512830038
-weighted_aux_loss 502.8340148925781
-loss_r_bn_feature 502.8340148925781
-------------iteration 400----------
-total loss 537.1774183686218
-main criterion 9.551075595184326
-weighted_aux_loss 527.6263427734375
-loss_r_bn_feature 527.6263427734375
-------------iteration 500----------
-total loss 354.31333448444093
-main criterion 8.505473156315942
-weighted_aux_loss 345.807861328125
-loss_r_bn_feature 345.807861328125
-------------iteration 600----------
-total loss 484.0571236343772
-main criterion 11.410059425392816
-weighted_aux_loss 472.6470642089844
-loss_r_bn_feature 472.6470642089844
-------------iteration 700----------
-total loss 527.2946027396639
-main criterion 12.498093950601424
-weighted_aux_loss 514.7965087890625
-loss_r_bn_feature 514.7965087890625
-------------iteration 800----------
-total loss 354.7398020564139
-main criterion 7.616602593523302
-weighted_aux_loss 347.1231994628906
-loss_r_bn_feature 347.1231994628906
-------------iteration 900----------
-total loss 1006.4622481447537
-main criterion 16.425382910378747
-weighted_aux_loss 990.036865234375
-loss_r_bn_feature 990.036865234375
-------------iteration 1000----------
-total loss 347.9762431802161
-main criterion 7.821915787637996
-weighted_aux_loss 340.1543273925781
-loss_r_bn_feature 340.1543273925781
-------------iteration 1100----------
-total loss 299.83418213078915
-main criterion 7.614730226492244
-weighted_aux_loss 292.2194519042969
-loss_r_bn_feature 292.2194519042969
-------------iteration 1200----------
-total loss 309.3452499477793
-main criterion 8.330479439966805
-weighted_aux_loss 301.0147705078125
-loss_r_bn_feature 301.0147705078125
-------------iteration 1300----------
-total loss 219.1848944018869
-main criterion 6.777606804230668
-weighted_aux_loss 212.40728759765625
-loss_r_bn_feature 212.40728759765625
-------------iteration 1400----------
-total loss 206.0611226500049
-main criterion 6.196391815043975
-weighted_aux_loss 199.86473083496094
-loss_r_bn_feature 199.86473083496094
-------------iteration 1500----------
-total loss 228.3213054105949
-main criterion 7.073578970165201
-weighted_aux_loss 221.2477264404297
-loss_r_bn_feature 221.2477264404297
-------------iteration 1600----------
-total loss 263.54291595416976
-main criterion 7.919014586982258
-weighted_aux_loss 255.6239013671875
-loss_r_bn_feature 255.6239013671875
-------------iteration 1700----------
-total loss 293.5789450604857
-main criterion 8.718013664001292
-weighted_aux_loss 284.8609313964844
-loss_r_bn_feature 284.8609313964844
-------------iteration 1800----------
-total loss 177.1056431347377
-main criterion 5.903509956026756
-weighted_aux_loss 171.20213317871094
-loss_r_bn_feature 171.20213317871094
-------------iteration 1900----------
-total loss 167.39115573116183
-main criterion 5.573559295614955
-weighted_aux_loss 161.81759643554688
-loss_r_bn_feature 161.81759643554688
-=> using pytorch pre-trained model 'resnet18'
-process data from ../recover/syn_data/imagenette/309
-  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:01<07:30,  1.51s/it]  1%|          | 2/300 [00:01<04:14,  1.17it/s]  1%|          | 3/300 [00:02<03:11,  1.55it/s]  1%|▏         | 4/300 [00:02<02:41,  1.83it/s]  2%|▏         | 5/300 [00:03<02:25,  2.03it/s]  2%|▏         | 6/300 [00:03<02:16,  2.16it/s]  2%|▏         | 7/300 [00:03<02:09,  2.26it/s]  3%|▎         | 8/300 [00:04<02:05,  2.33it/s]  3%|▎         | 9/300 [00:04<02:02,  2.38it/s]  3%|▎         | 10/300 [00:05<01:59,  2.43it/s]  4%|▎         | 11/300 [00:05<01:57,  2.46it/s]  4%|▍         | 12/300 [00:05<01:57,  2.46it/s]  4%|▍         | 13/300 [00:06<01:56,  2.47it/s]  5%|▍         | 14/300 [00:06<01:55,  2.48it/s]  5%|▌         | 15/300 [00:07<01:54,  2.49it/s]  5%|▌         | 16/300 [00:07<01:53,  2.49it/s]  6%|▌         | 17/300 [00:07<01:52,  2.51it/s]  6%|▌         | 18/300 [00:08<01:52,  2.50it/s]  6%|▋         | 19/300 [00:08<01:52,  2.50it/s]  7%|▋         | 20/300 [00:09<01:51,  2.51it/s]  7%|▋         | 21/300 [00:09<01:50,  2.52it/s]  7%|▋         | 22/300 [00:09<01:50,  2.52it/s]  8%|▊         | 23/300 [00:10<01:49,  2.53it/s]  8%|▊         | 24/300 [00:10<01:49,  2.52it/s]  8%|▊         | 25/300 [00:11<01:51,  2.46it/s]  9%|▊         | 26/300 [00:11<01:50,  2.47it/s]  9%|▉         | 27/300 [00:11<01:51,  2.44it/s]  9%|▉         | 28/300 [00:12<01:50,  2.47it/s] 10%|▉         | 29/300 [00:12<01:49,  2.48it/s] 10%|█         | 30/300 [00:13<01:48,  2.49it/s] 10%|█         | 31/300 [00:13<01:47,  2.50it/s] 11%|█         | 32/300 [00:13<01:46,  2.52it/s] 11%|█         | 33/300 [00:14<01:45,  2.53it/s] 11%|█▏        | 34/300 [00:14<01:46,  2.50it/s] 12%|█▏        | 35/300 [00:15<01:46,  2.50it/s] 12%|█▏        | 36/300 [00:15<01:44,  2.52it/s] 12%|█▏        | 37/300 [00:15<01:44,  2.51it/s] 13%|█▎        | 38/300 [00:16<01:44,  2.50it/s] 13%|█▎        | 39/300 [00:16<01:45,  2.48it/s] 13%|█▎        | 40/300 [00:17<01:44,  2.49it/s] 14%|█▎        | 41/300 [00:17<01:43,  2.50it/s] 14%|█▍        | 42/300 [00:17<01:44,  2.47it/s] 14%|█▍        | 43/300 [00:18<01:43,  2.47it/s] 15%|█▍        | 44/300 [00:18<01:44,  2.45it/s] 15%|█▌        | 45/300 [00:19<01:43,  2.47it/s] 15%|█▌        | 46/300 [00:19<01:43,  2.46it/s] 16%|█▌        | 47/300 [00:19<01:42,  2.46it/s] 16%|█▌        | 48/300 [00:20<01:42,  2.46it/s] 16%|█▋        | 49/300 [00:20<01:41,  2.47it/s] 17%|█▋        | 50/300 [00:21<01:39,  2.52it/s] 17%|█▋        | 51/300 [00:21<01:37,  2.55it/s] 17%|█▋        | 52/300 [00:21<01:36,  2.58it/s] 18%|█▊        | 53/300 [00:22<01:35,  2.59it/s] 18%|█▊        | 54/300 [00:22<01:36,  2.54it/s] 18%|█▊        | 55/300 [00:23<01:37,  2.52it/s] 19%|█▊        | 56/300 [00:23<01:36,  2.52it/s] 19%|█▉        | 57/300 [00:23<01:36,  2.51it/s] 19%|█▉        | 58/300 [00:24<01:35,  2.52it/s] 20%|█▉        | 59/300 [00:24<01:35,  2.51it/s] 20%|██        | 60/300 [00:25<01:36,  2.48it/s] 20%|██        | 61/300 [00:25<01:35,  2.50it/s] 21%|██        | 62/300 [00:25<01:33,  2.53it/s] 21%|██        | 63/300 [00:26<01:32,  2.55it/s] 21%|██▏       | 64/300 [00:26<01:31,  2.57it/s] 22%|██▏       | 65/300 [00:27<01:31,  2.57it/s] 22%|██▏       | 66/300 [00:27<01:30,  2.58it/s] 22%|██▏       | 67/300 [00:27<01:30,  2.58it/s] 23%|██▎       | 68/300 [00:28<01:30,  2.57it/s] 23%|██▎       | 69/300 [00:28<01:30,  2.55it/s] 23%|██▎       | 70/300 [00:28<01:30,  2.54it/s] 24%|██▎       | 71/300 [00:29<01:31,  2.51it/s] 24%|██▍       | 72/300 [00:29<01:30,  2.52it/s] 24%|██▍       | 73/300 [00:30<01:30,  2.51it/s] 25%|██▍       | 74/300 [00:30<01:29,  2.52it/s] 25%|██▌       | 75/300 [00:30<01:29,  2.52it/s] 25%|██▌       | 76/300 [00:31<01:28,  2.52it/s] 26%|██▌       | 77/300 [00:31<01:28,  2.52it/s] 26%|██▌       | 78/300 [00:32<01:28,  2.52it/s] 26%|██▋       | 79/300 [00:32<01:28,  2.51it/s] 27%|██▋       | 80/300 [00:32<01:27,  2.51it/s] 27%|██▋       | 81/300 [00:33<01:27,  2.51it/s] 27%|██▋       | 82/300 [00:33<01:29,  2.44it/s] 28%|██▊       | 83/300 [00:34<01:28,  2.45it/s] 28%|██▊       | 84/300 [00:34<01:27,  2.46it/s] 28%|██▊       | 85/300 [00:35<01:27,  2.46it/s] 29%|██▊       | 86/300 [00:35<01:26,  2.48it/s] 29%|██▉       | 87/300 [00:35<01:27,  2.45it/s] 29%|██▉       | 88/300 [00:36<01:26,  2.45it/s] 30%|██▉       | 89/300 [00:36<01:26,  2.43it/s] 30%|███       | 90/300 [00:37<01:26,  2.41it/s] 30%|███       | 91/300 [00:37<01:27,  2.38it/s] 31%|███       | 92/300 [00:37<01:26,  2.40it/s] 31%|███       | 93/300 [00:38<01:25,  2.41it/s] 31%|███▏      | 94/300 [00:38<01:24,  2.44it/s] 32%|███▏      | 95/300 [00:39<01:23,  2.44it/s] 32%|███▏      | 96/300 [00:39<01:22,  2.47it/s] 32%|███▏      | 97/300 [00:39<01:21,  2.48it/s] 33%|███▎      | 98/300 [00:40<01:21,  2.48it/s] 33%|███▎      | 99/300 [00:40<01:21,  2.46it/s] 33%|███▎      | 100/300 [00:41<01:20,  2.48it/s] 34%|███▎      | 101/300 [00:41<01:19,  2.51it/s] 34%|███▍      | 102/300 [00:41<01:18,  2.52it/s] 34%|███▍      | 103/300 [00:42<01:19,  2.48it/s] 35%|███▍      | 104/300 [00:42<01:22,  2.37it/s] 35%|███▌      | 105/300 [00:43<01:21,  2.39it/s] 35%|███▌      | 106/300 [00:43<01:21,  2.38it/s] 36%|███▌      | 107/300 [00:44<01:20,  2.41it/s] 36%|███▌      | 108/300 [00:44<01:20,  2.37it/s] 36%|███▋      | 109/300 [00:44<01:20,  2.36it/s] 37%|███▋      | 110/300 [00:45<01:20,  2.35it/s] 37%|███▋      | 111/300 [00:45<01:20,  2.36it/s] 37%|███▋      | 112/300 [00:46<01:18,  2.39it/s] 38%|███▊      | 113/300 [00:46<01:17,  2.41it/s] 38%|███▊      | 114/300 [00:46<01:15,  2.46it/s] 38%|███▊      | 115/300 [00:47<01:14,  2.49it/s] 39%|███▊      | 116/300 [00:47<01:13,  2.50it/s] 39%|███▉      | 117/300 [00:48<01:14,  2.47it/s] 39%|███▉      | 118/300 [00:48<01:14,  2.45it/s] 40%|███▉      | 119/300 [00:48<01:13,  2.45it/s] 40%|████      | 120/300 [00:49<01:13,  2.44it/s] 40%|████      | 121/300 [00:49<01:13,  2.45it/s] 41%|████      | 122/300 [00:50<01:13,  2.43it/s] 41%|████      | 123/300 [00:50<01:11,  2.46it/s] 41%|████▏     | 124/300 [00:51<01:10,  2.48it/s] 42%|████▏     | 125/300 [00:51<01:10,  2.49it/s] 42%|████▏     | 126/300 [00:51<01:10,  2.47it/s] 42%|████▏     | 127/300 [00:52<01:10,  2.45it/s] 43%|████▎     | 128/300 [00:52<01:11,  2.41it/s] 43%|████▎     | 129/300 [00:53<01:12,  2.36it/s] 43%|████▎     | 130/300 [00:53<01:12,  2.36it/s] 44%|████▎     | 131/300 [00:53<01:10,  2.40it/s] 44%|████▍     | 132/300 [00:54<01:09,  2.41it/s] 44%|████▍     | 133/300 [00:54<01:08,  2.44it/s] 45%|████▍     | 134/300 [00:55<01:08,  2.42it/s] 45%|████▌     | 135/300 [00:55<01:08,  2.42it/s] 45%|████▌     | 136/300 [00:56<01:07,  2.41it/s] 46%|████▌     | 137/300 [00:56<01:07,  2.43it/s] 46%|████▌     | 138/300 [00:56<01:06,  2.45it/s] 46%|████▋     | 139/300 [00:57<01:05,  2.45it/s] 47%|████▋     | 140/300 [00:57<01:05,  2.46it/s] 47%|████▋     | 141/300 [00:58<01:04,  2.46it/s] 47%|████▋     | 142/300 [00:58<01:04,  2.44it/s] 48%|████▊     | 143/300 [00:58<01:04,  2.45it/s] 48%|████▊     | 144/300 [00:59<01:02,  2.49it/s] 48%|████▊     | 145/300 [00:59<01:01,  2.52it/s] 49%|████▊     | 146/300 [01:00<01:00,  2.54it/s] 49%|████▉     | 147/300 [01:00<01:00,  2.53it/s] 49%|████▉     | 148/300 [01:00<01:00,  2.50it/s] 50%|████▉     | 149/300 [01:01<01:01,  2.48it/s] 50%|█████     | 150/300 [01:01<01:00,  2.47it/s] 50%|█████     | 151/300 [01:02<00:59,  2.49it/s] 51%|█████     | 152/300 [01:02<00:59,  2.49it/s] 51%|█████     | 153/300 [01:02<00:59,  2.47it/s] 51%|█████▏    | 154/300 [01:03<00:59,  2.47it/s] 52%|█████▏    | 155/300 [01:03<00:57,  2.50it/s] 52%|█████▏    | 156/300 [01:04<00:57,  2.52it/s] 52%|█████▏    | 157/300 [01:04<00:56,  2.55it/s] 53%|█████▎    | 158/300 [01:04<00:55,  2.56it/s] 53%|█████▎    | 159/300 [01:05<00:54,  2.57it/s] 53%|█████▎    | 160/300 [01:05<00:54,  2.57it/s] 54%|█████▎    | 161/300 [01:05<00:53,  2.58it/s] 54%|█████▍    | 162/300 [01:06<00:53,  2.57it/s] 54%|█████▍    | 163/300 [01:06<00:53,  2.57it/s] 55%|█████▍    | 164/300 [01:07<00:52,  2.58it/s] 55%|█████▌    | 165/300 [01:07<00:52,  2.59it/s] 55%|█████▌    | 166/300 [01:07<00:51,  2.58it/s] 56%|█████▌    | 167/300 [01:08<00:51,  2.59it/s] 56%|█████▌    | 168/300 [01:08<00:51,  2.56it/s] 56%|█████▋    | 169/300 [01:09<00:51,  2.55it/s] 57%|█████▋    | 170/300 [01:09<00:51,  2.52it/s] 57%|█████▋    | 171/300 [01:09<00:51,  2.50it/s] 57%|█████▋    | 172/300 [01:10<00:51,  2.49it/s] 58%|█████▊    | 173/300 [01:10<00:50,  2.50it/s] 58%|█████▊    | 174/300 [01:11<00:51,  2.47it/s] 58%|█████▊    | 175/300 [01:11<00:50,  2.47it/s] 59%|█████▊    | 176/300 [01:11<00:50,  2.46it/s] 59%|█████▉    | 177/300 [01:12<00:49,  2.48it/s] 59%|█████▉    | 178/300 [01:12<00:49,  2.48it/s] 60%|█████▉    | 179/300 [01:13<00:48,  2.49it/s] 60%|██████    | 180/300 [01:13<00:48,  2.49it/s] 60%|██████    | 181/300 [01:13<00:48,  2.48it/s] 61%|██████    | 182/300 [01:14<00:47,  2.46it/s] 61%|██████    | 183/300 [01:14<00:48,  2.44it/s] 61%|██████▏   | 184/300 [01:15<00:47,  2.47it/s] 62%|██████▏   | 185/300 [01:15<00:46,  2.49it/s] 62%|██████▏   | 186/300 [01:15<00:45,  2.53it/s] 62%|██████▏   | 187/300 [01:16<00:44,  2.54it/s] 63%|██████▎   | 188/300 [01:16<00:43,  2.55it/s] 63%|██████▎   | 189/300 [01:17<00:44,  2.52it/s] 63%|██████▎   | 190/300 [01:17<00:43,  2.50it/s] 64%|██████▎   | 191/300 [01:17<00:43,  2.52it/s] 64%|██████▍   | 192/300 [01:18<00:42,  2.55it/s] 64%|██████▍   | 193/300 [01:18<00:41,  2.56it/s] 65%|██████▍   | 194/300 [01:19<00:41,  2.56it/s] 65%|██████▌   | 195/300 [01:19<00:42,  2.48it/s] 65%|██████▌   | 196/300 [01:19<00:42,  2.46it/s] 66%|██████▌   | 197/300 [01:20<00:41,  2.50it/s] 66%|██████▌   | 198/300 [01:20<00:41,  2.48it/s] 66%|██████▋   | 199/300 [01:21<00:41,  2.46it/s] 67%|██████▋   | 200/300 [01:21<00:40,  2.47it/s] 67%|██████▋   | 201/300 [01:21<00:39,  2.50it/s] 67%|██████▋   | 202/300 [01:22<00:39,  2.50it/s] 68%|██████▊   | 203/300 [01:22<00:38,  2.49it/s] 68%|██████▊   | 204/300 [01:23<00:38,  2.50it/s] 68%|██████▊   | 205/300 [01:23<00:38,  2.50it/s] 69%|██████▊   | 206/300 [01:23<00:37,  2.49it/s] 69%|██████▉   | 207/300 [01:24<00:37,  2.47it/s] 69%|██████▉   | 208/300 [01:24<00:37,  2.45it/s] 70%|██████▉   | 209/300 [01:25<00:36,  2.47it/s] 70%|███████   | 210/300 [01:25<00:35,  2.51it/s] 70%|███████   | 211/300 [01:25<00:35,  2.53it/s] 71%|███████   | 212/300 [01:26<00:34,  2.54it/s] 71%|███████   | 213/300 [01:26<00:34,  2.55it/s] 71%|███████▏  | 214/300 [01:27<00:33,  2.55it/s] 72%|███████▏  | 215/300 [01:27<00:33,  2.55it/s] 72%|███████▏  | 216/300 [01:27<00:33,  2.54it/s] 72%|███████▏  | 217/300 [01:28<00:32,  2.55it/s] 73%|███████▎  | 218/300 [01:28<00:32,  2.51it/s] 73%|███████▎  | 219/300 [01:29<00:32,  2.52it/s] 73%|███████▎  | 220/300 [01:29<00:32,  2.47it/s] 74%|███████▎  | 221/300 [01:29<00:31,  2.47it/s] 74%|███████▍  | 222/300 [01:30<00:31,  2.50it/s] 74%|███████▍  | 223/300 [01:30<00:30,  2.51it/s] 75%|███████▍  | 224/300 [01:31<00:30,  2.51it/s] 75%|███████▌  | 225/300 [01:31<00:29,  2.51it/s] 75%|███████▌  | 226/300 [01:31<00:29,  2.53it/s] 76%|███████▌  | 227/300 [01:32<00:28,  2.54it/s] 76%|███████▌  | 228/300 [01:32<00:28,  2.55it/s] 76%|███████▋  | 229/300 [01:33<00:27,  2.57it/s] 77%|███████▋  | 230/300 [01:33<00:27,  2.55it/s] 77%|███████▋  | 231/300 [01:33<00:27,  2.54it/s] 77%|███████▋  | 232/300 [01:34<00:27,  2.51it/s] 78%|███████▊  | 233/300 [01:34<00:26,  2.50it/s] 78%|███████▊  | 234/300 [01:35<00:26,  2.47it/s] 78%|███████▊  | 235/300 [01:35<00:26,  2.46it/s] 79%|███████▊  | 236/300 [01:35<00:25,  2.46it/s] 79%|███████▉  | 237/300 [01:36<00:25,  2.48it/s] 79%|███████▉  | 238/300 [01:36<00:24,  2.49it/s] 80%|███████▉  | 239/300 [01:37<00:24,  2.50it/s] 80%|████████  | 240/300 [01:37<00:24,  2.50it/s] 80%|████████  | 241/300 [01:37<00:23,  2.48it/s] 81%|████████  | 242/300 [01:38<00:23,  2.48it/s] 81%|████████  | 243/300 [01:38<00:22,  2.50it/s] 81%|████████▏ | 244/300 [01:39<00:22,  2.49it/s] 82%|████████▏ | 245/300 [01:39<00:22,  2.49it/s] 82%|████████▏ | 246/300 [01:39<00:21,  2.48it/s] 82%|████████▏ | 247/300 [01:40<00:21,  2.48it/s] 83%|████████▎ | 248/300 [01:40<00:20,  2.49it/s] 83%|████████▎ | 249/300 [01:41<00:20,  2.48it/s] 83%|████████▎ | 250/300 [01:41<00:19,  2.52it/s] 84%|████████▎ | 251/300 [01:41<00:19,  2.54it/s] 84%|████████▍ | 252/300 [01:42<00:18,  2.54it/s] 84%|████████▍ | 253/300 [01:42<00:18,  2.55it/s] 85%|████████▍ | 254/300 [01:43<00:18,  2.54it/s] 85%|████████▌ | 255/300 [01:43<00:17,  2.55it/s] 85%|████████▌ | 256/300 [01:43<00:17,  2.55it/s] 86%|████████▌ | 257/300 [01:44<00:16,  2.55it/s] 86%|████████▌ | 258/300 [01:44<00:16,  2.53it/s] 86%|████████▋ | 259/300 [01:45<00:16,  2.53it/s] 87%|████████▋ | 260/300 [01:45<00:15,  2.53it/s] 87%|████████▋ | 261/300 [01:45<00:15,  2.53it/s] 87%|████████▋ | 262/300 [01:46<00:15,  2.50it/s] 88%|████████▊ | 263/300 [01:46<00:14,  2.50it/s] 88%|████████▊ | 264/300 [01:47<00:14,  2.49it/s] 88%|████████▊ | 265/300 [01:47<00:14,  2.49it/s] 89%|████████▊ | 266/300 [01:47<00:13,  2.48it/s] 89%|████████▉ | 267/300 [01:48<00:13,  2.44it/s] 89%|████████▉ | 268/300 [01:48<00:13,  2.39it/s] 90%|████████▉ | 269/300 [01:49<00:13,  2.34it/s] 90%|█████████ | 270/300 [01:49<00:12,  2.32it/s] 90%|█████████ | 271/300 [01:49<00:12,  2.37it/s] 91%|█████████ | 272/300 [01:50<00:11,  2.39it/s] 91%|█████████ | 273/300 [01:50<00:11,  2.41it/s] 91%|█████████▏| 274/300 [01:51<00:10,  2.41it/s] 92%|█████████▏| 275/300 [01:51<00:10,  2.42it/s] 92%|█████████▏| 276/300 [01:52<00:09,  2.44it/s] 92%|█████████▏| 277/300 [01:52<00:09,  2.45it/s] 93%|█████████▎| 278/300 [01:52<00:08,  2.46it/s] 93%|█████████▎| 279/300 [01:53<00:08,  2.46it/s] 93%|█████████▎| 280/300 [01:53<00:08,  2.48it/s] 94%|█████████▎| 281/300 [01:54<00:07,  2.48it/s] 94%|█████████▍| 282/300 [01:54<00:07,  2.48it/s] 94%|█████████▍| 283/300 [01:54<00:06,  2.48it/s] 95%|█████████▍| 284/300 [01:55<00:06,  2.48it/s] 95%|█████████▌| 285/300 [01:55<00:06,  2.50it/s] 95%|█████████▌| 286/300 [01:56<00:05,  2.48it/s] 96%|█████████▌| 287/300 [01:56<00:05,  2.49it/s] 96%|█████████▌| 288/300 [01:56<00:04,  2.47it/s] 96%|█████████▋| 289/300 [01:57<00:04,  2.47it/s] 97%|█████████▋| 290/300 [01:57<00:04,  2.46it/s] 97%|█████████▋| 291/300 [01:58<00:03,  2.47it/s] 97%|█████████▋| 292/300 [01:58<00:03,  2.43it/s] 98%|█████████▊| 293/300 [01:58<00:02,  2.35it/s] 98%|█████████▊| 294/300 [01:59<00:02,  2.40it/s] 98%|█████████▊| 295/300 [01:59<00:02,  2.44it/s] 99%|█████████▊| 296/300 [02:00<00:01,  2.46it/s] 99%|█████████▉| 297/300 [02:00<00:01,  2.50it/s] 99%|█████████▉| 298/300 [02:00<00:00,  2.51it/s]100%|█████████▉| 299/300 [02:01<00:00,  2.54it/s]100%|██████████| 300/300 [02:01<00:00,  2.55it/s]100%|██████████| 300/300 [02:01<00:00,  2.46it/s]
-W&B disabled.
-W&B online. Running your script from this directory will now sync to the cloud.
-wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
-wandb: wandb version 0.15.12 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.15.10
-wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231023_132240-ain9uff4
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run effortless-cloud-487
-wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
-wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/ain9uff4
-======= FKD: dataset info ======
-path: ../relabel/FKD_cutmix_fp16/imagenette/309/
-num img: 10
-batch size: 10
-max epoch: 300
-================================
-load data successfully
-=> loading student model 'resnet18'
-TRAIN Iter 0: lr = 0.001000,	loss = 0.013027,	Top-1 err = 90.000000,	Top-5 err = 50.000000,	train_time = 3.072835
-TEST Iter 0: loss = 6.234301,	Top-1 err = 89.324841,	Top-5 err = 50.038217,	val_time = 15.968165
-TRAIN Iter 10: lr = 0.000997,	loss = 0.012436,	Top-1 err = 80.000000,	Top-5 err = 30.000000,	train_time = 2.121667
-TEST Iter 10: loss = 33.309600,	Top-1 err = 87.363057,	Top-5 err = 46.165605,	val_time = 15.807213
-TRAIN Iter 20: lr = 0.000989,	loss = 0.011097,	Top-1 err = 60.000000,	Top-5 err = 10.000000,	train_time = 2.151461
-TEST Iter 20: loss = 48.834401,	Top-1 err = 88.050955,	Top-5 err = 43.719745,	val_time = 15.618968
-TRAIN Iter 30: lr = 0.000976,	loss = 0.006332,	Top-1 err = 50.000000,	Top-5 err = 30.000000,	train_time = 2.158131
-TEST Iter 30: loss = 32.288245,	Top-1 err = 85.273885,	Top-5 err = 41.554140,	val_time = 15.675964
-TRAIN Iter 40: lr = 0.000957,	loss = 0.006825,	Top-1 err = 20.000000,	Top-5 err = 0.000000,	train_time = 2.145103
-TEST Iter 40: loss = 36.853164,	Top-1 err = 84.229299,	Top-5 err = 41.452229,	val_time = 15.810223
-TRAIN Iter 50: lr = 0.000933,	loss = 0.006673,	Top-1 err = 30.000000,	Top-5 err = 0.000000,	train_time = 2.118598
-TEST Iter 50: loss = 17.702328,	Top-1 err = 78.853503,	Top-5 err = 33.554140,	val_time = 15.616772
-TRAIN Iter 60: lr = 0.000905,	loss = 0.011527,	Top-1 err = 20.000000,	Top-5 err = 0.000000,	train_time = 2.110807
-TEST Iter 60: loss = 11.917029,	Top-1 err = 76.815287,	Top-5 err = 36.305732,	val_time = 15.496778
-TRAIN Iter 70: lr = 0.000872,	loss = 0.004550,	Top-1 err = 20.000000,	Top-5 err = 0.000000,	train_time = 2.100322
-TEST Iter 70: loss = 10.127297,	Top-1 err = 73.859873,	Top-5 err = 27.490446,	val_time = 15.542719
-TRAIN Iter 80: lr = 0.000835,	loss = 0.005146,	Top-1 err = 30.000000,	Top-5 err = 0.000000,	train_time = 2.140453
-TEST Iter 80: loss = 10.571314,	Top-1 err = 73.324841,	Top-5 err = 27.617834,	val_time = 15.707263
-TRAIN Iter 90: lr = 0.000794,	loss = 0.004968,	Top-1 err = 30.000000,	Top-5 err = 0.000000,	train_time = 2.131841
-TEST Iter 90: loss = 10.074042,	Top-1 err = 75.210191,	Top-5 err = 32.127389,	val_time = 15.659838
-TRAIN Iter 100: lr = 0.000750,	loss = 0.004347,	Top-1 err = 10.000000,	Top-5 err = 0.000000,	train_time = 2.102129
-TEST Iter 100: loss = 13.839453,	Top-1 err = 74.649682,	Top-5 err = 30.853503,	val_time = 15.478733
-TRAIN Iter 110: lr = 0.000703,	loss = 0.004344,	Top-1 err = 70.000000,	Top-5 err = 0.000000,	train_time = 2.167191
-TEST Iter 110: loss = 10.664760,	Top-1 err = 72.254777,	Top-5 err = 31.464968,	val_time = 15.611018
-TRAIN Iter 120: lr = 0.000655,	loss = 0.003676,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.147421
-TEST Iter 120: loss = 11.607465,	Top-1 err = 72.585987,	Top-5 err = 30.242038,	val_time = 15.707259
-TRAIN Iter 130: lr = 0.000604,	loss = 0.003026,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.149090
-TEST Iter 130: loss = 11.672562,	Top-1 err = 74.573248,	Top-5 err = 30.700637,	val_time = 15.825682
-TRAIN Iter 140: lr = 0.000552,	loss = 0.002655,	Top-1 err = 10.000000,	Top-5 err = 0.000000,	train_time = 2.253232
-TEST Iter 140: loss = 9.751133,	Top-1 err = 70.878981,	Top-5 err = 26.089172,	val_time = 16.546784
-TRAIN Iter 150: lr = 0.000500,	loss = 0.004272,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.147407
-TEST Iter 150: loss = 10.403731,	Top-1 err = 71.414013,	Top-5 err = 27.617834,	val_time = 15.419866
-TRAIN Iter 160: lr = 0.000448,	loss = 0.003013,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.099812
-TEST Iter 160: loss = 8.060973,	Top-1 err = 67.694268,	Top-5 err = 24.407643,	val_time = 15.482235
-TRAIN Iter 170: lr = 0.000396,	loss = 0.002946,	Top-1 err = 60.000000,	Top-5 err = 0.000000,	train_time = 2.091702
-TEST Iter 170: loss = 7.280148,	Top-1 err = 66.471338,	Top-5 err = 22.191083,	val_time = 15.708662
-TRAIN Iter 180: lr = 0.000345,	loss = 0.003481,	Top-1 err = 70.000000,	Top-5 err = 0.000000,	train_time = 2.134391
-TEST Iter 180: loss = 8.032341,	Top-1 err = 68.076433,	Top-5 err = 24.585987,	val_time = 15.589980
-TRAIN Iter 190: lr = 0.000297,	loss = 0.002109,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.102438
-TEST Iter 190: loss = 8.581114,	Top-1 err = 68.509554,	Top-5 err = 25.477707,	val_time = 15.537003
-TRAIN Iter 200: lr = 0.000250,	loss = 0.002973,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.149527
-TEST Iter 200: loss = 7.525723,	Top-1 err = 67.312102,	Top-5 err = 23.210191,	val_time = 15.515107
-TRAIN Iter 210: lr = 0.000206,	loss = 0.002250,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.140054
-TEST Iter 210: loss = 6.788681,	Top-1 err = 64.305732,	Top-5 err = 23.006369,	val_time = 15.420833
-TRAIN Iter 220: lr = 0.000165,	loss = 0.004634,	Top-1 err = 80.000000,	Top-5 err = 10.000000,	train_time = 2.156445
-TEST Iter 220: loss = 7.217118,	Top-1 err = 64.968153,	Top-5 err = 22.343949,	val_time = 15.564341
-TRAIN Iter 230: lr = 0.000128,	loss = 0.002045,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.146126
-TEST Iter 230: loss = 7.094809,	Top-1 err = 64.152866,	Top-5 err = 22.828025,	val_time = 15.494803
-TRAIN Iter 240: lr = 0.000095,	loss = 0.003147,	Top-1 err = 90.000000,	Top-5 err = 20.000000,	train_time = 2.089374
-TEST Iter 240: loss = 7.378157,	Top-1 err = 64.280255,	Top-5 err = 22.216561,	val_time = 15.308586
-TRAIN Iter 250: lr = 0.000067,	loss = 0.002841,	Top-1 err = 70.000000,	Top-5 err = 0.000000,	train_time = 2.134943
-TEST Iter 250: loss = 7.396311,	Top-1 err = 64.407643,	Top-5 err = 21.324841,	val_time = 15.452314
-TRAIN Iter 260: lr = 0.000043,	loss = 0.002928,	Top-1 err = 10.000000,	Top-5 err = 0.000000,	train_time = 2.108434
-TEST Iter 260: loss = 7.112615,	Top-1 err = 64.050955,	Top-5 err = 21.095541,	val_time = 15.569990
-TRAIN Iter 270: lr = 0.000024,	loss = 0.001938,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.166428
-TEST Iter 270: loss = 6.877371,	Top-1 err = 64.050955,	Top-5 err = 21.579618,	val_time = 15.471478
-TRAIN Iter 280: lr = 0.000011,	loss = 0.002293,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.137110
-TEST Iter 280: loss = 6.639449,	Top-1 err = 63.719745,	Top-5 err = 21.121019,	val_time = 15.446663
-TRAIN Iter 290: lr = 0.000003,	loss = 0.002849,	Top-1 err = 0.000000,	Top-5 err = 0.000000,	train_time = 2.100883
-TEST Iter 290: loss = 6.630564,	Top-1 err = 63.464968,	Top-5 err = 20.891720,	val_time = 15.462727
-wandb: Waiting for W&B process to finish... (success).
-wandb: - 0.004 MB of 0.004 MB uploaded (0.000 MB deduped)wandb: \ 0.004 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.004 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: 
-wandb: Run history:
-wandb:  train/Top1 ▂▂▄▄▂▆▅▇█▇▁▂▁█▇██▂█▃▂█▄▁█▂▁█▅▂▄▂██▇█▂█▅█
-wandb:  train/Top5 ▆▅▆█▇▇▇███▄▄▃████▇█▆▆██▂█▅▁████▆██████▇█
-wandb: train/epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
-wandb:  train/loss ██▇▇▄▄▂▃▃▄▃▂▂▂▂▂▂▂▃▂▂▁▂▂▂▁▂▂▁▂▁▃▂▂▂▂▁▁▂▂
-wandb:    train/lr ███████▇▇▇▇▇▇▆▆▆▅▅▅▅▄▄▄▄▃▃▃▃▂▂▂▂▂▁▁▁▁▁▁▁
-wandb:   val/epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▅▆▆▆▆▇▇▇▇███
-wandb:    val/loss ▁▅█▅▆▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    val/top1 ▁▂▁▂▂▄▄▅▅▅▅▆▆▅▆▆▇▇▇▇▇██████████
-wandb:    val/top5 ▁▂▃▃▃▅▄▆▆▅▆▅▆▆▇▆▇█▇▇▇▇█████████
-wandb: 
-wandb: Run summary:
-wandb:  train/Top1 100.0
-wandb:  train/Top5 100.0
-wandb: train/epoch 299
-wandb:  train/loss 0.00358
-wandb:    train/lr 0.0
-wandb:   val/epoch 299
-wandb:    val/loss 6.36919
-wandb:    val/top1 36.61146
-wandb:    val/top5 78.95541
-wandb: 
-wandb: 🚀 View run effortless-cloud-487 at: https://wandb.ai/hl57/final_rn18_fkd/runs/ain9uff4
-wandb: ️⚡ View job at https://wandb.ai/hl57/final_rn18_fkd/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk3MzkyNjU3/version_details/v47
-wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20231023_132240-ain9uff4/logs
-TEST Iter 299: loss = 6.369186,	Top-1 err = 63.388535,	Top-5 err = 21.044586,	val_time = 15.558652

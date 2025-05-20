@@ -1,47 +1,0 @@
-nohup: ignoring input
-=> using pytorch pre-trained model 'resnet18'
-process data from ../recover/syn_data/tiny-imagenet/t2
-  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:04<00:41,  4.64s/it] 20%|██        | 2/10 [00:06<00:24,  3.09s/it] 30%|███       | 3/10 [00:08<00:18,  2.57s/it] 40%|████      | 4/10 [00:09<00:11,  1.99s/it] 50%|█████     | 5/10 [00:11<00:09,  1.96s/it] 60%|██████    | 6/10 [00:13<00:07,  1.95s/it] 70%|███████   | 7/10 [00:15<00:05,  1.88s/it] 80%|████████  | 8/10 [00:16<00:03,  1.77s/it] 90%|█████████ | 9/10 [00:18<00:01,  1.83s/it]100%|██████████| 10/10 [00:22<00:00,  2.37s/it]100%|██████████| 10/10 [00:22<00:00,  2.24s/it]
-======= FKD: dataset info ======
-path: ../relabel/FKD_cutmix_fp16/tiny-imagenet/t2/
-num img: 200
-batch size: 100
-max epoch: 10
-================================
-load data successfully
-=> loading student model 'resnet18'
-TRAIN Iter 0: lr = 0.001000,	loss = 0.020157,	Top-1 acc = 0.000000,	Top-5 acc = 2.000000,	train_time = 71.251343
-TEST Iter 0: loss = 23.555452,	Top-1 acc = 0.500000,	Top-5 acc = 2.590000,	val_time = 65.648946
-TEST Iter 9: loss = 6.984719,	Top-1 acc = 0.370000,	Top-5 acc = 2.570000,	val_time = 24.376832
-Traceback (most recent call last):
-  File "data_synthesis.py", line 357, in <module>
-    save_arguments(script_name, args)
-  File "/media/techt/One Touch/DD/SRe2L/recover/utils.py", line 35, in save_arguments
-    if entry["script"] == script_name:
-KeyError: 'script'
-=> using pytorch pre-trained model 'resnet18'
-process data from ../recover/syn_data/imagenette/t2
-Traceback (most recent call last):
-  File "generate_soft_label.py", line 255, in <module>
-    main()
-  File "generate_soft_label.py", line 126, in main
-    main_worker(args.gpu, ngpus_per_node, args)
-  File "generate_soft_label.py", line 201, in main_worker
-    train_dataset = ImageFolder_FKD_MIX(
-  File "/media/techt/One Touch/DD/SRe2L/relabel/utils_fkd.py", line 155, in __init__
-    super(ImageFolder_FKD_MIX, self).__init__(**kwargs)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 309, in __init__
-    super().__init__(
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 144, in __init__
-    classes, class_to_idx = self.find_classes(self.root)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
-    return find_classes(directory)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 40, in find_classes
-    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
-FileNotFoundError: [Errno 2] No such file or directory: '../recover/syn_data/imagenette/t2'
-Traceback (most recent call last):
-  File "train_FKD.py", line 379, in <module>
-    main()
-  File "train_FKD.py", line 95, in main
-    assert os.path.exists(args.train_dir)
-AssertionError

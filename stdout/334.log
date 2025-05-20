@@ -1,253 +1,0 @@
-r_bn:  3.0
-lr:  0.25
-bc loaded
-bc shape (10, 1, 512)
-getting batchnorm for class 0
-getting batchnorm for class 1
-getting batchnorm for class 2
-getting batchnorm for class 3
-getting batchnorm for class 4
-getting batchnorm for class 5
-getting batchnorm for class 6
-getting batchnorm for class 7
-getting batchnorm for class 8
-getting batchnorm for class 9
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
-  warnings.warn(
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
-  warnings.warn(msg)
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
-  warnings.warn(
-Execution time for computing per-class batchnorm statistics: 45.974535 seconds
-get_images call
-class_per_batch  10 batch_size  100 args.ipc  1
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-per-class-batchnorm:  True
-start_cls 0 end_cls 10
-Length of input 10 is different from effective batch size 10
-------------iteration 0----------
-total loss 2635.570559781614
-main criterion 28.506350797239257
-weighted_aux_loss 2607.064208984375
-loss_r_bn_feature 869.0214233398438
-------------iteration 100----------
-total loss 1089.1447039953978
-main criterion 13.100026261022688
-weighted_aux_loss 1076.044677734375
-loss_r_bn_feature 358.6815490722656
-------------iteration 200----------
-total loss 916.7085289651752
-main criterion 10.547884433925226
-weighted_aux_loss 906.16064453125
-loss_r_bn_feature 302.0535583496094
-------------iteration 300----------
-total loss 887.5268595271918
-main criterion 9.050541167816812
-weighted_aux_loss 878.476318359375
-loss_r_bn_feature 292.825439453125
-------------iteration 400----------
-total loss 784.2156036849481
-main criterion 8.109768724010616
-weighted_aux_loss 776.1058349609375
-loss_r_bn_feature 258.7019348144531
-------------iteration 500----------
-total loss 839.4760509689991
-main criterion 9.989356633061572
-weighted_aux_loss 829.4866943359375
-loss_r_bn_feature 276.4955749511719
-------------iteration 600----------
-total loss 831.5874240227516
-main criterion 10.734213573532887
-weighted_aux_loss 820.8532104492188
-loss_r_bn_feature 273.61773681640625
-------------iteration 700----------
-total loss 777.9742390487014
-main criterion 8.705135044795192
-weighted_aux_loss 769.2691040039062
-loss_r_bn_feature 256.42303466796875
-------------iteration 800----------
-total loss 917.8705028306347
-main criterion 11.962787986884711
-weighted_aux_loss 905.90771484375
-loss_r_bn_feature 301.96923828125
-------------iteration 900----------
-total loss 803.317730213074
-main criterion 9.17081859198032
-weighted_aux_loss 794.1469116210938
-loss_r_bn_feature 264.71563720703125
-------------iteration 1000----------
-total loss 699.903368525311
-main criterion 10.218554072185924
-weighted_aux_loss 689.684814453125
-loss_r_bn_feature 229.89492797851562
-------------iteration 1100----------
-total loss 581.850584063114
-main criterion 7.3856182428014625
-weighted_aux_loss 574.4649658203125
-loss_r_bn_feature 191.48831176757812
-------------iteration 1200----------
-total loss 678.1076250322294
-main criterion 8.94844534472937
-weighted_aux_loss 669.1591796875
-loss_r_bn_feature 223.05307006835938
-------------iteration 1300----------
-total loss 573.6080057736556
-main criterion 7.8523905392806
-weighted_aux_loss 565.755615234375
-loss_r_bn_feature 188.585205078125
-------------iteration 1400----------
-total loss 494.4578108903085
-main criterion 6.5538802262460285
-weighted_aux_loss 487.9039306640625
-loss_r_bn_feature 162.6346435546875
-------------iteration 1500----------
-total loss 486.2880367319476
-main criterion 6.202892688978868
-weighted_aux_loss 480.08514404296875
-loss_r_bn_feature 160.02838134765625
-------------iteration 1600----------
-total loss 440.4696260950582
-main criterion 5.799521114589401
-weighted_aux_loss 434.67010498046875
-loss_r_bn_feature 144.89002990722656
-------------iteration 1700----------
-total loss 424.1399448127808
-main criterion 5.51927830887457
-weighted_aux_loss 418.62066650390625
-loss_r_bn_feature 139.54022216796875
-------------iteration 1800----------
-total loss 417.21334457578246
-main criterion 5.643520357032474
-weighted_aux_loss 411.56982421875
-loss_r_bn_feature 137.18994140625
-------------iteration 1900----------
-total loss 440.7795472188666
-main criterion 6.572119240350954
-weighted_aux_loss 434.2074279785156
-loss_r_bn_feature 144.73580932617188
-=> using pytorch pre-trained model 'resnet18'
-process data from ../recover/syn_data/imagenette/334
-  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:01<07:32,  1.51s/it]  1%|          | 2/300 [00:01<04:18,  1.15it/s]  1%|          | 3/300 [00:02<03:18,  1.50it/s]  1%|▏         | 4/300 [00:02<02:48,  1.75it/s]  2%|▏         | 5/300 [00:03<02:33,  1.92it/s]  2%|▏         | 6/300 [00:03<02:22,  2.06it/s]  2%|▏         | 7/300 [00:04<02:16,  2.15it/s]  3%|▎         | 8/300 [00:04<02:11,  2.23it/s]  3%|▎         | 9/300 [00:04<02:08,  2.27it/s]  3%|▎         | 10/300 [00:05<02:06,  2.28it/s]  4%|▎         | 11/300 [00:05<02:05,  2.30it/s]  4%|▍         | 12/300 [00:06<02:03,  2.33it/s]  4%|▍         | 13/300 [00:06<02:02,  2.34it/s]  5%|▍         | 14/300 [00:07<02:02,  2.33it/s]  5%|▌         | 15/300 [00:07<02:01,  2.35it/s]  5%|▌         | 16/300 [00:07<02:01,  2.34it/s]  6%|▌         | 17/300 [00:08<02:00,  2.35it/s]  6%|▌         | 18/300 [00:08<01:59,  2.36it/s]  6%|▋         | 19/300 [00:09<02:00,  2.34it/s]  7%|▋         | 20/300 [00:09<01:59,  2.34it/s]  7%|▋         | 21/300 [00:09<01:58,  2.35it/s]  7%|▋         | 22/300 [00:10<01:57,  2.36it/s]  8%|▊         | 23/300 [00:10<01:57,  2.36it/s]  8%|▊         | 24/300 [00:11<01:56,  2.37it/s]  8%|▊         | 25/300 [00:11<01:56,  2.35it/s]  9%|▊         | 26/300 [00:12<01:56,  2.34it/s]  9%|▉         | 27/300 [00:12<01:56,  2.34it/s]  9%|▉         | 28/300 [00:12<01:55,  2.35it/s] 10%|▉         | 29/300 [00:13<01:54,  2.37it/s] 10%|█         | 30/300 [00:13<01:54,  2.35it/s] 10%|█         | 31/300 [00:14<01:53,  2.36it/s] 11%|█         | 32/300 [00:14<01:53,  2.37it/s] 11%|█         | 33/300 [00:15<01:53,  2.36it/s] 11%|█▏        | 34/300 [00:15<01:53,  2.34it/s] 12%|█▏        | 35/300 [00:15<01:52,  2.36it/s] 12%|█▏        | 36/300 [00:16<01:51,  2.37it/s] 12%|█▏        | 37/300 [00:16<01:51,  2.36it/s] 13%|█▎        | 38/300 [00:17<01:51,  2.35it/s] 13%|█▎        | 39/300 [00:17<01:50,  2.36it/s] 13%|█▎        | 40/300 [00:18<01:49,  2.38it/s] 14%|█▎        | 41/300 [00:18<01:48,  2.38it/s] 14%|█▍        | 42/300 [00:18<01:48,  2.38it/s] 14%|█▍        | 43/300 [00:19<01:48,  2.37it/s] 15%|█▍        | 44/300 [00:19<01:48,  2.36it/s] 15%|█▌        | 45/300 [00:20<01:47,  2.36it/s] 15%|█▌        | 46/300 [00:20<01:47,  2.36it/s] 16%|█▌        | 47/300 [00:20<01:46,  2.37it/s] 16%|█▌        | 48/300 [00:21<01:46,  2.37it/s] 16%|█▋        | 49/300 [00:21<01:46,  2.36it/s] 17%|█▋        | 50/300 [00:22<01:46,  2.36it/s] 17%|█▋        | 51/300 [00:22<01:45,  2.36it/s] 17%|█▋        | 52/300 [00:23<01:44,  2.37it/s] 18%|█▊        | 53/300 [00:23<01:44,  2.37it/s] 18%|█▊        | 54/300 [00:23<01:44,  2.36it/s] 18%|█▊        | 55/300 [00:24<01:44,  2.35it/s] 19%|█▊        | 56/300 [00:24<01:43,  2.35it/s] 19%|█▉        | 57/300 [00:25<01:43,  2.35it/s] 19%|█▉        | 58/300 [00:25<01:42,  2.35it/s] 20%|█▉        | 59/300 [00:26<01:42,  2.35it/s] 20%|██        | 60/300 [00:26<01:41,  2.36it/s] 20%|██        | 61/300 [00:26<01:41,  2.36it/s] 21%|██        | 62/300 [00:27<01:40,  2.36it/s] 21%|██        | 63/300 [00:27<01:40,  2.36it/s] 21%|██▏       | 64/300 [00:28<01:39,  2.37it/s] 22%|██▏       | 65/300 [00:28<01:39,  2.37it/s] 22%|██▏       | 66/300 [00:29<01:39,  2.35it/s] 22%|██▏       | 67/300 [00:29<01:39,  2.34it/s] 23%|██▎       | 68/300 [00:29<01:38,  2.35it/s] 23%|██▎       | 69/300 [00:30<01:37,  2.36it/s] 23%|██▎       | 70/300 [00:30<01:37,  2.36it/s] 24%|██▎       | 71/300 [00:31<01:37,  2.35it/s] 24%|██▍       | 72/300 [00:31<01:36,  2.36it/s] 24%|██▍       | 73/300 [00:32<01:36,  2.35it/s] 25%|██▍       | 74/300 [00:32<01:36,  2.35it/s] 25%|██▌       | 75/300 [00:32<01:35,  2.35it/s] 25%|██▌       | 76/300 [00:33<01:35,  2.35it/s] 26%|██▌       | 77/300 [00:33<01:35,  2.35it/s] 26%|██▌       | 78/300 [00:34<01:34,  2.35it/s] 26%|██▋       | 79/300 [00:34<01:34,  2.34it/s] 27%|██▋       | 80/300 [00:35<01:34,  2.32it/s] 27%|██▋       | 81/300 [00:35<01:35,  2.29it/s] 27%|██▋       | 82/300 [00:35<01:34,  2.30it/s] 28%|██▊       | 83/300 [00:36<01:35,  2.26it/s] 28%|██▊       | 84/300 [00:36<01:35,  2.26it/s] 28%|██▊       | 85/300 [00:37<01:34,  2.27it/s] 29%|██▊       | 86/300 [00:37<01:33,  2.30it/s] 29%|██▉       | 87/300 [00:38<01:31,  2.32it/s] 29%|██▉       | 88/300 [00:38<01:31,  2.32it/s] 30%|██▉       | 89/300 [00:38<01:30,  2.34it/s] 30%|███       | 90/300 [00:39<01:29,  2.35it/s] 30%|███       | 91/300 [00:39<01:28,  2.36it/s] 31%|███       | 92/300 [00:40<01:27,  2.38it/s] 31%|███       | 93/300 [00:40<01:27,  2.38it/s] 31%|███▏      | 94/300 [00:41<01:27,  2.36it/s] 32%|███▏      | 95/300 [00:41<01:27,  2.34it/s] 32%|███▏      | 96/300 [00:41<01:27,  2.34it/s] 32%|███▏      | 97/300 [00:42<01:26,  2.34it/s] 33%|███▎      | 98/300 [00:42<01:26,  2.34it/s] 33%|███▎      | 99/300 [00:43<01:25,  2.34it/s] 33%|███▎      | 100/300 [00:43<01:25,  2.35it/s] 34%|███▎      | 101/300 [00:44<01:25,  2.34it/s] 34%|███▍      | 102/300 [00:44<01:24,  2.34it/s] 34%|███▍      | 103/300 [00:44<01:24,  2.34it/s] 35%|███▍      | 104/300 [00:45<01:23,  2.34it/s] 35%|███▌      | 105/300 [00:45<01:23,  2.33it/s] 35%|███▌      | 106/300 [00:46<01:23,  2.32it/s] 36%|███▌      | 107/300 [00:46<01:22,  2.33it/s] 36%|███▌      | 108/300 [00:47<01:21,  2.35it/s] 36%|███▋      | 109/300 [00:47<01:21,  2.35it/s] 37%|███▋      | 110/300 [00:47<01:20,  2.36it/s] 37%|███▋      | 111/300 [00:48<01:20,  2.36it/s] 37%|███▋      | 112/300 [00:48<01:19,  2.36it/s] 38%|███▊      | 113/300 [00:49<01:19,  2.35it/s] 38%|███▊      | 114/300 [00:49<01:18,  2.36it/s] 38%|███▊      | 115/300 [00:50<01:18,  2.35it/s] 39%|███▊      | 116/300 [00:50<01:17,  2.37it/s] 39%|███▉      | 117/300 [00:50<01:17,  2.35it/s] 39%|███▉      | 118/300 [00:51<01:17,  2.35it/s] 40%|███▉      | 119/300 [00:51<01:16,  2.35it/s] 40%|████      | 120/300 [00:52<01:16,  2.36it/s] 40%|████      | 121/300 [00:52<01:15,  2.39it/s] 41%|████      | 122/300 [00:52<01:13,  2.41it/s] 41%|████      | 123/300 [00:53<01:13,  2.42it/s] 41%|████▏     | 124/300 [00:53<01:12,  2.44it/s] 42%|████▏     | 125/300 [00:54<01:12,  2.42it/s] 42%|████▏     | 126/300 [00:54<01:12,  2.39it/s] 42%|████▏     | 127/300 [00:55<01:13,  2.36it/s] 43%|████▎     | 128/300 [00:55<01:13,  2.36it/s] 43%|████▎     | 129/300 [00:55<01:12,  2.35it/s] 43%|████▎     | 130/300 [00:56<01:12,  2.35it/s] 44%|████▎     | 131/300 [00:56<01:12,  2.35it/s] 44%|████▍     | 132/300 [00:57<01:11,  2.36it/s] 44%|████▍     | 133/300 [00:57<01:10,  2.36it/s] 45%|████▍     | 134/300 [00:58<01:10,  2.36it/s] 45%|████▌     | 135/300 [00:58<01:09,  2.36it/s] 45%|████▌     | 136/300 [00:58<01:09,  2.37it/s] 46%|████▌     | 137/300 [00:59<01:08,  2.37it/s] 46%|████▌     | 138/300 [00:59<01:08,  2.37it/s] 46%|████▋     | 139/300 [01:00<01:07,  2.37it/s] 47%|████▋     | 140/300 [01:00<01:07,  2.37it/s] 47%|████▋     | 141/300 [01:00<01:07,  2.35it/s] 47%|████▋     | 142/300 [01:01<01:06,  2.36it/s] 48%|████▊     | 143/300 [01:01<01:07,  2.34it/s] 48%|████▊     | 144/300 [01:02<01:06,  2.35it/s] 48%|████▊     | 145/300 [01:02<01:05,  2.36it/s] 49%|████▊     | 146/300 [01:03<01:05,  2.36it/s] 49%|████▉     | 147/300 [01:03<01:04,  2.37it/s] 49%|████▉     | 148/300 [01:03<01:04,  2.37it/s] 50%|████▉     | 149/300 [01:04<01:03,  2.37it/s] 50%|█████     | 150/300 [01:04<01:03,  2.36it/s] 50%|█████     | 151/300 [01:05<01:03,  2.34it/s] 51%|█████     | 152/300 [01:05<01:03,  2.34it/s] 51%|█████     | 153/300 [01:06<01:02,  2.34it/s] 51%|█████▏    | 154/300 [01:06<01:02,  2.33it/s] 52%|█████▏    | 155/300 [01:06<01:02,  2.32it/s] 52%|█████▏    | 156/300 [01:07<01:01,  2.33it/s] 52%|█████▏    | 157/300 [01:07<01:01,  2.33it/s] 53%|█████▎    | 158/300 [01:08<01:00,  2.33it/s] 53%|█████▎    | 159/300 [01:08<01:00,  2.33it/s] 53%|█████▎    | 160/300 [01:09<00:59,  2.34it/s] 54%|█████▎    | 161/300 [01:09<00:59,  2.34it/s] 54%|█████▍    | 162/300 [01:09<00:59,  2.34it/s] 54%|█████▍    | 163/300 [01:10<00:58,  2.34it/s] 55%|█████▍    | 164/300 [01:10<00:58,  2.34it/s] 55%|█████▌    | 165/300 [01:11<00:57,  2.34it/s] 55%|█████▌    | 166/300 [01:11<00:57,  2.34it/s] 56%|█████▌    | 167/300 [01:12<00:56,  2.36it/s] 56%|█████▌    | 168/300 [01:12<00:55,  2.36it/s] 56%|█████▋    | 169/300 [01:12<00:55,  2.36it/s] 57%|█████▋    | 170/300 [01:13<00:55,  2.36it/s] 57%|█████▋    | 171/300 [01:13<00:55,  2.34it/s] 57%|█████▋    | 172/300 [01:14<00:54,  2.34it/s] 58%|█████▊    | 173/300 [01:14<00:53,  2.36it/s] 58%|█████▊    | 174/300 [01:15<00:53,  2.35it/s] 58%|█████▊    | 175/300 [01:15<00:53,  2.36it/s] 59%|█████▊    | 176/300 [01:15<00:52,  2.35it/s] 59%|█████▉    | 177/300 [01:16<00:52,  2.35it/s] 59%|█████▉    | 178/300 [01:16<00:51,  2.36it/s] 60%|█████▉    | 179/300 [01:17<00:51,  2.36it/s] 60%|██████    | 180/300 [01:17<00:50,  2.35it/s] 60%|██████    | 181/300 [01:18<00:50,  2.36it/s] 61%|██████    | 182/300 [01:18<00:49,  2.36it/s] 61%|██████    | 183/300 [01:18<00:49,  2.35it/s] 61%|██████▏   | 184/300 [01:19<00:49,  2.33it/s] 62%|██████▏   | 185/300 [01:19<00:49,  2.33it/s] 62%|██████▏   | 186/300 [01:20<00:48,  2.33it/s] 62%|██████▏   | 187/300 [01:20<00:48,  2.34it/s] 63%|██████▎   | 188/300 [01:21<00:47,  2.35it/s] 63%|██████▎   | 189/300 [01:21<00:47,  2.34it/s] 63%|██████▎   | 190/300 [01:21<00:46,  2.35it/s] 64%|██████▎   | 191/300 [01:22<00:45,  2.40it/s] 64%|██████▍   | 192/300 [01:22<00:44,  2.41it/s] 64%|██████▍   | 193/300 [01:23<00:44,  2.41it/s] 65%|██████▍   | 194/300 [01:23<00:43,  2.42it/s] 65%|██████▌   | 195/300 [01:23<00:43,  2.41it/s] 65%|██████▌   | 196/300 [01:24<00:42,  2.43it/s] 66%|██████▌   | 197/300 [01:24<00:42,  2.43it/s] 66%|██████▌   | 198/300 [01:25<00:42,  2.39it/s] 66%|██████▋   | 199/300 [01:25<00:43,  2.33it/s] 67%|██████▋   | 200/300 [01:26<00:42,  2.35it/s] 67%|██████▋   | 201/300 [01:26<00:42,  2.34it/s] 67%|██████▋   | 202/300 [01:26<00:41,  2.37it/s] 68%|██████▊   | 203/300 [01:27<00:40,  2.38it/s] 68%|██████▊   | 204/300 [01:27<00:40,  2.37it/s] 68%|██████▊   | 205/300 [01:28<00:39,  2.38it/s] 69%|██████▊   | 206/300 [01:28<00:39,  2.36it/s] 69%|██████▉   | 207/300 [01:28<00:39,  2.34it/s] 69%|██████▉   | 208/300 [01:29<00:39,  2.34it/s] 70%|██████▉   | 209/300 [01:29<00:38,  2.34it/s] 70%|███████   | 210/300 [01:30<00:38,  2.35it/s] 70%|███████   | 211/300 [01:30<00:37,  2.35it/s] 71%|███████   | 212/300 [01:31<00:37,  2.38it/s] 71%|███████   | 213/300 [01:31<00:36,  2.39it/s] 71%|███████▏  | 214/300 [01:31<00:35,  2.41it/s] 72%|███████▏  | 215/300 [01:32<00:35,  2.42it/s] 72%|███████▏  | 216/300 [01:32<00:34,  2.40it/s] 72%|███████▏  | 217/300 [01:33<00:34,  2.39it/s] 73%|███████▎  | 218/300 [01:33<00:33,  2.42it/s] 73%|███████▎  | 219/300 [01:33<00:33,  2.43it/s] 73%|███████▎  | 220/300 [01:34<00:32,  2.43it/s] 74%|███████▎  | 221/300 [01:34<00:32,  2.44it/s] 74%|███████▍  | 222/300 [01:35<00:32,  2.44it/s] 74%|███████▍  | 223/300 [01:35<00:31,  2.42it/s] 75%|███████▍  | 224/300 [01:36<00:31,  2.43it/s] 75%|███████▌  | 225/300 [01:36<00:30,  2.43it/s] 75%|███████▌  | 226/300 [01:36<00:30,  2.40it/s] 76%|███████▌  | 227/300 [01:37<00:30,  2.39it/s] 76%|███████▌  | 228/300 [01:37<00:30,  2.37it/s] 76%|███████▋  | 229/300 [01:38<00:30,  2.36it/s] 77%|███████▋  | 230/300 [01:38<00:29,  2.35it/s] 77%|███████▋  | 231/300 [01:39<00:29,  2.34it/s] 77%|███████▋  | 232/300 [01:39<00:29,  2.34it/s] 78%|███████▊  | 233/300 [01:39<00:28,  2.33it/s] 78%|███████▊  | 234/300 [01:40<00:28,  2.32it/s] 78%|███████▊  | 235/300 [01:40<00:27,  2.33it/s] 79%|███████▊  | 236/300 [01:41<00:27,  2.34it/s] 79%|███████▉  | 237/300 [01:41<00:27,  2.32it/s] 79%|███████▉  | 238/300 [01:42<00:26,  2.33it/s] 80%|███████▉  | 239/300 [01:42<00:26,  2.33it/s] 80%|████████  | 240/300 [01:42<00:25,  2.34it/s] 80%|████████  | 241/300 [01:43<00:25,  2.34it/s] 81%|████████  | 242/300 [01:43<00:24,  2.33it/s] 81%|████████  | 243/300 [01:44<00:24,  2.32it/s] 81%|████████▏ | 244/300 [01:44<00:24,  2.33it/s] 82%|████████▏ | 245/300 [01:45<00:23,  2.33it/s] 82%|████████▏ | 246/300 [01:45<00:23,  2.33it/s] 82%|████████▏ | 247/300 [01:45<00:22,  2.34it/s] 83%|████████▎ | 248/300 [01:46<00:22,  2.35it/s] 83%|████████▎ | 249/300 [01:46<00:21,  2.35it/s] 83%|████████▎ | 250/300 [01:47<00:21,  2.35it/s] 84%|████████▎ | 251/300 [01:47<00:20,  2.35it/s] 84%|████████▍ | 252/300 [01:48<00:20,  2.35it/s] 84%|████████▍ | 253/300 [01:48<00:20,  2.35it/s] 85%|████████▍ | 254/300 [01:48<00:19,  2.34it/s] 85%|████████▌ | 255/300 [01:49<00:19,  2.32it/s] 85%|████████▌ | 256/300 [01:49<00:18,  2.33it/s] 86%|████████▌ | 257/300 [01:50<00:18,  2.35it/s] 86%|████████▌ | 258/300 [01:50<00:17,  2.36it/s] 86%|████████▋ | 259/300 [01:51<00:17,  2.35it/s] 87%|████████▋ | 260/300 [01:51<00:17,  2.34it/s] 87%|████████▋ | 261/300 [01:51<00:16,  2.35it/s] 87%|████████▋ | 262/300 [01:52<00:16,  2.33it/s] 88%|████████▊ | 263/300 [01:52<00:15,  2.33it/s] 88%|████████▊ | 264/300 [01:53<00:15,  2.34it/s] 88%|████████▊ | 265/300 [01:53<00:14,  2.35it/s] 89%|████████▊ | 266/300 [01:53<00:14,  2.34it/s] 89%|████████▉ | 267/300 [01:54<00:14,  2.35it/s] 89%|████████▉ | 268/300 [01:54<00:13,  2.35it/s] 90%|████████▉ | 269/300 [01:55<00:13,  2.35it/s] 90%|█████████ | 270/300 [01:55<00:13,  2.30it/s] 90%|█████████ | 271/300 [01:56<00:12,  2.31it/s] 91%|█████████ | 272/300 [01:56<00:11,  2.33it/s] 91%|█████████ | 273/300 [01:57<00:11,  2.33it/s] 91%|█████████▏| 274/300 [01:57<00:11,  2.32it/s] 92%|█████████▏| 275/300 [01:57<00:10,  2.32it/s] 92%|█████████▏| 276/300 [01:58<00:10,  2.32it/s] 92%|█████████▏| 277/300 [01:58<00:10,  2.28it/s] 93%|█████████▎| 278/300 [01:59<00:09,  2.30it/s] 93%|█████████▎| 279/300 [01:59<00:09,  2.31it/s] 93%|█████████▎| 280/300 [02:00<00:08,  2.30it/s] 94%|█████████▎| 281/300 [02:00<00:08,  2.31it/s] 94%|█████████▍| 282/300 [02:00<00:07,  2.34it/s] 94%|█████████▍| 283/300 [02:01<00:07,  2.34it/s] 95%|█████████▍| 284/300 [02:01<00:06,  2.34it/s] 95%|█████████▌| 285/300 [02:02<00:06,  2.34it/s] 95%|█████████▌| 286/300 [02:02<00:05,  2.34it/s] 96%|█████████▌| 287/300 [02:03<00:05,  2.35it/s] 96%|█████████▌| 288/300 [02:03<00:05,  2.37it/s] 96%|█████████▋| 289/300 [02:03<00:04,  2.40it/s] 97%|█████████▋| 290/300 [02:04<00:04,  2.40it/s] 97%|█████████▋| 291/300 [02:04<00:03,  2.41it/s] 97%|█████████▋| 292/300 [02:05<00:03,  2.40it/s] 98%|█████████▊| 293/300 [02:05<00:02,  2.40it/s] 98%|█████████▊| 294/300 [02:05<00:02,  2.41it/s] 98%|█████████▊| 295/300 [02:06<00:02,  2.43it/s] 99%|█████████▊| 296/300 [02:06<00:01,  2.42it/s] 99%|█████████▉| 297/300 [02:07<00:01,  2.43it/s] 99%|█████████▉| 298/300 [02:07<00:00,  2.43it/s]100%|█████████▉| 299/300 [02:07<00:00,  2.44it/s]100%|██████████| 300/300 [02:08<00:00,  2.44it/s]100%|██████████| 300/300 [02:08<00:00,  2.34it/s]
-W&B disabled.
-W&B online. Running your script from this directory will now sync to the cloud.
-wandb: Currently logged in as: hl57. Use `wandb login --relogin` to force relogin
-wandb: wandb version 0.15.12 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.15.10
-wandb: Run data is saved locally in /media/techt/One Touch/DD/SRe2L/train/wandb/run-20231023_204321-2rh11nrh
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run glad-vortex-503
-wandb: ⭐️ View project at https://wandb.ai/hl57/final_rn18_fkd
-wandb: 🚀 View run at https://wandb.ai/hl57/final_rn18_fkd/runs/2rh11nrh
-======= FKD: dataset info ======
-path: ../relabel/FKD_cutmix_fp16/imagenette/334/
-num img: 10
-batch size: 10
-max epoch: 300
-================================
-load data successfully
-=> loading student model 'resnet18'
-TRAIN Iter 0: lr = 0.001000,	loss = 0.016286,	Top-1 err = 90.000000,	Top-5 err = 50.000000,	train_time = 2.951660
-TEST Iter 0: loss = 6.271264,	Top-1 err = 90.063694,	Top-5 err = 49.019108,	val_time = 15.673177
-TRAIN Iter 10: lr = 0.000997,	loss = 0.013267,	Top-1 err = 50.000000,	Top-5 err = 0.000000,	train_time = 2.119659
-TEST Iter 10: loss = 30.951013,	Top-1 err = 81.808917,	Top-5 err = 42.089172,	val_time = 15.658612
-TRAIN Iter 20: lr = 0.000989,	loss = 0.014590,	Top-1 err = 60.000000,	Top-5 err = 10.000000,	train_time = 2.212258
-TEST Iter 20: loss = 33.633792,	Top-1 err = 81.350318,	Top-5 err = 45.044586,	val_time = 15.508996
-TRAIN Iter 30: lr = 0.000976,	loss = 0.010144,	Top-1 err = 30.000000,	Top-5 err = 10.000000,	train_time = 2.119435
-TEST Iter 30: loss = 8.625261,	Top-1 err = 78.394904,	Top-5 err = 34.216561,	val_time = 16.274313
-TRAIN Iter 40: lr = 0.000957,	loss = 0.010227,	Top-1 err = 60.000000,	Top-5 err = 20.000000,	train_time = 2.148185
-TEST Iter 40: loss = 19.104686,	Top-1 err = 81.681529,	Top-5 err = 42.904459,	val_time = 15.471727
-TRAIN Iter 50: lr = 0.000933,	loss = 0.011656,	Top-1 err = 30.000000,	Top-5 err = 0.000000,	train_time = 2.097820
-TEST Iter 50: loss = 14.803205,	Top-1 err = 78.191083,	Top-5 err = 33.987261,	val_time = 15.402131
-TRAIN Iter 60: lr = 0.000905,	loss = 0.008506,	Top-1 err = 70.000000,	Top-5 err = 10.000000,	train_time = 2.129099
-TEST Iter 60: loss = 6.521398,	Top-1 err = 80.076433,	Top-5 err = 36.535032,	val_time = 15.368231
-TRAIN Iter 70: lr = 0.000872,	loss = 0.007428,	Top-1 err = 60.000000,	Top-5 err = 0.000000,	train_time = 2.108212
-TEST Iter 70: loss = 13.056325,	Top-1 err = 78.904459,	Top-5 err = 33.452229,	val_time = 15.479596
-TRAIN Iter 80: lr = 0.000835,	loss = 0.008277,	Top-1 err = 70.000000,	Top-5 err = 10.000000,	train_time = 2.080358
-Traceback (most recent call last):
-  File "<string>", line 1, in <module>
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
-    exitcode = _main(fd, parent_sentinel)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
-    prepare(preparation_data)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
-    _fixup_main_from_path(data['init_main_from_path'])
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
-    main_content = runpy.run_path(main_path,
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 265, in run_path
-    return _run_module_code(code, init_globals, run_name,
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 97, in _run_module_code
-    _run_code(code, mod_globals, init_globals,
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/runpy.py", line 87, in _run_code
-    exec(code, run_globals)
-  File "/media/techt/One Touch/DD/SRe2L/train/train_FKD.py", line 11, in <module>
-    import torch
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/__init__.py", line 1465, in <module>
-    from . import _meta_registrations
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/_meta_registrations.py", line 7, in <module>
-    from torch._decomp import _add_op_to_registry, global_decomposition_table, meta_table
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/_decomp/__init__.py", line 170, in <module>
-    import torch._refs
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/_refs/__init__.py", line 5247, in <module>
-    @register_decomposition(aten.cauchy)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/_ops.py", line 565, in __getattr__
-    op, overload_names = torch._C._jit_get_operation(qualified_op_name)
-KeyboardInterrupt
-wandb: Waiting for W&B process to finish... (failed 255). Press Control-C to abort syncing.
-Traceback (most recent call last):
-  File "train_FKD.py", line 399, in <module>
-    main()
-  File "train_FKD.py", line 203, in main
-    top1 = validate(model, args, epoch)
-  File "train_FKD.py", line 342, in validate
-    for data, target in args.val_loader:
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 441, in __iter__
-    return self._get_iterator()
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 388, in _get_iterator
-    return _MultiProcessingDataLoaderIter(self)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1042, in __init__
-    w.start()
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/process.py", line 121, in start
-    self._popen = self._Popen(self)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
-    return _default_context.get_context().Process._Popen(process_obj)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
-    return Popen(process_obj)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
-    super().__init__(process_obj)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
-    self._launch(process_obj)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 62, in _launch
-    f.write(fp.getbuffer())
-KeyboardInterrupt
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 175, in _teardown
-    result = self._service.join()
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/wandb/sdk/service/service.py", line 258, in join
-    ret = self._internal_proc.wait()
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/subprocess.py", line 1083, in wait
-    return self._wait(timeout=timeout)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/subprocess.py", line 1822, in _wait
-    (pid, sts) = self._try_wait(0)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/subprocess.py", line 1780, in _try_wait
-    (pid, sts) = os.waitpid(self.pid, wait_flags)
-KeyboardInterrupt

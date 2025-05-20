@@ -1,7 +1,2 @@
-syn_data/
-*cache*/
-*.tar
-*.pth
-*.tar.gz
-wandb/
-train_ciai*
+.DS_store
+.idea

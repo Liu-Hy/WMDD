@@ -1,55 +1,0 @@
-r_bn:  3.0
-lr:  1e-05
-bc loaded
-bc shape torch.Size([10, 10, 512])
-Computing BatchNorm statistics for class 0
-Computing BatchNorm statistics for class 1
-Computing BatchNorm statistics for class 2
-Computing BatchNorm statistics for class 3
-Computing BatchNorm statistics for class 4
-Computing BatchNorm statistics for class 5
-Computing BatchNorm statistics for class 6
-Computing BatchNorm statistics for class 7
-Computing BatchNorm statistics for class 8
-Computing BatchNorm statistics for class 9
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
-  warnings.warn(
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V2_Weights.DEFAULT` to get the most up-to-date weights.
-  warnings.warn(msg)
-/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
-  warnings.warn(
-get_images call
-class_per_batch  10 batch_size  100 args.ipc  10
-centroid images used
-------------iteration 0----------
-total loss 1041.7811749784335
-main criterion 55.15959294718343
-weighted_aux_loss 986.62158203125
-loss_r_bn_feature 328.8738708496094
-=> using pytorch pre-trained model 'resnet18'
-process data from ../recover/syn_data/imagenette/453
-  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:01<09:32,  1.92s/it]  1%|          | 2/300 [00:02<05:40,  1.14s/it]  1%|          | 3/300 [00:03<04:25,  1.12it/s]  1%|▏         | 4/300 [00:03<03:52,  1.27it/s]  2%|▏         | 5/300 [00:04<03:33,  1.38it/s]  2%|▏         | 6/300 [00:04<03:18,  1.48it/s]  2%|▏         | 7/300 [00:05<03:11,  1.53it/s]  3%|▎         | 8/300 [00:06<03:06,  1.57it/s]  3%|▎         | 9/300 [00:06<03:04,  1.58it/s]  3%|▎         | 10/300 [00:07<03:00,  1.60it/s]  4%|▎         | 11/300 [00:07<02:57,  1.63it/s]  4%|▍         | 12/300 [00:08<02:54,  1.65it/s]  4%|▍         | 13/300 [00:09<02:53,  1.65it/s]  5%|▍         | 14/300 [00:09<02:52,  1.66it/s]  5%|▌         | 15/300 [00:10<02:52,  1.65it/s]  5%|▌         | 16/300 [00:10<02:52,  1.65it/s]  6%|▌         | 17/300 [00:11<02:51,  1.65it/s]  6%|▌         | 18/300 [00:12<02:56,  1.60it/s]  6%|▋         | 19/300 [00:12<02:54,  1.61it/s]  7%|▋         | 20/300 [00:13<02:54,  1.60it/s]  7%|▋         | 21/300 [00:14<02:53,  1.61it/s]  7%|▋         | 22/300 [00:14<02:51,  1.62it/s]  8%|▊         | 23/300 [00:15<02:51,  1.62it/s]  8%|▊         | 24/300 [00:15<02:49,  1.63it/s]  8%|▊         | 25/300 [00:16<02:48,  1.64it/s]  9%|▊         | 26/300 [00:17<02:46,  1.65it/s]  9%|▉         | 27/300 [00:17<02:45,  1.65it/s]  9%|▉         | 28/300 [00:18<02:44,  1.65it/s] 10%|▉         | 29/300 [00:18<02:45,  1.64it/s] 10%|█         | 30/300 [00:19<02:45,  1.63it/s] 10%|█         | 31/300 [00:20<02:45,  1.62it/s] 11%|█         | 32/300 [00:20<02:46,  1.61it/s] 11%|█         | 33/300 [00:21<02:46,  1.61it/s] 11%|█▏        | 34/300 [00:22<02:45,  1.61it/s] 12%|█▏        | 35/300 [00:22<02:47,  1.58it/s] 12%|█▏        | 36/300 [00:23<02:45,  1.59it/s] 12%|█▏        | 37/300 [00:24<02:45,  1.59it/s] 13%|█▎        | 38/300 [00:24<02:45,  1.58it/s] 13%|█▎        | 39/300 [00:25<02:45,  1.58it/s] 13%|█▎        | 40/300 [00:25<02:45,  1.58it/s] 14%|█▎        | 41/300 [00:26<02:42,  1.59it/s] 14%|█▍        | 42/300 [00:27<02:39,  1.62it/s] 14%|█▍        | 43/300 [00:27<02:41,  1.59it/s] 15%|█▍        | 44/300 [00:28<02:40,  1.59it/s] 15%|█▌        | 45/300 [00:29<02:39,  1.60it/s] 15%|█▌        | 46/300 [00:29<02:39,  1.60it/s] 16%|█▌        | 47/300 [00:30<02:39,  1.58it/s] 16%|█▌        | 48/300 [00:30<02:38,  1.59it/s] 16%|█▋        | 49/300 [00:31<02:38,  1.59it/s] 17%|█▋        | 50/300 [00:32<02:37,  1.59it/s] 17%|█▋        | 51/300 [00:32<02:36,  1.59it/s] 17%|█▋        | 52/300 [00:33<02:35,  1.60it/s] 18%|█▊        | 53/300 [00:34<02:35,  1.59it/s] 18%|█▊        | 54/300 [00:34<02:35,  1.58it/s] 18%|█▊        | 55/300 [00:35<02:35,  1.58it/s] 19%|█▊        | 56/300 [00:35<02:33,  1.59it/s] 19%|█▉        | 57/300 [00:36<02:32,  1.60it/s] 19%|█▉        | 58/300 [00:37<02:33,  1.58it/s] 20%|█▉        | 59/300 [00:37<02:31,  1.59it/s] 20%|██        | 60/300 [00:38<02:30,  1.60it/s] 20%|██        | 61/300 [00:39<02:30,  1.59it/s] 21%|██        | 62/300 [00:39<02:29,  1.59it/s] 21%|██        | 63/300 [00:40<02:29,  1.59it/s] 21%|██▏       | 64/300 [00:41<02:29,  1.58it/s] 21%|██▏       | 64/300 [00:41<02:33,  1.54it/s]
-Traceback (most recent call last):
-  File "generate_soft_label.py", line 253, in <module>
-    main()
-  File "generate_soft_label.py", line 126, in main
-    main_worker(args.gpu, ngpus_per_node, args)
-  File "generate_soft_label.py", line 229, in main_worker
-    save(train_loader, model, dir_path, args)
-  File "generate_soft_label.py", line 236, in save
-    for batch_idx, (images, target, flip_status, coords_status, weights) in enumerate(train_loader):
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
-    data = self._next_data()
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1317, in _next_data
-    self._shutdown_workers()
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1442, in _shutdown_workers
-    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/process.py", line 149, in join
-    res = self._popen.wait(timeout)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/popen_fork.py", line 44, in wait
-    if not wait([self.sentinel], timeout):
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/multiprocessing/connection.py", line 931, in wait
-    ready = selector.select(timeout)
-  File "/home/techt/anaconda3/envs/hl/lib/python3.8/selectors.py", line 415, in select
-    fd_event_list = self._selector.poll(timeout)
-KeyboardInterrupt
