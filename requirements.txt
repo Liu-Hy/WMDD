@@ -1,0 +1,229 @@
+aiofiles @ file:///croot/aiofiles_1683773582346/work
+aiohttp==3.8.5
+aiosignal==1.3.1
+aiosqlite @ file:///croot/aiosqlite_1683773899903/work
+aliyun-python-sdk-core==2.13.36
+aliyun-python-sdk-kms==2.16.1
+aliyun-python-sdk-sts==3.1.1
+annotated-types==0.5.0
+anyio @ file:///tmp/build/80754af9/anyio_1644481698350/work/dist
+appdirs==1.4.4
+argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
+argon2-cffi-bindings @ file:///tmp/build/80754af9/argon2-cffi-bindings_1644569684262/work
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+async-timeout==4.0.2
+asyncclick==8.0.1.3
+attrs @ file:///croot/attrs_1668696182826/work
+Babel @ file:///croot/babel_1671781930836/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+beautifulsoup4 @ file:///croot/beautifulsoup4-split_1681493039619/work
+biopython==1.81
+bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+brotlipy==0.7.0
+cached-property==1.5.2
+certifi @ file:///croot/certifi_1690232220950/work/certifi
+cffi @ file:///croot/cffi_1670423208954/work
+chardet==4.0.0
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///tmp/build/80754af9/click_1646038465422/work
+cloudpickle @ file:///croot/cloudpickle_1683040006038/work
+comm @ file:///croot/comm_1671231121260/work
+contourpy==1.0.7
+crcmod==1.7
+cryptography @ file:///croot/cryptography_1689373676338/work
+cycler==0.11.0
+cytoolz @ file:///croot/cytoolz_1667465931118/work
+dask @ file:///croot/dask-core_1683065217061/work
+debugpy @ file:///croot/debugpy_1690905042057/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+docker-pycreds==0.4.0
+docutils==0.20.1
+easyrobust==0.2.4
+efficientnet-pytorch==0.7.1
+einops==0.6.1
+entrypoints @ file:///tmp/build/80754af9/entrypoints_1649926445639/work
+exceptiongroup==1.1.2
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+fast-pytorch-kmeans==0.2.0.1
+fastjsonschema @ file:///opt/conda/conda-bld/python-fastjsonschema_1661371079312/work
+filelock @ file:///croot/filelock_1672387128942/work
+fonttools==4.39.4
+frozenlist==1.4.0
+fsspec @ file:///croot/fsspec_1682525977151/work
+ftfy==6.1.1
+gitdb==4.0.10
+GitPython==3.1.36
+gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455532332/work
+haienv==1.4.1+caea55e7
+haiworkspace==1.0.0+caea55e7
+hfai==7.9.7.8+utils20230509.cu113.external
+huggingface-hub==0.16.4
+idna==2.10
+imagecodecs @ file:///croot/imagecodecs_1695064943445/work
+imageio @ file:///croot/imageio_1687264943895/work
+importlib-metadata @ file:///croot/importlib-metadata_1678997070253/work
+importlib-resources==5.12.0
+ipykernel @ file:///croot/ipykernel_1691121631942/work
+ipython @ file:///croot/ipython_1691532092695/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets @ file:///croot/ipywidgets_1679394798311/work
+jaraco.classes==3.3.0
+jedi @ file:///tmp/build/80754af9/jedi_1644315233700/work
+jeepney==0.8.0
+Jinja2 @ file:///croot/jinja2_1666908132255/work
+jmespath==0.10.0
+joblib @ file:///croot/joblib_1685113087166/work
+json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
+jsonschema @ file:///croot/jsonschema_1676558650973/work
+jupyter @ file:///tmp/abs_33h4eoipez/croots/recipe/jupyter_1659349046347/work
+jupyter-console @ file:///croot/jupyter_console_1679999630278/work
+jupyter-events @ file:///croot/jupyter_events_1684268042853/work
+jupyter-server @ file:///croot/jupyter_server_1671707632269/work
+jupyter-ydoc @ file:///croot/jupyter_ydoc_1683747223142/work
+jupyter_client @ file:///croot/jupyter_client_1676329080601/work
+jupyter_core @ file:///croot/jupyter_core_1679906564508/work
+jupyter_server_fileid @ file:///croot/jupyter_server_fileid_1684273577568/work
+jupyter_server_ydoc @ file:///croot/jupyter_server_ydoc_1686767404829/work
+jupyterlab @ file:///croot/jupyterlab_1686179668131/work
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-widgets @ file:///croot/jupyterlab_widgets_1679055282532/work
+jupyterlab_server @ file:///croot/jupyterlab_server_1680792501448/work
+keyring==24.2.0
+kiwisolver==1.4.4
+locket @ file:///opt/conda/conda-bld/locket_1652903118915/work
+loguru==0.7.0
+lxml @ file:///croot/lxml_1679646450407/work
+markdown-it-py==3.0.0
+MarkupSafe @ file:///opt/conda/conda-bld/markupsafe_1654597864307/work
+matplotlib==3.7.1
+matplotlib-inline @ file:///opt/conda/conda-bld/matplotlib-inline_1662014470464/work
+mdurl==0.1.2
+mistune==0.8.4
+mkl-fft==1.3.6
+mkl-random @ file:///work/mkl/mkl_random_1682950433854/work
+mkl-service==2.4.0
+more-itertools==10.1.0
+mpmath @ file:///croot/mpmath_1690848262763/work
+multidict==6.0.4
+munch==4.0.0
+nbclassic @ file:///croot/nbclassic_1681756170010/work
+nbclient @ file:///tmp/build/80754af9/nbclient_1650308366712/work
+nbconvert @ file:///croot/nbconvert_1668450669124/work
+nbformat @ file:///croot/nbformat_1670352325207/work
+nest-asyncio @ file:///croot/nest-asyncio_1672387112409/work
+networkx @ file:///croot/networkx_1690561992265/work
+nh3==0.2.14
+ninja==1.11.1
+notebook @ file:///croot/notebook_1690984815942/work
+notebook_shim @ file:///croot/notebook-shim_1668160579331/work
+numpy @ file:///work/mkl/numpy_and_numpy_base_1682953417311/work
+opacus==1.4.0
+openai==0.28.0
+opencv-python==4.7.0.72
+opt-einsum==3.3.0
+oss2==2.18.1
+packaging @ file:///croot/packaging_1678965309396/work
+pandas==2.0.3
+pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+partd @ file:///croot/partd_1693937863478/work
+pathtools==0.1.2
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==9.4.0
+pkginfo==1.9.6
+pkgutil_resolve_name @ file:///opt/conda/conda-bld/pkgutil-resolve-name_1661463321198/work
+platformdirs @ file:///croot/platformdirs_1692205439124/work
+ply==3.11
+pooch @ file:///tmp/build/80754af9/pooch_1623324770023/work
+POT==0.9.1
+precision-lasso==0.2
+prometheus-client @ file:///tmp/abs_d3zeliano1/croots/recipe/prometheus_client_1659455100375/work
+prompt-toolkit @ file:///croot/prompt-toolkit_1672387306916/work
+protobuf==4.24.3
+psutil @ file:///opt/conda/conda-bld/psutil_1656431268089/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pycocotools==2.0.6
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodome==3.18.0
+pydantic==2.1.1
+pydantic_core==2.4.0
+Pygments @ file:///croot/pygments_1684279966437/work
+pynvml==11.5.0
+pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyparsing==3.0.9
+PyPDF2==3.0.1
+PyQt5-sip==12.11.0
+pyrsistent @ file:///tmp/build/80754af9/pyrsistent_1636110947380/work
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305779399/work
+pyspng==0.1.1
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dotenv==1.0.0
+python-json-logger @ file:///croot/python-json-logger_1683823803357/work
+pytz @ file:///croot/pytz_1671697431263/work
+PyWavelets @ file:///croot/pywavelets_1670425177960/work
+PyYAML==6.0.1
+pyzmq @ file:///opt/conda/conda-bld/pyzmq_1657724186960/work
+qtconsole @ file:///croot/qtconsole_1681394213385/work
+QtPy @ file:///opt/conda/conda-bld/qtpy_1662014892439/work
+readme-renderer==42.0
+regex==2023.6.3
+requests @ file:///croot/requests_1690400202158/work
+requests-toolbelt==1.0.0
+rfc3339-validator @ file:///croot/rfc3339-validator_1683077044675/work
+rfc3986==2.0.0
+rfc3986-validator @ file:///croot/rfc3986-validator_1683058983515/work
+rich==13.5.2
+safetensors==0.3.1
+scikit-image @ file:///croot/scikit-image_1669241743693/work
+scikit-learn @ file:///croot/scikit-learn_1690978916802/work
+scipy==1.10.1
+SecretStorage==3.3.3
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
+sentry-sdk==1.31.0
+setproctitle==1.3.2
+setuptools-scm==7.1.0
+sip @ file:///tmp/abs_44cd77b_pu/croots/recipe/sip_1659012365470/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sklearn==0.0.post9
+smmap==5.0.0
+sniffio @ file:///tmp/build/80754af9/sniffio_1614030475067/work
+soupsieve @ file:///croot/soupsieve_1680518478486/work
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+sympy @ file:///croot/sympy_1668202399572/work
+sysv-ipc==1.1.0
+terminado @ file:///croot/terminado_1671751832461/work
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+tifffile @ file:///croot/tifffile_1695107451082/work
+tiktoken==0.4.0
+timm==0.5.4
+tinycss2 @ file:///croot/tinycss2_1668168815555/work
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+tomli @ file:///opt/conda/conda-bld/tomli_1657175507142/work
+toolz @ file:///croot/toolz_1667464077321/work
+torch==2.0.1
+torchattacks==3.4.0
+torchaudio==2.0.2
+torchmetrics==0.11.4
+torchvision==0.15.2
+tornado @ file:///croot/tornado_1690848263220/work
+tqdm==4.65.0
+traitlets @ file:///croot/traitlets_1671143879854/work
+treelib==1.6.4
+triton==2.0.0
+twine==4.0.2
+typing_extensions @ file:///croot/typing_extensions_1690297465030/work
+tzdata==2023.3
+ujson==5.8.0
+urllib3 @ file:///croot/urllib3_1686163155763/work
+wandb==0.15.10
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webencodings==0.5.1
+websocket-client @ file:///tmp/build/80754af9/websocket-client_1614804261064/work
+widgetsnbextension @ file:///croot/widgetsnbextension_1679313860248/work
+y-py @ file:///croot/y-py_1683555143488/work
+yarl==1.9.2
+ypy-websocket @ file:///croot/ypy-websocket_1684171737040/work
+zipp @ file:///croot/zipp_1672387121353/work
