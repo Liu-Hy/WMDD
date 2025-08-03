@@ -1,9 +1,9 @@
-# Dataset Distillation with Feature Matching through the Wasserstein Metric
+# Dataset Distillation via the Wasserstein Metric
 
-Official PyTorch implementation of paper:
->[__"Dataset Distillation with Feature Matching through the Wasserstein Metric"__](https://arxiv.org/abs/2311.18531)<br>
+Official PyTorch implementation of the ICCV 2025 paper:
+>[__"Dataset Distillation via the Wasserstein Metric"__](https://arxiv.org/abs/2311.18531)<br>
 >Haoyang Liu, Yijiang Li, Tiancheng Xing, Peiran Wang, Vibhu Dalal, Luwei Li, Jingrui He, Haohan Wang<br>
->UIUC, UC San Diego, Nanjing University
+>UIUC, UC San Diego, NUS
 
 [`[Paper]`](https://arxiv.org/abs/2311.18531)  [`[Code]`](https://github.com/Liu-Hy/WMDD)  [`[Website]`](https://liu-hy.github.io/WMDD/) 
 
