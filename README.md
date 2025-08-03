@@ -18,10 +18,20 @@ Official PyTorch implementation of paper:
 
 ## Run all
 
-Modify the Pytorch source code according to this [train/README.md](train/README.md)
+Modify the Pytorch source code according to this [train/README.md](train/README.md) \
+Then, you can run the pretrain, recover, relabel, and eval stages with one script `run.sh`:
 ```bash
-bash run.sh -x 2 -y 1 -d imagenette -u 0 -c 10 -r /home/user/data/ -n -w -b 3.0
+bash run.sh -x 1 -y 1 -d imagenette -u 0 -c 10 -r /home/user/data/ -n -w -b 10 -p
 ````
+#### Tips:
+- Prepare input datasets in the common ImageFolder format, and store them in the same parent folder specified by the `-r` flag
+- `-x` is the experiment ID, which should be different for each run
+- When you distill a particular dataset for the first time (with `-d` being imagenette, tiny-imagenet, or imagenet), 
+  add the `-p` flag to pretrain a teacher model from scratch. The model will be saved in a path indexed by `-y`
+- If you are satisfied with the teacher model, you can reuse it in subsequent runs by using the same `-y` value and *removing* the `-p` flag. This is recommended because pretraining can be time-consuming. 
+- You may need to tune `-b` (the regularization coefficient) for different datasets, e.g. 500 for tiny-imagenet
+- This codebase currently doesn't support multi-GPU training, except for running the pretraining script separately. We will fix this later. 
+- Set IPC with `-c`, and GPU index with `-u` (default to 0). Keep the `-n` and `-w` flags which are necessary to our method.
 
 > 📌 **Note**: This repo contains a historical version of WMDD that contains its core functionalities, enough to 
 > reproduce results that are very close to our reported results. However, the authors are struggling with deadlines.
