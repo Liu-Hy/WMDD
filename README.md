@@ -44,7 +44,7 @@ bash run.sh -x 1 -y 1 -d imagenette -u 0 -c 10 -r /home/user/data/ -n -w -b 10 -
 
 If you find our code useful for your research, please cite our paper.
 
-```
+```bibtex
 @misc{liu2025wmdd,
       title={Dataset Distillation via the Wasserstein Metric}, 
       author={Haoyang Liu and Yijiang Li and Tiancheng Xing and Peiran Wang and Vibhu Dalal and Luwei Li and Jingrui He and Haohan Wang},
