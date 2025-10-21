@@ -34,12 +34,6 @@ bash run.sh -x 1 -y 1 -d imagenette -u 0 -c 10 -r /home/user/data/ -n -w -b 10 -
 - This codebase currently doesn't support multi-GPU training, except for running the pretraining script separately. We will fix this later. 
 - Set IPC with `-c`, and GPU index with `-u` (default to 0). Keep the `-n` and `-w` flags which are necessary to our method.
 
-> 📌 **Note**: This repo contains a historical version of WMDD that contains its core functionalities, enough to 
-> reproduce results that are very close to our reported results. However, the authors are struggling with deadlines.
-> We are testing the code for the current, improved version, 
-> and will make it available with better documentation and code quality in around 4 weeks. 
-> If you are interested in our work, please star ⭐ this repo to get notified for future updates!
-
 ## Citation
 
 If you find our code useful for your research, please cite our paper.
