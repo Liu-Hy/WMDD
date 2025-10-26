@@ -41,7 +41,7 @@ def prepare_model(args):
             if isinstance(md, nn.BatchNorm2d):
                 assert isinstance(md, BatchNorm2dWithPerClassStats)
     if args.ckpt_path:
-        checkpoint = torch.load(args.ckpt_path)
+        checkpoint = torch.load(args.ckpt_path, weights_only=False)
         model.load_state_dict(checkpoint["model"], strict=False)
 
     model = nn.DataParallel(model).cuda()

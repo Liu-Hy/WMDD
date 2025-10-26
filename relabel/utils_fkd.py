@@ -133,9 +133,9 @@ def get_FKD_info(fkd_path):
     batch_list = sorted(os.listdir(os.path.join(
         fkd_path + 'epoch_0')), key=custom_sort_key)
     batch_size = torch.load(os.path.join(
-        fkd_path, 'epoch_0', batch_list[0]))[1].size()[0]
+        fkd_path, 'epoch_0', batch_list[0]), weights_only=False)[1].size()[0]
     last_batch_size = torch.load(os.path.join(
-        fkd_path, 'epoch_0', batch_list[-1]))[1].size()[0]
+        fkd_path, 'epoch_0', batch_list[-1]), weights_only=False)[1].size()[0]
     num_img = batch_size * (len(batch_list) - 1) + last_batch_size
 
     print('======= FKD: dataset info ======')
@@ -209,7 +209,7 @@ class ImageFolder_FKD_MIX(torchvision.datasets.ImageFolder):
         batch_config_path =  os.path.join(self.fkd_path, 'epoch_{}'.format(self.epoch), 'batch_{}.tar'.format(batch_idx))
 
         # [coords, flip_status, mix_index, mix_lam, mix_bbox, soft_label]
-        config = torch.load(batch_config_path)
+        config = torch.load(batch_config_path, weights_only=False)
         self.batch_config_idx = 0
         self.batch_config = config[:2]
         return config[2:]
