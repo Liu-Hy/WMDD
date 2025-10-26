@@ -16,6 +16,16 @@ Official PyTorch implementation of the ICCV 2025 paper:
 >
 > We compute the Wasserstein barycenter of features from a pretrained classifier to capture essential characteristics of the original data distribution. By optimizing synthetic data to align with this barycenter in feature space and leveraging per-class BatchNorm statistics to preserve intra-class variations, WMDD maintains the efficiency of distribution matching approaches while achieving state-of-the-art results across various high-resolution datasets. Our extensive experiments demonstrate WMDD's effectiveness and adaptability, highlighting its potential for advancing machine learning applications at scale.
 
+## Environment Setup
+
+Create a conda environment with Python 3.10 and install the required packages:
+
+```bash
+conda create -n wmdd python=3.10 -y
+conda activate wmdd
+pip install -r requirements.txt
+```
+
 ## Run all
 
 Modify the Pytorch source code according to this [train/README.md](train/README.md) \

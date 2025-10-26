@@ -151,7 +151,7 @@ def main_worker(gpu, ngpus_per_node, args):
         model.conv1 = nn.Conv2d(3, 64, kernel_size=(3, 3), stride=(2, 2), padding=(3, 3), bias=False)
         model.maxpool = nn.Identity()
     if args.ckpt_path:
-        checkpoint = torch.load(args.ckpt_path)
+        checkpoint = torch.load(args.ckpt_path, weights_only=False)
         model.load_state_dict(checkpoint["model"], strict=False)
     if not torch.cuda.is_available():
         print('using CPU, this will be slow')
