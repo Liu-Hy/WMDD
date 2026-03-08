@@ -5,7 +5,7 @@ Official PyTorch implementation of the ICCV 2025 paper:
 >Haoyang Liu, Yijiang Li, Tiancheng Xing, Peiran Wang, Vibhu Dalal, Luwei Li, Jingrui He, Haohan Wang<br>
 >UIUC, UC San Diego, NUS
 
-[`[Paper]`](https://arxiv.org/abs/2311.18531)  [`[Code]`](https://github.com/Liu-Hy/WMDD)  [`[Website]`](https://liu-hy.github.io/WMDD/) 
+[`[Paper]`](https://arxiv.org/abs/2311.18531)  [`[Code]`](https://github.com/Liu-Hy/WMDD)  [`[Website]`](https://liu-hy.github.io/WMDD/) [`[Distilled Data]`](https://drive.google.com/drive/folders/1Tm0KZXtPrslgURtF0d2rq_5RRmQOTjmW?usp=drive_link)
 
 <div align=center>
 <img width=100% src="./img/overview.png"/>
@@ -15,6 +15,9 @@ Official PyTorch implementation of the ICCV 2025 paper:
 > Dataset Distillation (DD) aims to generate a compact synthetic dataset that enables models to achieve performance comparable to training on the full large dataset, significantly reducing computational costs. Drawing from optimal transport theory, we introduce WMDD (Dataset Distillation with Wasserstein Metric-based Feature Matching), a straightforward yet powerful method that employs the Wasserstein metric to enhance distribution matching.
 >
 > We compute the Wasserstein barycenter of features from a pretrained classifier to capture essential characteristics of the original data distribution. By optimizing synthetic data to align with this barycenter in feature space and leveraging per-class BatchNorm statistics to preserve intra-class variations, WMDD maintains the efficiency of distribution matching approaches while achieving state-of-the-art results across various high-resolution datasets. Our extensive experiments demonstrate WMDD's effectiveness and adaptability, highlighting its potential for advancing machine learning applications at scale.
+
+## Distilled Data
+Our distilled datasets are publicly available on [Google Drive](https://drive.google.com/drive/folders/1Tm0KZXtPrslgURtF0d2rq_5RRmQOTjmW?usp=drive_link). You can directly use them to skip the recovery stage and evaluate with the provided scripts.
 
 ## Environment Setup
 
